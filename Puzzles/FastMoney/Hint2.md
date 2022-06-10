@@ -1,4 +1,4 @@
-## Fast Money Hint \#1
+## Fast Money Hint \#2
 
 <img src="/images/FastMoney.jpg" alt="Fast Money" style="width:640px;height:343px;">
 
