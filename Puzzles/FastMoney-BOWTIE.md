@@ -1,3 +1,3 @@
 Correct!
 
-Click [Here](../..) to return to the main page.
+Click [here](../../#puzzles) to return to the main page.
