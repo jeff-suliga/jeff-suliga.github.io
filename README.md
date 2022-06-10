@@ -4,7 +4,7 @@ Welcome
 
 ## This is some python code
 
-![Python is cool](/images/Code.PNG)
+![Python is cool](/images/code.png)
 
 
 #### Testing some more images
