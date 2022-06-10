@@ -1,7 +1,7 @@
 # Table of Contents
-1. [Python Code](#This-is-some-python-code)
+1. [Python Code](#this-is-some-python-code)
 2. [Another Image](#testing-some-more-images)
-3. [Puzzles](#Puzzles)
+3. [Puzzles](#puzzles)
 
 Welcome
 
