@@ -5,6 +5,8 @@
 
 Welcome
 
+Click [here](/recruiterlanding.md) if you are a recruiter.
+
 ## This is some python code
 
 ![Python is cool](/images/code.png)
