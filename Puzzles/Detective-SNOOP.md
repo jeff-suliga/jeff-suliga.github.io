@@ -1,4 +1,4 @@
-# Detective
+# Detective Solution
 
 -----
 
@@ -14,7 +14,7 @@ Starting off this puzzle, the player is presented with a dark-looking environmen
 
 
 
-**Discovery 2:** The red objects in the background are present to guide the player into seeing the red dots as light sources, with light spilling out of all sides of them. In each letter, certain sections of the letter would then be illuminated by the lights, and some portions may be left dark. For example, the 'X' would be fully illuminated (think cameras at the ends of two crossing hallways) while the right upright of the 'M' is left shadowed.
+**Discovery 2:** The red objects in the background are present to guide the player into seeing the red dots as light sources, with light spilling out of all sides of them. The first grouping of letters spells out *GLOW* as an added hint. In each letter, certain sections of the letter would then be illuminated by the lights, and some portions may be left dark. For example, the 'X' would be fully illuminated (think cameras at the ends of two crossing hallways) while the right upright of the 'M' is left shadowed.
 
 
 
