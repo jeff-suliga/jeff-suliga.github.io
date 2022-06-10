@@ -6,9 +6,17 @@ The answer to this puzzle is a single word.
 
 When you think you have the answer, add "-[your answer]" to the end of this URL **in all capital letters**.
 
-Click [here](FastMoney-BOWTIE) to see the answer
-
 The image is also available [here](../../images/FastMoney.jpg).
+
+-----
+
+[Hint #1](FastMoney/Hint1.md)
+
+[Hint #2](FastMoney/Hint2.md)
+
+-----
+
+Click [here](FastMoney-BOWTIE) to see the answer
 
 -----
 

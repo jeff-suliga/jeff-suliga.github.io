@@ -12,4 +12,14 @@ The image is also available [here](../../images/Detective.jpg).
 
 -----
 
+[Hint #1](Detective/Hint1.md)
+
+[Hint #2](Detective/Hint2.md)
+
+-----
+
+Click [here](Detective-SNOOP) to see the answer
+
+-----
+
 Click [here](../..) to return to the main page.
