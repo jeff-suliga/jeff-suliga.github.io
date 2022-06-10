@@ -4,5 +4,5 @@ Welcome
 
 ## This is some python code
 
-![Python is cool](/docs/assets/images/Code.png)
+![Python is cool](/docs/assets/images/Code.PNG)
 
