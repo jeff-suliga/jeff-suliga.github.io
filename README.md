@@ -1,6 +1,6 @@
 # Table of Contents
-1. [Python Code](#This%20is%20some%20python%20code)
-2. [Another Image](#testing%20some%20more%20images)
+1. [Python Code](#This-is-some-python-code)
+2. [Another Image](#testing-some-more-images)
 3. [Puzzles](#Puzzles)
 
 Welcome
@@ -18,8 +18,12 @@ Welcome
 
 ## Puzzles
 
-[![Fast Money](/images/FastMoney.jpg)](/Puzzles/FastMoney)
+<p>
+  <a href="/Puzzles/FastMoney">
+    <img src="/images/FastMoney.jpg" alt="Fast Money" style="width:640px;height:343px;">
+  </a>
 
-[![Detective](/images/Detective.jpg)](/Puzzles/Detective)
-
-Now here's a link to a [test subpage](/subpage/newTest)
+  <a href="/Puzzles/Detective">
+    <img src="/images/Detective.jpg" alt="Spy stuff" style="width:200px;height:400px;">
+  </a>
+</p>
