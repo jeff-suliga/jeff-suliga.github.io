@@ -16,6 +16,8 @@ The image is also available [here](../../images/Detective.jpg).
 
 [Hint #2](Detective/Hint2.md)
 
+[Hint #3](Detective/Hint3.md)
+
 -----
 
 Click [here](Detective-SNOOP) to see the answer

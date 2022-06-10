@@ -14,6 +14,8 @@ The image is also available [here](../../images/FastMoney.jpg).
 
 [Hint #2](FastMoney/Hint2.md)
 
+[Hint #3](FastMoney/Hint3.md)
+
 -----
 
 Click [here](FastMoney-BOWTIE) to see the answer
