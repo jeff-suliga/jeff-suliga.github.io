@@ -6,3 +6,7 @@ Welcome
 
 ![Python is cool](/docs/assets/images/Code.PNG)
 
+
+#### Testing some more images
+
+![PYTHON](/image/python.jpg)
