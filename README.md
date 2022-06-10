@@ -10,3 +10,7 @@ Welcome
 #### Testing some more images
 
 ![PYTHON](/images/python.jpg)
+
+-----
+
+Now here's a link to a [test subpage](/subpage/newTest)
