@@ -4,9 +4,9 @@ Welcome
 
 ## This is some python code
 
-![Python is cool](/docs/assets/images/Code.PNG)
+![Python is cool](/images/Code.PNG)
 
 
 #### Testing some more images
 
-![PYTHON](/image/python.jpg)
+![PYTHON](/images/python.jpg)
