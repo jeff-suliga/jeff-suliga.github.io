@@ -8,7 +8,7 @@ When you think you have the answer, add "-[your answer]" to the end of this URL 
 
 Click [here](FastMoney-BOWTIE) to see the answer
 
-The image is also available [here](../../images/Detective.jpg).
+The image is also available [here](../../images/FastMoney.jpg).
 
 -----
 
