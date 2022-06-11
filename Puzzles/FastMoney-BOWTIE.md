@@ -13,9 +13,7 @@ At first, this may look to the player like a normal "Family Feud" Fast Money sco
 **Discovery 1:** Each of the answers that share a row, have words that begin with the same letter(s). Looking only at these letters we have:
 
 <p align=center>
-    <b>
-        I, CA, MG, CR, P
-    </b>
+    <b>I, CA, MG, CR, P</b>
 </p>
 
 
@@ -26,7 +24,7 @@ The *2000 TOTAL* and the *DV* capitalized in the clue point to the FDA's recomme
 
 
 
-**Discovery 3:** Each of the previously found letters correspond to a chemical element which also has a recommended daily intake listed by the FDA which can be found online, shown below:
+**Discovery 3:** With a small hint of *Potassium*, one notices each of the previously found letters correspond to a chemical element, also having a recommended daily intake listed by the FDA. This information which can be found online, tabulated below:
 
 | Letter | Element    | DV     |
 |--------|------------|--------|
@@ -52,9 +50,10 @@ Finding the %DV of each of these to the nearest percent yields the following:
 Ex. For Chromium with DV 35mcg:
 
 1mcg Cr = 2.9 %DV
+
 7mcg Cr =  20 %DV
 
-
+-----
 
 Spelling these out with A=1 B=2 ... gives: *FANCY PASTA*
 
