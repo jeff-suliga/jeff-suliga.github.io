@@ -41,8 +41,8 @@ Finding the %DV of each of these to the nearest percent yields the following:
 
 | Element    | %DV 1 | %DV 2 |
 |------------|-------|-------|
-| Iodine     | 6     | 24    |
-| Calcium    | 13    | 13    |
+| Iodine     | 6     | 16    |
+| Calcium    | 1     | 1     |
 | Magnesium  | 14    | 19    |
 | Chromium   | 3     | 20    |
 | Phosphorus | 25    | 1     |
