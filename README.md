@@ -31,3 +31,5 @@ Each of these are puzzles that I've created. Click on one below to try:
     <img src="/images/Detective.jpg" title="Detective" style="width:200px;height:400px;">
   </a>
 </p>
+
+**Note:** All resources are fair game! Google away!
