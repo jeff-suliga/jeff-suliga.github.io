@@ -2,7 +2,7 @@
 
 [Optional puzzle description]
 
-<img src="/images/[puzzle image name]" alt="[alternate text]" style="width:[width]px;height:[height]px;">
+<img src="/images/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:[width]px;height:[height]px;">
 
 The answer to this puzzle is a single word. When you think you have the answer, add "-[your answer]" to the end of this URL.
 Click [Here]("[PuzzleName]-[Puzzle Answer]") to see the answer
