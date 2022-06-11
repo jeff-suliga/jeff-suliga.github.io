@@ -30,6 +30,10 @@ Each of these are puzzles that I've created. Click on one below to try:
   <a href="/Puzzles/Detective">
     <img src="/images/Detective.jpg" title="Detective" style="width:200px;height:400px;">
   </a>
+
+  <a href="/Puzzles/PeculiarHW">
+    <img src="/images/PeculiarHW/PeculiarHW.jpg" title="A Peculiar Problem Set" style="width:273px;height:171px;">
+  </a>
 </p>
 
 **Note:** All resources are fair game! Google away!
