@@ -1,7 +1,7 @@
 -----
 Puzzle clue:
 
-Seems like yet another math student lost the mind in their homework problems,
+Seems like yet another math student lost their mind in their homework problems,
 drawing self-referencing shapes in anguish.
 Funnily enough, these functions seem to work simply by plugging in a single value.
 
