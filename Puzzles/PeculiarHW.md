@@ -1,7 +1,7 @@
 # A Peculiar Problem Set
 
 
-<img src="/images/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:818px;height:512px;">
+<img src="/images/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:1227px;height:768px;">
 
 Parts of this puzzle are possible to complete by hand. **Please** do not do this. It will take an absurd amount of time. There are plenty of resources available to you online.
 
@@ -13,7 +13,7 @@ The answer to this puzzle is a single word.
 
 When you think you have the answer, add "-[your answer]" to the end of this URL **in all capital letters**.
 
-The image is also available [here](../../images/[puzzle name]/[puzzle image name]).
+The image is also available [here](../../images/PeculiarHW/PeculiarHW.jpg).
 
 -----
 
@@ -21,7 +21,7 @@ The image is also available [here](../../images/[puzzle name]/[puzzle image name
 
 -----
 
-Click [here]([puzzle name]-[puzzle answer]) to see the answer
+Click [here](PeculiarHW-COMPLEX) to see the answer
 
 -----
 
