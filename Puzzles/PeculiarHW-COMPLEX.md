@@ -2,7 +2,7 @@
 
 -----
 
-<img src="/images/PeculiarHW/[puzzle image name]" alt="A Peculiar Problem Set" style="width:818px;height:512px;">
+<img src="/images/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:818px;height:512px;">
 
 -----
 
