@@ -10,7 +10,7 @@ At first, this may look to the player like a normal "Family Feud" Fast Money sco
 
 
 
-**Discovery 1:** Each of the answers that share a row, have words that begin with the same letter(s). Looking only at these letters we have:
+**Discovery 1:** Each of the answers that share a row have words that begin with the same letter(s). Looking only at these letters we have:
 
 <p align=center>
     <b>I, CA, MG, CR, P</b>
@@ -24,7 +24,7 @@ The *2000 TOTAL* and the *DV* capitalized in the clue point to the FDA's recomme
 
 
 
-**Discovery 3:** With a small hint of *Potassium*, one notices each of the previously found letters correspond to a chemical element, also having a recommended daily intake listed by the FDA. This information which can be found online, tabulated below:
+**Discovery 3:** With a small hint of *Potassium*, one notices each of the previously found letters correspond to a chemical element, also having a recommended daily intake listed by the FDA. This information which can easily be found online is tabulated below:
 
 | Letter | Element    | DV     |
 |--------|------------|--------|
