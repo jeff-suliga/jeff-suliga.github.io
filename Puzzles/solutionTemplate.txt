@@ -1,0 +1,13 @@
+# [Puzzle name] Solution
+
+-----
+
+<img src="/images/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:[width]px;height:[height]px;">
+
+-----
+
+[Puzzle explanation]
+
+-----
+
+Click [here](../../#puzzles) to return to the main page.
