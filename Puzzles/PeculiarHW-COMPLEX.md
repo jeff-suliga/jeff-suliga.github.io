@@ -43,7 +43,7 @@ At this point the player will realize they can do the same with the second large
 
 This above image is intentionally meant to make the player consider whether or not this milestone marks the end of the journey. The answer, after all, is meant to be a hyphenated extension of the puzzle's home URL. Submitting "DISCRIMINANT" as an answer selection leads the player through a small journey to stumble upon this image, leading them to realize that somewhere on the way, something deeper was at play.
 
-![Tupper's Self-Referential Formula](../../images/PeculiarHW/NotQuite.png)
+![Not Quite](../../images/PeculiarHW/PeculiarHWNotQuite.png)
 
 The choice of "discriminant" is very deliberate. Keeping with the math theme, many students in their earlier algebra classes learn that the [discriminant](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:quadratic-formula-a1/a/discriminant-review) relates to quadratic expressions - particularly it determines the kinds solutions any quadratic expression has. Treating the line in the image not as a hyphen, but as a negative sign, we now have "Negative Discriminant." When a quadratic expression has a negative discriminant, this means all of its solutions are **COMPLEX**, the answer to this puzzle.
 
