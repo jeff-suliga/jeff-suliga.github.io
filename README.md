@@ -24,7 +24,7 @@ Each of these are puzzles that I've created. Click on one below to try:
 
 <p>
   <a href="/Puzzles/FastMoney">
-    <img src="/images/FastMoney.jpg" title="Fast Money" style="width:320px;height:171px;">
+    <img src="/images/FastMoney/FastMoney.jpg" title="Fast Money" style="width:320px;height:171px;">
   </a>
 
   <a href="/Puzzles/PeculiarHW">

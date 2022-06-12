@@ -2,7 +2,7 @@
 
 -----
 
-<img src="/images/FastMoney.jpg" alt="Fast Money" style="width:640px;height:343px;">
+<img src="/images/FastMoney/FastMoney.jpg" alt="Fast Money" style="width:640px;height:343px;">
 
 -----
 
