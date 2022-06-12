@@ -51,9 +51,9 @@ This above image is intentionally meant to make the player consider whether or n
 
 ![Not Quite](../../images/PeculiarHW/PeculiarHWNotQuite.png)
 
-The choice of "discriminant" is very deliberate. Keeping with the math theme, many students in their earlier algebra classes learn that the [discriminant](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:quadratic-formula-a1/a/discriminant-review) relates to quadratic expressions - particularly it determines the kinds solutions any quadratic expression has. Treating the line in the image not as a hyphen, but as a negative sign, we now have "Negative Discriminant." When a quadratic expression has a negative discriminant, this means all of its solutions are **COMPLEX**, the answer to this puzzle.
+Treating the line in the image not as a hyphen, but as a negative sign, we now have "Negative Discriminant." Many students in their earlier algebra classes learn that the [discriminant](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:quadratic-formula-a1/a/discriminant-review) relates to quadratic expressions - particularly it determines the kinds solutions any quadratic expression has.  When a quadratic expression has a negative discriminant, this means all of its solutions are **COMPLEX**, the answer to this puzzle.
 
-*Also as an easter egg, check the modes of the calculator in the puzzle image* :)
+*Also as an easter egg, check the modes of the calculator in the puzzle image :)*
 
 -----
 
