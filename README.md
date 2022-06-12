@@ -24,15 +24,15 @@ Each of these are puzzles that I've created. Click on one below to try:
 
 <p>
   <a href="/Puzzles/FastMoney">
-    <img src="/images/FastMoney/FastMoney.jpg" title="Fast Money" style="width:320px;height:171px;">
+    <img src="/images/FastMoney/FastMoneyThumbnail.jpg" title="Fast Money" style="width:150px;height:150px;">
   </a>
 
   <a href="/Puzzles/PeculiarHW">
-    <img src="/images/PeculiarHW/PeculiarHW.jpg" title="A Peculiar Problem Set" style="width:273px;height:171px;">
+    <img src="/images/PeculiarHW/PeculiarHWThumbnail.jpg" title="A Peculiar Problem Set" style="width:150px;height:150px;">
   </a>
 
   <a href="/Puzzles/Spotlight">
-    <img src="/images/Spotlight/Spotlight.jpg" title="Spotlight" style="width:300px;height:150px;">
+    <img src="/images/Spotlight/SpotlightThumbnail.jpg" title="Spotlight" style="width:150px;height:150px;">
   </a>
 </p>
 
