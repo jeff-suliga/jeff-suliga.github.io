@@ -31,8 +31,8 @@ Each of these are puzzles that I've created. Click on one below to try:
     <img src="/images/PeculiarHW/PeculiarHW.jpg" title="A Peculiar Problem Set" style="width:273px;height:171px;">
   </a>
 
-  <a href="/Puzzles/Detective">
-    <img src="/images/Detective/Detective.jpg" title="Detective" style="width:200px;height:400px;">
+  <a href="/Puzzles/Spotlight">
+    <img src="/images/Spotlight/Spotlight.jpg" title="Spotlight" style="width:300px;height:150px;">
   </a>
 </p>
 
