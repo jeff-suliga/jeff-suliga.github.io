@@ -13,7 +13,9 @@ At first, this may look to the player like a normal "Family Feud" Fast Money sco
 **Discovery 1:** Each of the answers that share a row have words that begin with the same letter(s). Looking only at these letters we have:
 
 <p align=center>
+
     <b>I, CA, MG, CR, P</b>
+
 </p>
 
 
