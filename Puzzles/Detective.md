@@ -1,12 +1,12 @@
 # Detective
 
-<img src="/images/Detective.jpg" alt="Spy Stuff" style="width:400px;height:800px;">
+<img src="/images/Detective/Detective.jpg" alt="Spy Stuff" style="width:400px;height:800px;">
 
 The answer to this puzzle is a single word.
 
 When you think you have the answer, add "-[your answer]" to the end of this URL **in all capital letters**.
 
-The image is also available [here](../../images/Detective.jpg).
+The image is also available [here](../../images/Detective/Detective.jpg).
 
 -----
 

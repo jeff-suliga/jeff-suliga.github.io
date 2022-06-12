@@ -2,7 +2,7 @@
 
 -----
 
-<img src="/images/Detective.jpg" alt="Detective" style="width:400px;height:800px;">
+<img src="/images/Detective/Detective.jpg" alt="Detective" style="width:400px;height:800px;">
 
 -----
 
@@ -24,11 +24,11 @@ In each letter, certain sections of the letter would then be aglow by the lights
 
 At this point, the player can focus only on the areas of the given letters that are left dark, traced in blue below:
 
-<img src="/images/DetectiveSolution1.jpg" alt="Detective Solution" style="width:400px;height:800px;">
+<img src="/images/Detective/DetectiveSolution1.jpg" alt="Detective Solution" style="width:400px;height:800px;">
 
 Here it is clear that a pattern is emerging within each group of letters.
 
-<img src="/images/DetectiveSolution2.jpg" alt="Detective Solution" style="width:400px;height:124px;">
+<img src="/images/Detective/DetectiveSolution2.jpg" alt="Detective Solution" style="width:400px;height:124px;">
 
 Looking closer at connecting these sections to one another and reading groups from top to bottom, the player sneakily sees the letters **SNOOP**, the answer to this puzzle.
 
