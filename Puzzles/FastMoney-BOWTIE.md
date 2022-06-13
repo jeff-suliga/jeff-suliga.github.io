@@ -14,10 +14,11 @@ At first, this may look to the player like a normal "Family Feud" Fast Money sco
 
 <p align=center>
 
-    <b>I, CA, MG, CR, P</b>
+    <span style="font-weight:bold">I, CA, MG, CR, P</span>
 
 </p>
 
+<span style="font-weight:bold">ABCDE</span>
 
 
 **Discovery 2:** A closer look at the clue and answers leads the player to notice intermittent capitalization, and that much of this puzzle has to do with food.
