@@ -30,16 +30,16 @@ Click [here](/recruiterlanding.md) if you are a recruiter.
 Each of these are puzzles that I've created. Click on one below to try:
 
 <p>
+  <a href="/Puzzles/Spotlight">
+    <img src="/images/Spotlight/SpotlightThumbnail.jpg" title="Spotlight" style="width:150px;height:150px;">
+  </a>
+
   <a href="/Puzzles/FastMoney">
     <img src="/images/FastMoney/FastMoneyThumbnail.jpg" title="Fast Money" style="width:150px;height:150px;">
   </a>
 
   <a href="/Puzzles/PeculiarHW">
     <img src="/images/PeculiarHW/PeculiarHWThumbnail.jpg" title="A Peculiar Problem Set" style="width:150px;height:150px;">
-  </a>
-
-  <a href="/Puzzles/Spotlight">
-    <img src="/images/Spotlight/SpotlightThumbnail.jpg" title="Spotlight" style="width:150px;height:150px;">
   </a>
 </p>
 
