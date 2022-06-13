@@ -47,8 +47,3 @@ Each of these are puzzles that I've created. Click on one below to try:
 
 **Note:** All resources are fair game! Google away!
 
------
-
-<div class="test-class">
-  <p>Testing custom classes</p>
-</div>
