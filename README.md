@@ -2,6 +2,8 @@
 
 This is some sample text
 
+-----
+
 
 # Table of Contents
 1. [Python Code](#this-is-some-python-code)
