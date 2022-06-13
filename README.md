@@ -1,6 +1,4 @@
----
-layout: default
----
+
 
 <img src="/images/python.jpg" title="This is a photo of me" style="float: left;">
 
