@@ -30,7 +30,7 @@ Here it is clear that a pattern is emerging within each group of letters.
 
 <img src="/images/Detective/DetectiveSolution2.jpg" alt="Detective Solution" style="width:400px;height:124px;">
 
-Looking closer at connecting these sections to one another and reading groups from top to bottom, the player sneakily sees the letters **SNOOP**, the answer to this puzzle.
+Looking closer at connecting these sections to one another, the player sneakily sees the letters **SNOOP** emerge, the answer to this puzzle.
 
 -----
 
