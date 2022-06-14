@@ -2,9 +2,11 @@ theme: jekyll-theme-slate
 
 title: Jeff Suliga's title
 description: Test Description
-version: Version 5.3.0
+version: Version 5.3.1
 
 name: JS
+
+baseurl: ""
 
 email: suligajw@vt.edu
 github_username: jeff-suliga
