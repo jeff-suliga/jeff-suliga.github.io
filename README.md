@@ -41,7 +41,7 @@ Each of these are puzzles that I've created. Click on one below to try:
   </a>
 
   <a href="/Puzzles/PeculiarHW">
-    <img src="/images/PeculiarHW/PeculiarHWThumbnail.jpg" title="A Peculiar Problem Set" style="width:150px;height:150px;">
+    <img src="{{ site.imgurl }}/PeculiarHW/PeculiarHWThumbnail.jpg" title="A Peculiar Problem Set" style="width:150px;height:150px;">
   </a>
 </p>
 

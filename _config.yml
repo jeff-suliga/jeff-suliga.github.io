@@ -2,11 +2,12 @@ theme: jekyll-theme-slate
 
 title: Jeff Suliga's title
 description: Test Description
-version: Version 5.3.3
+version: Version 5.3.4
 
 name: JS
 
 baseurl: ""
+imgurl: "{{ site.baseurl }}/images"
 
 email: suligajw@vt.edu
 github_username: jeff-suliga
