@@ -6,7 +6,7 @@ version: Version 5.3.6
 
 name: JS
 
-baseurl: "https://jeff-suliga.github.io"
+baseurl: ""
 imgurl: "https://jeff-suliga.github.io/images"
 
 email: suligajw@vt.edu
