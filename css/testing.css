@@ -5,15 +5,15 @@
 
 /* unvisited link */
 a:link {
-    color: #FF0000;
+    color: #7373ff;
 }
   
 /* visited link */
 a:visited {
-    color: #00FF00;
+    color: rgb(255, 138, 255);
 }
 
 /* mouse over link */
 a:hover {
-    color: #FF00FF;
+    color: #0026ff;
 }
