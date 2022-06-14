@@ -28,3 +28,9 @@ a:hover {
     margin-bottom: 1px;
     float:left;
 }
+
+.index-images::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
