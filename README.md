@@ -18,12 +18,12 @@ Click [here](/recruiterlanding.md) if you are a recruiter.
 
 ## This is some python code
 
-![Python is cool](/images/code.png)
+![Python is cool]({{ site.imgurl }}/code.png)
 
 
 #### Testing some more images
 
-![PYTHON](/images/python.jpg)
+![PYTHON]({{ site.imgurl }}/python.jpg)
 
 -----
 
@@ -33,15 +33,15 @@ Each of these are puzzles that I've created. Click on one below to try:
 
 <p>
   <a href="/Puzzles/Spotlight">
-    <img src="/images/Spotlight/SpotlightThumbnail.jpg" title="Spotlight" style="width:150px;height:150px;">
+    <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" title="Spotlight" style="width:150px;height:150px;">
   </a>
 
   <a href="/Puzzles/FastMoney">
-    <img src="/images/FastMoney/FastMoneyThumbnail.jpg" title="Fast Money" style="width:150px;height:150px;">
+    <img src="{{ site.imgurl }}/FastMoney/FastMoneyThumbnail.jpg" title="Fast Money" style="width:150px;height:150px;">
   </a>
 
   <a href="/Puzzles/PeculiarHW">
-    <img src="/images/PeculiarHW/PeculiarHWThumbnail.jpg" title="A Peculiar Problem Set" style="width:150px;height:150px;">
+    <img src="{{ site.imgurl }}/PeculiarHW/PeculiarHWThumbnail.jpg" title="A Peculiar Problem Set" style="width:150px;height:150px;">
   </a>
 </p>
 
