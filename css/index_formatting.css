@@ -19,13 +19,12 @@ a:hover {
 }
 
 .puzzle-img-with-text {
-    text-align: justify;
-    width: 150px;
-}
-
-.puzzle-img-with-text{
-    display: block;
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
 }
