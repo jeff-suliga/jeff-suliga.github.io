@@ -18,12 +18,13 @@ a:hover {
     color: #7373ff;
 }
 
-.img-with-text {
+.puzzle-img-with-text {
     text-align: justify;
-    width: [width of img];
+    width: 150px;
+    height: 150px
 }
 
-.img-with-text img {
+.puzzle-img-with-text img {
     display: block;
     margin: 0 auto;
 }
