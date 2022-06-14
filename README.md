@@ -37,7 +37,7 @@ Each of these are puzzles that I've created. Click on one below to try:
   </a>
 
   <a href="/Puzzles/FastMoney">
-    <img src="/images/FastMoney/FastMoneyThumbnail.jpg" title="Fast Money" style="width:150px;height:150px;">
+    <img src="{{ site.baseurl }}/images/FastMoney/FastMoneyThumbnail.jpg" title="Fast Money" style="width:150px;height:150px;">
   </a>
 
   <a href="/Puzzles/PeculiarHW">
