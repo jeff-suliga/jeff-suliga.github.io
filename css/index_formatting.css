@@ -41,7 +41,7 @@ a:hover {
     background-color: thistle;
 }
 
-p.puzzle-thumb-text {
+h4.puzzle-thumb-text {
     margin-top:-10px;
     margin-bottom:10px;
 }
