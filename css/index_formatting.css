@@ -24,6 +24,10 @@ a:hover {
     float:left;
 }
 
+p.image-subtext {
+    margin-top: -10;
+}
+
 .puzzle-img-with-text {
     width:200px;
     text-align:center;
