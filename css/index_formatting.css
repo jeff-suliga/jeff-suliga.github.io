@@ -1,8 +1,3 @@
-.test-class {
-    background-color: thistle;
-    font-size: 50px;
-}
-
 /* unvisited link */
 a:link {
     color: #0026ff;
@@ -18,6 +13,17 @@ a:hover {
     color: #7373ff;
 }
 
+.img-with-text {
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+
 .puzzle-img-with-text {
     width:200px;
     text-align:center;
@@ -29,7 +35,13 @@ a:hover {
     float:left;
 }
 
-.index-images::after {
+.puzzle-thumb {
+    width: 150px;
+    height: 150px;
+    background-color: thistle;
+}
+
+.index-endfloat::after {
     content: "";
     clear: both;
     display: table;

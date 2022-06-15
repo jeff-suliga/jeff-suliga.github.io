@@ -2,11 +2,15 @@
 layout: default
 ---
 
-
-<img src="/images/python.jpg" title="This is a photo of me" style="float: left;">
-<p>
-    This is some sample text
-</p>
+<div class="index-endfloat">
+    <div class="img-with-text">
+        <img src="{{ site.imgurl }}/boyscar.jpg" title="This is a photo of me">
+        <p>
+            This is some sample text
+        </p>
+    </div>
+    <p>This is my bio</p>
+</div>
 <br>
 
 <h1>Table of Contents</h1>
@@ -40,24 +44,24 @@ layout: default
 <h2 id="puzzles">Puzzles</h2>
 <p>Each of these are puzzles that I've created. Click on one below to try:</p>
 
-<div class="index-images">
+<div class="index-endfloat">
     <div class="puzzle-img-with-text">
         <a href="/Puzzles/Spotlight">
-            <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" alt="Spotlight" style="width:150px;height:150px;">
+            <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" alt="Spotlight" class="puzzle-thumb">
         </a>
         <h4>Spotlight</h4>
     </div>
 
     <div class="puzzle-img-with-text">
         <a href="/Puzzles/FastMoney">
-            <img src="{{ site.imgurl }}/FastMoney/FastMoneyThumbnail.jpg" alt="Fast Money" style="width:150px;height:150px;">
+            <img src="{{ site.imgurl }}/FastMoney/FastMoneyThumbnail.jpg" alt="Fast Money" class="puzzle-thumb">
         </a>
         <h4>Fast Money</h4>
     </div>
 
     <div class="puzzle-img-with-text">
         <a href="/Puzzles/PeculiarHW">
-            <img src="{{ site.imgurl }}/PeculiarHW/PeculiarHWThumbnail.jpg" alt="A Peculiar Problem Set" style="width:150px;height:150px;">
+            <img src="{{ site.imgurl }}/PeculiarHW/PeculiarHWThumbnail.jpg" alt="A Peculiar Problem Set" class="puzzle-thumb">
         </a>
         <h4>A Peculiar Problem Set</h4>
     </div>
