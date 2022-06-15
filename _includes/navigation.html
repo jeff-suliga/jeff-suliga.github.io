@@ -4,9 +4,17 @@
 <link rel="stylesheet" href="{{ site.baseurl }}/css/navigation_formatting.css">
 
     <ul class="nav-list">
-        <li><a href="{{ site.url }}" class="nav-element">Home</a></li>
-        <li><a href="{{ site.url }}/#puzzles" class="nav-element">Puzzles</a></li>
-        <li><a href="{{ site.url }}/#posts" class="nav-element">Posts</a></li>
+        <li class="nav-list-element">
+            <a href="{{ site.url }}" class="nav-list-element-link">Home</a>
+        </li>
+
+        <li class="nav-list-element">
+            <a href="{{ site.url }}/#puzzles" class="nav-list-element-link">Puzzles</a>
+        </li>
+        
+        <li class="nav-list-element">
+            <a href="{{ site.url }}/#posts" class="nav-list-element-link">Posts</a>
+        </li>
     </ul>
 
 </html>
