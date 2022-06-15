@@ -11,6 +11,7 @@ ul.foot-list {
 li.foot-list-element {
     float: left;
     width: 300px;
+    margin-right: 100px;
     display: block;
 }
 
