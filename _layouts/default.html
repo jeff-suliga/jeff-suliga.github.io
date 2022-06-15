@@ -15,9 +15,20 @@
   <body>
 
     <!-- HEADER -->
-    {% include header.html %}
+    <div id="header_wrap" class="outer">
+      <header class="inner">
 
-    {% include navigation.html %}
+        {% include header.html %}
+      
+      </header>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div id="nav_wrap" class="outer">
+      <header class="inner">
+        {% include navigation.html %}
+      </header>
+    </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
@@ -31,7 +42,14 @@
     
 
     <!-- FOOTER  -->
-    {% include footer.html %}
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+
+        {% include footer.html %}
+        
+      </footer>
+    </div>
+    
     
   </body>
 </html>
