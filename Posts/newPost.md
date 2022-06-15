@@ -1,8 +1,8 @@
 ---
-layout: postlayout
-title: "Test Title"
-date: "June 14, 2022"
-description: "This is a test post description"
+layout: post
+title: Test
+date: Date
+description: Desc
 ---
 
 ### In-file header
