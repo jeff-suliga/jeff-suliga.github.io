@@ -15,20 +15,26 @@
   <body>
 
     <!-- HEADER -->
-    {% include header.html %}
+    <div id="header_wrap" class="outer">
+      <header class="inner">
 
-    {% include navigation.html %}
+        {% include header.html %}
+      
+      </header>
+    </div>
+
+    <!-- NAVIGATION -->
+    <div id="nav_wrap" class="outer">
+      <header id="nav_wrap_inner">
+        {% include navigation.html %}
+      </header>
+    </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        {{ content }}
 
-        <br>
-        <div class="test-class">
-          <p>Testing custom classes {{ site.baseurl }}</p>
-        </div>
-        
+        {{ content }}
 
       </section>
     </div>
@@ -36,7 +42,14 @@
     
 
     <!-- FOOTER  -->
-    {% include footer.html %}
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+
+        {% include footer.html %}
+
+      </footer>
+    </div>
+    
     
   </body>
 </html>

@@ -1,0 +1,31 @@
+ul.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #0f0f0f;
+}
+
+.nav-list::after {
+    clear: both;
+}
+
+li.nav-list-element {
+    width: 60px;
+    display: block;
+}
+
+a.nav-list-element-link {
+    text-decoration: none;
+    text-align: center;
+    color: #7373ff;
+    display: block;
+    padding: 3px 8px 3px 8px;
+    background-color: #0f0f0f;
+}
+
+a.nav-list-element-link:hover {
+    background-color: #7373ff;
+    color: black;
+    text-decoration: none;
+}
+

@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
 
-    <div id="footer_wrap" class="outer">
-        <footer class="inner">
-            <p class="text-left"">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/footer_formatting.css">
+
+
+    <ul class="foot-list">
+        <li class="foot-list-element">
+            <p class="foot-list-element-text">
                 Contact me: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
             </p>
+        </li>
 
-            <p class="text-center"">
-                Instagram: <a href="https://www.instagram.com/{{site.insta_username}}">{{site.insta_username}}</a>
+        <li class="foot-list-element">
+            <p class="foot-list-element-text">
+                Instagram: <a href="https://www.instagram.com/{{site.insta_username}}">{{ site.insta_username }}</a>
             </p>
+        </li>
 
-            <p class="text-right"">
+        <li class="foot-list-element">
+            <p class="foot-list-element-text">
                 Github: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
             </p>
-        </footer>
-    </div>
+        </li>
+    </ul>
 
 </html>
