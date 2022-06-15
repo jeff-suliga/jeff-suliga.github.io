@@ -275,7 +275,6 @@ Full-Width Styles
 
 .inner {
   position: relative;
-  max-width: 70%; //JS
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -306,17 +305,6 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
-}
-
-#nav_wrap { //JS
-  background: #0f0f0f;
-}
-
-#nav_wrap_inner { //JS
-  position: relative;
-  max-width: 70%;
-  padding: 5px 10px 35px;
-  margin: 0 auto;
 }
 
 #project_title {
