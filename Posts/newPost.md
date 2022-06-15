@@ -9,6 +9,6 @@ description: This is a description
 
 This is some content that is gonna go in a post
 
-$a^{2}+b^{2}=c^{2}$
+$$a^{2}+b^{2}=c^{2}$$
 
 ![Picture]({{ site.imgurl }}/python.jpg)
