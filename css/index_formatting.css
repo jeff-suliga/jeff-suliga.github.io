@@ -55,3 +55,11 @@ h4.puzzle-thumb-text {
     clear: both;
     display: table;
 }
+
+a.post-link {
+    font-size: 24;
+}
+
+p.post-date {
+    text-indent: 10%;
+}
