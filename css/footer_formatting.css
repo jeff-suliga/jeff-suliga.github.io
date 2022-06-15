@@ -10,7 +10,7 @@ ul.foot-list {
 
 li.foot-list-element {
     float: left;
-    width: 300px;
+    width: 33%;
     display: block;
 }
 
