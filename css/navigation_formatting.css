@@ -11,6 +11,7 @@ ul.nav-list {
 
 li.nav-list-element {
     width: 60px;
+    display: block;
 }
 
 a.nav-list-element-link {
