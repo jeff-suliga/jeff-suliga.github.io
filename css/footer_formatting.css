@@ -1,0 +1,24 @@
+ul.foot-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.foot-list::after {
+    clear: both;
+}
+
+li.foot-list-element {
+    float: left;
+    width: 100px;
+    display: block;
+}
+
+p.foot-list-element-text {
+    color: white;
+    display: block;
+}
+
+p.foot-list-element-text a {
+    color: #7373ff;
+}

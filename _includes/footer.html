@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 
-    <div class="index-endfloat">
-        <p style="float:left;">
-            Contact me: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </p>
+    <ul class="foot-list">
+        <li class="foot-list-element">
+            <p class="foot-list-element-text">
+                Github: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
+            </p>
+        </li>
 
-        <p style="float:center;">
-            Instagram: <a href="https://www.instagram.com/{{site.insta_username}}">{{site.insta_username}}</a>
-        </p>
+        <li class="foot-list-element">
+            <p class="foot-list-element-text">
+                Instagram: <a href="https://www.instagram.com/{{site.insta_username}}">{{ site.insta_username }}</a>
+            </p>
+        </li>
 
-        <p style="float:right">
-            Github: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a>
-        </p>
-    </div>
+        <li class="foot-list-element">
+            <p class="foot-list-element-text">
+                Contact me: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+        </li>
+    </ul>
 
 </html>
