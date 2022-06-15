@@ -276,8 +276,10 @@ Full-Width Styles
 
 .inner {
   position: relative;
+  max-width: 640px;
   padding: 20px 10px;
   margin: 0 auto;
+  background-color: #0090ff;
 }
 
 #forkme_banner {
