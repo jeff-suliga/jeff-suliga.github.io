@@ -56,8 +56,8 @@ h4.puzzle-thumb-text {
     display: table;
 }
 
-p.post a.post-link {
-    font-size: 24;
+a.post-link {
+    font-size: 24px;
 }
 
 p.post-date {
