@@ -1,0 +1,36 @@
+.test-class {
+    background-color: thistle;
+    font-size: 50px;
+}
+
+/* unvisited link */
+a:link {
+    color: #0026ff;
+}
+  
+/* visited link */
+a:visited {
+    color: #7373ff;
+}
+
+/* mouse over link */
+a:hover {
+    color: #7373ff;
+}
+
+.puzzle-img-with-text {
+    width:200px;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
+    float:left;
+}
+
+.index-images::after {
+    content: "";
+    clear: both;
+    display: table;
+}
