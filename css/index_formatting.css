@@ -20,12 +20,13 @@ a:hover {
     background-color: transparent;
     border: 1px solid transparent;
     margin-right: 10px;
-    margin-bottom: -100px;
+    margin-bottom: 1px;
     float:left;
 }
 
 .puzzle-img-with-text {
     width:200px;
+    height: 170px;
     text-align:center;
     display:block;
     background-color: transparent;
