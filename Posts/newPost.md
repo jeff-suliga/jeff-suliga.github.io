@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Test
-date: Date
-description: Desc
+title: Test Title
+publish-date: Current Date
+description: This is a description
 ---
 
 ### In-file header
