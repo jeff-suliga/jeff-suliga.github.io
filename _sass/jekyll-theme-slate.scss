@@ -312,9 +312,9 @@ Full-Width Styles
   background: #0f0f0f;
 }
 
-#nav_wrap_inner {
+#nav_wrap_inner { //JS
   position: relative;
-  max-width: 70%; //JS
+  max-width: 70%;
   padding: 10px 10px;
   margin: 0 auto;
   margin-bottom: 20px;
