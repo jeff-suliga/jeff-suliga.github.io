@@ -10,13 +10,14 @@ ul.foot-list {
 
 li.foot-list-element {
     float: left;
-    width: 100px;
+    width: 300px;
     display: block;
 }
 
 p.foot-list-element-text {
     color: white;
     display: block;
+    text-align: center;
 }
 
 p.foot-list-element-text a {
