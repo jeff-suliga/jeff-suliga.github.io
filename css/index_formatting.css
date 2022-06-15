@@ -14,18 +14,18 @@ a:hover {
 }
 
 .img-with-text {
-    width:200px;
+    width:500px;
     text-align:center;
     display:block;
     background-color: transparent;
     border: 1px solid transparent;
     margin-right: 10px;
-    margin-bottom: 1px;
+    margin-bottom: -10px;
     float:left;
 }
 
 .puzzle-img-with-text {
-    width:500px;
+    width:200px;
     text-align:center;
     display:block;
     background-color: transparent;
