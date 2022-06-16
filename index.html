@@ -61,8 +61,19 @@ layout: default
 
 <hr>
 
-{% for post in site.posturl %}
-    <a href="{{ site.posturl }}/{{ post.extension }}" class="post-link">{{ post.title }}</a>
-    <br>
-    <p class="post-date">{{ post.publish-date }}</p>
+{% for post in site.posts %}
+<a href="{{ site.baseurl }}{{ post.url | replace: '.html', ''}}" class="post-link">{{ post.title }}</a>
+<br>
+<p class="post-date">{{ post.publish-date }}</p>
 {% endfor %}
+
+<!--
+{% for post in site.posts %}
+    <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h4>
+            <a class="post-link" href="{{site.baseurl}}{{ post.url | replace: '.html', ''}}">{{ post.title }}</a>
+        </h4>
+    </li>
+{% endfor %}
+-->
