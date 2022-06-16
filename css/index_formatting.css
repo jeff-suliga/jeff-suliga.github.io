@@ -13,6 +13,11 @@ a:hover {
     color: #7373ff;
 }
 
+.img-with-text-container {
+    width: 100%;
+    height: 300px;
+}
+
 .img-with-text {
     width: 25%;
     text-align: center;
@@ -30,6 +35,10 @@ a:hover {
 
 p.image-subtext {
     margin-top: -30;
+}
+
+p.image-sidetext {
+    display: block;
 }
 
 .puzzle-img-with-text {
