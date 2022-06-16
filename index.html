@@ -62,7 +62,7 @@ layout: default
 <hr>
 
 {% for post in site.posturl %}
-    <a href="{{ site.posturl }}/{{ post }}" class="post-link">{{ post.title }}</a>
+    <a href="{{ site.posturl }}/{{ post.extension }}" class="post-link">{{ post.title }}</a>
     <br>
     <p class="post-date">{{ post.publish-date }}</p>
 {% endfor %}

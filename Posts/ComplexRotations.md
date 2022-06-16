@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Complex Rotations
+extenstion: ComplexRotations
 publish-date: June 16, 2022
 description: Multiplying complex numbers visually
 ---
