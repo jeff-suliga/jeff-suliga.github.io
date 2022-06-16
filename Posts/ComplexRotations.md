@@ -44,7 +44,7 @@ For a long while this discovery was ignored, because *surely* this cannot be mea
 
 As mentioned above, we can see that the imaginary unit cannot be found anywhere on this real number line.
 
-<img src="{{ site.imgurl }}/RealNumberLine.png" style="text-align:center;display:block;">
+![Real Number Line]({{ site.imgurl }}/RealNumberLine.png)
 
 However, we notice that a value can contain both a purely real component and a imaginary component, dividing this new form of number into 2 dimensions. This 2-dimensional number is what we call a *Complex Number* as seen above.
 
@@ -52,4 +52,4 @@ However, we notice that a value can contain both a purely real component and a i
 
 To represent real valued numbers we can plot them on a 1-dimensional line like the one seen above. For complex numbers we can do a similar thing, using a 2-dimensional plane to show both real and imaginary components.
 
-<img src="{{ site.imgurl }}/ComplexPlane.svg" style="text-align:center;display:block;">
+![Complex Plane]({{ site.imgurl }}/ComplexPlane.svg)
