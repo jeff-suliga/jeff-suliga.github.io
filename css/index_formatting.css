@@ -52,6 +52,10 @@ p.img-sidetext {
     margin-top:10px;
 }
 
+.puzzle-wrap {
+    width: 100%;
+}
+
 .puzzle-img-with-text {
     width:200px;
     text-align:center;
