@@ -10,3 +10,5 @@ description: This is a description
 This is some content that is gonna go in a post
 
 ![Picture]({{ site.imgurl }}/python.jpg)
+
+This is me testing $a+6=b$ math
