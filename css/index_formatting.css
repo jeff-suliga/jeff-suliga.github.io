@@ -39,11 +39,11 @@ img.img-before-text {
     clear: both;
 }
 
-p.image-subtext {
+p.img-subtext {
     margin-top: 0;
 }
 
-p.image-sidetext {
+p.img-sidetext {
     display: block;
     height: 90%;
     font-size:20pt;
