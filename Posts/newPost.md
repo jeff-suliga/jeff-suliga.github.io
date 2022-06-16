@@ -14,4 +14,4 @@ This is some content that is gonna go in a post
 This is me testing
 $$a+6=b$$ math
 
-This is \(ax^{2}+bx+c=0\) inline math
+This is \\(ax^{2}+bx+c=0\\) inline math
