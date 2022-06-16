@@ -62,13 +62,15 @@ layout: default
 <hr>
 
 <p>Before Loop</p>
-{% for post in site.posts %}
+<div>
+    {% for post in site.posts %}
     <p>In Loop 1</p>
-<a href="{{ site.baseurl }}{{ post.url | replace: '.html', ''}}" class="post-link">{{ post.title }}</a>
-<br>
-<p class="post-date">{{ post.publish-date }}</p>
-<p>In Loop 2</p> 
-{% endfor %}
+    <a href="{{ site.baseurl }}{{ post.url | replace: '.html', ''}}" class="post-link">{{ post.title }}</a>
+    <br>
+    <p class="post-date">{{ post.publish-date }}</p>
+    <p>In Loop 2</p> 
+    {% endfor %}
+</div>
 <p>After Loop</p>
 
 <!--
