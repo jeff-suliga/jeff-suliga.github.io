@@ -9,6 +9,7 @@ name: Jeff Suliga
 baseurl: ""
 url: "http://jeff-suliga.github.io"
 imgurl: "https://jeff-suliga.github.io/images"
+posts: "http://jeff-suliga.github.io/_posts"
 
 email: suligajw@vt.edu
 github_username: jeff-suliga
