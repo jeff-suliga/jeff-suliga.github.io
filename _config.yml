@@ -2,9 +2,9 @@ theme: jekyll-theme-slate
 
 title: Jeff Suliga's title
 description: Finally converting to HTML
-version: Version 8.3.11
+version: Version 8.4.0
 
-name: JS
+name: Jeff Suliga
 
 baseurl: ""
 url: "http://jeff-suliga.github.io"
