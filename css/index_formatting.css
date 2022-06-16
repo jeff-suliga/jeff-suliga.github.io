@@ -24,7 +24,7 @@ a:hover {
     display: block;
     background-color: transparent;
     border: 1px solid transparent;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 1px;
     float:left;
 }
@@ -45,6 +45,9 @@ p.image-subtext {
 
 p.image-sidetext {
     display: block;
+    height: 90%;
+    font-size:20pt;
+    margin-top:10px;
 }
 
 .puzzle-img-with-text {
