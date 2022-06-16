@@ -30,7 +30,7 @@ Here it is clear that a pattern is emerging within each group of letters.
 
 <img src="/images/Spotlight/SpotlightSolution2.png" alt="Spotlight Solution" style="width:399px;height:165px;">
 
-Looking closer at connecting these sections to one another and reading groups from top to bottom, the player sneakily sees the letters **SNOOP**, the answer to this puzzle.
+Looking closer at connecting these sections to one another, the player sneakily sees the letters **SNOOP** emerge, the answer to this puzzle.
 
 -----
 
