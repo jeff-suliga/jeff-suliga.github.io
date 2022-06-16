@@ -61,27 +61,15 @@ layout: default
 
 <hr>
 
-<p>Before Loop</p>
 <ul>
-    {% for post in site.posts %}
     <li>
-        <p>In Loop 1</p>
-        <a href="{{ site.baseurl }}{{ post.url | replace: '.html', ''}}" class="post-link">{{ post.title }}</a>
+        <a href="{{ site.posturl }}/ComplexRotations" class="post-link">Complex Rotations: Multiplying complex numbers visually</a>
         <br>
-        <p class="post-date">{{ post.publish-date }}</p>
-        <p>In Loop 2</p>
+        <p class="post-date">Post Date</p>
     </li>
-    {% endfor %}
-</ul>
-<p>After Loop</p>
-
-<!--
-{% for post in site.posts %}
     <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h4>
-            <a class="post-link" href="{{site.baseurl}}{{ post.url | replace: '.html', ''}}">{{ post.title }}</a>
-        </h4>
+        <a href="{{ site.posturl }}/newPost" class="post-link">New Post</a>
+        <br>
+        <p class="post-date">Post Date</p>
     </li>
-{% endfor %}
--->
+</ul>
