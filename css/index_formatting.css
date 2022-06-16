@@ -24,6 +24,10 @@ a:hover {
     float:left;
 }
 
+.img-with-text::after {
+    clear: both;
+}
+
 p.image-subtext {
     margin-top: -30;
 }
