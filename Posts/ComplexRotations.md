@@ -14,9 +14,9 @@ leave you wondering where to even start trying to evaluate - good! By the end of
 
 Feel free to skip over any of the following sections you already feel comfortable with.
 
-1. [So What Are Complex Numbers?](#so-what-are-complex-numbers?)
+1. [So What Are Complex Numbers?](#so-what-are-complex-numbers%3F)
 2. [Graphing Complex Numbers](#graphing-complex-numbers)
-3. [Multiplying by i)](#multiplying-by-i)
+3. [Multiplying by i](#multiplying-by-i)
 
 -----
 
