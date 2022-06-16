@@ -14,9 +14,9 @@ a:hover {
 }
 
 .img-with-text {
-    width:500px;
-    text-align:center;
-    display:block;
+    width: 25%;
+    text-align: center;
+    display: block;
     background-color: transparent;
     border: 1px solid transparent;
     margin-right: 10px;
