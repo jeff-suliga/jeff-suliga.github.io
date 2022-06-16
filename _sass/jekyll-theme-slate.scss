@@ -1,4 +1,5 @@
 @import "rouge-github";
+@import "_layout.scss";
 
 /*******************************************************************************
 MeyerWeb Reset
@@ -67,9 +68,7 @@ h1 {
 }
 
 h2 {
-  padding-bottom: 10px;
-  font-size: 32px;
-  background: url('../images/bg_hr.png') repeat-x bottom;
+  font-size: 32px; // JS: Deleted random auto horizontal rule and 10px bottom padding
 }
 
 h3 {
@@ -274,8 +273,7 @@ Full-Width Styles
 }
 
 .inner {
-  position: relative;
-  max-width: 70%; //JS
+  position: relative; // JS: deleted max-width, set to 70%
   padding: 20px 10px;
   margin: 0 auto;
 }
@@ -306,17 +304,6 @@ Full-Width Styles
 
 #header_wrap .inner {
   padding: 50px 10px 30px 10px;
-}
-
-#nav_wrap { //JS
-  background: #0f0f0f;
-}
-
-#nav_wrap_inner { //JS
-  position: relative;
-  max-width: 70%;
-  padding: 5px 10px 35px;
-  margin: 0 auto;
 }
 
 #project_title {

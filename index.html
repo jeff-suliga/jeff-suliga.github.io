@@ -2,80 +2,67 @@
 layout: default
 ---
 
-<div class="index-endfloat">
+<div class="img-with-text-container">
     <div class="img-with-text">
-        <img src="{{ site.imgurl }}/boyscar.jpg" title="This is a photo of me" style="width:400px;">
-        <p class="image-subtext">
+        <img src="{{ site.imgurl }}/boyscar.jpg" title="This is a photo of me" class="img-before-text">
+        <p class="img-subtext">
             This is some sample text
         </p>
+
     </div>
-
     <br>
-    <p style="font-size:20pt; margin-top:10px;">This is supposed to be to the right of the picture</p>
-
+    <p class="img-sidetext">This is supposed to be to the right of the picture</p>
 </div>
 
 <br>
 
-<h1>Table of Contents</h1>
-<ol>
-    <li>
-        <a href="{{ site.url }}/#this-is-some-python-code">Python Code</a>
-    </li>
-    <li>
-        <a href="{{ site.url }}/#testing-some-more-images">Another Image</a>
-    </li>
-    <li>
-        <a href="{{ site.url }}/#puzzles">Puzzles</a>
-    </li>
-</ol>
+<hr>
 
-<p>
-    Welcome
+<div class="puzzle-wrap">
+    <h2 id="puzzles">Puzzles</h2>
+
+    <hr>
+
+    <p>Each of these are puzzles that I've created. Click on one below to try:</p>
+
+    <div class="index-endfloat">
+        <div class="puzzle-img-with-text">
+            <a href="/Puzzles/Spotlight">
+                <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" alt="Spotlight" class="puzzle-thumb">
+            </a>
+            <h4 class="puzzle-thumb-text">Spotlight</h4>
+        </div>
+
+        <div class="puzzle-img-with-text">
+            <a href="/Puzzles/FastMoney">
+                <img src="{{ site.imgurl }}/FastMoney/FastMoneyThumbnail.jpg" alt="Fast Money" class="puzzle-thumb">
+            </a>
+            <h4 class="puzzle-thumb-text">Fast Money</h4>
+        </div>
+
+        <div class="puzzle-img-with-text">
+            <a href="/Puzzles/PeculiarHW">
+                <img src="{{ site.imgurl }}/PeculiarHW/PeculiarHWThumbnail.jpg" alt="A Peculiar Problem Set" class="puzzle-thumb">
+            </a>
+            <h4 class="puzzle-thumb-text">A Peculiar Problem Set</h4>
+        </div>
+    </div>
+
     <br>
-    Click <a href="/recruiterlanding.md">here</a> if you are a recruiter.
 
-</p>
-
-<h2 id="this-is-some-python-code">This is some python code</h2>
-<img src="{{ site.imgurl }}/code.png" title="Python is cool">
-
-<h4 id="testing-some-more-images">Testing some more images</h4>
-<img src="{{ site.imgurl }}/python.jpg" title="PYTHON">
-
-<br>
-
-<h2 id="puzzles">Puzzles</h2>
-<p>Each of these are puzzles that I've created. Click on one below to try:</p>
-
-<div class="index-endfloat">
-    <div class="puzzle-img-with-text">
-        <a href="/Puzzles/Spotlight">
-            <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" alt="Spotlight" class="puzzle-thumb">
-        </a>
-        <h4 class="puzzle-thumb-text">Spotlight</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <a href="/Puzzles/FastMoney">
-            <img src="{{ site.imgurl }}/FastMoney/FastMoneyThumbnail.jpg" alt="Fast Money" class="puzzle-thumb">
-        </a>
-        <h4 class="puzzle-thumb-text">Fast Money</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <a href="/Puzzles/PeculiarHW">
-            <img src="{{ site.imgurl }}/PeculiarHW/PeculiarHWThumbnail.jpg" alt="A Peculiar Problem Set" class="puzzle-thumb">
-        </a>
-        <h4 class="puzzle-thumb-text">A Peculiar Problem Set</h4>
-    </div>
+    <p>
+        <span style="font-weight:bold;">Note:</span> All resources are fair game! Google away!
+    </p>
 </div>
 
-<br>
-
-<p>
-    <span style="font-weight:bold;">Note:</span> All resources are fair game! Google away!
-</p>
+<hr>
 
 <h2 id="posts">Posts</h2>
-<a href="{{ site.posturl }}/newPost">New Post</a>
+
+<hr>
+
+
+<a href="{{ site.posturl }}/newPost" class="post-link">New Post</a>
+<br>
+<p class="post-date">This is the post date</p>
+
