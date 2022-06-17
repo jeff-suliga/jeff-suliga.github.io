@@ -232,18 +232,18 @@ I really hope you've learned something here and start to see how these amazing n
 
 \\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
 
-Click [here](/Extra1) for the solution.
+Click [here](Extra1) for the solution.
 
 -----
 
-We define the *conjugate* of a complex number \\(z=a+bi\\) as \\(\bar{z}=a-bi\\), think of \\(z\\) reflected over the real axis. Two formulas can be derived from their [Taylor Series](https://mathworld.wolfram.com/TaylorSeries.html) expansions:
+We define the *conjugate* of a complex number \\(z=a+bi\\) as \\(\bar{z}=a-bi\\), think of \\(z\\) reflected over the real axis. These two formulas can be derived from the [Taylor Series](https://mathworld.wolfram.com/TaylorSeries.html) expansions of \\(cos(z)\\) and \\(sin(z)\\):
 
-\\[cos(z)=\frac{e^{iz}+e^{i \bar{z}}{2}\\]
-\\[sin(z)=\frac{e^{iz}-e^{i \bar{z}}{2i}\\]
+\\[cos(z)=\frac{e^{iz}+e^{i \bar{z}}}{2}\\]
+\\[sin(z)=\frac{e^{iz}-e^{i \bar{z}}}{2i}\\]
 
 for \\(z \in \mathbb{C}\\). However there is a much easier way and more elegant way to prove these formulas. Sit on them for a while and break them down in pieces, and see if you can convince yourself that these are true.
 
-Click [here](/Extra2) for the solution.
+Click [here](Extra2) for the solution.
 
 -----
 
@@ -251,4 +251,4 @@ Click [here](/Extra2) for the solution.
 
 For how many \\(z \in \mathbb{C}\\) is \\(z^{2}=\bar{z}\\)?
 
-Click [here](/Extra3) for the solution.
+Click [here](Extra3) for the solution.
