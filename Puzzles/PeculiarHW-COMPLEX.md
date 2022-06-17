@@ -2,7 +2,7 @@
 
 -----
 
-<img src="/images/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:818px;height:512px;">
+<img src="{{ site.imgurl }}/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:818px;height:512px;">
 
 -----
 
@@ -39,17 +39,17 @@ A quick glance at any online source speaking about this topic most likely not on
 
 If the player does this at [this site](https://keelyhill.github.io/tuppers-formula/) as an example, using the first large number the following image shows up as expected:
 
-![Tupper's Self-Referential Formula](../../images/PeculiarHW/PeculiarHWFormula.png)
+![Tupper's Self-Referential Formula]({{ site.imgurl }}/PeculiarHW/PeculiarHWFormula.png)
 
 At this point the player will realize they can do the same with the second large number they've been supplied. Doing so gives the following picture:
 
-![Discriminant](../../images/PeculiarHW/PeculiarHWDiscriminant.png)
+![Discriminant]({{ site.imgurl }}/PeculiarHW/PeculiarHWDiscriminant.png)
 
 **Discovery 4:** The Discriminant
 
 This above image is intentionally meant to make the player consider whether or not this milestone marks the end of the journey. The answer, after all, is meant to be a hyphenated extension of the puzzle's home URL. Submitting "DISCRIMINANT" as an answer selection leads the player through a small journey to stumble upon this image, leading them to realize that somewhere on the way, something deeper was at play.
 
-![Not Quite](../../images/PeculiarHW/PeculiarHWNotQuite.png)
+![Not Quite]({{ site.imgurl }}/PeculiarHW/PeculiarHWNotQuite.png)
 
 Treating the line in the image not as a hyphen, but as a negative sign, we now have "Negative Discriminant." Many students in their earlier algebra classes learn that the [discriminant](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:quadratic-functions-equations/x2f8bb11595b61c86:quadratic-formula-a1/a/discriminant-review) relates to quadratic expressions - particularly it determines the kinds solutions any quadratic expression has.  When a quadratic expression has a negative discriminant, this means all of its solutions are **COMPLEX**, the answer to this puzzle.
 
@@ -61,4 +61,4 @@ Treating the line in the image not as a hyphen, but as a negative sign, we now h
 
 -----
 
-Click [here](../../#puzzles) to return to the main page.
+Click [here]({{ site.imgurl }}#puzzles) to return to the main page.
