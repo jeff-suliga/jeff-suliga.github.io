@@ -2,7 +2,7 @@
 layout: post
 title: Complex Rotations
 extenstion: ComplexRotations
-publish-date: June 16, 2022
+publish-date: June 17, 2022
 description: Multiplying complex numbers visually
 ---
 
@@ -164,6 +164,8 @@ And that's the second question I posed at the start of this post! Really well do
 
 ### Solving Complex Problems
 
+##### Problem 1
+
 Lets take a look at the third problem I posed: \\(z=\sqrt{i}\\)
 
 As promised, we already have all of the tools that we need to find an algebraic expression for \\(z\\).
@@ -190,8 +192,63 @@ And this is our solution! \\(e^{i\frac{\pi}{4}}\\)
 
 It should make sense that this point lies halfway up the complex unit circle between \\(i\\) and the positive real axis, because squaring a complex number doubles its angle, which in this case lands us directly on \\(i\\).
 
-\**if you want to say r could be -1, you'd be correct! Try to convince yourself that* \\(-e^{\frac{\pi}{4}}\\) *is also a solution to this problem.*
+\**if you want to say r could be -1, you'd be correct! Try to convince yourself visually why* \\(-e^{\frac{\pi}{4}}\\) *is also a solution to this problem.*
+
+##### Problem 2
+
+\\(z=(\sqrt{2} + i\sqrt{2})^{4}\\)
+
+Finding where this value ends up is a little more nuanced than the last problem, but again if we follow the same rules that we've developed we can solve this one too. This particular problem is one that can be solved without too much trouble by expanding out our expression and multiplying through a couple times. However I hope by this point you would prefer to tackle this one from a more geometric point of view. This would make this puzzle more elegant and satisfying to complete.
+
+I encourage you to look at the image below, and first try to reason through solving this one yourself.
+
+![Problem 2-1]({{ site.imgurl }}/problem2-1.png)
+
+The first thing you may notice is that this \\(\sqrt{2} + i\sqrt{2}\\) value lies *outside* of our familiar complex unit circle, meaning its radius is greater than 1. What this also means is that when we multiply this number by itself, also a number with radius greater than 1, its resulting length is going to increase. This is why the complex unit circle is so important, similar to how real numbers greater than 1 and less than -1 make the magnitude of other real numbers larger when multiplied.
+
+Another thing you may realize is that, since the real and imaginary components of this number are equivalent, this value has an angle of \\(\frac{\pi}{4}\\) with respect to the positive real axis, or \\(45^{\circ}\\). This could also be found using some sneaky trig, similar to how we find the radius of this number below. Since we know this starting angle of \\(\frac{\pi}{4}\\), we can also reason that after multiplying this number 4 times, the final angle of \\(z\\) will be \\(\frac{\pi}{4}+\frac{\pi}{4}+\frac{\pi}{4}+\frac{\pi}{4}=\pi\\) as each time we multiply this number by itself, we are rotating it another \\(\frac{\pi}{4}\\) radians. This clues us in that the final answer will be a strictly real, negative number, as the negative real axis lies at angle \\(\pi\\) on the complex plane!
+
+So now that we know the final angle of \\(z\\), we need to find the magnitude of this result. As mentioned before, when we multiply complex numbers, the resulting value has a length that is a product of the two original lengths. In this case where we are multiplying a number by itself 4 times, we know the final length of \\(z\\) will be 4 times the initial length of our \\(\sqrt{2}+i\sqrt{2}\\).
+
+To find this length, we only need to utilize a very well known geometric theorem - the Pythagorean Theorem. If we divide this value into its real and imaginary components, we see this triangle emerge.
+
+![Problem 2-2]({{ site.imgurl }}/problem2-2.png)
+
+Each of the legs of this right triangle has length \\(\sqrt{2}\\), and so the length of the hypotenuse, which is the magnitude of our \\(\sqrt{2}+isqrt\{2}\\), must be 2.
+
+Using what we found above, we know that this means that the final magnitude of \\(z\\) is \\(2^{4}=16\\).
+
+So now we have our final answer. \\(z\\) has radius \\(16\\) and angle \\(\pi\\), so therefore
+
+\\((\sqrt{2}+isqrt{2})^{4}=16e^{i\pi}\quad\\) or more commonly \\(-16\\).
+
+And that's the answer! Below is an image that shows the repeated multiplying by our number, you're really able to see the rotations and extensions happening here, creating a sort of spiral out from the center, which I think is really cool.
+
+![Problem 2-3]({{ site.imgurl }}/problem2-3.png)
+
+I really hope you've learned something here and start to see how these amazing numbers are more than just a result of weird inputs to an equation. Complex numbers and their strange and fun properties have fascinated me for quite some time, and I really enjoyed putting this together. Thanks for reading, and I've left some extra challenges below for the mind that needs more stretching.
 
 -----
 
 \\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
+
+Click [here](/Extra1) for the solution.
+
+-----
+
+We define the *conjugate* of a complex number \\(z=a+bi\\) as \\(\bar{z}=a-bi\\), think of \\(z\\) reflected over the real axis. Two formulas can be derived from their [Taylor Series](https://mathworld.wolfram.com/TaylorSeries.html) expansions:
+
+\\[cos(z)=\frac{e^{iz}+e^{i \bar{z}}{2}\\]
+\\[sin(z)=\frac{e^{iz}-e^{i \bar{z}}{2i}\\]
+
+for \\(z \in \mathbb{C}\\). However there is a much easier way and more elegant way to prove these formulas. Sit on them for a while and break them down in pieces, and see if you can convince yourself that these are true.
+
+Click [here](/Extra2) for the solution.
+
+-----
+
+*This question is taken from [Brilliant](https://brilliant.org/)'s Complex Analysis self-guided course:* 
+
+For how many \\(z \in \mathbb{C}\\) is \\(z^{2}=\bar{z}\\)?
+
+Click [here](/Extra3) for the solution.
