@@ -61,16 +61,16 @@ As mentioned above, we can see that the imaginary unit cannot be found anywhere 
 
 ![Real Number Line]({{ site.imgurl }}/RealNumberLine.png)
 
-However, we notice that a value can contain both a purely real component and a imaginary component, dividing this new form of number into 2 dimensions. This 2-dimensional number is what we call a *Complex Number* as seen above.
+However, we notice that a value can contain both a purely real component and a imaginary component, dividing this new form of number into 2 dimensions. This 2-dimensional number is what we call a *complex number* as defined above.
 
-**Important Note:** Any number that is either purely real or purely a multiple of the imaginary unit (ex: \\(7.5\\), \\(4i\\), \\(0\\)) is still a complex number as either the \\(a\\) or \\(b\\) (or both) in \\(a+bi\\) can be the real number 0.
+**Note:** Any number that is either purely real or purely a multiple of the imaginary unit (ex: \\(7.5\\), \\(4i\\), \\(0\\)) is still a complex number as either the \\(a\\) or \\(b\\) (or both) in \\(a+bi\\) can be the real number \\(0\\).
 
 To represent real valued numbers we can plot them on a 1-dimensional line like the one seen just above. For complex numbers we can do a similar thing, using a 2-dimensional plane to show both real and imaginary components.
 
 ![Complex Plane]({{ site.imgurl }}/ComplexPlane.svg)
 
 **Note:** In this representation, you can think of a complex number \\(z=x+yi\\) as having "\\(x\\) and \\(y\\) coordinates" on a standard cartesian xy-plot.
-Using this was actually the key way of thinking for solving a homework problem in one of my math classes this past year. For the more advanced, the problem was, with regards to Group Theory: 
+Using this was actually the key way of thinking for solving a homework problem in one of my math classes this past year. For the more experienced, the problem was, with regards to Group Theory: 
 
 \\[Prove \quad \mathbb{C}\cong \mathbb{R}^{2}\\]
 
@@ -128,7 +128,7 @@ Using this form to represent values further strengthens the idea that multiplyin
 
 Let's take two numbers lying on the complex unit circle, \\(z_{1}\\) and \\(z_{2}\\), and multiply them.
 
-We know we can represent them both using the angles they make with the positive real axis, in the form shown by Euler's Formula, so lets say \\(z_{1}=e^{i\theta_{1}}\\) and \\(z_{2}=e^{i\theta_{2}}) where \\(\theta_{1}\\) represents the angle that \\(z_{1}\\) makes with the positive real axis, and \\(\theta_{2}\\) defined similarly. Now we can do the following with a simple algebra trick:
+We know we can represent them both using the angles they make with the positive real axis, in the form shown by Euler's Formula, so lets say \\(z_{1}=e^{i\theta_{1}}\\) and \\(z_{2}=e^{i\theta_{2}}\\) where \\(\theta_{1}\\) represents the angle that \\(z_{1}\\) makes with the positive real axis, and \\(\theta_{2}\\) defined similarly. Now we can do the following with a simple algebra trick:
 
 \\[z_{1} \times z_{2} = e^{i\theta_{1}} \times e^{i\theta_{2}}\\]
 \\[= e^{(i\theta_{1}) + (i\theta_{2})} = e^{i(\theta_{1} + \theta_{2})}\\]
@@ -164,7 +164,7 @@ And that's the second question I posed at the start of this post! Really well do
 
 ### Solving Complex Problems
 
-Lets take a look at the third problem I posed: \\(z=\sqrt{i};\quad\quad\\)
+Lets take a look at the third problem I posed: \\(z=\sqrt{i}\\)
 
 As promised, we already have all of the tools that we need to find an algebraic expression for \\(z\\).
 
@@ -172,13 +172,15 @@ Lets take a look at what it means to take the square root of something. When loo
 
 Well we previously built up the intuition for multiplying complex numbers, so now all we need to do is find this value that fits this criterion.
 
-We know that \\(i\\) lies at the very top of the complex unit circle, so we can deduce a few things: that the radius of \\(i\\) is 1, and the angle it makes with the positive real axis is \\(\frac{\pi}{2}\\). This means we can write \\(i\\) as \\(i=1 \times e^{i\frac{\pi}{2}}\\)
+We know that \\(i\\) lies at the very top of the complex unit circle, so we can deduce a few things: that the radius of \\(i\\) is 1, and the angle it makes with the positive real axis is \\(\frac{\pi}{2}\\). This means we can write \\(i\\) as \\(1 \times e^{i\frac{\pi}{2}}\\) (some call this the *polar representation of* \\(i\\))
 
 ![i on Complex Plane]({{ site.imgurl }}/i.png)
 
 So now we need to find \\(r\\) and \\(\theta\\) for \\(z=re^{i\theta}\\) such that:
 
-\\(z^{2}=(r \times r)e^{i(\theta + \theta})=r^{2}e^{i \times 2\theta}\\) is the same as \\(i=1 \times e^{i\frac{\pi}{2}}\\)
+\\(z^{2}=(r \times r)e^{i(\theta + \theta)}=r^{2}e^{2i\theta}\quad\\) is the same as \\(\quad i=1 \times e^{i\frac{\pi}{2}}\\)
+
+So \\(r^{2}e^{2i\theta}=e^{i\frac{\pi}{2}}\\)
 
 Since this \\(r^{2}\\) determines the radius of the resulting value which has to be \\(1\\), we know \\(r\\) must also be \\(1\\).\* And from here we can also see that \\(2\theta = \frac{\pi}{2} \implies \theta = \frac{\pi}{4}\\)
 
@@ -188,7 +190,7 @@ And this is our solution! \\(e^{i\frac{\pi}{4}}\\)
 
 It should make sense that this point lies halfway up the complex unit circle between \\(i\\) and the positive real axis, because squaring a complex number doubles its angle, which in this case lands us directly on \\(i\\).
 
-\**if you want to say r could be -1, you'd be correct, but you would end up with the equivalent solution of* \\(-e^{i\frac{5\pi}{4}}\\) *or another representation of equivalent value*
+\**if you want to say r could be -1, you'd be correct! Try to convince yourself that* \\(-e^{\frac{\pi}{4}}\\) *is also a solution to this problem.*
 
 -----
 
