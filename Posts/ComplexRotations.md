@@ -6,7 +6,7 @@ publish-date: June 17, 2022
 description: Multiplying complex numbers visually
 ---
 
-My goal for this post is to provide a more intuitive and staisfying way to understand solve problems with complex numbers. If solving for z in expressions such as
+My goal for this post is to provide a more intuitive and satisfying way to understand and solve problems with complex numbers. If solving for \\(z\\) in expressions such as
 
 \\(z=i^{n}, \space n \in \mathbb{Z};\quad\quad\\) or \\(z=re^{i\theta};\quad\quad\\) or even \\(z=\sqrt{i};\quad\quad\\) or even better \\(z=(\sqrt{2} + i\sqrt{2})^{4};\quad\quad\\)
 
@@ -165,7 +165,7 @@ And that's the second question I posed at the start of this post! Really well do
 
 ### Solving Complex Problems
 
-##### Problem 1
+##### Problem 3
 
 Lets take a look at the third problem I posed: \\(z=\sqrt{i}\\)
 
@@ -179,7 +179,7 @@ We know that \\(i\\) lies at the very top of the complex unit circle, so we can 
 
 ![i on Complex Plane]({{ site.imgurl }}/i.png)
 
-So now we need to find \\(r\\) and \\(\theta\\) for \\(z=re^{i\theta}\\) such that:
+So now we need to find \\(r\\) and \\(\theta\\) for \\(z=re^{i\theta}\\) such that \\(z^{2}=i\\). This means:
 
 \\(z^{2}=(r \times r)e^{i(\theta + \theta)}=r^{2}e^{2i\theta}\quad\\) is the same as \\(\quad i=1 \times e^{i\frac{\pi}{2}}\\)
 
@@ -195,13 +195,13 @@ It should make sense that this point lies halfway up the complex unit circle bet
 
 \**if you want to say r could be -1, you'd be correct! Try to convince yourself visually why* \\(-e^{\frac{\pi}{4}}\\) *is also a solution to this problem.*
 
-##### Problem 2
+##### Problem 4
 
 \\(z=(\sqrt{2} + i\sqrt{2})^{4}\\)
 
 Finding where this value ends up is a little more nuanced than the last problem, but again if we follow the same rules that we've developed we can solve this one too. This particular problem is one that can be solved without too much trouble by expanding out our expression and multiplying through a couple times. However I hope by this point you would prefer to tackle this one from a more geometric point of view. This would make this puzzle more elegant and satisfying to complete.
 
-I encourage you to look at the image below, and first try to reason through solving this one yourself.
+I encourage you to look at the image below, and first try to reason through the steps you might take to solve this problem yourself.
 
 ![Problem 2-1]({{ site.imgurl }}/problem2-1.png)
 
@@ -215,13 +215,13 @@ To find this length, we only need to utilize a very well known geometric theorem
 
 ![Problem 2-2]({{ site.imgurl }}/problem2-2.png)
 
-Each of the legs of this right triangle has length \\(\sqrt{2}\\), and so the length of the hypotenuse, which is the magnitude of our \\(\sqrt{2}+isqrt\{2}\\), must be 2.
+Each of the legs of this right triangle has length \\(\sqrt{2}\\), and so the length of the hypotenuse, which is the magnitude of our \\(\sqrt{2}+i\sqrt\{2}\\), must be \\(2\\).
 
 Using what we found above, we know that this means that the final magnitude of \\(z\\) is \\(2^{4}=16\\).
 
 So now we have our final answer. \\(z\\) has radius \\(16\\) and angle \\(\pi\\), so therefore
 
-\\((\sqrt{2}+isqrt{2})^{4}=16e^{i\pi}\quad\\) or more commonly \\(-16\\).
+\\((\sqrt{2}+i\sqrt{2})^{4}=16e^{i\pi}\quad\\) or more commonly \\(-16\\).
 
 And that's the answer! Below is an image that shows the repeated multiplying by our number, you're really able to see the rotations and extensions happening here, creating a sort of spiral out from the center, which I think is really cool.
 
@@ -233,20 +233,22 @@ I really hope you've learned something here and start to see how these amazing n
 
 ### Extra Challenges
 
-\\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
+Evaluate \\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
 
 Click [here](Extra1) for the solution.
 
 -----
 
-We define the *conjugate* of a complex number \\(z=a+bi\\) as \\(\bar{z}=a-bi\\), think of \\(z\\) reflected over the real axis. These two formulas can be derived from the [Taylor Series](https://mathworld.wolfram.com/TaylorSeries.html) expansions of \\(cos(z)\\) and \\(sin(z)\\):
+We define the *conjugate* of a complex number \\(z=a+bi\\) as \\(\bar{z}=a-bi\\), think of \\(z\\) reflected over the real axis.
+
+These two formulas can be derived from the [Taylor Series](https://mathworld.wolfram.com/TaylorSeries.html) expansions of \\(cos(z)\\) and \\(sin(z)\\):
 
 \\[cos(z)=\frac{e^{iz}+e^{i \bar{z}}}{2}\\]
 \\[sin(z)=\frac{e^{iz}-e^{i \bar{z}}}{2i}\\]
 
-for \\(z \in \mathbb{C}\\). However there is a much easier way and more elegant way to prove these formulas. Sit on them for a while and break them down in pieces, and see if you can convince yourself that these are true.
+for \\(z \in \mathbb{C}\\). However there is a much easier way and more elegant way to prove these formulas. Sit on them for a while and break them down in pieces, and see if you can convince yourself visually that these are true.
 
-Click [here](Extra2) for the solution.
+Click [here](Extra2) for my solution.
 
 -----
 
