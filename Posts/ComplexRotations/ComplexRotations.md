@@ -257,3 +257,7 @@ Click [here](Extra2) for my solution.
 For how many \\(z \in \mathbb{C}\\) is \\(z^{2}=\bar{z}\\)?
 
 Click [here](Extra3) for the solution.
+
+-----
+
+[\[Top\]](ComplexRotations)
