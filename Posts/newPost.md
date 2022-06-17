@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Test Title
+extension: newPost
 publish-date: Current Date
 description: This is a description
 ---

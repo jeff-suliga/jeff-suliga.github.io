@@ -2,7 +2,7 @@
 
 -----
 
-<img src="/images/FastMoney/FastMoney.jpg" alt="Fast Money" style="width:640px;height:343px;">
+<img src="{{ site.imgurl }}/FastMoney/FastMoney.jpg" alt="Fast Money" style="width:640px;height:343px;">
 
 -----
 
@@ -62,4 +62,4 @@ Leading the player to the best dressed of pastas and this puzzle's solution, **B
 
 -----
 
-Click [here](../../#puzzles) to return to the main page.
+Click [here]({{ site.url }}#puzzles) to return to the main page.

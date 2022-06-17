@@ -2,13 +2,13 @@
 
 [Optional puzzle description]
 
-<img src="/images/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:[width]px;height:[height]px;">
+<img src="{{ site.imgurl }}/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:[width]px;height:[height]px;">
 
 The answer to this puzzle is a single word.
 
 When you think you have the answer, add "-[your answer]" to the end of this URL **in all capital letters**.
 
-The image is also available [here](../../images/[puzzle name]/[puzzle image name]).
+The image is also available [here]({{ site.imgurl }}/[puzzle name]/[puzzle image name]).
 
 -----
 
@@ -24,4 +24,4 @@ Click [here]([puzzle name]-[puzzle answer]) to see the answer
 
 -----
 
-Click [here](../..) to return to the main page.
+Click [here]({{ site.url }}) to return to the main page.
