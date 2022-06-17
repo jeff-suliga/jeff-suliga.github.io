@@ -169,6 +169,8 @@ And that's the second question I posed at the start of this post! Really well do
 
 Lets take a look at the third problem I posed: \\(z=\sqrt{i}\\)
 
+This problem was inspired by [this video](https://www.youtube.com/watch?v=Z49hXoN4KWg) made by one of my favorite [math channels](https://www.youtube.com/c/blackpenredpen). In this video this problem was approached in a very algebraic way. This is mathematically valid and produced the correct answer, but this puzzle has a much better solution visually, which we will explore here.
+
 As promised, we already have all of the tools that we need to find an algebraic expression for \\(z\\).
 
 Lets take a look at what it means to take the square root of something. When looking for the square root of \\(i\\), we are really looking for some value that, when multiplied by itself, equals \\(i\\).
