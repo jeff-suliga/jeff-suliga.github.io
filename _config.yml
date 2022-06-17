@@ -2,13 +2,14 @@ theme: jekyll-theme-slate
 
 title: Jeff Suliga's title
 description: Finally converted to HTML
-version: Version 8.6.20
+version: Version 8.7.0
 
 name: Jeff Suliga
 
 baseurl: ""
 url: "http://jeff-suliga.github.io"
 imgurl: "https://jeff-suliga.github.io/images"
+imgposturl: "https://jeff-suliga.github.io/images/Posts"
 posturl: "https://jeff-suliga.github.io/Posts"
 
 email: suligajw@vt.edu

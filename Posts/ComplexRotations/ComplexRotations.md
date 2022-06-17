@@ -225,7 +225,7 @@ So now we have our final answer. \\(z\\) has radius \\(16\\) and angle \\(\pi\\)
 
 And that's the answer! Below is an image that shows the repeated multiplying by our number, you're really able to see the rotations and extensions happening here, creating a sort of spiral out from the center, which I think is really cool.
 
-![Problem 2-3]({{ site.imgurl }}/problem2-3.png)
+![Problem 2-3]({{ site.imgposturl }}/{{ page.extension }}/problem2-3.png)
 
 I really hope you've learned something here and start to see how these amazing numbers are more than just a result of weird inputs to an equation. Complex numbers and their strange and fun properties have fascinated me for quite some time, and I really enjoyed putting this together. Thanks for reading, and I've left some extra challenges below for the mind that needs more stretching.
 
