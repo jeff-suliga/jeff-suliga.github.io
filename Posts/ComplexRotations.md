@@ -32,9 +32,9 @@ In mathy notation, this can be written as the following:
 
 This may look confusing, but in plain English this reads:
 
-<p style="text-align:center;">
-    "\\(z\\) is a complex number provided (if and only if) there exists real numbers \\(a\\) and \\(b\\) such that \\(z=a+bi\\)"
-</p>
+
+"\\(z\\) is a complex number provided (if and only if) there exists real numbers \\(a\\) and \\(b\\) such that \\(z=a+bi\\)"
+
 
 Here you might wonder what this \\(i\\) figure is, and why it's important enough to separate the \\(a\\) and \\(b\\) into separate values. As it happens, just about every number you could think of is a real number, until you realize that math has rules that you have to play around. One of these rules you may have been told is:
 
@@ -93,7 +93,7 @@ As an evaluation of this expression, a "solution" could be to state that \\(z\\)
 
 This is a fun pattern to notice, but if you plot these values on the complex plane and see them changing over time, I hope you'd notice there's something deeper at play here. In this and following plots, the real axis is denoted horizontally as 'Re' and imaginary axis is denoted vertically by 'Im':
 
-[gif of cycle]
+![i to n Cycle]({{ site.imgurl }}/i-to-n-Cycle.gif)
 
 Each time we multiply by \\(i\\), it seems we're rotating whatever the previous value was by \\(90^{\circ}\\), or \\(\frac{\pi}{2}\\) radians (we will use radians from now on). More importantly, it almost seems like we are tracing out the outline of a circle by rotating around. In fact, that's exactly what we're doing. Analogous to how we can use [polar coordinates](https://en.wikipedia.org/wiki/Polar_coordinate_system) \\((r, \theta)\\) to represent \\((x, y)\\) coordinates, we can use the distance a complex number is away from \\(0 \space (r)\\) and the angle it makes with the positive real axis \\((\theta)\\) to describe complex numbers instead of \\(a+bi\\).
 
