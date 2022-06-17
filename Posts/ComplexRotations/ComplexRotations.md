@@ -195,7 +195,7 @@ And this is our solution! \\(e^{i\frac{\pi}{4}}\\)
 
 It should make sense that this point lies halfway up the complex unit circle between \\(i\\) and the positive real axis, because squaring a complex number doubles its angle, which in this case lands us directly on \\(i\\).
 
-\**if you want to say r could be -1, you'd be correct! Try to convince yourself visually why* \\(-e^{\frac{\pi}{4}}\\) *is also a solution to this problem.*
+\**if you want to say r could be -1, you'd be correct! Try to convince yourself visually why* \\(-e^{\frac{i\pi}{4}}\\) *is also a solution to this problem.*
 
 ##### Problem 4
 
