@@ -34,4 +34,4 @@ Looking closer at connecting these sections to one another, the player sneakily 
 
 -----
 
-Click [here]({{ site.imgurl }}#puzzles) to return to the main page.
+Click [here]({{ site.url }}#puzzles) to return to the main page.

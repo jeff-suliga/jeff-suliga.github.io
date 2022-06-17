@@ -61,4 +61,4 @@ Treating the line in the image not as a hyphen, but as a negative sign, we now h
 
 -----
 
-Click [here]({{ site.imgurl }}#puzzles) to return to the main page.
+Click [here]({{ site.url }}#puzzles) to return to the main page.
