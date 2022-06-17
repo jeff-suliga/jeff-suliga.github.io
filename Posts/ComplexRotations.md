@@ -20,6 +20,7 @@ Feel free to skip over any of the following sections you already feel comfortabl
 4. [Multiplying on the Complex Unit Circle](#multplying-on-the-complex-unit-circle)
 5. [Leaving the Complex Unit Circle](#leaving-the-complex-unit-circle)
 6. [Solving Complex Problems](#solving-complex-problems)
+7. [Extra Challenges](#extra-challenges)
 
 -----
 
@@ -229,6 +230,8 @@ And that's the answer! Below is an image that shows the repeated multiplying by 
 I really hope you've learned something here and start to see how these amazing numbers are more than just a result of weird inputs to an equation. Complex numbers and their strange and fun properties have fascinated me for quite some time, and I really enjoyed putting this together. Thanks for reading, and I've left some extra challenges below for the mind that needs more stretching.
 
 -----
+
+### Extra Challenges
 
 \\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
 
