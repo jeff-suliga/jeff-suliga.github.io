@@ -2,7 +2,7 @@
 
 -----
 
-<img src="{{ site.imgurl }}/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:818px;height:512px;">
+<img src="{{ site.imgurl }}/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:100%;height:512px;object-fit:contain;">
 
 -----
 
