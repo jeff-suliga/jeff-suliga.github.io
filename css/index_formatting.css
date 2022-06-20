@@ -57,8 +57,11 @@ p.img-sidetext {
 }
 
 .puzzle-wrap::after {
+    content: "";
     clear: both;
+    display: table;
 }
+
 
 .puzzle-img-with-text {
     width:200px;
