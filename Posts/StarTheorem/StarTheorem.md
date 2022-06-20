@@ -1,13 +1,13 @@
 ---
 layout: post
-title: [Title]
+title: Star Theorem
 extenstion: [Extension] (not currently used)
 publish-date: [Publish Date]
-description: [Short Description]
+description: Acute Triangles in the Sky
 ---
 
 [content]
 
 -----
 
-[\[Top\]]([post title])
+[\[Top\]](StarTheorem)
