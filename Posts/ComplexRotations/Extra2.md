@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Complex Rotations Extra Challenge 1
+title: Complex Rotations Extra Challenge 2
 ---
 
 \\[cos(\theta)=\frac{e^{i\theta}+e^{-i \theta}}{2}\\]
@@ -10,7 +10,7 @@ title: Complex Rotations Extra Challenge 1
 
 Before we break down these formulas we should make sure we understand complex conjugates well. As stated in the main post, we define the *conjugate* of a complex number \\(z=a+bi\\) as \\(\bar{z}=a-bi\\).
 
-So let \\(z=e^{it}\\) be a generic complex number with radius 1. Here I've labeled \\(\bar{z}\\) as \\(z\_c\\):
+So let \\(z=e^{it}\\) be a generic complex number with radius 1. Here I've labeled \\(\bar{z}\\) as \\(z\\_c\\):
 
 ![Extra 2-1]({{site.imgposturl}}/ComplexRotations/Extra2-1.png)
 
