@@ -1,8 +1,7 @@
 ---
 layout: post
+title: Complex Rotations Extra Challenge 1
 ---
-
-### Complex Rotations Extra Challenge 1
 
 Evaluate \\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
 
@@ -22,7 +21,7 @@ To find the angle that \\(p\\) lies at, we can use some trigonometry, although m
 
 So now that we have the angle and radius of \\(p\\) we can find those values for \\(z\\):
 
-Multiplying \\(z\\) by itself doubles its angle, so we need \\(2\theta_{z} = \theta_{p} \implies \theta_{z} = \frac{\pi}{6})
+Multiplying \\(z\\) by itself doubles its angle, so we need \\(2\theta_{z} = \theta_{p} \implies \theta_{z} = \frac{\pi}{6}\\)
 
 Also, multiplying \\(z\\) by itself will square its radius, so we need the length of \\(z\\) to be the sqaure root of the length of \\(p\\), namely \\(\pm 2\\)
 
