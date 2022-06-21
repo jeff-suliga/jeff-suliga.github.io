@@ -48,7 +48,7 @@ There's a lot that could be said about how we calculate probabilities of continu
 
 Before we begin, we have to first construct some boundaries for our problem. To start, we will assume we are working with an infinitely large region of space to place stars in. The physicist among you would likely argue with this, as we believe the size of the universe is, at any given moment, of finite size. However we also believe the size of our universe is expanding without bound faster than the speed of light, so for this reason we will be taking this trend towards infinite space as an instantaneous reality.
 
-For now to make visualization easier, we will be working with a 2-dimensional view of space rather than our usual 3 dimensions. Think of taking all of 3D space and projecting it onto your frame of view when looking at the sky, as I first did. Don't worry, we will later extend our argument into 3 dimensions.
+For now to make visualization easier, we will be working with a 2-dimensional view of space rather than our usual 3 dimensions. Think of taking all of 3D space and projecting it onto the frame of view perpendicular to the plane of which the triangle exists, the most natural seeming projection when dealing with this question. Don't worry, we will later extend our argument into 3 dimensions.
 
 -----
 
@@ -56,7 +56,7 @@ For now to make visualization easier, we will be working with a 2-dimensional vi
 
 If you're confused on where we'll even begin to calculate any probabilities of these kinds of geometric events, it takes a fun trick that is probably familiar. We will be comparing the sizes of areas where these outcomes can occur.
 
-First think of a dartboard that lies perfectly within a square frame. In geometry we would say that this dartboard is a circle *inscribed* in a square.
+First think of a dartboard that lies perfectly within a square frame. Geometrically we would say that this dartboard is a circle *inscribed* in a square.
 
 ![Circle inscribed in a square]({{site.imgposturl}}/StarTheorem/circle-in-square.jpg)
 
@@ -64,7 +64,7 @@ Notice that the radius of this circle is the same as one half of the square's si
 
 Provided that all dart throws hit within the square frame, and each point within this frame is equally likely to be hit, what is the probability that a dart throw lands on the left half of the frame? It's 50%, right? We divided the frame into two sections, and compared the size of our area of success to the size of the total area, not unlike how we picked 5 randomly from our discrete set before.
 
-Under these same assumptions, what would the probability of throwing a dart and hitting the dart board? (Choosing a random point and having it be inside the circle)
+Under these same assumptions, what would the probability of throwing a dart and hitting the dart board be? (Choosing a random point and having it be inside the circle)
 
 It makes intuitive sense that, because each point on this square is equally likely to be hit by the dart, we can say that the overall probability of this occurring is the area of the circle divided by the area of the square.
 
@@ -80,15 +80,13 @@ Using this way of thinking we can start constructing some triangles.
 
 ### Placing Stars
 
-To make a triangle out of stars in the sky, we can say with confidence that we need three stars. Due to the infinite nature of the 2D space we are currently working with, let's assume (WLOG) that these two dots below represent the placement of our first two stars.
+To make a triangle out of stars in the sky, we can say with confidence that we need three stars. Due to the infinite nature of the 2D space we are currently working with, we can assume [WLOG](https://en.wikipedia.org/wiki/Without_loss_of_generality) that these two dots below represent the placement of our first two stars.
 
 ![First Two Stars]({{site.imgposturl}}/StarTheorem/two-stars.png)
 
 This assumption might have some of you scratching your heads. What if these stars aren't placed there? What if the one on the right is moved up a little bit?
 
 We have to remember that we're working with an infinite plane here, and that we can turn this plane and "zoom in and out" as much as we want. If the stars are placed closer together than in this image, we can "zoom in" our view so that we see the same thing as above. Similarly if the right star was moved up a little bit, we can rotate our view clockwise such that we see the same as the image.
-
-*-gif of aligning dots*
 
 However, we **cannot** shear the plane in order to achieve this orientation (I don't think) - ponder briefly why we can't do that.
 
@@ -122,15 +120,17 @@ That is exactly the key realization here. We can disregard the area of the small
 
 ![Diagram Zoom Out]({{site.imgposturl}}/StarTheorem/diagram-zoom-out.gif)
 
-This is one way to visualize this - zooming out of the diagram we have first highlights the fact that the area of that small circle becomes negligant very quickly, but secondly shows how this blue strip becomes infinitely small compared to the red regions. Think of our dart board example. In the previous animation we are looking at these regions still from a very zoomed in view of the diagram compared to the infinitely large space we are working with, and we can see that the probability of a dart landing within that strip is very unlikely compared to that of the red area, so as we zoom out to fit more and more of the space we are working with into frame, this probability becomes smaller and smaller.
+This is one way to visualize this - zooming out of the diagram we have first highlights the fact that the area of that small circle becomes negligant very quickly, but secondly shows how this blue strip becomes infinitely thin compared to the red regions. Think of our dart board example. In the previous animation we are looking at these regions still from a very zoomed in view of the diagram compared to the infinitely large space we are working with, and we can see that the probability of a dart landing within that strip is very unlikely compared to that of the red area, so as we zoom out to fit more and more of the space we are working with into frame, this probability becomes smaller and smaller.
 
 This is a fine way of thinking about it, but I don't think it fully causes most people to agree with our claim. It wouldn't scratch the itch for me either, because we're still comparing infinity to infinity here. Watching the next minute or so of [this video](https://youtu.be/WYijIV5JrKg?t=310) will bring up another way to look at it.
 
 Similar to how Dr. James Grime can compare cross-sectional areas of penny stacks to deduce information about the total volume of the stacks, we can look at "cross-sectional slices" of our graph to determine properties about how the total areas in our diagram relate to one another.
 
-![Diagram Slices]({{site.postimgurl}}/StarTheorem/diagram-slices.gif)
+![Diagram Slices]({{site.imgposturl}}/StarTheorem/diagram-slices.gif)
 
-This animation really hammers home the realization of just how much larger the red regions are than the blue strip. At each instance, each "slice" of the diagram, we see that there is an infinitely long stretch of red with a small section of blue with finite length. At each instance, the *length* of the blue sections are zero compared to the infinite length of the red sections, so we can conclude that, on the whole, the blue *area* is zero compared to the area denoted in red.
+This animation really hammers home the realization of just how much larger the red regions are than the blue strip. At each instance, each "slice" of the diagram, we see that there is an infinitely long stretch of red extending to the left and to the right with a small section of blue with finite length. At each instance, the *length* of the blue sections are zero compared to the infinite length of the red sections, so we can conclude that, on the whole, the blue *area* is zero compared to the area denoted in red.
+
+So what does this mean? It means that choosing a random point within this plane and having it end up in this blue strip has probability zero!
 
 And that's our conclusion! It is clearly possible to randomly place three random stars in a configuration that follows the blue strip, however there is a zero probability of this occurring when applying to an infinite plane.
 
@@ -138,11 +138,11 @@ And that's our conclusion! It is clearly possible to randomly place three random
 
 ### Extending to Three Dimensions
 
-There is a small subtlety to this problem when we talk about extending this conclusion to 3 dimensions. When we talk about acute triangles in three dimensions, it's important to remember the definition of an acute triangle - *every angle is less than \\(90^{\circ}\\)*. I'm emphasizing this to remove one's frame of reference from the equation.
+There is a small subtlety to this problem when we talk about extending this conclusion to 3 dimensions. When we talk about acute triangles in three dimensions, it's important to remember the definition of an acute triangle - *every angle is less than* \\(90^{\circ}\\). I'm emphasizing this to remove one's frame of reference from the equation.
 
 Create a circle with your thumb and first finger. Theoretically (if we had curved bones and could move our muscles in such a way), you would have a perfect circle in front of you right now. Now tilt your hand away from you slightly and notice what happens to this circle (again theoretically) - it begins to take on the shape of an oval rather than a perfect circle.
 
-This is the reason I emphasize this definition, because changing one's frame of reference when looking at a triangle in the sky would change their perception of the triangle's classification. If you look at a right triangle "between" one of the legs you would see an acute triangle.
+This is the reason I emphasize this definition, because changing one's frame of reference when looking at a triangle in the sky could change their perception of the triangle's classification. If you look at a right triangle "between" one of the legs you would see an acute triangle.
 
 With this out of the way, there actually is not much more that needs considering when talking about this idea in 3 dimensions. In the same way as before, we can place the first two stars (WLOG) as seen below:
 
@@ -154,7 +154,7 @@ You can follow the same procedure we had before, or simply think about rotating 
 
 In this new diagram we can see that the small circle has now become a sphere between the points, and the center strip indicating acute triangles is now a ring, with the outside regions now extending unbounded in three dimensions as opposed to the previous two.
 
-In the same way that we compared cross-sectional slices to determine properties of area like before, we can now use cross-sectional areas to determine relationships between volumes. This part I'll leave up to you to discover! (Hint: The cross-sectional areas should look very famiiliar)
+In the same way that we compared cross-sectional slices to determine properties of area like before, we can now use cross-sectional areas to determine relationships between volumes. This part I'll leave up to you to discover! (Hint: The cross-sectional areas should look very familiar)
 
 -----
 
