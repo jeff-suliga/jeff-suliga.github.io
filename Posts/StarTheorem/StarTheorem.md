@@ -2,7 +2,7 @@
 layout: post
 title: Star Theorem
 extenstion: Extension (not currently used)
-publish-date: In Progress
+publish-date: June 21, 2022
 description: Acute Triangles in the Sky
 ---
 
@@ -153,6 +153,12 @@ You can follow the same procedure we had before, or simply think about rotating 
 ![3D Diagram Spinning]({{site.imgposturl}}/StarTheorem/3d-diagram-spinning.gif)
 
 In this new diagram we can see that the small circle has now become a sphere between the points, and the center strip indicating acute triangles is now a ring, with the outside regions now extending unbounded in three dimensions as opposed to the previous two.
+
+In the same way that we compared cross-sectional slices to determine properties of area like before, we can now use cross-sectional areas to determine relationships between volumes. This part I'll leave up to you to discover! (Hint: The cross-sectional areas should look very famiiliar)
+
+-----
+
+This idea is one that I've never talked to anyone about without them having some confusion, so hopefully I've explained my argument sufficiently here. If not, please do feel free to connect with me with any questions/explanations! There's always the possibility that I'm wrong...
 
 -----
 
