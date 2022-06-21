@@ -58,7 +58,7 @@ If you're confused on where we'll even begin to calculate any probabilities of t
 
 First think of a dartboard that lies perfectly within a square frame. In geometry we would say that this dartboard is a circle *inscribed* in a square.
 
-![Circle inscribed in a square]({{ site.postimgurl }}/StarTheorem/circle-in-square.jpg)
+![Circle inscribed in a square]({{site.imgposturl}}/StarTheorem/circle-in-square.jpg)
 
 Notice that the radius of this circle is the same as one half of the square's side lengths. Let's call this \\(r\\).
 
@@ -81,7 +81,7 @@ Using this way of thinking we can start constructing some triangles.
 
 To make a triangle out of stars in the sky, we can say with confidence that we need three stars. Due to the infinite nature of the 2D space we are currently working with, let's assume that these two dots below represent the placement of our first two stars.
 
-![First Two Stars]({{ site.postimgurl }}/StarTheorem/two-stars.png)
+![First Two Stars]({{site.imgposturl}}/StarTheorem/two-stars.png)
 
 This assumption might have some of you scratching your heads. What if these stars aren't placed there? What if the one on the right is moved up a little bit?
 
@@ -95,11 +95,11 @@ So at this point we've placed two of the three stars randomly on the plane, and 
 
 I encourage you to try to think ahead through the next few steps ahead of time. Try picking any point on this plane and thinking of the type of triangle you create. Now drag this point around and notice how this triangle changes - specifically in what regions does the third star need to be in to create an acute triangle?
 
-![Third Star Movement 1]({{ site.postimgurl }}/StarTheorem/third-star-movement1.gif)
+![Third Star Movement 1]({{site.imgposturl}}/StarTheorem/third-star-movement1.gif)
 
 Look at this again, but with the following "critical boundaries" defined in black.
 
-![Third Star Movement 2]({{ site.postimgurl }}/StarTheorem/third-star-movement2.gif)
+![Third Star Movement 2]({{site.imgposturl}}/StarTheorem/third-star-movement2.gif)
 
 You'll notice these colored regions actually show these areas where the triangle is acute and obtuse. Any area in red marks where the triangle is obtuse (has an angle that is strictly greater than \\(90^{\circ}\\)) and any area in blue marks where the triangle is acute. The two upright black lines mark where the triangle is a right triangle (one angle is exactly \\(90^{\circ}\\)).
 
@@ -107,7 +107,7 @@ The right region in red marks where the "Star 1" angle is obtuse and the left re
 
 As a consequence of a [simple geometric theorem](https://www.varsitytutors.com/hotmath/hotmath_help/topics/inscribed-angles) we can see that, when the third star is located anywhere on this circle, using the stars as vertices yields a right triangle here as well. This portion is not relevant to answering our question, but it's still a fun geometric side effect.
 
-![Third Star Circling]({{ site.postimgurl }}/StarTheorem/third-star-circle.gif)
+![Third Star Circling]({{site.imgposturl}}/StarTheorem/third-star-circle.gif)
 
 -----
 
