@@ -23,7 +23,7 @@ You'll notice from this image that \\(\theta_{\bar{z}} = - \theta_{z}\\), which 
 
 You can look at them like this!
 
-\\[cos(\theta_{z})=\frac{{z}+\bar{z}}{2}\\]
+\\[cos(\theta_{z})=\frac{z+\bar{z}}{2}\\]
 \\[sin(\theta_{z})=\frac{z-\bar{z}}{2i}\\]
 
 This is a much easier way to envision what this formula is actually telling us to do.
