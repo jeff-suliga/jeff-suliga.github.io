@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 ### Complex Rotations Extra Challenge 1
 
 Evaluate \\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
