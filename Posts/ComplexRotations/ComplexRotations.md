@@ -245,10 +245,10 @@ We define the *conjugate* of a complex number \\(z=a+bi\\) as \\(\bar{z}=a-bi\\)
 
 These two formulas can be derived from the [Taylor Series](https://mathworld.wolfram.com/TaylorSeries.html) expansions of \\(cos(z)\\) and \\(sin(z)\\):
 
-\\[cos(z)=\frac{e^{iz}+e^{i \bar{z}}}{2}\\]
-\\[sin(z)=\frac{e^{iz}-e^{i \bar{z}}}{2i}\\]
+\\[cos(\theta)=\frac{e^{i\theta}+e^{-i \theta}}{2}\\]
+\\[sin(\theta)=\frac{e^{i\theta}-e^{-i \theta}}{2i}\\]
 
-for \\(z \in \mathbb{C}\\). However there is a much easier way and more elegant way to prove these formulas. Sit on them for a while and break them down in pieces, and see if you can convince yourself visually that these are true.
+However there is a much easier way and more elegant way to prove these formulas. Sit on them for a while and break them down in pieces, and see if you can convince yourself visually that these are true.
 
 Click [here](Extra2) for my solution.
 
