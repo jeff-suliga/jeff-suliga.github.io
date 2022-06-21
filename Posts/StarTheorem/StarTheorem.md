@@ -28,7 +28,7 @@ This is the very first problem most people have with our claim, is that it's cle
 
 I have a very simple way of describing how events that are possible can still have probability zero of occurrance. If I asked you to find the probability that a random number chosen from from integers 0 to 9 (inclusive) is 5, you would easily give me the answer 0.1 (10%). You found this answer by using a formula that we all know, whether we realize it or not:
 
-\\[Probability of Success \space = \space \frac{Amount of Successful Outcomes}{Total Number of Outcomes}\\]
+\\[Probability\space of\space Success \space = \space \frac{Amount\space of\space Successful\space Outcomes}{Total\space Number\space of\space Outcomes}\\]
 
 In this instance, our selection set was formed from a discrete set of values - the integers from 0 to 9 - which made this above calculation trivial. One outcome where the chosen number is 5 and 10 total outcomes implies that the probability of randomly selecting a 5 is 0.1.
 
@@ -40,7 +40,7 @@ There's a small but important difference between these two questions, and I hint
 
 There's a lot that could be said about how we calculate probabilities of continuous sets, the difference between using sums and integrals for this calculation, or the usefulness of the probability of a specific value in a continuous setting - but the conclusion remains that the one instance of 5 in an infinitely large set yields a probability of 0 for it being chosen at random. And the ones in distress by this comment can find solace in that, for this question of stars making triangles, we actually will not be pulling a discrete success set from a continuous set - we'll be comparing the sizes of two infinitely large continuous sets.
 
-*\*Side Note:*  I believe this difference and many other aspects of this claim that I will argue have clear explanation using aspects of a field of maths called *Measure Theory*, which I see as the math of *density*. I don't have any formal education or much personal research in this area, so for the more advanced than I, I would love to hear any connections that can be made between this claim we are investigating and measure theory. It's a field that I've become more and more interested in learning about as I advance in my maths education.
+\*I believe this difference and many other aspects of this claim that I will argue have clear explanation using aspects of a field of maths called *Measure Theory*, which I see as the math of *density*. I don't have any formal education or much personal research in this area, so for the more advanced than I, I would love to hear any connections that can be made between this claim we are investigating and measure theory. It's a field that I've become more and more interested in learning about as I advance in my maths education.
 
 -----
 
