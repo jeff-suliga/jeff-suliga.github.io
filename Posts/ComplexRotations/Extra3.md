@@ -15,19 +15,19 @@ To answer this question we have to think of what we are actually doing to comple
 
 Hopefully you're comfortable squaring complex numers as we've learned how to multiply two separate values - its angle will double and its radius will square. As for taking the conjugate, this is simply a reflection of the value over the real axis. So we're looking for values that, when we square them it acts the same as performing this reflection over the real axis.
 
-The key realization here has to do with the radii of our values. We know any solution \\(z\\) can be written as \\(z=re^{i\theta}}\\). Let's think about what happens to this radius when we perform our operations.
+The key realization here has to do with the radii of our values. We know any solution \\(z\\) can be written as \\(z=re^{i\theta}\\). Let's think about what happens to this radius when we perform our operations.
 
 For any complex value \\(p\\), the radius of \\(p\\) and \\(\bar{p}\\) will be the same, since all we are doing is a reflection about a major axis, so the distance the value is away from \\(0\\) will be preserved after this action.
 
 When we square a complex value, however, the radius does have the ability to change. If \\(p\\) has radius \\(r_{p}\\), then \\(p^{2}\\) has radius \\(r_{p}^{2}\\), as we previously learned.
 
-This is important because, if we have \\(z=re^{i\theta}}\\) such that \\(z^{2}=\bar{z}\\), this means that the radii of \\(z^{2}\\) and \\(\bar{z}\\) must be the same. Namely, we have:
+This is important because, if we have \\(z=re^{i\theta}\\) such that \\(z^{2}=\bar{z}\\), this means that the radii of \\(z^{2}\\) and \\(\bar{z}\\) must be the same. Namely, we have:
 
 \\[r^{2}=r \implies r \in \\{ 0, 1 \\}\\]
 
 Let's explore these. First we'll look at \\(r=0\\). The only complex number that has distance \\(0\\) away from \\(0\\) is, well. \\(0\\). And we can see this as a trivial solution to our problem, as \\(0^{2}=0=\bar{0}\\).
 
-This might raise a realization here, that when we deal with strictly real numbers \\(a\\), our question turns into \\(a^2=a\\), as \\(\bar{a+0i}=a-0i=a\\). This means that \\(1\\) is also a solution here, which we can validate.
+This might raise a realization here, that when we deal with strictly real numbers \\(a\\), our question turns into \\(a^2=a\\), as \\(\overline{a+0i}=a-0i=a\\). This means that \\(1\\) is also a solution here, which we can validate.
 
 I call these trivial solutions because they don't fully capture the way of thinking that we need to find the rest of the solutions, because *they don't need to*. These are strictly real numbers, so squaring them doesn't have much going on in terms of angles (\\(0^{\circ} \to 0^{\circ}\\)), and reflecting over the real axis has no effect at all when taking the conjugate.
 
@@ -41,7 +41,7 @@ When I first came across this problem, I was given a multiple choice selection s
 
 We need these angles to be somewhere "past the imaginary axis", angles between \\(\frac{\pi}{2}\\) and \\(\frac{3\pi}{2}\\), so that once we double the angle, the resulting angle is on the other side of the real axis.
 
-My first thought was to try \\(\frac{3\pi}{4}\\), \\(45^{\circ}\\) past the positive imaginary axis, but \\(2 \times \frac{3\pi}{4} = \frac{3\pi}{2}\\), which is past the point of reflecting directly over the real axis.
+My first thought was to try \\(\frac{3\pi}{4}\\), which is \\(45^{\circ}\\) past the positive imaginary axis, but \\(2 \times \frac{3\pi}{4} = \frac{3\pi}{2}\\), which is past the point of reflecting directly over the real axis.
 
 So, because I knew \\(\frac{\pi}{2}\\) would yield \\(2 \times \frac{\pi}{2} = \pi\\), I got the following image in my head. Here, angles made with the positive real axis are labeled as t, and both of the lines connect between the values I tried and their squares (after doubling the angles):
 
