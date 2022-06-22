@@ -28,9 +28,7 @@ This is the very first problem most people have with our claim, is that it's cle
 
 I have a very simple way of describing how events that are possible can still have probability zero of occurrance. If I asked you to find the probability that a random number chosen from from integers 0 to 9 (inclusive) is 5, you would easily give me the answer 0.1 (10%). You found this answer by using a formula that we all know, whether we realize it or not:
 
-
-Probability of success =
-\\(\frac{Amount\space of\space Successful\space Outcomes}{Total\space Number\space of\space Outcomes}\\)
+<p style="text-align:center;font-style:italic;">Probability of Success = Amount of Successful Outcomes / Total Number of Outcomes</p>
 
 In this instance, our selection set was formed from a discrete set of values - the integers from 0 to 9 - which made this above calculation trivial. One outcome where the chosen number is 5 and 10 total outcomes implies that the probability of randomly selecting a 5 is 0.1.
 
