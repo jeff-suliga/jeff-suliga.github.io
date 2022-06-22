@@ -37,7 +37,7 @@ With this in mind, I encourage you to take another pause and convince yourself t
 
 There are multiple ways to approach this problem, and if my explanation doesn't seem natural to you, sit on this question for a bit and try some things out that do seem more natural to you. You definitely can come up with the correct solution with a different way of thinking than I did. That being said, from here on I'll be explaining my thought process when originally solving this puzzle.
 
-When I first came across this problem, I was given a multiple choice selection screen with answer choices 1, 2, 3, and 4. The first 2 were simple enough to come up with, and I knew any non-trivial solutions had to lie on this complex circle, like we deduced here, but I couldn't put actual values to what I had in mind. I had begun to think that the only values this solution applies to are \\(0\\) and \\(1\\), but then I started thinking about the angles that could produce these solutions.
+When I first came across this problem, I was given a multiple choice selection screen with answer choices 1, 2, 3, and 4. The first 2 were simple enough to come up with, and I knew any non-trivial solutions had to lie on this complex circle like we deduced here, but I couldn't put actual values to what I had in mind. I had begun to think that the only values this solution applies to are \\(0\\) and \\(1\\), but then I started thinking about the angles that could produce these solutions.
 
 I recognized that we need these angles to be somewhere "past the imaginary axis", angles between \\(\frac{\pi}{2}\\) and \\(\frac{3\pi}{2}\\), so that once we double the angle, the resulting angle is on the other side of the real axis.
 
