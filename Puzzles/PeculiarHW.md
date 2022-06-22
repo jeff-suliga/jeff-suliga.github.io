@@ -4,7 +4,7 @@
 
 **Important:**  Parts of this puzzle are possible to complete by hand. **Please** do not do this. It will take an absurd amount of time. There are plenty of resources available to you online.
 
-<img src="{{ site.imgurl }}/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:818px;height:512px;">
+<img src="{{ site.imgurl }}/PeculiarHW/PeculiarHW.jpg" alt="A Peculiar Problem Set" style="width:100%;height:512px;object-fit:contain;">
 
 Use [this link](PeculiarHW/PictureInfo.txt) to view the information in the image in text form.
 

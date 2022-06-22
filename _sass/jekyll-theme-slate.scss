@@ -307,7 +307,9 @@ Full-Width Styles
 }
 
 #project_title {
-  margin: 0;
+  margin-top: 50px; // JS: Changed from margin 0
+  margin-bottom: 50px;
+
   color: #fff;
   font-size: 42px;
   font-weight: 700;

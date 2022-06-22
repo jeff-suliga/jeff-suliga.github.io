@@ -1,6 +1,6 @@
 # Fast Money
 
-<img src="{{ site.imgurl }}/FastMoney/FastMoney.jpg" alt="Fast Money" style="width:640px;height:343px;">
+<img src="{{ site.imgurl }}/FastMoney/FastMoney.jpg" alt="Fast Money" style="width:100%;height:343px;object-fit:contain;">
 
 The answer to this puzzle is a single word.
 
