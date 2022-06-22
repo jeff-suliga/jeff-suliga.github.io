@@ -5,6 +5,8 @@ title: Complex Rotations Extra Challenge 1
 
 Evaluate \\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
 
+[Scroll Down](#answer) to just see the answer.
+
 -----
 
 This challenge combines ideas mentioned in the last 2 problems of the main post. In the same way where, in Problem 3 we were looking for a \\(z\\) such that \\(z^{2} = i\\), here we're looking for a \\(z\\) such that \\(z^{2}=4(\frac{1}{2}+i\frac{\sqrt{3}}{2})\\)
@@ -32,6 +34,14 @@ So there's our solution!
 ![Extra 1-2]({{site.imgposturl}}/ComplexRotations/Extra1-2.png)
 
 Notice how each of these have a smaller radius than \\(p\\) and are halfway in angle to \\(p\\) from the positive real axis.
+
+-----
+
+##### Answer
+
+\\(z=\sqrt{4(\frac{1}{2}+i\frac{\sqrt{3}}{2})}\\)
+
+\\(z = \pm 2 e^{i\frac{\pi}{6}}\\)
 
 -----
 
