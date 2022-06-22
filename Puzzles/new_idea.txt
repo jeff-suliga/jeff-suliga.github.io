@@ -1,0 +1,60 @@
+Six Key Braille = 
+
+(in ueb)
+
+DSJ
+DJ
+FSJL
+
+FS
+FK
+FSJKL
+
+FD
+FDSK
+F
+DJ
+FDS
+FDS
+FK
+
+-----
+Nemeth Braille =
+
+(as shown)
+
+FSJK
+FK
+FSJ
+FK
+DSJK
+FDK
+
+FD
+FDSK
+F
+DJ
+FDS
+FDS
+FK
+
+-----
+
+Tactile = 
+20 1 3 20 9 12 5
+
+5*4
+8-7
+3
+8*3-4
+18-9
+10+2
+5
+
+SJKL DL FL DKL
+SJKL SAL SL DSKL
+SJKL DK
+SJKL DSL FL DK SL DKL
+SJKL D DSL SL SK
+SJKL D SKL SJL DS
+SJKL DL
