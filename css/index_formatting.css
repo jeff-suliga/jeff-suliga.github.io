@@ -100,12 +100,12 @@ li.post {
 li.post img {
     width: 100px;
     height: 100px;
-    margin-right: 10px;
-    margin-left: 0px;
     object-fit: cover;
     margin: 0px;
     background-color: cadetblue;
     padding: 3px;
+    margin-left: 0px;
+    margin-right: 10px;
     float: left;
 }
 
