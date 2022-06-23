@@ -19,10 +19,15 @@ The first step in solving this puzzle is decoding the message on top. This porti
 Six Key Braille refers to the way many modern keyboards can be used to type braille characters. Six keys on the keyboard are mapped to each of the six dots that can be filled in for a braille character in the following way:
 
 'F' maps to dot 1
+
 'D' maps to dot 2
+
 'S' maps to dot 3
+
 'J' maps to dot 4
+
 'K' maps to dot 5
+
 'L' maps to dot 6
 
 Where dots 1-6 are labeled in the following manner:
