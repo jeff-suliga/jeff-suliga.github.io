@@ -98,7 +98,9 @@ li.post {
 li.post img {
     width: 100px;
     height: 100px;
-    object-fit: contain;
+    object-fit: cover;
+    margin: 0px;
+    background-color: cadetblue;
     /*float: left;*/
 }
 
