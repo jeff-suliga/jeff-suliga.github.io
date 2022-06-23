@@ -101,7 +101,8 @@ li.post img {
     object-fit: cover;
     margin: 0px;
     background-color: cadetblue;
-    /*float: left;*/
+    padding: 3px;
+    float: left;
 }
 
 li.post::after {
