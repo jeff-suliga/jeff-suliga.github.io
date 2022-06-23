@@ -6,7 +6,7 @@ It seems we've uncovered an old civilization's art wall - their language seems l
 
 The answer to this puzzle is a single word.
 
-When you think you have the answer, add "-[your answer]" to the end of this URL **in all capital letters**.
+When you think you have the answer, add "-[your answer]" (no brackets, spaces, quotations) to the end of this URL **in all capital letters**.
 
 The image is also available [here]({{ site.imgurl }}/Caveman/Caveman.jpg).
 
