@@ -1,17 +1,15 @@
-/* unvisited link */
+/***** Links *****/
 a:link {
     color: #0026ff;
 }
-  
-/* visited link */
 a:visited {
     color: #7373ff;
 }
-
-/* mouse over link */
 a:hover {
     color: #7373ff;
 }
+
+/***** Bio *****/
 
 .img-with-text-container {
     width: 100%;
@@ -51,6 +49,7 @@ p.img-sidetext {
     font-size:14pt;
     margin-top:10px;
 }
+/***** Puzzles *****/
 
 .puzzle-wrap {
     width: 100%;
@@ -83,6 +82,16 @@ p.img-sidetext {
 h4.puzzle-thumb-text {
     margin-top:-10px;
     margin-bottom:10px;
+}
+
+/***** Posts *****/
+
+#post-wrapper {
+    width: 100%;
+}
+
+li.post {
+    width: 100%;
 }
 
 a.post-link {
