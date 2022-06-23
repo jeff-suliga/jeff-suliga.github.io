@@ -73,11 +73,17 @@ p.img-sidetext {
     float:left;
 }
 
-.puzzle-thumb {
+div.puzzle-thumb {
     position: relative;
     width: 150px;
     height: 150px;
     background-color: thistle;
+}
+
+img.puzzle-thumb {
+    position: relative;
+    width: 150px;
+    height: 150px;
 }
 
 .puzzle-thumb-overlay {
