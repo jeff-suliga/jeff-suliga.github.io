@@ -1,13 +1,11 @@
 theme: jekyll-theme-slate
 
 title: Jeff Suliga
-description: Finally converted to HTML
-version: Version 8.12.2
-
-name: Jeff Suliga
+description: Hello World
+version: Version 9.0.1
 
 baseurl: ""
-url: "http://jeff-suliga.github.io"
+url: "https://jeff-suliga.github.io"
 imgurl: "https://jeff-suliga.github.io/images"
 imgposturl: "https://jeff-suliga.github.io/images/Posts"
 posturl: "https://jeff-suliga.github.io/Posts"

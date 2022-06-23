@@ -2,14 +2,15 @@
 layout: default
 ---
 
-<div class="img-with-text-container">
-    <div class="img-with-text">
-        <img src="{{ site.imgurl }}/Snow.jpg" class="img-before-text">
+<div id="img-with-text-container">
+    <div class="bio-img-container">
+        <img src="{{ site.imgurl }}/Snow.jpg" class="bio-img">
         <p class="img-subtext">
-            Unfotunately I've found some mathematical inaccuracies on this hoodie
+            Unfortunately I've found some mathematical inaccuracies on this hoodie
         </p>
-
+        
     </div>
+
     <br>
     <p class="img-sidetext">My name is Jeff Suliga, and I am a Junior at Virginia Tech double majoring in Computer Science and Applied Discrete Mathematics.
         My educational passions include solving everyday problems with coding solutions, and learning about pure maths and the
@@ -22,6 +23,32 @@ layout: default
 
 <hr>
 
+<div id="post-wrapper">
+
+    <h2 id="posts">Posts</h2>
+
+    <hr>
+
+    <ul>
+        <li class="post">
+            <img src="{{ site.imgposturl }}/StarTheorem/third-star-circle.gif" class="post-thumb">
+            <a href="{{ site.posturl }}/StarTheorem/StarTheorem" class="post-link">Star Theorem: Acute Triangles in the Sky</a>
+            <br>
+            <p class="post-date">June 21, 2022</p>
+        </li>
+        
+        <li class="post">
+            <img src="{{ site.imgposturl }}/ComplexRotations/i-with-sqrt.png" class="post-thumb">
+            <a href="{{ site.posturl }}/ComplexRotations/ComplexRotations" class="post-link">Complex Rotations: Multiplying Complex Numbers Visually</a>
+            <br>
+            <p class="post-date">June 17, 2022</p>
+        </li>
+    </ul>
+
+</div>
+
+<hr>
+
 <div class="puzzle-wrap">
     <h2 id="puzzles">Puzzles</h2>
 
@@ -30,23 +57,42 @@ layout: default
     <p>Each of these are puzzles that I've created. Click on one below to try:</p>
 
     <div class="puzzle-img-with-text">
-        <a href="/Puzzles/Spotlight">
-            <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" alt="Spotlight" class="puzzle-thumb">
-        </a>
+        <div class="puzzle-thumb">
+            <div class="puzzle-thumb-overlay"></div>
+            <a href="/Puzzles/Spotlight">
+                <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" alt="Spotlight" class="puzzle-thumb">
+            </a>
+        </div>
         <h4 class="puzzle-thumb-text">Spotlight</h4>
     </div>
 
     <div class="puzzle-img-with-text">
-        <a href="/Puzzles/FastMoney">
-            <img src="{{ site.imgurl }}/FastMoney/FastMoneyThumbnail.jpg" alt="Fast Money" class="puzzle-thumb">
-        </a>
+        <div class="puzzle-thumb">
+            <a href="/Puzzles/Caveman">
+                <img src="{{ site.imgurl }}/Caveman/CavemanThumbnail.jpg" alt="Caveman" class="puzzle-thumb">
+                <div class="puzzle-thumb-overlay"></div>
+            </a>
+        </div>
+        <h4 class="puzzle-thumb-text">Caveman</h4>
+    </div>
+
+    <div class="puzzle-img-with-text">
+        <div class="puzzle-thumb">
+            <a href="/Puzzles/FastMoney">
+                <img src="{{ site.imgurl }}/FastMoney/FastMoneyThumbnail.jpg" alt="Fast Money" class="puzzle-thumb">
+                <div class="puzzle-thumb-overlay"></div>
+            </a>
+        </div>
         <h4 class="puzzle-thumb-text">Fast Money</h4>
     </div>
 
     <div class="puzzle-img-with-text">
-        <a href="/Puzzles/PeculiarHW">
-            <img src="{{ site.imgurl }}/PeculiarHW/PeculiarHWThumbnail.jpg" alt="A Peculiar Problem Set" class="puzzle-thumb">
-        </a>
+        <div class="puzzle-thumb">
+            <a href="/Puzzles/PeculiarHW">
+                <img src="{{ site.imgurl }}/PeculiarHW/PeculiarHWThumbnail.jpg" alt="A Peculiar Problem Set" class="puzzle-thumb">
+                <div class="puzzle-thumb-overlay"></div>
+            </a>
+        </div>
         <h4 class="puzzle-thumb-text">A Peculiar Problem Set</h4>
     </div>
 
@@ -56,23 +102,3 @@ layout: default
 <p>
     <span style="font-weight:bold;">Note:</span> All resources are fair game! Google away!
 </p>
-
-<hr>
-
-<h2 id="posts">Posts</h2>
-
-<hr>
-
-<ul>
-    <li>
-        <a href="{{ site.posturl }}/StarTheorem/StarTheorem" class="post-link">Star Theorem: Acute Triangles in the Sky</a>
-        <br>
-        <p class="post-date">June 21, 2022</p>
-    </li>
-    
-    <li>
-        <a href="{{ site.posturl }}/ComplexRotations/ComplexRotations" class="post-link">Complex Rotations: Multiplying Complex Numbers Visually</a>
-        <br>
-        <p class="post-date">June 17, 2022</p>
-    </li>
-</ul>

@@ -10,6 +10,7 @@
 }
 
 .home-image {
+    margin: 0px;
     object-fit: cover;
     height: 150px;
     width: 150px;
