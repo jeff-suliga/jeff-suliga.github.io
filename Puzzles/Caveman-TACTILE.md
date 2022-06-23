@@ -18,17 +18,17 @@ The first step in solving this puzzle is decoding the message on top. This porti
 
 Six Key Braille refers to the way many modern keyboards can be used to type braille characters. Six keys on the keyboard are mapped to each of the six dots that can be filled in for a braille character in the following way:
 
-'F' maps to dot 1
+**F** maps to dot **1**
 
-'D' maps to dot 2
+**D** maps to dot **2**
 
-'S' maps to dot 3
+**S** maps to dot **3**
 
-'J' maps to dot 4
+**J** maps to dot **4**
 
-'K' maps to dot 5
+**K** maps to dot **5**
 
-'L' maps to dot 6
+**L** maps to dot **6**
 
 Where dots 1-6 are labeled in the following manner:
 
@@ -64,7 +64,7 @@ In nemeth style braille, this character represents the beginning of a sequence t
 
 \\(5\\)
 
-These expressions when evaluated yield "20 1 3 20 9 12 5"
+These expressions when evaluated yield \\(20 \space 1 \space 3 \space 20 \space 9 \space 12 \space 5\\)
 
 Treating 1 as 'A', 2 as 'B' and so on, this expression says **TACTILE**, the answer to this puzzle.
 
