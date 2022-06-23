@@ -74,6 +74,7 @@ p.img-sidetext {
 }
 
 .puzzle-thumb {
+    position: relative;
     width: 150px;
     height: 150px;
     background-color: thistle;
