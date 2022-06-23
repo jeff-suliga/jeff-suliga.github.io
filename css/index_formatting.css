@@ -92,6 +92,18 @@ h4.puzzle-thumb-text {
 
 li.post {
     width: 100%;
+    list-style: none;
+}
+
+li.post img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    /*float: left;*/
+}
+
+li.post::after {
+    clear: both;
 }
 
 a.post-link {
