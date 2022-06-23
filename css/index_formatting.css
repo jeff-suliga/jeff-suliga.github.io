@@ -93,11 +93,14 @@ h4.puzzle-thumb-text {
 li.post {
     width: 100%;
     list-style: none;
+    margin-bottom: 40px;
 }
 
 li.post img {
     width: 100px;
     height: 100px;
+    margin-right: 10px;
+    margin-left: 0px;
     object-fit: cover;
     margin: 0px;
     background-color: cadetblue;
