@@ -97,7 +97,7 @@ li.post {
     margin-bottom: 40px;
 }
 
-li.post img {
+li.post img.post-thumb {
     width: 100px;
     height: 100px;
     object-fit: cover;
