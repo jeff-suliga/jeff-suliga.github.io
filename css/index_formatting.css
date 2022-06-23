@@ -106,7 +106,7 @@ img.puzzle-thumb {
 
 div.puzzle-thumb:hover .puzzle-thumb-overlay {
     transition: .5s ease;
-    opacity: 0.25;
+    opacity: 0.5;
 }
 
 h4.puzzle-thumb-text {
