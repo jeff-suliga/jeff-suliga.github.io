@@ -79,6 +79,23 @@ p.img-sidetext {
     background-color: thistle;
 }
 
+.puzzle-thumb-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #000000;
+}
+
+.puzzle-thumb:hover .puzzle-thumb-overlay {
+    transition: .5s ease;
+    opacity: 0.25;
+}
+
 h4.puzzle-thumb-text {
     margin-top:-10px;
     margin-bottom:10px;
