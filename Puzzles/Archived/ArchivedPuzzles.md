@@ -1,3 +1,5 @@
+### Archived Puzzles
+
 These are puzzles that I've made that I've taken off of my main page, either because they're too hard, too obscure, or I just feel they aren't good puzzles.
 
 Click on any below to try:
@@ -9,7 +11,7 @@ This is the first puzzle I made. I took it down because the background was way t
 
 Warning, Spotlight and Detective share the same solution, so I recommend trying Spotlight first.
 
-[Detective](/Detective_A/Detective)
+[Detective](Detective_A/Detective)
 
 -----
 
@@ -18,4 +20,4 @@ Caveman is a fun puzzle that explores different types of a specific way of encod
 
 Warning, Pool Tables and Caveman share a very particular theme. Viewing this will certainly give a big hint for Pool Tables, so I recommend trying Pool Tables first.
 
-[Caveman](/Caveman_A/Caveman)
+[Caveman](Caveman_A/Caveman)
