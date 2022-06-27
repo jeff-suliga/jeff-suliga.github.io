@@ -2,7 +2,7 @@
 
 -----
 
-<img src="/images/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:100%;height:[height]px;object-fit:contain;">
+<img src="{{ site.imgurl }}/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:100%;height:[height]px;object-fit:contain;">
 
 -----
 

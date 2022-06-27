@@ -25,7 +25,7 @@ This is important because, if we have \\(z=re^{i\theta}\\) such that \\(z^{2}=\b
 
 \\[r^{2}=r \implies r \in \\{ 0, 1 \\}\\]
 
-Let's explore these. First we'll look at \\(r=0\\). The only complex number that has distance \\(0\\) away from \\(0\\) is, well. \\(0\\). And we can see this as a trivial solution to our problem, as \\(0^{2}=0=\bar{0}\\).
+Let's explore these. First we'll look at \\(r=0\\). The only complex number that has distance \\(0\\) away from \\(0\\) is, well, \\(0\\). And we can see this as a trivial solution to our problem, as \\(0^{2}=0=\bar{0}\\).
 
 This might raise a realization here, that when we deal with strictly real numbers \\(a\\), our question turns into \\(a^2=a\\), as \\(\overline{a+0i}=a-0i=a\\). This means that \\(1\\) is also a solution here, which we can validate.
 
@@ -35,7 +35,7 @@ With this in mind, I encourage you to take another pause and convince yourself t
 
 ![Extra 3-1]({{site.imgposturl}}/ComplexRotations/Extra3-1.png)
 
-There are multiple ways to approach this problem, and if my explanation doesn't seem natural to you, sit on this question for a bit and try some things out that do seem more natural to you. You definitely can come up with the correct solution with a different way of thinking than I did. That being said, from here on I'll be explaining my thought process when originally solving this puzzle.
+There are multiple ways to approach this problem, and if my explanation doesn't seem natural to you, sit on this question for a bit and try some things out that do seem more natural to you. You definitely can come up with the correct solution with a different way of thinking than I did. That being said, from here on I'll be explaining my thought process from when I originally solved this puzzle.
 
 When I first came across this problem, I was given a multiple choice selection screen with answer choices 1, 2, 3, and 4. The first 2 were simple enough to come up with, and I knew any non-trivial solutions had to lie on this complex circle like we deduced here, but I couldn't put actual values to what I had in mind. I had begun to think that the only values this solution applies to are \\(0\\) and \\(1\\), but then I started thinking about the angles that could produce these solutions.
 
@@ -43,11 +43,11 @@ I recognized that we need these angles to be somewhere "past the imaginary axis"
 
 My first thought was to try \\(e^{i \frac{3\pi}{4}}\\), which is \\(45^{\circ}\\) past the positive imaginary axis, but \\(2 \times \frac{3\pi}{4} = \frac{3\pi}{2}\\), which is further along the complex unit circle than the conjugate of \\(e^{i \frac{3\pi}{4}}\\).
 
-So, because I knew \\(e^{i \frac{\pi}{2}}\\) would yield \\(2 \times \frac{\pi}{2} = \pi\\) (or just by thinking of \\(i^{2} = -1\\)), I got the following image in my head. Here, angles made with the positive real axis are labeled as t, and both of the lines connect between the values I tried and their squares (after doubling the angles):
+So, because I knew \\(e^{i \frac{\pi}{2}}\\) would yield \\(2 \times \frac{\pi}{2} = \pi\\) (or just by thinking of \\(i^{2} = -1\\)), I got the following image in my head. Here, angles made with the positive real axis are labeled as t, and both of the lines connect between the complex values I tried and their squares (after doubling the angles):
 
 ![Extra 3-2]({{site.imgposturl}}/ComplexRotations/Extra3-2.png)
 
-The answer we're looking for will have a line that is purely vertical, mapping the complex value directly to its conjugate. Because of the fact that this process we are taking of doubling angles is continuous (shown by the following animation), we know by our friend the [IVT](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-16/a/intermediate-value-theorem-review) that somewhere between these two lines lies a vertical line.
+The answer we're looking for will have a line that is purely vertical, mapping the complex value directly to its conjugate. Because of the fact that this process we are taking of doubling angles is continuous (shown by the following animation), we know by our friend the [IVT](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-16/a/intermediate-value-theorem-review) that somewhere between these two lines shown above lies a vertical line.
 
 Here, t1 refers to \\(e^{i t_{1}}\\) which is connected to t2, which represents \\((e^{i t_{1}})^{2}\\):
 

@@ -26,13 +26,15 @@ You may notice that I keep saying that this event has a *zero probability* of oc
 
 This is the very first problem most people have with our claim, is that it's clearly possible to create an acute triangle with stars in the sky, and I'll never argue with that. There are lots of examples of this in the sky that you could point out this evening. In fact, there are *infinitely many* ways to make an acute triangle by placing stars in the sky, yet the probability of this happening by chance remains zero. Sit tight, there's more on comparable infinities in a bit.
 
+Throughout the entirety of this post, when we say "random," we are talking about "random according to a uniform distribution of outcomes." This means that for any two possible outcomes of an event, both will be equally likely to occur from the random selection process (all outcomes are equally likely).
+
 I have a very simple way of describing how events that are possible can still have probability zero of occurrance. If I asked you to find the probability that a random number chosen from from integers 0 to 9 (inclusive) is 5, you would easily give me the answer 0.1 (10%). You found this answer by using a formula that we all know, whether we realize it or not:
 
 <p style="text-align:center;font-style:italic;">Probability of Success = Amount of Successful Outcomes / Total Number of Outcomes</p>
 
-In this instance, our selection set was formed from a discrete set of values - the integers from 0 to 9 - which made this above calculation trivial. One outcome where the chosen number is 5 and 10 total outcomes implies that the probability of randomly selecting a 5 is 0.1.
+In this instance, our selection set was formed from a discrete set of values - the integers from 0 to 9 - which made this above calculation trivial. One outcome where the chosen number is 5 with 10 total possible outcomes implies that the probability of randomly selecting a 5 is 0.1.
 
-Now let's change the rules a little bit. What if I instead asked you to find the probability that a random number chosen from *real numbers* 0 to 9 is 5? Clearly the number 5 is included in this set as a possible outcome, but so is 5.01, 5.00001, and 4.9999999... and each of the infinitely many numbers in between, meaning the \\(Total\\) \\(Number\\) \\(of\\) \\(Outcomes\\) in this instance is infinity. So this outcome is not impossible, yet absurdly unlikely. Probability zero unlikely.
+Now let's change the rules a little bit. What if I instead asked you to find the probability that a random number chosen from *real numbers* 0 to 9 is 5? Clearly the number 5 is included in this set as a possible outcome, but so is 5.01, 5.00001, and 4.9999999... and each of the infinitely many numbers in between, meaning the *Total Number of Outcomes* in this instance is infinity. So this outcome is not impossible, yet absurdly unlikely. Probability zero unlikely.
 
 In the same way, we can say that the probability of choosing any number *except* 5 randomly from this set has probability 1, but not certain.
 
@@ -40,7 +42,7 @@ There's a small but important difference between these two questions, and I hint
 
 There's a lot that could be said about how we calculate probabilities of continuous sets, the difference between using sums and integrals for this calculation, or even the usefulness of the probability of a specific value in a continuous setting - but the conclusion remains that the one instance of 5 in an infinitely large set yields a probability of 0 for it being chosen at random. And the ones in distress by this comment can find solace in that, for this question of stars making triangles, we actually will not be pulling a discrete success set from a continuous set - we'll be comparing the sizes of two infinitely large continuous sets.
 
-\*I believe this difference and many other aspects of this claim that I will argue have clear explanation using aspects of a field of maths called *Measure Theory*, which I see as the math of *density*. I don't have any formal education or much personal research in this area, so for the more advanced than I, I would love to hear any connections that can be made between this claim we are investigating and measure theory. It's a field that I've become more and more interested in learning about as I advance in my maths education.
+\*I believe this difference and many other aspects of this claim that I will argue have clear explanation using aspects of a field of maths called *Measure Theory*, which I see as the math of *set density*. I don't have any formal education or much personal research in this area, so for the more advanced than I, I would love to hear any connections that can be made between this claim we are investigating and measure theory. It's a field that I've become more and more interested in learning about as I advance in my maths education.
 
 -----
 
@@ -48,7 +50,7 @@ There's a lot that could be said about how we calculate probabilities of continu
 
 Before we begin, we have to first construct some boundaries for our problem. To start, we will assume we are working with an infinitely large region of space to place stars in. The physicist among you would likely argue with this, as we believe the size of the universe is, at any given moment, of finite size. However we also believe the size of our universe is expanding without bound faster than the speed of light, so for this reason we will be taking this trend towards infinite space as an instantaneous reality.
 
-For now to make visualization easier, we will be working with a 2-dimensional view of space rather than our usual 3 dimensions. Think of taking all of 3D space and projecting it onto the frame of view perpendicular to the plane of which the triangle exists, the most natural seeming projection when dealing with this question. Don't worry, we will later extend our argument into 3 dimensions.
+For now to make visualization easier, we will be working with a 2-dimensional view of space rather than our usual 3 dimensions. Think of taking all of 3D space and projecting it onto the plane of which the triangle exists, the most natural seeming projection when dealing with this question. Think of this as "looking directly at the triangle" instead of "looking at the triangle from the side." Don't worry, we will later extend our argument into 3 dimensions.
 
 -----
 
@@ -62,17 +64,17 @@ First think of a dartboard that lies perfectly within a square frame. Geometrica
 
 Notice that the radius of this circle is the same as one half of the square's side lengths. Let's call this \\(r\\).
 
-Provided that all dart throws hit within the square frame, and each point within this frame is equally likely to be hit, what is the probability that a dart throw lands on the left half of the frame? It's 50%, right? We divided the frame into two sections, and compared the size of our area of success to the size of the total area, not unlike how we picked 5 randomly from our discrete set before.
+Provided that all dart throws hit within the square frame, and each point within this frame is equally likely to be hit, what is the probability that a dart throw lands on the left half of the frame? It's 50%, right? We divided the frame into two sections, and compared the size of our area of success to the size of the total area, not too unlike how we picked 5 randomly from our discrete set before.
 
 Under these same assumptions, what would the probability of throwing a dart and hitting the dart board be? (Choosing a random point and having it be inside the circle)
 
-It makes intuitive sense that, because each point on this square is equally likely to be hit by the dart, we can say that the overall probability of this occurring is the area of the circle divided by the area of the square.
+It makes intuitive sense that, because each point on this square is equally likely to be hit by the dart, we can say that the overall probability of this occurring is the area of the circle divided by the area of the square. Here, the circle is acting as our set of successful outcomes and the square is acting as the set of all possible outcomes.
 
 Area of circle = \\(\pi r^{2}\\)
 
 Area of square = \\(base \times height = 2r \times 2r = 4r^{2}\\)
 
-So the probability of hitting the dartboard = \\(\frac{\pi r^{2}}{4r^2} = \frac{\pi}{4}\\)
+So the probability of hitting the dartboard = \\(\frac{\pi r^{2}}{4r^2} = \frac{\pi}{4} \approx 0.7854\\)
 
 Using this way of thinking we can start constructing some triangles.
 
@@ -128,7 +130,7 @@ Similar to how Dr. James Grime can compare cross-sectional areas of penny stacks
 
 ![Diagram Slices]({{site.imgposturl}}/StarTheorem/diagram-slices.gif)
 
-This animation really hammers home the realization of just how much larger the red regions are than the blue strip. At each instance, each "slice" of the diagram, we see that there is an infinitely long stretch of red extending to the left and to the right with a small section of blue with finite length. At each instance, the *length* of the blue sections are zero compared to the infinite length of the red sections, so we can conclude that, on the whole, the blue *area* is zero compared to the area denoted in red.
+This animation really hammers home the realization of just how much larger the red regions are than the blue strip. At each instance, each "slice" of the diagram, we see that there is an infinitely long stretch of red extending to the left and to the right with a small section of blue with finite length. At each instance, the *length* of the blue sections are zero compared to the infinite length of the red sections, so we can conclude that, by adding up all of these "slices" of the diagram, the blue *area* is zero compared to the area denoted in red.
 
 So what does this mean? It means that choosing a random point within this plane and having it end up in this blue strip has probability zero!
 
@@ -152,13 +154,13 @@ You can follow the same procedure we had before, or simply think about rotating 
 
 ![3D Diagram Spinning]({{site.imgposturl}}/StarTheorem/3d-diagram-spinning.gif)
 
-In this new diagram we can see that the small circle has now become a sphere between the points, and the center strip indicating acute triangles is now a ring, with the outside regions now extending unbounded in three dimensions as opposed to the previous two.
+In this new diagram we can see that the small circle has now become a sphere between the points, and the center strip indicating acute triangles is now a ring between the two "walls" extending infinitely in twwo dimensions, with the outside regions now extending unbounded in three dimensions as opposed to the previous two.
 
 In the same way that we compared cross-sectional slices to determine properties of area like before, we can now use cross-sectional areas to determine relationships between volumes. This part I'll leave up to you to discover! (Hint: The cross-sectional areas should look very familiar)
 
 -----
 
-This idea is one that I've never talked to anyone about without them having some confusion, so hopefully I've explained my argument sufficiently here. If not, please do feel free to connect with me with any questions/explanations! There's always the possibility that I'm wrong...
+This idea is one that I rarely talk to anyone about without them having some confusion, so hopefully I've explained my argument sufficiently here. If not, please do feel free to connect with me with any questions/explanations! There's always the possibility that I'm wrong...
 
 -----
 
