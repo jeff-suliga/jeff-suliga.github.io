@@ -70,4 +70,4 @@ Treating 1 as 'A', 2 as 'B' and so on, this expression says **TACTILE**, the ans
 
 -----
 
-Click [here]({{ site.url }}/#puzzles) to return to the main page.
+Click [here]({{ site.url }}/Puzzles/Archived/ArchivedPuzzles) to return to the main page.
