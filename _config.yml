@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
 
 title: Jeff Suliga
-description: Hello World
-version: Version 9.4.0
+# description: Hello World
+version: Version 9.5.1
 
 baseurl: ""
 url: "https://jeff-suliga.github.io"
