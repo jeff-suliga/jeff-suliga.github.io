@@ -22,7 +22,7 @@ Once the player has decoded the message *Rainbow*, they'll notice that every bal
 
 ![Rainbow Colored]({{ site.imgurl }}/PoolTables/PoolTablesSolution2.png)
 
-We can decode this same message again, but this time in color order of the balls. Doing this gives the following:
+We can decode this same message again, but this time in rainbow color order of the balls. Doing this gives the following:
 
 ![Banzai]({{ site.imgurl }}/PoolTables/PoolTablesSolution3.png)
 
