@@ -9,6 +9,10 @@ a:hover {
     color: #7373ff;
 }
 
+hr.new-section {
+    border-top: 1px dashed;
+}
+
 /***** Bio *****/
 
 #img-with-text-container {
