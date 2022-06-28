@@ -82,7 +82,7 @@ caca
         cacao
 cae
 car
-carabao
+        carabao
 caracara
 carb
 care
@@ -233,7 +233,7 @@ carbo
 cbc
 cc
 ceo
-cerebra
+        cerebra
         cobra
 cocoa
 coo
@@ -241,3 +241,41 @@ ea
 eec
 cobr
 oro
+
+
+Tracking worm paths of travel over time - "onion skins"
+One color per day of the week
+
+if curled up, dot
+if straightened, dash
+
+Barbacoa:
+
+Layer 4, 2, 6, 4, 2, 5, 1, 2
+42642512
+
+Morse code, small bugs dots large bugs dashes
+
+"Layers, Horizon, dashing, dashes, dotting the earth"
+
+Layer 42642512
+.-.. .- -.-- . .-. ....- ..--- -.... ....- ..--- ..... .---- ..---
+
+
+Cobra:
+
+Layer 51462
+.-.. .- -.-- . .-. ..... .---- ....- -.... ..---
+
+5 dots in the shape of L, .---- in the shape of a, ....- for y, -.... for e, ..--- for r
+
+
+Carabao:
+
+Horizon 5262421
+..... ..--- -.... ..--- ....- ..--- .----
+
+DOTDASH
+MORSE
+DItNdah
+
