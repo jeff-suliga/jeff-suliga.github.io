@@ -21,3 +21,9 @@ Caveman is a fun puzzle that explores different types of a specific way of encod
 Warning, Pool Tables and Caveman share a very particular theme. Viewing this will certainly give a big hint for Pool Tables, so I recommend trying Pool Tables first.
 
 [Caveman](Caveman_A/Caveman)
+
+-----
+
+Fast Money has a really interesting concept to it. I wish I felt right about keeping it on the main page, but some of the key discoveries were just too obscure. At this point I haven't reworked a puzzle with this theme but I very likely will at some point.
+
+[FastMoney](FastMoney_A/FastMoney)
