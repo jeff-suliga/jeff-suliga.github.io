@@ -36,7 +36,7 @@ The main soil horizons, or layers, that can be found are classified in the follo
 
 <p align=center>
 
-    <span style="font-weight:bold">O horizon, A horizon, E, B, C, R</span>
+    <span style="font-weight:bold">O, A, E, B, C, R</span>
 
 </p>
 
