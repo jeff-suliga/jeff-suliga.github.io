@@ -2,7 +2,7 @@
 
 -----
 
-<img src="{{ site.imgurl }}/RunawayWorm/RunawayWorm" alt="Runaway Worm" style="width:100%;height:900px;object-fit:contain;">
+<img src="{{ site.imgurl }}/RunawayWorm/RunawayWorm.jpg" alt="Runaway Worm" style="width:100%;height:900px;object-fit:contain;">
 
 -----
 
