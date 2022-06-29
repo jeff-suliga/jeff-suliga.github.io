@@ -1,0 +1,42 @@
+Someone help!
+It seems someone **(not** qualified has been searching through
+our characters and **left** A Star-Crossed Information
+Interference in**side** that corrupted our transmission and took our **number** - all
+of our 1's **and** **zero** s have been wiped! We might as 
+well have tossed it all into the /bin on the right
+and started over from **zerox**, this time making sure our
+expressions stay regular.
+
+Message from expression: 
+
+(not left side number and 0x3F) x or 0x D9
+
+Ascii letters:
+Uppercase: 0x41 to 0x5A
+Lowercase: 0x61 to 0x7A
+
+NO 0x5E to 0x60
+
+RegEx:
+
+[^A-z\*']+.*$
+
+Answer:
+
+Steganography
+
+ASCII (add 0x20 for lowercase):
+
+S - 0x53
+T - 0x54
+E - 0x45
+G - 0x47
+A - 0x41
+N - 0x4E
+O - 0x4F
+G - 0x47
+R - 0x52
+A - 0x41
+P - 0x50
+H - 0x48
+Y - 0x59
