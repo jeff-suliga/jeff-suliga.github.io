@@ -26,5 +26,5 @@ Click [here](PeculiarHW-COMPLEX) to see the answer
 
 -----
 
-Click [here]({{ site.url }}) to return to the main page.
+Click [here]({{ site.url }}/Puzzles/Archived/ArchivedPuzzles) to return to the main page.
 
