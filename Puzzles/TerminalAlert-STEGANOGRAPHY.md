@@ -66,7 +66,9 @@ The first value is shown as an example below:
 
 ![Bitwise Calculations]({{site.imgurl}}/TerminalAlert/TerminalAlertSolution3.png)
 
-Carrying on in this way of performing the logical operations on the left bytes and using the calculated binary as an ASCII reference yields *STEGANOGRAPHY_*. This, **STEGANOGRAPHY** is the art of hiding secret data within a file or message, and is the answer to this puzzle.
+Carrying on in this way of performing the logical operations on the left bytes and using the calculated binary as an ASCII reference yields *STEGANOGRAPHY_*.
+
+**STEGANOGRAPHY**, the art of hiding secret data within a file or message, is the answer to this puzzle.
 
 -----
 
