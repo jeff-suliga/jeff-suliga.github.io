@@ -26,31 +26,7 @@ At the end of the message is a reference to regular expressions, or regex, which
 
 Using the string found above as a regular expression to search through the message, the following matches arise:
 
------
-
-=(not
-
-$left
-
-;side
-
-\>number
-
-&and
-
-?zero
-
-"x3F)
-
-<xor
-
-:0x
-
-$59
-
------
-
-These can also be seen [here](https://regex101.com/r/G2g0oN/1).
+<img src="{{ site.imgurl }}/TerminalAlert/TerminalAlertSolution2.png" style="width:100%;height:550px;object-fit:contain;">
 
 Removing the first characters that were used to idenitify the regex patterns and placing these together gives the following:
 
@@ -60,11 +36,11 @@ Removing the first characters that were used to idenitify the regex patterns and
 
 This string acts as directions for the next step of the puzzle. We see here that we now need to use the binary on the left portion or the border and perform some bitwise logical operations on each of them, where 0x represents the start of an eight bit value represented in hexadecimal as is standard.
 
-![Left Binary]({{site.imgurl}}/TerminalAlert/TerminalAlertSolution2.png)
+![Left Binary]({{site.imgurl}}/TerminalAlert/TerminalAlertSolution3.png)
 
 The first value is shown as an example below:
 
-![Bitwise Calculations]({{site.imgurl}}/TerminalAlert/TerminalAlertSolution3.png)
+![Bitwise Calculations]({{site.imgurl}}/TerminalAlert/TerminalAlertSolution4.png)
 
 Carrying on in this way of performing the logical operations on the left bytes and using the calculated binary as an ASCII reference yields *STEGANOGRAPHY_*.
 
