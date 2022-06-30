@@ -34,7 +34,7 @@ $left
 
 ;side
 
->number
+\>number
 
 &and
 
@@ -49,6 +49,9 @@ $left
 $59
 
 -----
+
+| \=(and | \$left | \;side | \>number | \&and | \?zero | \"x3F) | \<xor | \:0x | \$59 |
+|-------|-------|-------|---------|------|-------|-------|------|-----|-----|
 
 These can also be seen [here](https://regex101.com/r/G2g0oN/1).
 
