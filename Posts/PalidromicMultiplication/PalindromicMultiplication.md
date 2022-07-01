@@ -6,7 +6,7 @@ publish-date: In Progress
 description: Palindromic Multiplication
 ---
 
-[content]
+This is some content
 
 -----
 
