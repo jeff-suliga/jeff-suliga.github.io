@@ -1,6 +1,6 @@
 # Runaway Worm
 
-<img src="{{ site.imgurl }}/RunawayWorm/RunawayWorm.jpg" alt="Runaway Worm" style="width:100%;height:900px;object-fit:contain;">
+<img src="{{ site.imgurl }}/RunawayWorm/RunawayWorm.jpg" alt="Runaway Worm" style="width:100%;height:600px;object-fit:contain;">
 
 The answer to this puzzle is a single word.
 

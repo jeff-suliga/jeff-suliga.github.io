@@ -30,7 +30,7 @@ Fast Money has a really interesting concept to it. I wish I felt right about kee
 
 -----
 
-A Peculiar Problem Set is a math related puzzle that I absolutely love. Unfortunately the main concept is wayy to obscure to include in a puzzle on my main page. There are some big hints in the image to guide the player towards an enlightening google search, but again this concept is not something that most people are familiar with. I may possibly start making concept-specific puzzles at some point (ex. this puzzle would fall into a "Math" category), in which this puzzle will absolutely make a return.
+A Peculiar Problem Set is a math related puzzle that I absolutely love. Unfortunately the main concept is wayy too obscure to include in a puzzle on my main page. There are some big hints in the image to guide the player towards an enlightening google search, but again this concept is not something that most people are familiar with. I may possibly start making concept-specific puzzles at some point (ex. this puzzle would fall into a "Math" category), in which this puzzle will absolutely make a return.
 
 I encourage anyone who clicks on this puzzle and can't figure out what to do to look at the solution. I state this in the solution page, but this particular puzzle is one that should be viewed as a learning experience rather than failing/succeeding at a puzzle (in fact, I think all puzzles should be viewed this way but this one especially). So don't feel bad about looking at the solution for this one.
 
