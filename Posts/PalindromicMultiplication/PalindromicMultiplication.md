@@ -56,7 +56,7 @@ Let's start out with just \\(111 \times 111\\). I venture to say that none of us
 
 This last step can be shown vertically like this:
 
-![111x111]({{site.imgposturl}}/PalindromicMultiplation/111x111.png)
+![111x111]({{site.imgposturl}}/PalindromicMultiplication/111x111.png)
 
 Notice how, when we multiplied a string of three 1's by itself we got an addition of three values, each with three ones, offset by 0, 1, and 2 zeroes.
 
@@ -68,7 +68,7 @@ Let's move a step up now:
 
 Which can be seen as:
 
-![1111x1111]({{site.imgposturl}}/PalindromicMultiplation/1111x1111.png)
+![1111x1111]({{site.imgposturl}}/PalindromicMultiplication/1111x1111.png)
 
 Here we have a string of *four* 1's multiplied by itself to get an addition of *four* values, each with *four* ones, offset by 0, 1, 2, and 3 zeroes.
 
@@ -84,9 +84,9 @@ We can say based on this pattern, that if we have a string of \\(n\\) 1's in a r
 
 But consider the case that originally stumped me:
 
-\\[1111111111 \times 1111111111\\]:
+\\[1111111111 \times 1111111111\\]
 
-![Ten ones]({{site.imgposturl}}/PalindromicMultiplation/10ones.png)
+![Ten ones]({{site.imgposturl}}/PalindromicMultiplication/10ones.png)
 
 This doesn't follow our formula, because from the left we see "...5679..." and it seems to skip over the 8. So where does our formula fall apart?
 
@@ -96,11 +96,11 @@ Our formula actually works perfectly fine, but we need to impose one more condit
 
 If you're not familiar with how number systems work, check out this good article [here](https://betterexplained.com/articles/numbers-and-bases/)
 
-Take another look at the image above. If we instead counted the amount of ones in each column of our answer we would get something like this, where "|" here is being used to denote the different place values of our answer:
+Take another look at the image above. If we instead counted the amount of ones in each column of our answer we would get something like this, where "\|" here is being used to denote the different place values of our answer:
 
 1111111111 x 1111111111 =
 
-|1|2|3|4|5|6|7|8|9|10|9|8|7|6|5|4|3|2|1|
+\|1\|2\|3\|4\|5\|6\|7\|8\|9\|10\|9\|8\|7\|6\|5\|4\|3\|2\|1\|
 
 This follows our generalized formula as we expect, and here we start to see why this formula fails to work for this value when viewed in a base 10 number system, because when we sum up 10 ones as we did in that middle column, we are all taught to "carry the 1" to the next place value. If we do this with the boxes we've created above we'd see we get the same "...5679..." number that we arrived at before.
 
@@ -116,37 +116,37 @@ What this means is that this fun pattern will arise in any number system! We als
 
 So in base 4, this will break down when we try 1111x1111. From here we will use subscripts of numbers (in decimal of course) to denote which number system we are using:
 
-\\[11_{4} \times 11_{4} = 121_{4}\\]
+\\[11\_{4} \times 11\_{4} = 121\_{4}\\]
 
-\\[111_{4} \times 111_{4} = 12321_{4}\\]
+\\[111\_{4} \times 111\_{4} = 12321\_{4}\\]
 
-\\[1111_{4} \times 1111_{4} = |1|2|3|4|3|2|1|_{4} = 1300321_{4}\\]
+\\[1111\_{4} \times 1111\_{4} = \|1\|2\|3\|4\|3\|2\|1\|\_{4} = 1300321\_{4}\\]
 
 These expressions are equivalent to the following in decimal (the base 10 number system we all just love so much for some reason):
 
-\\[5_{10} \times 5_{10} = 25_{10}\\]
+\\[5\_{10} \times 5\_{10} = 25\_{10}\\]
 
-\\[21_{10} \times 21_{10} = 441_{10}\\]
+\\[21\_{10} \times 21\_{10} = 441\_{10}\\]
 
-\\[85_{10} \times 85_{10} = 7225_{10}\\]
+\\[85\_{10} \times 85\_{10} = 7225\_{10}\\]
 
-This fact that we can predict how the pattern will behave in a certain number system is fun, but I think the coolest takeaway from this idea that this pattern holds in any number system that is greater than \\(n\\)! For example, \\(1111_{8} \times 1111_{8} = 1234321_{8}\\) in the same way that \\(1111_{8} \times 1111_{9} = 1234321_{9}\\), \\(1111_{10} \times 1111_{10} = 1234321_{10}\\), and \\(1111_{j} \times 1111_{j} = 1234321_{j} \space ; \quad \forall j \gt n\\)!
+This fact that we can predict how the pattern will behave in a certain number system is fun, but I think the coolest takeaway from this idea that this pattern holds in any number system that is greater than \\(n\\)! For example, \\(1111\_{8} \times 1111\_{8} = 1234321\_{8}\\) in the same way that \\(1111\_{8} \times 1111\_{9} = 1234321\_{9}\\), \\(1111\_{10} \times 1111\_{10} = 1234321\_{10}\\), and \\(1111\_{j} \times 1111\_{j} = 1234321\_{j} \space ; \quad \forall j \gt n\\)!
 
 Here's that example:
 
-\\[1111_{8} \times 1111_{8} = 1234321_{8}\\]
+\\[1111\_{8} \times 1111\_{8} = 1234321\_{8}\\]
 
-\\[1111_{9} \times 1111_{9} = 1234321_{9}\\]
+\\[1111\_{9} \times 1111\_{9} = 1234321\_{9}\\]
 
-\\[1111_{10} \times 1111_{10} = 1234321_{10}\\]
+\\[1111\_{10} \times 1111\_{10} = 1234321\_{10}\\]
 
 Which correspond to:
 
-\\[585_{10} \times 585_{10} = 342225_{10}\\]
+\\[585\_{10} \times 585\_{10} = 342225\_{10}\\]
 
-\\[820_{10} \times 820_{10} = 672400_{10}\\]
+\\[820\_{10} \times 820\_{10} = 672400\_{10}\\]
 
-\\[1111_{10} \times 1111_{10} = 1234321_{10}\\]
+\\[1111\_{10} \times 1111\_{10} = 1234321\_{10}\\]
 
 These are three completely different expressions, yet can be shown by the same pattern in their different number systems. Isn't that cool?
 
