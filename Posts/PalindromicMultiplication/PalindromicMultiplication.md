@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 11111x11111=123454321
+title: 1111x1111=1234321
 extenstion: Extension (not currently used)
 publish-date: July 1, 2022
 description: Palindromic Multiplication
@@ -19,9 +19,9 @@ I believe I was first taught my multiplication tables in the third grade. In my 
 
 Once when we were playing this game I was having a particularly good day, and the conditions were perfect for me. The notorious mental math ace and now good friend of mine, Mike Gerhart, sat to my left after an stunning upset. I was now pitted against the one who slayed this beast. After defeating them I found myself moving around the classroom at marvelous pace, vanquishing each of my enemies one by one.
 
-After I had conquered all but one of my adversaries, my victims now looked to me to become the second ever to make the rounds and claim my position in history as one to circle the whole room. My final battle of my campaign meant I had to face the only other to complete the task. Shaking in nervousness I stood up by Mr. Gerhart and awaited my two numbers that would either propel me into celebrity statu or leave me in defeat.
+After I had conquered all but one of my adversaries, my victims now looked to me to become the second ever to make the rounds and claim my position in history as one to circle the whole room. My final battle of my campaign meant I had to face the only other to complete the task. Shaking in nervousness I stood up by Mr. Gerhart and awaited my two numbers that would either propel me into celebrity status or leave me in defeat.
 
-I blinked my eyes at the most unopportune time, and had a fraction less time than Mike to notice the numbers had been flipped:
+I blinked my eyes at the most unopportune moment, and had a fraction less time than Mike to notice the numbers had been flipped:
 
 \\[11 \times 7\\]
 
