@@ -2,7 +2,7 @@
 layout: post
 title: 11111x11111=123454321
 extenstion: Extension (not currently used)
-publish-date: In Progress
+publish-date: July 1, 2022
 description: Palindromic Multiplication
 ---
 
@@ -130,7 +130,7 @@ These expressions are equivalent to the following in decimal (the base 10 number
 
 \\[85\_{10} \times 85\_{10} = 7225\_{10}\\]
 
-This fact that we can predict how the pattern will behave in a certain number system is fun, but I think the coolest takeaway from this idea that this pattern holds in any number system that is greater than \\(n\\)! For example, \\(1111\_{8} \times 1111\_{8} = 1234321\_{8}\\) in the same way that \\(1111\_{8} \times 1111\_{9} = 1234321\_{9}\\), \\(1111\_{10} \times 1111\_{10} = 1234321\_{10}\\), and \\(1111\_{j} \times 1111\_{j} = 1234321\_{j} \space ; \quad \forall j \gt n\\)!
+This fact that we can predict how the pattern will behave in a certain number system is fun, but I think the coolest takeaway from this idea that this pattern holds in any number system that is greater than \\(n\\)! For example, \\(1111\_{8} \times 1111\_{8} = 1234321\_{8}\\) in the same way that \\(1111\_{9} \times 1111\_{9} = 1234321\_{9}\\), \\(1111\_{10} \times 1111\_{10} = 1234321\_{10}\\), and \\(1111\_{j} \times 1111\_{j} = 1234321\_{j} \space ; \quad \forall j \gt n\\)!
 
 Here's that example:
 
