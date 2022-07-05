@@ -248,7 +248,7 @@ But we don't actually know the values in this set yet without checking them all,
 
 So now we have a list of factors of \\(m-1\\), lets call this \\(F\_{m-1}\\)\*. Now we can start with the least value of this list and look at \\(m\\) represented in this base. If it has all ones, then we've found \\(\gamma\_{m}\\), and if not we move on to the next higher value in the list, continuing in this way until we've found the least value in \\(N\_{m}\\).
 
-\*A cool note is that, we've already shown at the start that \\(N\_{m} \subseteq F\_{m-1} \cup \\{m\\}\\). Another thing to ponder is: what values of \\(m\\) cause \\(N\_{m} \subset F\_{m-1}\\)? I don't know where I'd start with this one, my guess is that you might be able to follow some kind of reasoning similar to Euler's Totient Function but I have no clue. Food for thought!
+\*A cool note is that, we've already shown at the start that \\(N\_{m} \subseteq F\_{m-1} \cup \\{m\\}\\). Another thing to ponder is: what values of \\(m\\) cause \\(N\_{m} \subset F\_{m-1} \cup \\{m\\}\\)? I don't know where I'd start with this one, my guess is that you might be able to follow some kind of reasoning similar to Euler's Totient Function but I have no clue. Food for thought!
 
 -----
 
