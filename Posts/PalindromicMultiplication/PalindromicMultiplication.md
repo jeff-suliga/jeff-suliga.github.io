@@ -10,12 +10,13 @@ description: Palindromic Multiplication
 2. [Palindromes](#palindromes-from-111-1111)
 3. [Number Systems](#number-systems)
 4. [More Number Systems](#more-number-systems)
+5. [An Additional Problem - July 5 2022](#addendum---july-5-2022)
 
 -----
 
 ### Multiplying by 11
 
-I believe I was first taught my multiplication tables in the third grade. In my class we would sometimes play a highly competitive, one on one showdown multiplication game to test our knowledge in a fun way. Two kids would stand up, and the teacher would flip a flashcard with two numbers, both always between 1 and 12, and the first of the two to correctly shout the product of these numbers would move on to face the next kid. The highest of victories belonged to one who would be able to make their way through the entire room without being beaten, a dream achieved by only one person in the whole class - Mike Gerhart. I would usually beat a handful of kids in a row, but my mental math has never been remarkably strong and I would always end up taking a seat.
+I believe I was first taught my multiplication tables in the third grade. In my class we would sometimes play a highly competitive, one on one showdown multiplication game to test our knowledge in a fun way. Two kids would stand up, and the teacher would flip a flashcard with two numbers, both always between 1 and 12, and the first of the two students to correctly shout the product of these numbers would move on to face the next kid. The highest of victories belonged to one who would be able to make their way through the entire room without being beaten, a dream achieved by only one person in the whole class - Mike Gerhart. I would usually beat a handful of kids in a row, but my mental math has never been remarkably strong and I would always end up taking a seat.
 
 Once when we were playing this game I was having a particularly good day, and the conditions were perfect for me. The notorious mental math ace and now good friend of mine, Mike Gerhart, sat to my left after an stunning upset. I was now pitted against the one who slayed this beast. After defeating them I found myself moving around the classroom at marvelous pace, vanquishing each of my enemies one by one.
 
@@ -44,11 +45,11 @@ I was haphazardly inputting different operations when I came upon this pattern:
 
 I didn't know what a palindrome was at the time, but I did notice that these products seemed to be counting from 1, up to a number and then back down to 1 on the other side.
 
-I kept going with this until I realized this pattern broke once I inputted a string of 10 1's in a row. The calculator I was using probably showed this in scientific notation (which I didn't know what it meant for a long time, my brother and I legitimately used to say "\\(1e-2\\)" as "one, Eistein's Theories, negative two"), but I was still able to notice the pattern didn't follow the "12345..." and back down idea.
+I kept going with this until I realized this pattern broke once I inputted a string of 10 1's in a row. The calculator I was using probably showed this in scientific notation (which I didn't know what it meant for a long time, my brother and I legitimately used to say "\\(1.3e24\\)" as "one point three, Eistein's Theories, twenty four"), but I was still able to notice the pattern didn't follow the "12345..." and back down idea.
 
 Let's take a closer look at what we're doing when we multiply these string of ones together. For now we'll be working in our usual base 10 decimal system, but we'll expand this later.
 
-Let's start out with just \\(111 \times 111\\). I venture to say that none of us can just straight multiply these in our heads, but we can break these numbers down in the following way:
+Let's start out with just \\(111 \times 111\\). To multiply these, we can break these numbers down in the following way:
 
 \\[111 \times 111 = (100 + 10 + 1) \times 111\\]
 
@@ -90,7 +91,7 @@ But consider the case that originally stumped me:
 
 This doesn't follow our formula, because from the left we see "...5679..." and it seems to skip over the 8. So where does our formula fall apart?
 
-*It doesn't!*
+As a matter of fact, *it doesn't!*
 
 Our formula actually works perfectly fine, but we need to impose one more condition: that we need to be operating on numbers in a number system with base *greater than* \\(n\\).
 
@@ -130,7 +131,7 @@ These expressions are equivalent to the following in decimal (the base 10 number
 
 \\[85\_{10} \times 85\_{10} = 7225\_{10}\\]
 
-This fact that we can predict how the pattern will behave in a certain number system is fun, but I think the coolest takeaway from this idea that this pattern holds in any number system that is greater than \\(n\\)! For example, \\(1111\_{8} \times 1111\_{8} = 1234321\_{8}\\) in the same way that \\(1111\_{9} \times 1111\_{9} = 1234321\_{9}\\), \\(1111\_{10} \times 1111\_{10} = 1234321\_{10}\\), and \\(1111\_{j} \times 1111\_{j} = 1234321\_{j} \space ; \quad \forall j \gt n\\)!
+This fact that we can predict how the pattern will behave in a certain number system is fun, but I think the coolest takeaway from this idea that this pattern holds in any number system that is greater than \\(n\\)! For example, \\(1111\_{8} \times 1111\_{8} = 1234321\_{8}\\) in the same way that \\(1111\_{9} \times 1111\_{9} = 1234321\_{9}\\), \\(1111\_{10} \times 1111\_{10} = 1234321\_{10}\\), and \\(1111\_{j} \times 1111\_{j} = 1234321\_{j} \space ; \quad \forall j \gt 4\\)!
 
 Here's that example:
 
@@ -151,6 +152,52 @@ Which correspond to:
 These are three completely different expressions, yet can be shown by the same pattern in their different number systems. Isn't that cool?
 
 I'm sure there's more to be explored with this, but this is all that my mind takes me to with this. Let me know what more there is the be discovered!
+
+-----
+
+### Addendum - July 5, 2022
+
+Seeing this example above, translating \\(585\_{10}\\) and \\(820\_{10}\\) into base 8 and 9 such that their representations in these number systems are strings strictly of ones, got me thinking about what makes these numbers special in base 10? What other numbers do we have in decimal that we can translate into another number system such that it's representation in that number system is just ones?
+
+Well, I realized that for all integers \\(m \gt 2\\) (ponder for a moment why I make this distinction), we can construct this string using base \\(m-1\\). This is true because the representation of \\(m\\) in base \\(m-1\\) will *always* be \\(11\\). Convince yourself of this briefly.
+
+Ok so that's cool, we can take any \\(m\_{10}\\) and make it into a string of ones, \\(11\_{m-1}\\), and from there we can say that \\(11\_{m-1} \times 11\_{m-1} = 121\_{m-1}\\).
+
+But take another look at the example we had before. It's not like we just took \\(585\_{10}\\) and said \\(11\_{584} \times 11\_{584} = 121\_{584}\\), this way of approaching this isn't really that meaningful and is pretty unsatisfying if you ask me. I would say that, in the way me said \\(585\_{10}\\) and \\(820\_{10}\\) are *special* in decimal, I would argue that, the more ones we can have in the string of numbers (ex: \\(585\_{10}\\) as 1111\_{8} rather than 11\_{584}\\) makes the number more special.
+
+Let's make this more rigorous: take a number \\(m \in \mathbb{Z}\\) by \\(m \gt 2\\).
+
+Define the **Unity Base of m** \\(\gamma\_{m}\\) as *the base of the number system in which the representation of m contains only ones, and the most quantity of ones*.
+
+Define the **Unity Index of m** \\(\epsilon\_{m}\\) as *the number of ones* that are present in \\(\gamma\_{m}\\). 
+
+Define the **Base Unity Set on m** \\(N\_m = \{a \in \mathbb{Z}^{\ge 2} : m\_{a} \space contains \space all \space ones\}\\). This means that \\(N\_{m}\\) will contain all of the decimal numbers of the bases 
+
+For example:
+
+It can be shown by exhaustion that \\(\gamma\_{13} = 3\\) as as \\(13_{10}\\) contains only ones when represented in ternary (base 3) and this representation contains the most ones out of any other number system base to choose from. Also, \\(\epsilon\_{13} = 3\\) as \\(13_{10} = 111\_{3}\\) which has 3 ones. Further, \\(N\_{m} = \{3, 12, 13\}\\) as \\(13_{10} = 111\_{3} = 11\_{12} = 1\_{13}\\)
+
+I made these terms up for the sake of this problem, I don't think these are real things in the math world ( yet :) ). The reason I'm putting definitions to these is that there are plenty of other problems that can be made from this line of thinking, such as digging into the spaces between values within \\(N\_{m}\\) (my intuition tells me that it will never contain values above \\(\frac{m}{2}\\) apart from \\(m\\) and \\(m-1\\)) or the unions of these Base Unity sets and what properties they give about the numbers themselves. I haven't put much thought into these yet but I'm sure there are discoveries to be made here.
+
+It can be noted that for any \\(m \in \mathbb{Z}\\) by \\(m \gt 2\\), \\(\epsilon\_{m} \ge 2\\), as \\(m\_{m-1}\\) will always be \\(11\\) from before. We can also say that \\(\|N\_{m}\| \ge 2\\) since \\(m\_{m}\\) will always be \\(1\\).
+
+From what I said earlier, my claim is that the greater \\(\epsilon\_{m}\\), the more *special* the number feels to me. What we're really trying to do here is trying to find \\(\gamma_{m}\\) as this is the base system in which \\(m\\) can be represented by the most ones (\\(\epsilon_{m}\\)).
+
+One could say here, *"well that just means we can make these special numbers by taking 1111111... from base 10, just keep adding ones!"* This is true, yet I would call this the trivial solution to this problem (and hence less special to me).
+
+Now that we have these definitions in order, we can ask the question:
+
+Given \\(x \in \mathbb{Z}^{\gt 2}\\), what is \\(\gamma_{x}\\)?
+
+Another way to look at this that seems like it has a combinatorial/generating functions angle is:
+
+Given \\(x \in \mathbb{Z}^{\gt 2}\\), what is the maximum value for \\(h \in \mathbb{Z}^{\ge 2}\\) such that:
+
+\\[x=\sum\_{i=0}^{n}h^{n}\\]
+
+Here, \\(n\\) would end up being \\(\epsilon\_{x} - 1\\), but of course this is unknown at the point of creating this expression for a given \\(x\\).
+
+I don't have an answer for this question, it only popped into my mind after writing this post and I thought I'd share what I think are the necessary tools to begin digging a little deeper into this problem.
 
 -----
 
