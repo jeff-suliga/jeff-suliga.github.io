@@ -190,17 +190,13 @@ One could say here, *"well that just means we can make these special numbers by 
 
 Now that we have these definitions in order, we can ask the central question to this discussion:
 
-<p align=center>
-    Given \\(x \in \mathbb{Z}^{\gt 2}\\), what is \\(\gamma_{x}\\)?
-</p>
+Given \\(x \in \mathbb{Z}^{\gt 2}\\), what is \\(\gamma_{x}\\)?
 
 In other words, how could we go backwards from \\(585\_{10}\\) to know that 8 is the best base for representing this value in all ones? (For those wondering, I checked 2-7 and none of them show all ones)
 
 Another way to look at this that seems like it might have a combinatorial/generating functions angle is:
 
-<p align=center>
-    Given \\(x \in \mathbb{Z}^{\gt 2}\\), what is the value for \\(h \in \mathbb{Z}^{\ge 2}\\) such that \\(n\\) is maximized:
-</p>
+Given \\(x \in \mathbb{Z}^{\gt 2}\\), what is the value for \\(h \in \mathbb{Z}^{\ge 2}\\) such that \\(n\\) is maximized:
 
 \\[x=\sum\_{i=0}^{n}h^{n}\\]
 
