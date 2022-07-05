@@ -262,6 +262,8 @@ Additionally, I wrote some really sloppy code to see all of the cool numbers fro
 
 {31: 2, 63: 2, 121: 3, 127: 2, 255: 2, 341: 4, 364: 3, 511: 2, 781: 5, 1023: 2, 1093: 3, 1365: 4, 1555: 6, 2047: 2, 2801: 7, 3280: 3, 3906: 5, 4095: 2, 4681: 8, 5461: 4, 7381: 9, 8191: 2, 9331: 6, 9841: 3, 11111: 10, 16105: 11, 16383: 2, 19531: 5, 19608: 7, 21845: 4, 22621: 12, 29524: 3, 30941: 13, 32767: 2, 37449: 8, 41371: 14, 54241: 15, 55987: 6, 65535: 2, 66430: 9, 69905: 16, 87381: 4, 88573: 3, 88741: 17, 97656: 5}
 
+It should be noted that, if we're trying to do this for the purpose of using our pattern that we discovered earlier in the main portion of the post, we need to consider whether our base is large enough to hold the values when multiplied by itself. Namely we need to ask, is the base at least one greater than the length of the representation of the number in that number system? This would rule out a lot of the result we could find using our script, but could be fixed by just adding a couple lines for this check.
+
 Again, I'm sure there's more to be explored with this kind of idea. I've really enjoyed poking around a bit and discovering this for myself, if you have other cool ideas you would like to work around do let me know!
 
 -----
