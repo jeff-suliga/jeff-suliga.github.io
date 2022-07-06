@@ -156,9 +156,15 @@ I'm sure there's more to be explored with this, but this is all that my mind tak
 
 -----
 
+[\[Top\]](PalindromicMultiplication)
+
+<hr style='border-top: 1px dashed;'>
+
 ### Addendum - July 5, 2022
 
 From this point on in the post is just me proposing and thinking through an additional problem that came into my mind when writing this. The number theorist among you will most likely enjoy thinking through this with me.
+
+Also from here on, we will be disregarding the unary number system, because it doesn't follow the same rules as any other number system. For our intents and purposes moving forward, base-1 does not exist.
 
 Seeing this example above, translating \\(585\_{10}\\) and \\(820\_{10}\\) into base 8 and 9 such that their representations in these number systems are strings strictly of ones, got me thinking about what makes these numbers special in base 10? What other numbers do we have in decimal that we can translate into another number system such that it's representation in that number system is just ones?
 
@@ -266,7 +272,7 @@ Additionally, I wrote some really sloppy code to see all of the cool numbers fro
 
 It should be noted that, if we're trying to do this for the purpose of using our pattern that we discovered earlier in the main portion of the post, we need to consider whether our base is large enough to hold the values when multiplied by itself. Namely we need to ask, is the base at least one greater than the length of the representation of the number in that number system? This would rule out a lot of the result we could find using our script, but could be fixed by just adding a couple lines for this check.
 
-Another important note is that, this is a procedural way to find what we've deduced as \\(gamma\_{m}\\). And while this has been really cool for me to discover, I'm wondering if there's some formula that could generate this more efficiently. This problem is way over my head and would require someone more advanced than I in the realm of number theory, I'm envisioning some kind of Euler's Totient Formula wizardry here with functions dealing with number systems.
+Another important note is that, this is a procedural way to find what we've deduced as \\(\gamma\_{m}\\). And while this has been really cool for me to discover, I'm wondering if there's some formula that could generate this more efficiently. This problem is way over my head and would require someone more advanced than I in the realm of number theory, I'm envisioning some kind of Euler's Totient Formula wizardry here with functions dealing with number systems.
 
 Again, I'm sure there's more to be explored with this kind of idea. I've really enjoyed poking around a bit and discovering this for myself, if you have other cool ideas you would like to work around do let me know!
 
