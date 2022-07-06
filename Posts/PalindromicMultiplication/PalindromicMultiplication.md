@@ -164,7 +164,7 @@ I'm sure there's more to be explored with this, but this is all that my mind tak
 
 From this point on in the post is just me proposing and thinking through an additional problem that came into my mind when writing this. The number theorist among you will most likely enjoy thinking through this with me.
 
-Also from here on, we will be disregarding the unary number system, because it doesn't follow the same rules as any other number system. For our intents and purposes moving forward, base-1 does not exist.
+Also from here on, we will be disregarding the unary number system, because it doesn't follow the same rules as any other number system, plus it gives a really unsatisfying view of our problem. For our intents and purposes moving forward, base-1 does not exist.
 
 Seeing this example above, translating \\(585\_{10}\\) and \\(820\_{10}\\) into base 8 and 9 such that their representations in these number systems are strings strictly of ones, got me thinking about what makes these numbers special in base 10? What other numbers do we have in decimal that we can translate into another number system such that it's representation in that number system is just ones?
 
@@ -184,15 +184,19 @@ Define the **Unity Base Set of m**, \\(N\_m = \\{a \in \mathbb{Z}^{\ge 2} : m\_{
 
 For example:
 
-It can be shown by exhaustion that \\(\gamma\_{15} = 2\\) as as \\(15\_{10}\\) contains only ones when represented in binary (base 2) and this representation contains the most ones out of any other number system base to choose from. Also, \\(\epsilon\_{15} = 4\\) as \\(15\_{10} = 1111\_{2}\\) which has 4 ones. Further, \\(N\_{15} = \\{2, 14\\}\\) as \\(15\_{10} = 1111\_{2} = 11\_{14}\\)
+It can be shown by exhaustion that \\(\gamma\_{15} = 2\\) as \\(15\_{10}\\) contains only ones when represented in binary (base 2) and this representation contains the most ones out of any other number system base to choose from. Also, \\(\epsilon\_{15} = 4\\) as \\(15\_{10} = 1111\_{2}\\) which has 4 ones. Further, \\(N\_{15} = \\{2, 14\\}\\) as \\(15\_{10} = 1111\_{2} = 11\_{14}\\)
 
-I made these terms up for the sake of this problem, I don't think these are real things in the math world ( yet :) ). The reason I'm putting definitions to these is that there are plenty of other problems that can be made from this line of thinking, such as digging into the spaces between values within \\(N\_{m}\\) (my intuition tells me that it will never contain values above \\(\frac{m}{2}\\) apart from \\(m-1\\)) or the unions of these Base Unity sets and what properties they give about the numbers themselves. I haven't put much thought into these yet but I'm sure there are discoveries to be made here.
+I made these terms up for the sake of this problem, I don't think these are real things in the math world ( yet :) ). The reason I'm putting definitions to these is that there are plenty of other problems that can be made from this line of thinking, such as digging into the spaces between values within \\(N\_{m}\\) (my intuition tells me that it will never contain values above \\(\frac{m}{2}\\) apart from \\(m-1\\)) or the intersections of these Base Unity sets and what properties they give about the numbers themselves. I haven't put much thought into these yet but I'm sure there are discoveries to be made here.
 
-It can be noted that for any \\(m \in \mathbb{Z}^{\gt 2}\\), \\(\epsilon\_{m} \ge 2\\) as \\(m\\) can always be represented by \\(11\_{m-1}\\) from before. We can also say for this reason that \\(\|N\_{m}\| \ge 1\\).
+It can be noted that for any \\(m \in \mathbb{Z}^{\gt 2}\\), \\(\epsilon\_{m} \ge 2\\) as \\(m\\) can always be represented by \\(11\_{m-1}\\) from before. We can also say for this reason that \\(\|N\_{m}\| \ge 1\\), and more importantly \\(\|N\_{m}\| \ne \emptyset\\).
 
 From what I said earlier, my claim is that the greater \\(\epsilon\_{m}\\), the more *special* the number feels to me. What we're really trying to do here is trying to find \\(\gamma_{m}\\) as this is the base system in which \\(m\\) can be represented by the most ones (\\(\epsilon_{m}\\)).
 
-One could say here, *"well that just means we can make these special numbers by taking 1111111... from base 10, just keep adding ones!"* This is true, yet I would call this the trivial solution to this problem (and hence less special to me).
+One could say here, *"well that just means we can make these special numbers by taking 1111111... from base 10, just keep adding ones!"* This is true, yet I would call this the trivial approach to this problem (and hence less special to me). The real beauty of this problem, in my opinion, comes from looking at these values, not by constructing them from any given number system, and not even as the set of values themselves, but with respect to the larger integer number line and seeing them pop up in unlikely places.
+
+Why do we think prime numbers are interesting? It isn't just because of the numbers themselves having only 2 factors, to really appreciate the mystery of prime numbers you have to look at them as a seemingly sparse overlayment of the natural numbers. Looking at prime numbers in this way opens up a ton of new problems and ways of thinking, such as the long-standing unproven [Twin Prime Conjecture](https://www.britannica.com/science/twin-prime-conjecture) or [my favorite 3b1b video](https://www.youtube.com/watch?v=EK32jo7i5LQ). I believe that seeing these kinds of numbers in the same way we can view prime numbers sheds a much more elegant light on the problem.
+
+I think a cool graphic to add to this post would be a xy-plot bar graph with x showing the natural numbers and y axis having \\(\epsilon\_{x}\\) for each x. Or even a x, \\(\gamma\_{x}\\) plot for that matter. I might try to make that at some point in the future.
 
 Now that we have these definitions in order, we can ask the central question to this discussion:
 
@@ -204,7 +208,7 @@ Another way to look at this that seems like it might have a combinatorial/genera
 
 Given \\(x \in \mathbb{Z}^{\gt 2}\\), what is the value for \\(h \in \mathbb{Z}^{\ge 2}\\) such that \\(n\\) is maximized:
 
-\\[x=\sum\_{i=0}^{n}h^{n}\\]
+\\[x=\sum\_{i=0}^{n}h^{i}\\]
 
 Here, \\(n\\) would end up being \\(\epsilon\_{x} - 1\\), but of course this value is unknown at the point of creating this expression for a given \\(x\\).
 
@@ -226,11 +230,11 @@ If this doesn't happen, \\(m\_{b+1}\\) **must** have the same amount place value
 
 We can take this case by case.
 
-Lets start by knocking out that second case, where \\(m\_{b}\\) and \\(m\_{b+1}\\) have the same amount of digits. Let's assume for now that \\(b = \gamma_{m}\\), meaning \\(b \in N\_{m}\\) and so \\(m\_{b}\\) has all ones, \\(\epsilon\_{m}\\) amount of ones. We also know for this case that \\(m\_{b+1}\\) has \\(\epsilon\_{m}\\) digits. If we can show that \\(b+1 \notin N\_{m}\\), this means that of all of the bases that have \\(\epsilon\_{m}\\) digits in their representation of \\(m\\), none of them are composed of all ones except for \\(b\\) (to show this generally instead of just the +1 case, we would simply replace the 1 in \\(b+1\\) with an arbitrary natural number \\(x\\) and everything moving forward is the same). This means that, if find a representation of \\(m\\) that has all ones in a certain base, we don't have to check if the representation of \\(m\\) has all ones in any number system of larger base (remember, we're trying to find the number system base that has the most ones in its representation of \\(m\\)).
+Lets start by knocking out that second case, where \\(m\_{b}\\) and \\(m\_{b+1}\\) have the same amount of digits. Let's assume for now that \\(b = \gamma_{m}\\), meaning \\(b \in N\_{m}\\) and so \\(m\_{b}\\) has all ones, \\(\epsilon\_{m}\\) amount of ones. We also know for this case that \\(m\_{b+1}\\) has \\(\epsilon\_{m}\\) digits. If we can show that \\(b+1 \notin N\_{m}\\), this means that of all of the bases that have \\(\epsilon\_{m}\\) digits in their representation of \\(m\\), none of them are composed of all ones except for \\(b\\) (to show this generally instead of just the +1 case, we would simply replace the 1 in \\(b+1\\) with an arbitrary natural number \\(x\\) and everything moving forward is the same. Note that this is still under the assumption that \\(m\_{b}\\) and \\(m\_{b+x}\\) have the same number of digits). This means that, if we find a representation of \\(m\\) that has all ones in a certain base, we don't have to check if the representation of \\(m\\) has all ones in any number system of larger base (remember, we're trying to find the number system base that has the most ones in its representation of \\(m\\)). This statement has a subtlety implied based on how number systems operate that is covered in the next case.
 
 This is actually very easy to show by contradiction. If we assume that \\(b+1 \in N\_{m}\\), based on our assumption for this second case that \\(m\_{b}\\) and \\(m\_{b+1}\\) have the same amount of digits we can say:
 
-\\[\sum\_{i=0}^{\epsilon\_{m} - 1}b^{n}=\sum\_{i=0}^{\epsilon\_{m} - 1}(b+1)^{n}\\]
+\\[\sum\_{i=0}^{\epsilon\_{m} - 1}b^{i}=\sum\_{i=0}^{\epsilon\_{m} - 1}(b+1)^{i}\\]
 
 If we break this apart:
 
@@ -240,7 +244,7 @@ If we break this apart:
 
 We can see that each of the terms on the bottom expression must be larger than the respective terms on the top expression, meaning that
 
-\\[\sum\_{i=0}^{\epsilon\_{m} - 1}b^{n} \lt \sum\_{i=0}^{\epsilon\_{m} - 1}(b+1)^{n}\\]
+\\[\sum\_{i=0}^{\epsilon\_{m} - 1}b^{i} \lt \sum\_{i=0}^{\epsilon\_{m} - 1}(b+1)^{i}\\]
 
 Which is a contradiction because based on our assumption they must be equal. What this means is that our original assumption must be false, which means \\(b+1 \notin N\_{m}\\)! Breathe a sigh of relief, this makes our heuristic *much* simpler.
 
@@ -270,7 +274,7 @@ Additionally, I wrote some really sloppy code to see all of the cool numbers fro
 
 {31: 2, 63: 2, 121: 3, 127: 2, 255: 2, 341: 4, 364: 3, 511: 2, 781: 5, 1023: 2, 1093: 3, 1365: 4, 1555: 6, 2047: 2, 2801: 7, 3280: 3, 3906: 5, 4095: 2, 4681: 8, 5461: 4, 7381: 9, 8191: 2, 9331: 6, 9841: 3, 11111: 10, 16105: 11, 16383: 2, 19531: 5, 19608: 7, 21845: 4, 22621: 12, 29524: 3, 30941: 13, 32767: 2, 37449: 8, 41371: 14, 54241: 15, 55987: 6, 65535: 2, 66430: 9, 69905: 16, 87381: 4, 88573: 3, 88741: 17, 97656: 5}
 
-It should be noted that, if we're trying to do this for the purpose of using our pattern that we discovered earlier in the main portion of the post, we need to consider whether our base is large enough to hold the values when multiplied by itself. Namely we need to ask, is the base at least one greater than the length of the representation of the number in that number system? This would rule out a lot of the result we could find using our script, but could be fixed by just adding a couple lines for this check.
+It should be noted that, if we're trying to do this for the purpose of using our pattern that we discovered earlier in the main portion of the post, we need to consider whether our base is large enough to hold the values when multiplied by itself. Namely we need to ask, is the base at least one greater than the length of the representation of the number in that number system? This would rule out a lot of the results we could find using our script, but could be fixed by just adding a couple lines for this check.
 
 Another important note is that, this is a procedural way to find what we've deduced as \\(\gamma\_{m}\\). And while this has been really cool for me to discover, I'm wondering if there's some formula that could generate this more efficiently. This problem is way over my head and would require someone more advanced than I in the realm of number theory, I'm envisioning some kind of Euler's Totient Formula wizardry here with functions dealing with number systems.
 
