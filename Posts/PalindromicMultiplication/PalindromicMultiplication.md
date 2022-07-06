@@ -188,7 +188,7 @@ It can be shown by exhaustion that \\(\gamma\_{15} = 2\\) as \\(15\_{10}\\) cont
 
 I made these terms up for the sake of this problem, I don't think these are real things in the math world ( yet :) ). The reason I'm putting definitions to these is that there are plenty of other problems that can be made from this line of thinking, such as digging into the spaces between values within \\(N\_{m}\\) (my intuition tells me that it will never contain values above \\(\frac{m}{2}\\) apart from \\(m-1\\)) or the intersections of these Base Unity sets and what properties they give about the numbers themselves. I haven't put much thought into these yet but I'm sure there are discoveries to be made here.
 
-It can be noted that for any \\(m \in \mathbb{Z}^{\gt 2}\\), \\(\epsilon\_{m} \ge 2\\) as \\(m\\) can always be represented by \\(11\_{m-1}\\) from before. We can also say for this reason that \\(\|N\_{m}\| \ge 1\\), and more importantly \\(\|N\_{m}\| \ne \emptyset\\).
+It can be noted that for any \\(m \in \mathbb{Z}^{\gt 2}\\), \\(\epsilon\_{m} \ge 2\\) as \\(m\\) can always be represented by \\(11\_{m-1}\\) from before. We can also say for this reason that \\(\|N\_{m}\| \ge 1\\), and more importantly \\(N\_{m} \ne \emptyset\\).
 
 From what I said earlier, my claim is that the greater \\(\epsilon\_{m}\\), the more *special* the number feels to me. What we're really trying to do here is trying to find \\(\gamma_{m}\\) as this is the base system in which \\(m\\) can be represented by the most ones (\\(\epsilon_{m}\\)).
 
@@ -196,7 +196,7 @@ One could say here, *"well that just means we can make these special numbers by 
 
 Why do we think prime numbers are interesting? It isn't just because of the numbers themselves having only 2 factors, to really appreciate the mystery of prime numbers you have to look at them as a seemingly sparse overlayment of the natural numbers. Looking at prime numbers in this way opens up a ton of new problems and ways of thinking, such as the long-standing unproven [Twin Prime Conjecture](https://www.britannica.com/science/twin-prime-conjecture) or [my favorite 3b1b video](https://www.youtube.com/watch?v=EK32jo7i5LQ). I believe that seeing these kinds of numbers in the same way we can view prime numbers sheds a much more elegant light on the problem.
 
-I think a cool graphic to add to this post would be a xy-plot bar graph with x showing the natural numbers and y axis having \\(\epsilon\_{x}\\) for each x. Or even a x, \\(\gamma\_{x}\\) plot for that matter. I might try to make that at some point in the future.
+I think a cool graphic to add to this post would be a xy-plot bar graph with x showing the natural numbers and the y axis having \\(\epsilon\_{x}\\) for each x. Or even a x, \\(\gamma\_{x}\\) plot for that matter. I might try to make that at some point in the future.
 
 Now that we have these definitions in order, we can ask the central question to this discussion:
 
@@ -218,15 +218,15 @@ Here, \\(n\\) would end up being \\(\epsilon\_{x} - 1\\), but of course this val
 
 I've never gone much into a number theory problem such as this one, so here's a brain dump of some of my thoughts:
 
-When we represent a number \\(m\\) with all ones, this means that the \\(m\\) is one greater than a multiple of whatever base we're in. Convince yourself of this if you're uncertain.
+When we represent a number \\(m\\) with all ones, this means that \\(m\\) is one greater than a multiple of whatever base we're in. Convince yourself of this if you're uncertain.
 
-I think this means that \\(\|N\_{m}\| = 1\\) if and only if \\(m\\) is one more than a prime number. Not terribly relevant but interesting nonetheless.
+This means that if \\(m\\) is one more than a prime number then \\(\|N\_{m}\| = 1\\), which also means \\(\gamma\_{m} = m - 1\\) in this instance. Not terribly relevant but interesting nonetheless.
 
 Another very important realization comes with looking at what happens when we look at numbers in increasing number system base. We should notice that, as we go from \\(m\_{b}\\) to \\(m\_{b+1}\\) with an arbitrary \\(b \in \mathbb{Z}^{\ge 2}\\), one of two things can happen.
 
 Firstly, \\(m\_{b+1}\\) may have less place values filled than \\(m\_{b}\\). As an example, \\(17\_{10} = 101\_{4}\\) while \\(17\_{10} = 32\_{5}\\), notice how when we move from base 4 to 5, we "lose a place value" in our representation.
 
-If this doesn't happen, \\(m\_{b+1}\\) **must** have the same amount place values filled as \\(m\_{b}\\). An example of this being \\(15\_{10} = 33\_{4} = 30\_{5}\\) with representations in base 4 and 5 both having 2 "filled" place values. \\(m\_{b+1}\\) cannot have more digits than \\(m\_{b}\\) because each digit of the number represented in base \\(b+1\\) accounts for more of the total value of \\(m\\) than it would in base \\(b\\).
+If this doesn't happen, \\(m\_{b+1}\\) **must** have the same amount of place values filled as \\(m\_{b}\\). An example of this being \\(15\_{10} = 33\_{4} = 30\_{5}\\) with representations in base 4 and 5 both having 2 "filled" place values. \\(m\_{b+1}\\) cannot have more digits than \\(m\_{b}\\) because each digit of the number represented in base \\(b+1\\) accounts for more of the total value of \\(m\\) than it would in base \\(b\\).
 
 We can take this case by case.
 
@@ -234,7 +234,7 @@ Lets start by knocking out that second case, where \\(m\_{b}\\) and \\(m\_{b+1}\
 
 This is actually very easy to show by contradiction. If we assume that \\(b+1 \in N\_{m}\\), based on our assumption for this second case that \\(m\_{b}\\) and \\(m\_{b+1}\\) have the same amount of digits we can say:
 
-\\[\sum\_{i=0}^{\epsilon\_{m} - 1}b^{i}=\sum\_{i=0}^{\epsilon\_{m} - 1}(b+1)^{i}\\]
+\\[m=\sum\_{i=0}^{\epsilon\_{m} - 1}b^{i}=\sum\_{i=0}^{\epsilon\_{m} - 1}(b+1)^{i}\\]
 
 If we break this apart:
 
