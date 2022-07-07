@@ -166,11 +166,11 @@ From this point on in the post is just me proposing and thinking through an addi
 
 Also from here on, we will be disregarding the unary number system, because it doesn't follow the same rules as any other number system, plus it gives a really unsatisfying view of our problem. For our intents and purposes moving forward, base-1 does not exist.
 
-Seeing this example above, translating \\(585\_{10}\\) and \\(820\_{10}\\) into base 8 and 9 such that their representations in these number systems are strings strictly of ones, got me thinking about what makes these numbers special in base 10? What other numbers do we have in decimal that we can translate into another number system such that it's representation in that number system is just ones?
+Seeing this example above, translating \\(585\_{10}\\) and \\(820\_{10}\\) into base 8 and 9 such that their representations in these number systems are strings strictly of ones got me thinking, what makes these numbers special in base 10? What other numbers do we have in decimal that we can translate into another number system such that it's representation in that number system is just ones?
 
 Well, I realized that for all integers \\(m \gt 2\\) (ponder for a moment why I make this distinction), we can construct this string using base \\(m-1\\). This is true because the representation of \\(m\\) in base \\(m-1\\) will *always* be \\(11\\). Convince yourself of this briefly.
 
-Ok so that's cool, we can take any \\(m\_{10}\\) and make it into a string of ones, \\(11\_{m-1}\\), and from there we can say that \\(11\_{m-1} \times 11\_{m-1} = 121\_{m-1}\\).
+Ok so that's cool, we can take any \\(m\\) and make it into a string of ones, \\(11\_{m-1}\\), and from there we can say that \\(11\_{m-1} \times 11\_{m-1} = 121\_{m-1}\\).
 
 But take another look at the example we had before. It's not like we just took \\(585\_{10}\\) and said \\(11\_{584} \times 11\_{584} = 121\_{584}\\), this way of approaching this isn't really that meaningful and is pretty unsatisfying if you ask me. I would say that, in the way we said \\(585\_{10}\\) and \\(820\_{10}\\) are *special* in decimal, I would argue that, the more ones we can have in the string of numbers (ex: \\(585\_{10}\\) as \\(1111\_{8}\\) rather than \\(11\_{584}\\)) makes the number more special.
 
@@ -186,7 +186,7 @@ For example:
 
 It can be shown by exhaustion that \\(\gamma\_{15} = 2\\) as \\(15\_{10}\\) contains only ones when represented in binary (base 2) and this representation contains the most ones out of any other number system base to choose from. Also, \\(\epsilon\_{15} = 4\\) as \\(15\_{10} = 1111\_{2}\\) which has 4 ones. Further, \\(N\_{15} = \\{2, 14\\}\\) as \\(15\_{10} = 1111\_{2} = 11\_{14}\\)
 
-I made these terms up for the sake of this problem, I don't think these are real things in the math world ( yet :) ). The reason I'm putting definitions to these is that there are plenty of other problems that can be made from this line of thinking, such as digging into the spaces between values within \\(N\_{m}\\) (my intuition tells me that it will never contain values above \\(\frac{m}{2}\\) apart from \\(m-1\\)) or the intersections of these Base Unity sets and what properties they give about the numbers themselves. I haven't put much thought into these yet but I'm sure there are discoveries to be made here.
+I made these terms up for the sake of this problem, I don't think these are real things in the math world ( yet :) ). The reason I'm putting definitions to these is that there are plenty of other problems that can be made from this line of thinking, such as digging into the spaces between values within \\(N\_{m}\\) (my intuition tells me that it will never contain values above \\(\frac{m}{2}\\) apart from \\(m-1\\)) or the intersections of these Unity Base Sets and what properties they give about the numbers themselves. I haven't put much thought into these yet but I'm sure there are discoveries to be made here.
 
 It can be noted that for any \\(m \in \mathbb{Z}^{\gt 2}\\), \\(\epsilon\_{m} \ge 2\\) as \\(m\\) can always be represented by \\(11\_{m-1}\\) from before. We can also say for this reason that \\(\|N\_{m}\| \ge 1\\), and more importantly \\(N\_{m} \ne \emptyset\\).
 
