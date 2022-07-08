@@ -8,7 +8,7 @@
 
 At the start of this puzzle, the player is presented with a muddled warning message saying that their files have been corrupted. The message is readable but littered with characters that don't seem to belong.
 
-**Discovrey 1:** ASCII and /bin
+**Discovery 1:** ASCII and /bin
 
 The first thing the player might notice is the string "[A Star Crossed Information Interference]" that seems to not have been affected by the stated corruption. Taking the first, capitalized letters of this string gives "ASCII," the standardized system for encoding many characters into binary.
 

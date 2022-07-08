@@ -10,7 +10,7 @@ The image is also available [here]({{ site.imgurl }}/RunawayWorm/RunawayWorm.jpg
 
 -----
 
-Click [here](RunawayWorm-CARABAO) to see the answer
+Click [here](RunawayWorm-CARABAO) to see the solution
 
 -----
 

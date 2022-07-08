@@ -12,7 +12,7 @@ The image is also available [here]({{ site.imgurl }}/Caveman/Caveman.jpg).
 
 -----
 
-Click [here](Caveman-TACTILE) to see the answer
+Click [here](Caveman-TACTILE) to see the solution
 
 -----
 

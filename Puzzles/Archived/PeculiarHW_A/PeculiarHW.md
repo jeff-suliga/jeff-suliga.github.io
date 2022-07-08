@@ -18,11 +18,7 @@ The image is also available [here]({{ site.imgurl }}/PeculiarHW/PeculiarHW.jpg)(
 
 -----
 
-
-
------
-
-Click [here](PeculiarHW-COMPLEX) to see the answer
+Click [here](PeculiarHW-COMPLEX) to see the solution
 
 -----
 

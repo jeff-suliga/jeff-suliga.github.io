@@ -18,7 +18,7 @@ The image is also available [here]({{ site.imgurl }}/Detective/Detective.jpg).
 
 -----
 
-Click [here](Detective-SNOOP) to see the answer
+Click [here](Detective-SNOOP) to see the solution
 
 -----
 

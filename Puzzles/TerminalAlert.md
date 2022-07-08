@@ -12,7 +12,7 @@ The image is also available [here]({{ site.imgurl }}/TerminalAlert/TerminalAlert
 
 -----
 
-Click [here](TerminalAlert-STEGANOGRAPHY) to see the answer
+Click [here](TerminalAlert-STEGANOGRAPHY) to see the solution
 
 -----
 
