@@ -4,6 +4,36 @@ import os
 
 path_to_txt = os.getcwd() + '\\Puzzles\\Ideas\\braille_record.txt'
 
+def records(elapsed_time):
+    curr_times = []
+    with open(path_to_txt, 'r') as f:
+        i = 0
+        for line in f.readlines():
+            curr_times.append(float(line.strip()))
+            i += 1
+        if elapsed_time < curr_times[9]:
+            if elapsed_time < curr_times[0]:
+                print('New Record! By ' + str(curr_times[0] - elapsed_time) + ' seconds.')
+            else:
+                for i in range(1, 10):
+                    if elapsed_time < curr_times[i]:
+                        print('This time is now in position: ' + str(i + 1))
+                        print('You were ' + str(elapsed_time - curr_times[0]) + ' seconds slower than the record')
+                        print('You were ' + str(elapsed_time - curr_times[i-1]) + ' seconds slower than position ' + str(i))
+                        print('\nCurrent Record: \t' + str(curr_times[0]))
+                        print('Position ' + str(i) + ': \t\t' + str(curr_times[i-1]))
+                        break
+            curr_times.append(elapsed_time)
+        else:
+            print('You were ' + str(elapsed_time - curr_times[0]) + ' seconds slower than the record')
+            print('You were ' + str(elapsed_time - curr_times[9]) + ' seconds slower than 10th place')
+
+    curr_times.sort()
+    with open(path_to_txt, 'w') as f:
+        for i in range(9):
+            f.write(str(curr_times[i]) + '\n')
+        f.write(str(curr_times[9]))
+
 def braille(pattern):
     print('-' * 9)
     c1 = 'x' if ('1' in pattern) else ' '
@@ -59,16 +89,7 @@ def start():
     print(f'\nElapsed Time (s): \t{elapsed_time}\n')
 
     if correct == 26:
-        with open(path_to_txt, 'r') as f:
-            best_time = float(f.readline().strip())
-            if elapsed_time < best_time:
-                print('New Record! By ' + str(best_time - elapsed_time) + ' seconds.')
-                best_time = elapsed_time
-            else:
-                print('You were ' + str(elapsed_time - best_time) + ' seconds slower than the record')
-
-        with open(path_to_txt, 'w') as f:
-            f.write(str(best_time))
+        records(elapsed_time)
 
     if input('Again? (y)\n') == 'y':
         start()
