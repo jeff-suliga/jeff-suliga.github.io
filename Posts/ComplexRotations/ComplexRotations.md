@@ -58,7 +58,7 @@ This is where \\(i\\) comes in, the *imaginary unit*. When we started taking thi
 
 ### Graphing Complex Numbers
 
-As mentioned above, we can see that the imaginary unit cannot be found anywhere on this real number line.
+As mentioned above, we can see that the imaginary unit cannot be found anywhere on this real number line, since we can't have a real number multiplied by itself to equal \\(-1\\). Two positive real numbers multiply to a positive number, and two negative real numbers also multiply to a positive number. This is why the parabola representing \\(y=x^{2}\\) never goes below the x-axis (and therefore never reaches \\(-1\\)).
 
 ![Real Number Line]({{ site.imgposturl }}/ComplexRotations/RealNumberLine.png)
 
@@ -70,8 +70,9 @@ To represent real valued numbers we can plot them on a 1-dimensional line like t
 
 ![Complex Plane]({{ site.imgposturl }}/ComplexRotations/ComplexPlane.svg)
 
-**Note:** In this representation, you can think of a complex number \\(z=x+yi\\) as having "\\(x\\) and \\(y\\) coordinates" on a standard cartesian xy-plot.
-Using this was actually the key way of thinking for solving a homework problem in one of my math classes this past year. For the more experienced, the problem was, with regards to Group Theory: 
+Be sure that this system of displaying complex numbers on the complex plane makes sense to you, because I will be using it extensively moving forward.
+
+**Note:** In this representation, you can think of a complex number \\(z=x+yi\\) as having "\\(x\\) and \\(y\\) coordinates" on a standard cartesian xy-plot. The point on the image above would be represented on an xy-plot as \\((3, 4)\\), so on the complex plane it is shown by \\(3 + 4i\\). Using this was actually the key way of thinking for solving a homework problem in one of my math classes this past year. For the more experienced, the problem was, with regards to Group Theory: 
 
 \\[Prove \quad \mathbb{C}\cong \mathbb{R}^{2}\\]
 

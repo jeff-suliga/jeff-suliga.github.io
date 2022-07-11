@@ -62,4 +62,4 @@ Leading the player to the best dressed of pastas and this puzzle's solution, **B
 
 -----
 
-Click [here]({{ site.url }}#puzzles) to return to the main page.
+Click [here]({{ site.url }}/Puzzles/Archived/ArchivedPuzzles) to return to the main page.

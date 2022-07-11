@@ -12,15 +12,7 @@ The image is also available [here]({{ site.imgurl }}/[puzzle name]/[puzzle image
 
 -----
 
-[Hint #1]([puzzle name]/Hint1.md)
-
-[Hint #2]([puzzle name]/Hint2.md)
-
-[Hint #3]([puzzle name]/Hint3.md)
-
------
-
-Click [here]([puzzle name]-[puzzle answer]) to see the answer
+Click [here]([puzzle name]-[puzzle answer]) to see the solution
 
 -----
 

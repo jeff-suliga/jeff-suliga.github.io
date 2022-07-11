@@ -18,7 +18,7 @@ The image is also available [here]({{ site.imgurl }}/FastMoney/FastMoney.jpg).
 
 -----
 
-Click [here](FastMoney-BOWTIE) to see the answer
+Click [here](FastMoney-BOWTIE) to see the solution
 
 -----
 

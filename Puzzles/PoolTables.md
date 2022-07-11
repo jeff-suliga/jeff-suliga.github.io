@@ -12,7 +12,7 @@ The image is also available [here]({{ site.imgurl }}/PoolTables/PoolTables.jpg).
 
 -----
 
-Click [here](PoolTables-BANZAI) to see the answer
+Click [here](PoolTables-BANZAI) to see the solution
 
 -----
 

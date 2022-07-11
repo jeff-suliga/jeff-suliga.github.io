@@ -10,7 +10,7 @@ The image is also available [here]({{ site.imgurl }}/Spotlight/Spotlight.jpg).
 
 -----
 
-Click [here](Spotlight-SNOOP) to see the answer
+Click [here](Spotlight-SNOOP) to see the solution
 
 -----
 
