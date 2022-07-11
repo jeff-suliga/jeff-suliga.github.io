@@ -6,7 +6,9 @@ layout: default
 
 ### Jeff Suliga
 
-Hello! For this year's SoME I've decided to make the website you're currently on! This website marks the realization of a long goal of mine, to make a portforlio as an extension of my resume in order to place more info about me and educational content that I can point future employers to. As it stands there are only a few points of interest here, but I have some more ideas of things to add in the future (post ideas, formal research).
+<hr style='border-top: 1px dashed;'>
+
+Hello! For this year's SoME I've decided to make the website you're currently on! This website marks the realization of a long-standing goal of mine, to make a portforlio as an extension of my resume in order to place more info about me and educational content that I can point future employers to. As it stands there are only a few points of interest here, but I have some more ideas of things to add in the future (post ideas, formal research).
 
 If you look at the main page you'll notice that I'm currently an undergraduate student at Virginia Tech, and a quick poke around the website will show you I am a long-time consumer of online educational content (3b1b of course, among many others as well). At the start of the summer, I had no experience with website design and zero knowledge of how HTML works, but with lots of online research, some help early on by my friend [Jamie Simon](https://james-simon.github.io/), and a ton of trial and error, I've been able to learn some of the basics and produce something I'm really proud of. Github Pages is a great place to start for someone like me, I began with a pre-designed website template and over time rebuilt most of it according to my vision for the page.
 
@@ -28,6 +30,8 @@ A post on [Palindromes arising from multiplication of ones]({{site.url}}/Posts/P
 
 A post on [Complex Numbers]({{site.url}}/Posts/ComplexRotations/ComplexRotations) and the interesting way they multiply was my first math explainer that I've published. Complex numbers have always been fascinating to me (and the main topic of my upcoming research opportunity this upcoming fall semester), but I've never had much formal education on the topic, apart from my algebra classes in grade school. Everything I've learned about the subject has been through online resources and self-discovery.
 
+I also include some interesting extra challenge problems at the end of this post that I think are really solidifying for someone new to the ideas mentioned, and are fun puzzles to those already experienced. I've included my approach to each of these problems as well.
+
 **Target Audience: Experience with algebra on real numbers**
 
 -----
@@ -38,6 +42,6 @@ A post on [Stars making acute triangles in the sky]({{site.url}}/Posts/StarTheor
 
 -----
 
-Thank you for taking the time to look through this piece of work that I have greatly enjoyed having as a summer project. I hope you enjoy your stay and don't hesitate to contact me if you would like to connect.
+Thank you for taking the time to look through this piece of work that I have greatly enjoyed having as a summer project. This is something that I'm really happy to submit to the competition, but will continue to be a project of mine moving forward, where I will be continually updating and adding to. I hope you enjoy your stay and don't hesitate to contact me if you would like to connect. But for now,
 
 \\(\square\\)
