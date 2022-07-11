@@ -242,7 +242,7 @@ If we break this apart:
 
 \\[(b+1)^{0} + (b+1)^{1} + ... + (b+1)^{\epsilon\_{m} - 1}\\]
 
-We can see that each of the terms on the bottom expression must be larger than the respective terms on the top expression, meaning that
+We can see that each of the terms, apart from the first, on the bottom expression must be larger than the respective terms on the top expression, meaning that
 
 \\[\sum\_{i=0}^{\epsilon\_{m} - 1}b^{i} \lt \sum\_{i=0}^{\epsilon\_{m} - 1}(b+1)^{i}\\]
 
@@ -268,7 +268,7 @@ I've quickly coded this algorithm up in python, located [here](Gamma_Finder.py).
 
 ![585]({{site.imgposturl}}/PalindromicMultiplication/585.png)
 
-![585]({{site.imgposturl}}/PalindromicMultiplication/820.png)
+![820]({{site.imgposturl}}/PalindromicMultiplication/820.png)
 
 Additionally, I wrote some really sloppy code to see all of the cool numbers from 3 to 100001, (any number represented by 5 or more ones in some base) which is commented out in the script above. Here's what I got, where each set of numbers is value:base
 
