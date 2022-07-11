@@ -44,6 +44,4 @@ A post on [Stars making acute triangles in the sky]({{site.url}}/Posts/StarTheor
 
 Thank you for taking the time to look through this piece of work that I have greatly enjoyed having as a summer project. This is something that I'm really happy to submit to the competition, but will continue to be a project of mine moving forward, where I will be regularly updating and adding to. I hope you enjoy your stay and don't hesitate to contact me if you would like to connect. But for now,
 
-<p style="text-align:right;">
-<mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML" tabindex="0" ctxtmenu_counter="2" style="font-size: 105.1%; position: relative;"><mjx-math class="MJX-TEX" aria-hidden="true"><mjx-mi class="mjx-i"><mjx-c class="mjx-c25FB TEX-A"></mjx-c></mjx-mi></mjx-math><mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>◻</mi></math></mjx-assistive-mml></mjx-container>
-</p>
+\\(\blacksquare\\)
