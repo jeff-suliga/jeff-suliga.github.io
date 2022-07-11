@@ -14,7 +14,7 @@ If you look at the [main page]({{site.url}}) you'll notice that I'm currently an
 
 While there aren't many places to look, there's a lot to do while you're here. My hope is that while you look around the website's pages you'll be able to feel the personality behind the pages and the pursuit of discovery that I hope to lead a visitor down, present not only in the posts and puzzles, but in the site itself (hint hint). Definitely feel free to look in the repository for this page, located in the footer, to see the inner structure of how this page came to be.
 
-I hope you find yourself looking through some of the puzzles that I've enjoying putting together, but for the more math expository work that I would have as a submission to this contest, I would point you to the [Posts]({{site.url}}/#posts) section, where I've placed some of my math explanatory content ideas. The links to these specific posts can be found below.
+I hope you find yourself looking through some of the [Puzzles]({{site.url}}/#puzzles) that I've enjoying putting together, but for the more math expository work that I would have as a submission to this contest, I would point you to the [Posts]({{site.url}}/#posts) section, where I've placed some of my math explanatory content ideas. The links to these specific posts can be found below.
 
 <hr style='border-top: 1px dashed;'>
 

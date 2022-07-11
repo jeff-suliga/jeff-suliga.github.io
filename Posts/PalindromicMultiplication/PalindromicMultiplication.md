@@ -48,7 +48,7 @@ I didn't know what a palindrome was at the time, but I did notice that these pro
 
 I kept going with this until I realized this pattern broke once I inputted a string of 10 1's in a row. The calculator I was using probably showed this in scientific notation (which I didn't know what it meant for a long time, my brother and I legitimately used to say "\\(1.3e24\\)" as "one point three, Eistein's Theories, twenty four"), but I was still able to notice the pattern didn't follow the "12345..." and back down idea.
 
-Let's take a closer look at what we're doing when we multiply these string of ones together. For now we'll be working in our usual base 10 decimal system, but we'll expand this later.
+Let's take a closer look at what we're doing when we multiply these strings of ones together. For now we'll be working in our usual base 10 decimal system, but we'll expand this later.
 
 Let's start out with just \\(111 \times 111\\). To multiply these, we can break these numbers down in the following way:
 
