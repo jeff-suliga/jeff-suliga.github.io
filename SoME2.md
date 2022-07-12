@@ -8,6 +8,8 @@ layout: default
 
 <hr style='border-top: 1px dashed;'>
 
+*I have permission from Grant to use the header Pi gif*
+
 Hello! For this year's SoME I've decided to make the website you're currently on! This website marks the realization of a long-standing goal of mine, to make a portforlio as an extension of my resume in order to place more info about me and educational content that I can point future employers to. As it stands there are only a few points of interest here currently, but I have some more ideas of things to add in the future (post ideas, formal research, recruiter landing page).
 
 If you look at the [Home Page]({{site.url}}) you'll notice that I'm currently an undergraduate student at Virginia Tech, and a quick poke around the website will show you I am a long-time consumer of online educational content (3b1b of course, among many others as well). At the start of the summer, I had no experience with website design and zero knowledge of how HTML works, but with lots of online research, some help early on by my friend [Jamie Simon](https://james-simon.github.io/), and a ton of trial and error, I've been able to learn some of the basics and produce something I'm really proud of. Github Pages is a great place to start for someone like me, I began with a pre-designed website template and over time rebuilt most of it according to my vision for the page.
