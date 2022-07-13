@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 1111x1111=1234321
-extenstion: Extension (not currently used)
 publish-date: July 1, 2022
 description: Palindromic Multiplication and Number Systems
 ---

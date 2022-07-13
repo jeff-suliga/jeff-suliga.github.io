@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Star Theorem
-extenstion: Extension (not currently used)
 publish-date: June 21, 2022
 description: Acute Triangles in the Sky
 ---
