@@ -60,7 +60,9 @@ This is where \\(i\\) comes in, the *imaginary unit*. When we started taking thi
 
 As mentioned above, we can see that the imaginary unit cannot be found anywhere on this real number line, since we can't have a real number multiplied by itself to equal \\(-1\\). Two positive real numbers multiply to a positive number, and two negative real numbers also multiply to a positive number. This is why the parabola representing \\(y=x^{2}\\) never goes below the x-axis (and therefore never reaches \\(y=-1\\)).
 
-![Real Number Line]({{ site.imgposturl }}/ComplexRotations/RealNumberLine.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/RealNumberLine.png" alt="Real Number Line">
+</p>
 
 However, we notice that a value can contain both a purely real component and a imaginary component, dividing this new form of number into 2 dimensions. This 2-dimensional number is what we call a *complex number* as defined above.
 
@@ -68,7 +70,9 @@ However, we notice that a value can contain both a purely real component and a i
 
 To represent real valued numbers we can plot them on a 1-dimensional line like the one seen just above. For complex numbers we can do a similar thing, using a 2-dimensional plane to show both real and imaginary components.
 
-![Complex Plane]({{ site.imgposturl }}/ComplexRotations/ComplexPlane.svg)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/ComplexPlane.svg" alt="Complex Plane">
+</p>
 
 Be sure that this system of displaying complex numbers on the complex plane makes sense to you, because I will be using it extensively moving forward.
 
@@ -99,7 +103,9 @@ As an evaluation of this expression, a "solution" could be to state that \\(z\\)
 
 This is a fun pattern to notice, but if you plot these values on the complex plane and see them changing over time, I hope you'd notice there's something deeper at play here. In this and following plots, the real axis is denoted horizontally as 'Re' and the imaginary axis is denoted vertically by 'Im':
 
-![i to n Cycle]({{ site.imgposturl }}/ComplexRotations/i-to-n-Cycle.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/i-to-n-Cycle.gif" alt="i to n Cycle">
+</p>
 
 Each time we multiply by \\(i\\), it seems we're "rotating" whatever the previous value was by \\(90^{\circ}\\), or \\(\frac{\pi}{2}\\) radians (we will use radians from now on) counter-clockwise. The key discovery here is to see multiplication a bit differently here, not just as a stretching but more of a rotation. More importantly, it almost seems like we are tracing out the outline of a circle by rotating around.
 
@@ -127,7 +133,11 @@ So what this formula is telling us is, given an angle \\(\theta\\), the correspo
 
 This image below shows this visually, where the point at the end of the arrow is the value represented by the formula:
 
-[![Euler's Formula]({{ site.imgposturl }}/ComplexRotations/EulerFormula.png)](https://www.cuemath.com/eulers-formula/)
+<p style="text-align:center;">
+    <a href="https://www.cuemath.com/eulers-formula/">
+        <img src="{{site.imgposturl}}/ComplexRotations/EulerFormula.png" alt="Euler's Formula">
+    </a>
+</p>
 
 I really encourage the reader to sit on this for a bit and perhaps do a bit of research on this if they are interested. I mean it when I say that this is one of the most fundamental discoveries to all of modern mathematics, with countless applications since its inception.
 
@@ -144,7 +154,11 @@ And this is *also* in the form from Euler's Formula, denoting the point on the c
 
 So what happened here is we took two points on this circle, and when we multiplied them the resulting point was placed on the circle at the sum of the angles of the two individual points. This image displays this well. For now, disregard the radii of the values and only take note of the angles (for the curious, clicking on the image will also introduce you to a really cool thing we call the *roots of unity*):
 
-[![Adding Angles]({{ site.imgposturl }}/ComplexRotations/AddingComplexAngles.png)](https://mathlesstraveled.com/2016/10/18/complex-multiplication-proof/)
+<p style="text-align:center;">
+    <a href="https://mathlesstraveled.com/2016/10/18/complex-multiplication-proof/">
+        <img src="{{site.imgposturl}}/ComplexRotations/AddingComplexAngles.png" alt="Adding Angles">
+    </a>
+</p>
 
 It should be noted that, in our previous endeavor, we could have done the following:
 
@@ -159,9 +173,13 @@ And while this would be mathematically accurate, it loses the connection to the 
 
 ### Leaving the Complex Unit Circle
 
-I hinted that the radii of two multiplied complex numbers must be 1 for this to work, which is not fully true. This can easily be scaled by showing \\(r_{1}e^{i\theta_{1}} \times r_{2}e^{i\theta_{2}} = (r_{1}r_{2})e^{i(\theta_{1} + \theta_{2})}\\). What this means is that, to multiply *any* two complex numbers, the resulting number will have length that is equal to the product of the first two lengths, and angle that is the sum of the first two lengths as we just learned. The animation below shows this well. This is truly the essence of what I hope to have shown in this post. Thinking on this principle will lead you to discover just how meaningful this complex unit circle is in its relation to scaling values and will allow for a different thought process to approaching problems.
+I hinted that the radii of two multiplied complex numbers must be 1 for this to work, which is not fully true. This can easily be scaled by showing \\(r_{1}e^{i\theta_{1}} \times r_{2}e^{i\theta_{2}} = (r_{1}r_{2})e^{i(\theta_{1} + \theta_{2})}\\). What this means is that, to multiply *any* two complex numbers, the resulting number will have length that is equal to the product of the first two lengths, and angle that is the sum of the first two lengths as we just learned. The animation below shows this well, with the red value showing the product of the green and blue values. This is truly the essence of what I hope to have shown in this post. Thinking on this principle will lead you to discover just how meaningful this complex unit circle is in its relation to scaling values and will allow for a different thought process to approaching problems.
 
-[![Complex Multiplication]({{ site.imgposturl }}/ComplexRotations/MultiplyingComplexNumbers.webp)](https://ztlawton.tumblr.com/post/650186872655626240/complex-numbers)
+<p style="text-align:center;">
+    <a href="https://ztlawton.tumblr.com/post/650186872655626240/complex-numbers">
+        <img src="{{site.imgposturl}}/ComplexRotations/MultiplyingComplexNumbers.webp" alt="Complex Multiplication">
+    </a>
+</p>
 
 As a side effect of this formula, plugging in \\(\pi\\) gives us \\(e^{i\pi}=-1\\) and thus \\(e^{i\pi}+1=0\\). This has come to be known as Euler's Identity or, more commonly, *The Most Beautiful Equation in Mathematics*.
 
@@ -185,7 +203,9 @@ Well we previously built up the intuition for multiplying complex numbers, so no
 
 We know that \\(i\\) lies at the very top of the complex unit circle, so we can deduce a few things like we did before: that the radius of \\(i\\) is 1, and the angle it makes with the positive real axis is \\(\frac{\pi}{2}\\). This means we can write \\(i\\) as \\(1 \times e^{i\frac{\pi}{2}}\\) (some call this the *polar representation of* \\(i\\))
 
-![i on Complex Plane]({{ site.imgposturl }}/ComplexRotations/i.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/i.png" alt="i on Complex Plane">
+</p>
 
 So now we need to find \\(r\\) and \\(\theta\\) for \\(z=re^{i\theta}\\) such that \\(z^{2}=i\\). This means:
 
@@ -197,7 +217,9 @@ Since this \\(r^{2}\\) determines the radius of the resulting value which has to
 
 And this is our solution! \\(e^{i\frac{\pi}{4}}\\)
 
-![Solution 1]({{ site.imgposturl }}/ComplexRotations/i-with-sqrt.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/i-with-sqrt.png" alt="Solution 1">
+</p>
 
 This was still an algebraic solution, but looking at the image convince you of why this point lies halfway up the complex unit circle between \\(i\\) and the positive real axis. This is because squaring a complex number doubles its angle, which in this case lands us directly on \\(i\\). This is really all the information needed to have solved this purely visually.
 
@@ -211,7 +233,9 @@ Finding where this value ends up is a little more nuanced than the last problem,
 
 I encourage you to look at the image below, and first try to reason through the steps you might take to solve this problem yourself.
 
-![Problem 2-1]({{ site.imgposturl }}/ComplexRotations/problem2-1.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/problem2-1.png" alt="Problem 2-1">
+</p>
 
 The first thing you may notice is that this \\(\sqrt{2} + i\sqrt{2}\\) value lies *outside* of our familiar complex unit circle, meaning its radius is greater than 1. What this also means is that when we multiply this number by itself, also a number with radius greater than 1, its resulting length is going to increase. This is why the complex unit circle is so important, similar to how real numbers greater than 1 and less than -1 make the magnitude of other real numbers larger when multiplied.
 
@@ -221,7 +245,9 @@ So now that we know the final angle of \\(z\\), we need to find the magnitude of
 
 To find this length, we only need to utilize a very well known geometric theorem - the Pythagorean Theorem. If we divide this value into its real and imaginary components, we see this triangle emerge.
 
-![Problem 2-2]({{ site.imgposturl }}/ComplexRotations/problem2-2.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/problem2-2.png" alt="Problem 2-2">
+</p>
 
 Each of the legs of this right triangle has length \\(\sqrt{2}\\), and so the length of the hypotenuse, which is the length of our \\(\sqrt{2}+i\sqrt\{2}\\), must be \\(2\\).
 
@@ -233,7 +259,9 @@ So now we have our final answer. \\(z\\) has radius \\(16\\) and angle \\(\pi\\)
 
 And that's the answer! Below is an image that shows the repeated multiplying by our number, you're really able to see the rotations and extensions happening here, creating a sort of spiral out from the center, which I think is really cool.
 
-![Problem 2-3]({{ site.imgposturl }}/ComplexRotations/problem2-3.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/problem2-3.png" alt="Problem 2-3">
+</p>
 
 I really hope you've learned something here and start to see how these amazing numbers are more than just a result of weird inputs to an equation. Complex numbers and their strange and fun properties have fascinated me for quite some time, and I really enjoyed putting this together. Thanks for reading, and I've left some extra challenges below for the mind that needs more stretching.
 

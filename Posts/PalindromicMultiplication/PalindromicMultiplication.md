@@ -58,7 +58,9 @@ Let's start out with just \\(111 \times 111\\). To multiply these, we can break 
 
 This last step can be shown vertically like this:
 
-![111x111]({{site.imgposturl}}/PalindromicMultiplication/111x111.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/PalindromicMultiplication/111x111.png" alt="111x111">
+</p>
 
 Notice how, when we multiplied a string of three 1's by itself we got an addition of three values, each with three ones, offset by 0, 1, and 2 zeroes.
 
@@ -70,7 +72,9 @@ Let's move a step up now:
 
 Which can be seen as:
 
-![1111x1111]({{site.imgposturl}}/PalindromicMultiplication/1111x1111.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/PalindromicMultiplication/1111x1111.png" alt="1111x1111">
+</p>
 
 Here we have a string of *four* 1's multiplied by itself to get an addition of *four* values, each with *four* ones, offset by 0, 1, 2, and 3 zeroes.
 
@@ -88,7 +92,9 @@ But consider the case that originally stumped me:
 
 \\[1111111111 \times 1111111111\\]
 
-![Ten ones]({{site.imgposturl}}/PalindromicMultiplication/10ones.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/PalindromicMultiplication/10ones.png" alt="Ten ones">
+</p>
 
 This doesn't follow our formula, because from the left we see "...5679..." and it seems to skip over the 8. So where does our formula fall apart?
 
