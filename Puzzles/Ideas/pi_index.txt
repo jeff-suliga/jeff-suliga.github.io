@@ -1,0 +1,12 @@
+First 9 digits:
+
+pi: 314159265 : 1234569
+e:  271828182 : 1278
+golden ratio:
+sqrt2:
+sqrt3:
+
+url is just '/pi' or '/sqrt3' or something
+
+block puzzle solution reads out 'url_####_times_####' where # indexes the digit in the value of url
+the product is the answer
