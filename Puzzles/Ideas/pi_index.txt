@@ -9,6 +9,7 @@ block puzzle solution reads out 'puzzle url: #### times ####' where # indexes th
 the product is the answer
 
 'puzzle url: #### times ####'
+'puzzle url: 298x335'
 
 -----
 
@@ -21,6 +22,8 @@ what does the keyboard outline show as?
 
 city rooftops, something in the ocean, towels on a beach (doesn't make sense with rain animation)
 **rain buckets on the ground**, cars in a big crash
+
+grassy ground, maybe trees on the outside, buckets for keys
 
 -----
 
@@ -46,5 +49,5 @@ in this type of storm
 when it rains, watching where
 drops land is key to catching
 
-the key to catching the most rain is to shift alternate types of buckets
-thekeytocatchingthemostrainistoshiftalternatetypesofbuckets
+the key to catching rainfall is to shift and alternate types of buckets
+thekeytocatchingrainfallistoshiftandalternatetypesofbuckets

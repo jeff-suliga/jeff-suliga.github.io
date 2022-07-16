@@ -2,8 +2,8 @@
 
 Embed video here, they press play and it loops
 
-<iframe width="100%" height="[height]"
-    src="[Video Link]&loop=1">
+<iframe width="100%" height="550px"
+    src="https://youtu.be/BDlako_aykI&loop=1">
 </iframe>
 
 The answer to this puzzle is a single word.
@@ -12,7 +12,7 @@ When you think you have the answer, add "-[your answer]" (no brackets, spaces, q
 
 -----
 
-Click [here](Diameter-[puzzle answer]) to see the solution
+Click [here](Diameter-69420) to see the solution
 
 -----
 
