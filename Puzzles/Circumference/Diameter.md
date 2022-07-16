@@ -1,7 +1,5 @@
 # Hydrology
 
-Embed video here, they press play and it loops
-
 <iframe width="100%" height="550px"
     src="https://www.youtube.com/embed/BDlako_aykI?loop=1">
 </iframe>
