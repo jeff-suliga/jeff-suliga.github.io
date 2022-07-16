@@ -4,9 +4,9 @@
     src="https://www.youtube.com/embed/BDlako_aykI?loop=1">
 </iframe>
 
-The answer to this puzzle is a single word.
+The answer to this puzzle is a single string of numbers.
 
-When you think you have the answer, add "-[your answer]" (no brackets, spaces, quotations) to the end of this URL **in all capital letters**.
+When you think you have the answer, add "-[your answer]" (no brackets, spaces, quotations) to the end of this URL.
 
 -----
 
