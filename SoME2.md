@@ -26,7 +26,7 @@ A post on [Palindromes arising from multiplication of ones]({{site.url}}/Posts/P
 
 **Target Audience (Main Post): Anyone**
 
-**Target Audience (Addendum): Experience with Number Theory, specifically knowledge of how Number Systems work**
+**Target Audience (Addendum): Experience with number systems**
 
 <hr style='border-top: 1px dashed;'>
 
@@ -35,6 +35,14 @@ A post on [Complex Numbers]({{site.url}}/Posts/ComplexRotations/ComplexRotations
 I also include some interesting extra challenge problems at the end of this post that I think are really solidifying for someone new to the ideas mentioned, and are fun puzzles to those with prior experience on the subject. I've included my approach to each of these problems as well.
 
 **Target Audience: Experience with algebra on real numbers**
+
+<hr style='border-top: 1px dashed;'>
+
+A post on [Factoring Quadratics Visually]({{site.url}}/Posts/FactoringVisually/FactoringVisually). In my experience and in talking with people about their educational math background, it seems many topics found in earlier maths classes are taught in a way that loses touch with a piece of intuition that could have otherwise made the topic more easy for students to learn and more enjoyable to learn, and hence more engaging. This is what I believe to be one of the root causes of students either believing they are inherently "bad at math," or coming to the conclusion that they don't like the science as a whole.
+
+This post was originally a presentation I put together for one of my classes, and it addresses a topic that is among the worst offenders of being taught in a manner that doesn't give the intuition justice - factoring quadratic polynomials. We've probably all seen the quadratic formula before, but few may have the intuition to reason through where it comes from. This video presentation guides a student through the building blocks of factoring polynomials in a visual way, all the while building up to the final challenge of the quadratic formula, which can be used to factor any quadratic polynomial. Instead of giving students the weapon to defeat a problem, I supply the tools required to build it.
+
+**Target Audience: Experience with basic algebra**
 
 <hr style='border-top: 1px dashed;'>
 
