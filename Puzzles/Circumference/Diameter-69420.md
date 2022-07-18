@@ -28,7 +28,7 @@ The player can then notice that certain buckets catch rain throughout the video.
 
 **Discovery 3:** Puzzle URL
 
-Looking then at the puzzle url the player notices that, instead of having the puzzle title, it ends with "Circumference/Diameter." Of course, this is referring to the famous constant \\(\pi = 3.14159265\\), which is the ratio of any circle's circumference to its diameter. The player can then use 298 and 335 as an index of the first ten digits of pi to get "156x445", whose value is **69420**, the answer to this puzzle.
+Looking then at the puzzle url the player notices that, instead of having the puzzle title, it ends with "Circumference/Diameter." Of course, this is referring to the famous constant \\(\pi = 3.14159265\\), which is the ratio of any circle's circumference to its diameter. The player can then use 298 and 335 as an index of these first nine digits of pi to get "156x445", whose value is **69420**, the answer to this puzzle.
 
 -----
 
