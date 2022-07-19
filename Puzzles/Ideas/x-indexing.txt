@@ -1,3 +1,5 @@
+Treasure Map
+
 list of clues that each refer to two english words, at least one containing an x
 the position of the x indexes the other word for a letter
 
@@ -52,12 +54,28 @@ v o:
     extrovert -
     reflexive -
 
-o l:
-    onyx
-    expo
-    epoxy
-    convex
-    cortex
-    exotic
-    export
-    expose
+o r:
+    onyx -
+    expo, crux trix
+    epoxy -
+    convex -
+    cortex -
+    exotic -
+    mexico tuxedo, vortex
+    complex -
+    hexagon -
+
+Bravo Color
+-----------
+Unbox - Toxic
+Xray - Oxen
+Taxi - Axle
+Excavate - Monoxide
+Tuxedo - Vortex
+
+Remove your newly-arrived tool from its shipping package, but be careful, it could be poisonous! (5)
+You might have broken its leg! We should bring it to a doctor to check. These cattle are trained to work, so lets move with haste. (4)
+Great - our yellow city carriage just broke down. I think we ran over a speed bump too quickly and broke the rod holding the wheels. (4)
+We were planning to dig here for the treasure, but we stopped once we came across a toxic gas with only one oxygen particle. (8)
+After finding the treasure all the men bought themselves some fancy black and white attire,
+                but we lost everything on the boatride home due to the swirling water storm! (6)
