@@ -9,6 +9,8 @@ grind stops -> never
 grind never -> stops
 bravo color -> red
 
+tapes tries -> tapestries
+
 
 bravo color
 ----------
