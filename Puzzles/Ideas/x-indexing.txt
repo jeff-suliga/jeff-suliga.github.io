@@ -1,0 +1,63 @@
+list of clues that each refer to two english words, at least one containing an x
+the position of the x indexes the other word for a letter
+
+aftertaste
+light cover -> sunscreen
+grind stops -> never
+grind never -> stops
+bravo color -> red
+
+
+bravo color
+----------
+
+b c:
+    unbox toxic
+
+r o:
+    xray oxen
+    xrays -
+    remix -
+    extra -
+    expert -
+    texture -
+
+a l:
+    axe -
+    tax -
+    apex -
+    exam -
+    hoax -
+    taxi axle
+    axiom -
+    extra -
+    exact -
+    texas -
+    matrix -
+    exhale elixir
+    expand elixir
+    climax -
+
+v o:
+    vixen -
+    convex -
+    vertex -
+    vortex -
+    excavate monoxide
+    exclusive -
+    excessive -
+    expletive -
+    expensive -
+    executive -
+    extrovert -
+    reflexive -
+
+o l:
+    onyx
+    expo
+    epoxy
+    convex
+    cortex
+    exotic
+    export
+    expose
