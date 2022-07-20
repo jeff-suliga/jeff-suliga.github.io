@@ -220,7 +220,7 @@ And this is our solution! \\(e^{i\frac{\pi}{4}}\\)
     <img src="{{site.imgposturl}}/ComplexRotations/i-with-sqrt.png" alt="Solution 1">
 </p>
 
-This was still an algebraic solution, but looking at the image convince you of why this point lies halfway up the complex unit circle between \\(i\\) and the positive real axis. This is because squaring a complex number doubles its angle, which in this case lands us directly on \\(i\\). This is really all the information needed to have solved this purely visually.
+This was still an algebraic solution, but looking at the image should convince you of why this point lies halfway up the complex unit circle between \\(i\\) and the positive real axis. This is because squaring a complex number doubles its angle, which in this case lands us directly on \\(i\\). This is really all the information needed to have solved this purely visually.
 
 \**if you want to say r could be -1, you'd be correct! Try to convince yourself visually why* \\(-e^{\frac{i\pi}{4}}\\) *is also a solution to this problem.*
 
