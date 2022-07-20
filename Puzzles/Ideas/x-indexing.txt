@@ -163,8 +163,20 @@ Galaxy - Expand
 Hypertext - Dexterous
 Relax - Exact
 
-These cardboard packages in our room storage hold many of these small cards. (5)
+All of these cardboard packages in our storage room hold many of these types of small cards. (5)
 Our riddle-loving creature with egyptian stature granted the men in our party a fancy black and white suit. (6)
-The Milky Way is already pretty large, but it seems to get bigger each day. (6)
+The Milky Way is already quite large, but it seems to get bigger each day. (6)
 To use this transfer protocol on the internet, one must be very good with their hands. (9)
 We can all take a load off once we locate the treasure, finding it's location with perfect precision and accuracy. (5)
+
+---------------------------
+
+Table with flavortext, with two maps on it that seem to reference each other.
+
+maps each only have underscores for places and X's for locations
+in between the maps text has the riddles that fill in the blanks
+
+OR 
+
+one big map that has flavortext on top, two comlumns for words with riddles in the middle. dotted lines come from
+small section in riddle that corresponds to word, and go to the x in the word
