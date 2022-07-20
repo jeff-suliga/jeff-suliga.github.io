@@ -180,3 +180,11 @@ OR
 
 one big map that has flavortext on top, two comlumns for words with riddles in the middle. dotted lines come from
 small section in riddle that corresponds to word, and go to the x in the word
+
+
+-------
+
+flavortext:
+
+This perplexing map seems to have been made such that no average treasure hunter would stumble upon its bounty.
+Each of the cryptic phrases have two underlying keywords. Decode each of these pairs and cross-reference them to claim its hidden prize, X marks the spot!
