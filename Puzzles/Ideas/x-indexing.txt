@@ -8,6 +8,8 @@ light cover -> sunscreen
 grind stops -> never
 grind never -> stops
 bravo color -> red
+great eight -> zaxbys
+donut shape -> torus
 
 tapes tries -> tapestries
 
@@ -81,3 +83,88 @@ Great - our yellow city carriage just broke down. I think we ran over a speed bu
 We were planning to dig here for the treasure, but we stopped once we came across a toxic gas with only one oxygen particle. (8)
 After finding the treasure all the men bought themselves some fancy black and white attire,
                 but we lost everything on the boatride home due to the swirling water storm! (6)
+
+donut shape
+-----------
+d s:
+    fixed -
+    hexed -
+    index, boxes foxes texas
+    mixed -
+    exceed -
+    expand -
+    expired -
+    explode -
+    monoxide -
+
+o h:
+    onyx -
+    expo -
+    epoxy -
+    convex -
+    cortex -
+    exotic -
+    mexico sphinx
+    tuxedo sphinx
+    complex exmouth
+    hexagon -
+
+n a:
+    jynx -
+    next, xmas xray
+    onyx -
+    oxen marx
+    bronx -
+    texan -
+    toxin -
+    vixen -
+    xenon, affix annex
+    convex -
+    expand galaxy
+    expend galaxy
+    anxiety, examine example
+    anxious, examine example
+
+u p:
+    flux -
+    unix -
+    unbox -
+    deluxe -
+    excuse apexes
+    exodus apexes
+    anxious -
+    execute -
+    exhaust -
+    texture -
+    dexterous hypertext
+
+t e:
+    tax -
+    exit -
+    trix -
+    taxi -
+    exact exist, helix relax remix
+    extra
+    latex -
+    toxic -
+    expert export, reflex vertex
+    matrix -
+    vertex -
+    vortex -
+    exhibit -
+    extinct, hexagon textire
+    taxation preexist
+
+Donut Shape
+-----------
+Boxes - Index
+Sphinx - Tuxedo
+Galaxy - Expand
+Hypertext - Dexterous
+Relax - Exact
+
+These cardboard packages in our room storage hold many of these small cards. (5)
+Our riddle-loving creature with egyptian stature granted the men in our party a fancy black and white suit. (6)
+The Milky Way is already pretty large, but it seems to get bigger each day. (6)
+To use this transfer protocol on the internet, one must be very good with their hands. (9)
+We can all take a load off once we locate the treasure, finding it's location with perfect precision and accuracy. (5)
