@@ -2,4 +2,17 @@
 layout: default
 ---
 
-<p>Hello World</p>
+<article>
+
+    <h1>{{page.puzzle-title}}</h1>
+
+    {% if page.testTrue %}
+    <p>This is true</p>
+    {% endif %}
+
+    {% if page.testFalse %}
+    <p>This is false</p>
+    {% endif %}
+
+
+</article>

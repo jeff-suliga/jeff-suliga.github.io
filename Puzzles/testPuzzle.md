@@ -1,5 +1,7 @@
 ---
 layout: puzzle
+testTrue: true
+testFalse: false
 ---
 
 # Name
