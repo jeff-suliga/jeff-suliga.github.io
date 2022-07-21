@@ -6,19 +6,14 @@ layout: default
 
     <h1>{{page.puzzle-title}}</h1>
 
-    {% if page.testTrue %}
-    <p>This is true</p>
-    {% endif %}
-
-    {% if page.testFalse %}
-    <p>This is false</p>
-    {% endif %}
-
-    {% if page.testAnything %}
-    <p>Testanything is a thing: {{ page.testAnything }}</p>
+    {% if page.flavortext %}
+    <p>Empty thing still true</p>
 
     {% else %}
-    <p> testAnything is not a thing </p>
+    <p>Empty thing not true</p>
+
     {% endif %}
+
+    {{ content }}
 
 </article>

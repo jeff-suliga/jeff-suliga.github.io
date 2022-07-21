@@ -1,22 +1,21 @@
 ---
 layout: puzzle
-puzzle-title: This is a title
-testTrue: true
-testFalse: false
-testAnything: hello
+flavortext:
+puzzle-title: Spotlight
+img-path: /Spotlight/Spotlight.jpg
+img-height: 300
+answer: SNOOP
 ---
 
-# Name
-
-[Optional puzzle description]
-
-<img src="{{ site.imgurl }}/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:100%;height:[height]px;object-fit:contain;">
+<img src="{{ site.imgurl }}{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:300px;object-fit:contain;">
 
 The answer to this puzzle is a single word.
 
 When you think you have the answer, add "-[your answer]" (no brackets, spaces, quotations) to the end of this URL **in all capital letters**.
 
 The image is also available [here]({{ site.imgurl }}/[puzzle name]/[puzzle image name]).
+
+{{page.answer}}
 
 -----
 
