@@ -16,4 +16,4 @@ Click [here](Caveman-TACTILE) to see the solution
 
 -----
 
-Click [here]({{ site.url }}) to return to the main page.
+Click [here]({{ site.url }}/Puzzles/Archived/ArchivedPuzzles) to return to the main page.
