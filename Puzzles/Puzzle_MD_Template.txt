@@ -3,11 +3,12 @@ layout: puzzle
 flavortext: [Optional Description - leave blank if none]
 puzzle-title: [Title - Shows up in header on top, same as puzzle-folder unless there are spaces]
 puzzle-folder: [Name of folder image is in - must be same as md title]
-img-path: /[Image name once in folder - leave / in front]
+img-path: [Image name once in folder]
 img-height: [Height in px, or change below]
 answer: [Puzzle answer]
+answer-type: [a single word]
 ---
 
 <p style="align:center;">
-    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
 </p>
