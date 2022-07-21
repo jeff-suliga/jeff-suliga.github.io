@@ -4,7 +4,7 @@ puzzle-title: Spotlight
 flavortext:
 puzzle-folder: Spotlight
 img-path: Spotlight.jpg
-img-height: 300
+img-height: 500
 answer: SNOOP
 answer-type: a single word
 ---
