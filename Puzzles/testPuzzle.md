@@ -1,19 +1,15 @@
 ---
 layout: puzzle
-flavortext:
+flavortext: hello <em>Test html in fm</em> world
 puzzle-title: Spotlight
 img-path: /Spotlight/Spotlight.jpg
-img-height: 400
+img-height: 300
 answer: SNOOP
 ---
 
 <img src="{{ site.imgurl }}{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
 
-The answer to this puzzle is a single word.
 
-When you think you have the answer, add "-[your answer]" (no brackets, spaces, quotations) to the end of this URL **in all capital letters**.
-
-The image is also available [here]({{ site.imgurl }}/[puzzle name]/[puzzle image name]).
 
 {{page.answer}}
 

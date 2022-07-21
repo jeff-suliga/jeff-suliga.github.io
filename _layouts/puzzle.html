@@ -6,14 +6,21 @@ layout: default
 
     <h1>{{page.puzzle-title}}</h1>
 
-    {% if page.flavortext %}
-    <p>Empty thing still true</p>
-
-    {% else %}
-    <p>Empty thing not true</p>
-
-    {% endif %}
+    <p>{{page.flavortext}}</p>
 
     {{ content }}
+
+    <p>
+        The answer to this puzzle is a single word.
+
+        <br>
+
+        When you think you have the answer, add "-[your answer]" (no brackets, spaces, quotations) to the end of this URL <strong>in all capital letters</strong>.
+        
+        <br>
+        
+        The image is also available <a href="{{ site.imgurl }}{{ page.img-path }}">here</a>.
+
+    </p>
 
 </article>
