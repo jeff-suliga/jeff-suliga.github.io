@@ -12,7 +12,7 @@ Each of the cryptic phrases reference two different hidden keywords. Decode each
 
 For this puzzle, the player is presented with 5 riddles and is clued to see that each riddle has 2 separate answers. Each set of answers have the same amount of letters (shown by the blank spaces below each line), and each contains a red **X** on it.
 
-Each of the key words is clued directly from an underlined section of its repective riddle. Though not obvious at first, the player quickly realizes once filling in a word that these **X** marks represent the place of an 'X' in the word.
+Each of the key words is clued directly from an underlined section of its respective riddle. Though not obvious at first, the player quickly realizes once filling in a word that these **X** marks represent the place of an 'X' in the word.
 
 For example, the two answers to the first riddle are *boxes* ("these cardboard packages") and *index* ("these small cards"). Notice how the 'x' letters in these words align with the red **X** on the map when written in the blanks.
 
@@ -24,7 +24,7 @@ Continuing in this way, the player makes the following words:
 <p style="text-align:center;font-style:italic;">HYPERTEXT    DEXTEROUS</p>
 <p style="text-align:center;font-style:italic;">RELAX        EXACT    </p>
 
-The next step, as the flavortext alludes to, is to *cross-reference* these pairs of words. Here, this refers to using the 'X' in each word to index the other word. Doing this for the first pair yields 'D' and 'S' as shown below:
+The next step, as the flavortext alludes to, is to *cross-reference* these pairs of words. Here, this means using the 'X' (cross) in each word to reference the other word. Doing this for the first pair yields 'D' and 'S' as shown below:
 
 <p style="text-align:center;">
     <img src="{{site.imgurl}}/TreasureHunt/TreasureHuntSolution.png">
