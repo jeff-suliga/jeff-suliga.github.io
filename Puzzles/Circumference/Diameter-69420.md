@@ -18,7 +18,9 @@ The audio and visuals show that it is raining with certain buckets catching drop
 
 The player notices that the water buckets are laid out in the shape of a typical computer keyboard. Words *"key, shift, alternate, type"* in the flavortext is hinting at this as well.
 
-![Keyboard]({{site.imgurl}}/Hydrology/HydrologySolution.jpg)
+<p style="text-align:center;">
+    <img src="{{site.imgurl}}/Hydrology/HydrologySolution.jpg">
+</p>
 
 **Discovery 2:** Catching rainfall
 
