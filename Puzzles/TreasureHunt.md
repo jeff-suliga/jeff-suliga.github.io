@@ -1,18 +1,20 @@
-# [Puzzle Name]
+# Treasure Hunt
 
-[Optional puzzle description]
+This perplexing map seems to have been made such that no average treasure hunter would stumble upon its bounty.
 
-<img src="{{ site.imgurl }}/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:100%;height:[height]px;object-fit:contain;">
+Each of the cryptic phrases reference two hidden keywords. Decode each of these pairs and *cross-reference* them to claim its hidden prize, X marks the spot!
+
+<img src="{{ site.imgurl }}/TreasureHunt/TreasureHunt.jpg" alt="Treasure Hunt" style="width:100%;height:700px;object-fit:contain;">
 
 The answer to this puzzle is a single word.
 
 When you think you have the answer, add "-[your answer]" (no brackets, spaces, quotations) to the end of this URL **in all capital letters**.
 
-The image is also available [here]({{ site.imgurl }}/[puzzle name]/[puzzle image name]).
+The image is also available [here]({{ site.imgurl }}/TreasureHunt/TreasureHunt.jpg).
 
 -----
 
-Click [here]([puzzle name]-[puzzle answer]) to see the solution
+Click [here](TreasureHunt-TORUS) to see the solution
 
 -----
 
