@@ -1,7 +1,9 @@
 ---
 layout: puzzle
+puzzle-title: This is a title
 testTrue: true
 testFalse: false
+testAnything: hello
 ---
 
 # Name

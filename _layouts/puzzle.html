@@ -14,5 +14,11 @@ layout: default
     <p>This is false</p>
     {% endif %}
 
+    {% if page.testAnything %}
+    <p>Testanything is a thing: {{ page.testAnything }}</p>
+
+    {% else %}
+    <p> testAnything is not a thing </p>
+    {% endif %}
 
 </article>
