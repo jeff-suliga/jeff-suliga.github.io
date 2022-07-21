@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Star Theorem
-extenstion: Extension (not currently used)
 publish-date: June 21, 2022
 description: Acute Triangles in the Sky
 ---
@@ -60,7 +59,9 @@ If you're confused on where we'll even begin to calculate any probabilities of t
 
 First think of a dartboard that lies perfectly within a square frame. Geometrically we would say that this dartboard is a circle *inscribed* in a square.
 
-![Circle inscribed in a square]({{site.imgposturl}}/StarTheorem/circle-in-square.jpg)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/circle-in-square.jpg" alt="Circle inscribed in a square">
+</p>
 
 Notice that the radius of this circle is the same as one half of the square's side lengths. Let's call this \\(r\\).
 
@@ -86,7 +87,9 @@ Using this way of thinking we can start constructing some triangles.
 
 To make a triangle out of stars in the sky, we can say with confidence that we need three stars. Due to the infinite nature of the 2D space we are currently working with, we can assume [WLOG](https://en.wikipedia.org/wiki/Without_loss_of_generality) that these two dots below represent the placement of our first two stars.
 
-![First Two Stars]({{site.imgposturl}}/StarTheorem/two-stars.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/two-stars.png" alt="First Two Stars">
+</p>
 
 This assumption might have some of you scratching your heads. What if these stars aren't placed there? What if the one on the right is moved up a little bit?
 
@@ -98,11 +101,15 @@ So at this point we've placed two of the three stars randomly on the plane, and 
 
 I encourage you to try to think ahead through the next few steps ahead of time. Try picking any point on this plane and thinking of the type of triangle you create. Now drag this point around and notice how this triangle changes - specifically in what regions does the third star need to be in to create an acute triangle?
 
-![Third Star Movement 1]({{site.imgposturl}}/StarTheorem/third-star-movement1.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/third-star-movement1.gif" alt="Third Star Movement 1">
+</p>
 
 Look at this again, but with the following "critical boundaries" defined in black.
 
-![Third Star Movement 2]({{site.imgposturl}}/StarTheorem/third-star-movement2.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/third-star-movement2.gif" alt="Third Star Movement 2">
+</p>
 
 You'll notice these colored regions actually show these areas where the triangle is acute and obtuse when the third star is placed in these regions. Any area in red marks where the triangle is obtuse (has an angle that is strictly greater than \\(90^{\circ}\\)) and any area in blue marks where the triangle is acute. The two upright black lines mark where the triangle is a right triangle (one angle is exactly \\(90^{\circ}\\)).
 
@@ -110,7 +117,9 @@ The right region in red marks where the "Star 1" angle is obtuse and the left re
 
 As a consequence of a [simple geometric theorem](https://www.varsitytutors.com/hotmath/hotmath_help/topics/inscribed-angles) we can see that, when the third star is located anywhere on this circle, using the stars as vertices yields a right triangle here as well. This portion is not relevant to answering our question, but it's still a fun geometric side effect.
 
-![Third Star Circling]({{site.imgposturl}}/StarTheorem/third-star-circle.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/third-star-circle.gif" alt="Third Star Circling">
+</p>
 
 -----
 
@@ -122,7 +131,9 @@ We know from before that this probability will come from comparing the area wher
 
 That is exactly the key realization here. We can disregard the area of the small circle in the center as it is of finite area, so in the bigger picture of infinite areas, it trends towards having zero impact on the probability in question. Other than this we can see that the outside red areas grow without bounds in 2 dimensions while the blue strip inside grows without bounds in 1 dimension, so while there is an infinitely large area in blue, there is an **infinitely larger** infinitely large area in red in the plane.
 
-![Diagram Zoom Out]({{site.imgposturl}}/StarTheorem/diagram-zoom-out.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/diagram-zoom-out.gif" alt="Diagram Zoom Out">
+</p>
 
 This is one way to visualize this - zooming out of the diagram we have first highlights the fact that the area of that small circle becomes negligant very quickly, but secondly shows how this blue strip becomes infinitely thin compared to the red regions. Think back to our dart board example. In the previous animation we are looking at these regions still from a very zoomed in view of the diagram compared to the infinitely large space we are working with, and we can see that the probability of a dart landing within that strip is very unlikely compared to that of the red area, so as we zoom out to fit more and more of the space we are working with into frame, this probability becomes smaller and smaller.
 
@@ -130,7 +141,9 @@ This is a fine way of thinking about it, but I don't think it fully causes most 
 
 Similar to how Dr. James Grime can compare cross-sectional areas of penny stacks to deduce information about the total volume of the stacks, we can look at "cross-sectional slices" of our graph to determine properties about how the total areas in our diagram relate to one another.
 
-![Diagram Slices]({{site.imgposturl}}/StarTheorem/diagram-slices.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/diagram-slices.gif" alt="Diagram Slices">
+</p>
 
 This animation really hammers home the realization of just how much larger the red regions are than the blue strip. At each instance, each "slice" of the diagram, we see that there is an infinitely long stretch of red extending to the left and to the right with a small section of blue with finite length. At each instance, the *length* of the blue sections are zero compared to the infinite length of the red sections, so we can conclude that, by adding up all of these "slices" of the diagram, the blue *area* is zero compared to the area denoted in red.
 
@@ -150,11 +163,15 @@ This is the reason I emphasize this definition, because changing one's frame of 
 
 With this out of the way, there actually is not much more that needs considering when talking about this idea in 3 dimensions. In the same way as before, we can place the first two stars (WLOG) as seen below:
 
-![3D Diagram Stars]({{site.imgposturl}}/StarTheorem/3d-diagram-stars.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/3d-diagram-stars.gif" alt="3D Diagram Stars">
+</p>
 
 You can follow the same procedure we had before, or simply think about rotating our 2-dimensional diagram fully through the z-axis. Either way you'll be coming up with the following picture:
 
-![3D Diagram Spinning]({{site.imgposturl}}/StarTheorem/3d-diagram-spinning.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/StarTheorem/3d-diagram-spinning.gif" alt="3D Diagram Spinning">
+</p>
 
 In this new diagram we can see that the small circle has now become a sphere between the points, and the center strip indicating acute triangles is now a ring between the two "walls" extending infinitely in two dimensions, with the outside regions now extending unbounded in three dimensions as opposed to the previous two.
 

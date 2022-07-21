@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 1111x1111=1234321
-extenstion: Extension (not currently used)
 publish-date: July 1, 2022
 description: Palindromic Multiplication and Number Systems
 ---
@@ -58,7 +57,9 @@ Let's start out with just \\(111 \times 111\\). To multiply these, we can break 
 
 This last step can be shown vertically like this:
 
-![111x111]({{site.imgposturl}}/PalindromicMultiplication/111x111.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/PalindromicMultiplication/111x111.png" alt="111x111">
+</p>
 
 Notice how, when we multiplied a string of three 1's by itself we got an addition of three values, each with three ones, offset by 0, 1, and 2 zeroes.
 
@@ -70,7 +71,9 @@ Let's move a step up now:
 
 Which can be seen as:
 
-![1111x1111]({{site.imgposturl}}/PalindromicMultiplication/1111x1111.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/PalindromicMultiplication/1111x1111.png" alt="1111x1111">
+</p>
 
 Here we have a string of *four* 1's multiplied by itself to get an addition of *four* values, each with *four* ones, offset by 0, 1, 2, and 3 zeroes.
 
@@ -88,7 +91,9 @@ But consider the case that originally stumped me:
 
 \\[1111111111 \times 1111111111\\]
 
-![Ten ones]({{site.imgposturl}}/PalindromicMultiplication/10ones.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/PalindromicMultiplication/10ones.png" alt="Ten ones">
+</p>
 
 This doesn't follow our formula, because from the left we see "...5679..." and it seems to skip over the 8. So where does our formula fall apart?
 
@@ -132,7 +137,7 @@ These expressions are equivalent to the following in decimal (the base 10 number
 
 \\[85\_{10} \times 85\_{10} = 7225\_{10}\\]
 
-This fact that we can predict how the pattern will behave in a certain number system is fun, but I think the coolest takeaway from this idea that this pattern holds in any number system that is greater than \\(n\\). For example, \\(1111\_{8} \times 1111\_{8} = 1234321\_{8}\\) in the same way that \\(1111\_{9} \times 1111\_{9} = 1234321\_{9}\\), \\(1111\_{10} \times 1111\_{10} = 1234321\_{10}\\), and \\(1111\_{j} \times 1111\_{j} = 1234321\_{j} \space ; \quad \forall j \gt 4\\)!
+This fact that we can predict how the pattern will behave in a certain number system is fun, but I think the coolest takeaway from this idea that this pattern holds in any number system that is greater than the amount of ones we have. For example, \\(1111\_{8} \times 1111\_{8} = 1234321\_{8}\\) in the same way that \\(1111\_{9} \times 1111\_{9} = 1234321\_{9}\\), \\(1111\_{10} \times 1111\_{10} = 1234321\_{10}\\), and \\(1111\_{j} \times 1111\_{j} = 1234321\_{j} \space ; \quad \forall j \gt 4\\)!
 
 Here's that example:
 
@@ -170,7 +175,7 @@ Seeing this example above, translating \\(585\_{10}\\) and \\(820\_{10}\\) into 
 
 Well, I realized that for all integers \\(m \gt 2\\) (ponder for a moment why I make this distinction), we can construct this string using base \\(m-1\\). This is true because the representation of \\(m\\) in base \\(m-1\\) will *always* be \\(11\\). Convince yourself of this briefly.
 
-Ok so that's cool, we can take any \\(m\\) and make it into a string of ones, \\(11\_{m-1}\\), and from there we can say that \\(11\_{m-1} \times 11\_{m-1} = 121\_{m-1}\\).
+Ok so that's cool, we can take any \\(m\\) and make it into a string of ones, \\(11\_{m-1}\\), and from there we can say that \\(11\_{m-1} \times 11\_{m-1} = 121\_{m-1}\\) (This expression is now under the assumption \\(m \gt 3\\)).
 
 But take another look at the example we had before. It's not like we just took \\(585\_{10}\\) and said \\(11\_{584} \times 11\_{584} = 121\_{584}\\), this way of approaching this isn't really that meaningful and is pretty unsatisfying if you ask me. I would say that, in the way we said \\(585\_{10}\\) and \\(820\_{10}\\) are *special* in decimal, I would argue that, the more ones we can have in the string of numbers (ex: \\(585\_{10}\\) as \\(1111\_{8}\\) rather than \\(11\_{584}\\)) makes the number more special.
 

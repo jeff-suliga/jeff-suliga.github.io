@@ -1,6 +1,6 @@
 ### Archived Puzzles
 
-These are puzzles that I've made that I've taken off of my main page, either because they're too hard, too obscure, or I just feel they aren't good puzzles.
+These are puzzles that I've made that I've taken off of my main page, either because they're too hard, too obscure, or I just feel they aren't good puzzles. Solve them at your own risk.
 
 Click on any below to try:
 

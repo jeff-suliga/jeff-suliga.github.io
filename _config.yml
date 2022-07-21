@@ -2,8 +2,9 @@ theme: jekyll-theme-slate
 
 title: Jeff Suliga
 # description: Hello World
-version: Version 9.11.8
+version: Version 10.0.0
 
+# DO NOT change baseurl
 baseurl: ""
 url: "https://jeff-suliga.github.io"
 imgurl: "https://jeff-suliga.github.io/images"
