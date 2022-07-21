@@ -8,4 +8,6 @@ img-height: [Height in px, or change below]
 answer: [Puzzle answer]
 ---
 
-<img src="{{ site.imgurl }}/{{ page.puzzle-folder }}{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+<p style="align:center;">
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+</p>
