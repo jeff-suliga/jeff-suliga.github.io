@@ -3,11 +3,11 @@ layout: puzzle
 flavortext:
 puzzle-title: Spotlight
 img-path: /Spotlight/Spotlight.jpg
-img-height: 300
+img-height: 400
 answer: SNOOP
 ---
 
-<img src="{{ site.imgurl }}{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:300px;object-fit:contain;">
+<img src="{{ site.imgurl }}{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
 
 The answer to this puzzle is a single word.
 
