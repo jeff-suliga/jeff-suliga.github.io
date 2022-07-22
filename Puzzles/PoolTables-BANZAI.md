@@ -1,10 +1,15 @@
-# Pool Tables Solution
+---
+layout: puzzleSol
+puzzle-title: Pool Tables
+flavortext: At the most elite level, competitors rely more on feeling than on sight in this simple sport of shooting spheres.
+puzzle-folder: PoolTables
+img-path: PoolTables.jpg
+img-height: 600
+---
 
------
-
-At the most elite level, competitors rely more on feeling than on sight in this simple sport of shooting spheres.
-
-<img src="{{ site.imgurl }}/PoolTables/PoolTables.jpg" alt="Pool Tables" style="width:100%;height:600px;object-fit:contain;">
+<p align="center">
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+</p>
 
 -----
 
@@ -27,7 +32,3 @@ We can decode this same message again, but this time in rainbow color order of t
 ![Banzai]({{ site.imgurl }}/PoolTables/PoolTablesSolution3.png)
 
 This message then translates in braille to **BANZAI**, the answer to this puzzle.
-
------
-
-Click [here]({{ site.url }}/#puzzles) to return to the main page.

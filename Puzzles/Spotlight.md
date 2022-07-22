@@ -1,17 +1,14 @@
-# Spotlight
+---
+layout: puzzle
+puzzle-title: Spotlight
+flavortext:
+puzzle-folder: Spotlight
+img-path: Spotlight.jpg
+img-height: 500
+answer: SNOOP
+answer-type: a single word
+---
 
-<img src="/images/Spotlight/Spotlight.jpg" alt="Spotlight" style="width:100%;height:300px;object-fit:contain;">
-
-The answer to this puzzle is a single word.
-
-When you think you have the answer, add "-[your answer]" (no brackets, spaces, quotations) to the end of this URL **in all capital letters**.
-
-The image is also available [here]({{ site.imgurl }}/Spotlight/Spotlight.jpg).
-
------
-
-Click [here](Spotlight-SNOOP) to see the solution
-
------
-
-Click [here]({{ site.url }}) to return to the main page.
+<p align="center">
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+</p>
