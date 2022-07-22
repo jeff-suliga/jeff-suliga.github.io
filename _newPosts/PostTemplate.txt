@@ -1,0 +1,12 @@
+---
+layout: post
+title: [Title]
+publish-date: [Publish Date]
+description: [Short Description]
+---
+
+content
+
+-----
+
+[\[Top\]]([post md name])
