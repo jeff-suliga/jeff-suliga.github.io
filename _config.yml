@@ -18,3 +18,5 @@ insta_username: jeff.suliga
 collections:
   newPosts:
     name: newPosts
+  Posts:
+    name: Posts
