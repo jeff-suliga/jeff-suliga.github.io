@@ -24,7 +24,7 @@ Continuing in this way, the player makes the following words:
 <p style="text-align:center;font-style:italic;">HYPERTEXT    DEXTEROUS</p>
 <p style="text-align:center;font-style:italic;">RELAX        EXACT    </p>
 
-The next step, as the flavortext alludes to, is to *cross-reference* these pairs of words. Here, this means using the 'X' (cross) in each word to reference the other word. Doing this for the first pair yields 'D' and 'S' as shown below:
+The next step, as the flavortext alludes to, is to *cross-reference* these pairs of words, with X "marking the spot". Here, this means using the 'X' (cross) in each word of the pair, to reference the letter in its position in the other word. Doing this for the first pair yields 'D' and 'S' as shown below:
 
 <p style="text-align:center;">
     <img src="{{site.imgurl}}/TreasureHunt/TreasureHuntSolution.png">
