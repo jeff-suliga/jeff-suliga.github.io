@@ -14,3 +14,7 @@ posturl: "https://jeff-suliga.github.io/Posts"
 email: suligajw@vt.edu
 github_username: jeff-suliga
 insta_username: jeff.suliga
+
+collections:
+  newPosts:
+    name: newPosts
