@@ -1,8 +1,15 @@
-# Runaway Worm Solution
+---
+layout: puzzleSol
+puzzle-title: Runaway Worm
+flavortext:
+puzzle-folder: RunawayWorm
+img-path: RunawayWorm.jpg
+img-height: 600
+---
 
------
-
-<img src="{{ site.imgurl }}/RunawayWorm/RunawayWorm.jpg" alt="Runaway Worm" style="width:100%;height:600px;object-fit:contain;">
+<p align="center">
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+</p>
 
 -----
 
@@ -41,7 +48,3 @@ The main soil horizons, or layers, that can be found are classified in the follo
 </p>
 
 At this point the player can see our decoded message "5262421," which only contains numbers 1-6, as referencing different soil horizons. For example, 5 refers to soil horizon 'C'. Continuing in this way gives **CARABAO**, this puzzle's answer.
-
------
-
-Click [here]({{ site.url }}/#puzzles) to return to the main page.

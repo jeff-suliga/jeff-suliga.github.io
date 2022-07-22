@@ -1,8 +1,15 @@
-# Terminal Alert Solution
+---
+layout: puzzleSol
+puzzle-title: Terminal Alert
+flavortext:
+puzzle-folder: TerminalAlert
+img-path: TerminalAlert.png
+img-height: 385
+---
 
------
-
-<img src="{{ site.imgurl }}/TerminalAlert/TerminalAlert.png" alt="Terminal Alert" style="width:100%;height:385px;object-fit:contain;">
+<p align="center">
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+</p>
 
 -----
 
@@ -45,7 +52,3 @@ The first value is shown as an example below:
 Carrying on in this way of performing the logical operations on the left bytes and using the calculated binary as an ASCII reference yields *STEGANOGRAPHY_*.
 
 **STEGANOGRAPHY**, the art of hiding secret data within a file or message, is the answer to this puzzle.
-
------
-
-Click [here]({{ site.url }}/#puzzles) to return to the main page.
