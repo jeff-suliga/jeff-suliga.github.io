@@ -6,6 +6,12 @@ layout: default
     Confirm liquid deployment
 </p>
 
+{% for page in site.pages %}
+<p>
+    {{ page.url }}
+</p>
+{% endfor %}
+
 <div id="img-with-text-container">
     <div class="bio-img-container">
         <img src="{{ site.imgurl }}/Snow.jpg" class="bio-img">
