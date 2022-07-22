@@ -1,13 +1,16 @@
-# [Puzzle name] Solution
+---
+layout: puzzleSol
+puzzle-title: [Puzzle Title]
+flavortext: [Optional flavortext]
+puzzle-folder: [Name of folder image is in - must be same as md title]
+img-path: [Image name once in folder]
+img-height: [Height in px, or change below]
+---
 
------
-
-<img src="{{ site.imgurl }}/[Puzzle name]/[puzzle image name]" alt="[alternate text]" style="width:100%;height:[height]px;object-fit:contain;">
+<p align="center">
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+</p>
 
 -----
 
 [Puzzle explanation]
-
------
-
-Click [here]({{ site.url }}/#puzzles) to return to the main page.
