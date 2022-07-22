@@ -15,6 +15,6 @@ email: suligajw@vt.edu
 github_username: jeff-suliga
 insta_username: jeff.suliga
 
-# collections:
-#   newPosts:
-#     name: newPosts
+collections:
+  newPosts:
+    name: newPosts
