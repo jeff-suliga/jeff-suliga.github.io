@@ -3,7 +3,6 @@ layout: puzzle
 puzzle-title: Pool Tables
 flavortext: At the most elite level, competitors rely more on feeling than on sight in this simple sport of shooting spheres.
 puzzle-folder: PoolTables
-img-path: PoolTables.jpg
 img-height: 600
 answer: BANZAI
 answer-type: a single word

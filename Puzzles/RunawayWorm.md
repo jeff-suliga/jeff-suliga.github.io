@@ -3,7 +3,6 @@ layout: puzzle
 puzzle-title: Runaway Worm
 flavortext:
 puzzle-folder: RunawayWorm
-img-path: RunawayWorm.jpg
 img-height: 600
 answer: CARABAO
 answer-type: a single word

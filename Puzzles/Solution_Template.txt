@@ -3,7 +3,7 @@ layout: puzzleSol
 puzzle-title: [Puzzle Title]
 flavortext: [Optional flavortext]
 puzzle-folder: [Name of folder image is in - must be same as md title]
-img-path: [Image name once in folder]
+img-path: [Image name once in folder, can omit if it's just puzzle-folder.jpg]
 img-height: [Height in px, or change below]
 ---
 
