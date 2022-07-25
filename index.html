@@ -2,25 +2,25 @@
 layout: default
 ---
 
-<p style="font-size: 20px;">
+<p style="font-size: 30px;">
     <strong>Currently Developing.</strong>
 </p>
 
 
 {% for puzzle in site.data.puzzles %}
-<p>Puzzle name: puzzle.name</p>
-<p>Puzzle image path: puzzle.ext</p>
-<p>Puzzle path: puzzle.link</p>
-<p>
-    Puzzle thumb path:
-
-    {% if puzzle.thumb-ext %}
-    {{ site.imgurl }}/{{puzzle.ext}}/{{puzzle.ext}}Thumbnail.{{ puzzle.thumb-ext }}
-    {% else %}
-    {{ site.imgurl }}/{{puzzle.ext}}/{{puzzle.ext}}Thumbnail.jpg
-    {% endif %}
-    
-</p>
+<div class="puzzle-img-with-text">
+    <div class="puzzle-thumb">
+        <a href="{{ puzzle.link }}">
+            {% if puzzle.thumb-ext %}
+            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="puzzle-thumb">
+            {% else %}
+            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="puzzle-thumb">
+            {% endif %}
+            <div class="puzzle-thumb-overlay"></div>
+        </a>
+    </div>
+    <h4 class="puzzle-thumb-text">Treasure Hunt</h4>
+</div>
 {% endfor %}
 
 
