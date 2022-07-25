@@ -2,15 +2,27 @@
 layout: default
 ---
 
-<p>
-    Confirm liquid deployment
+<p style="font-size: 20px;">
+    <strong>Currently Developing.</strong>
 </p>
 
-{% for post in site.Posts %}
+
+{% for puzzle in site.data.puzzles %}
+<p>Puzzle name: puzzle.name</p>
+<p>Puzzle image path: puzzle.ext</p>
+<p>Puzzle path: puzzle.link</p>
 <p>
-    {{ post.url }}
+    Puzzle thumb path:
+
+    {% if puzzle.thumb-ext %}
+    {{ site.imgurl }}/{{puzzle.ext}}/{{puzzle.ext}}Thumbnail.{{ puzzle.thumb-ext }}
+    {% else %}
+    {{ site.imgurl }}/{{puzzle.ext}}/{{puzzle.ext}}Thumbnail.jpg
+    {% endif %}
+    
 </p>
 {% endfor %}
+
 
 <div id="img-with-text-container">
     <div class="bio-img-container">
