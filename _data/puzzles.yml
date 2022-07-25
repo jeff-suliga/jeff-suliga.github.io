@@ -1,0 +1,19 @@
+- name: Treasure Hunt           # Stage name of puzzle
+  ext: TreasureHunt             # Puzzle image folder
+  link: /Puzzles/TreasureHunt   # Link to actual puzzle
+- name: Pool Tables
+  ext: PoolTables
+  link: /Puzzles/PoolTables
+- name: Runaway Worm
+  ext: RunawayWorm
+  link: /Puzzles/RunawayWorm
+- name: Spotlight
+  ext: Spotlight
+  link: /Puzzles/Spotlight
+- name: Hydrology
+  ext: Hydrology
+  link: /Puzzles/Circumference/Diameter
+- name: Terminal Alert
+  ext: TerminalAlert
+  link: /Puzzles/TerminalAlert
+  thumb-ext: png
