@@ -70,65 +70,21 @@ layout: default
 
     <p>Each of these are puzzles that I've created. Click on one below to try:</p>
 
+    {% for puzzle in site.data.puzzles %}
     <div class="puzzle-img-with-text">
         <div class="puzzle-thumb">
-            <a href="/Puzzles/TreasureHunt">
-                <img src="{{ site.imgurl }}/TreasureHunt/TreasureHuntThumbnail.jpg" alt="Treasure Hunt" class="puzzle-thumb">
+            <a href="{{ puzzle.link }}">
+                {% if puzzle.thumb-ext %}
+                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="puzzle-thumb">
+                {% else %}
+                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="puzzle-thumb">
+                {% endif %}
                 <div class="puzzle-thumb-overlay"></div>
             </a>
         </div>
-        <h4 class="puzzle-thumb-text">Treasure Hunt</h4>
+        <h4 class="puzzle-thumb-text">{{ puzzle.name }}</h4>
     </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/PoolTables">
-                <img src="{{ site.imgurl }}/PoolTables/PoolTablesThumbnail.jpg" alt="Pool Tables" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Pool Tables</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/RunawayWorm">
-                <img src="{{ site.imgurl }}/RunawayWorm/RunawayWormThumbnail.jpg" alt="Runaway Worm" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Runaway Worm</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/Spotlight">
-                <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" alt="Spotlight" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Spotlight</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/Circumference/Diameter">
-                <img src="{{ site.imgurl }}/Hydrology/HydrologyThumbnail.jpg" alt="Hydrology" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Hydrology</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/TerminalAlert">
-                <img src="{{ site.imgurl }}/TerminalAlert/TerminalAlertThumbnail.png" alt="Terminal Alert" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Terminal Alert</h4>
-    </div>
+    {% endfor %}
     
 </div>
 <br>
