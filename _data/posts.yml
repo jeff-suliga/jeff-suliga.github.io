@@ -1,0 +1,20 @@
+- title: Factoring
+  description: A Visual Approach
+  publish-date: July 17, 2022
+  path: FactoringVisually
+  thumb-path: thumb.png
+- title: 1111x1111 = 1234321
+  description: Palindromic Multiplication
+  publish-date: July 1, 2022
+  path: PalindromicMultiplication
+  thumb-path: thumb.png
+- title: Star Theorem
+  description: Acute Triangles in the Sky
+  publish-date: June 21, 2022
+  path: StarTheorem
+  thumb-path: third-star-cycle.gif
+- title: Complex Rotations
+  description: Multiplying complex numbers visually
+  publish-date: June 17, 2022
+  path: ComplexRotations
+  thumb-path: i-with-sqrt.png
