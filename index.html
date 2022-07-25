@@ -30,33 +30,16 @@ layout: default
     <hr>
 
     <ul>
-        <li class="post">
-            <img src="{{ site.imgposturl }}/FactoringVisually/thumb.png" class="post-thumb">
-            <a href="{{ site.posturl }}/FactoringVisually/FactoringVisually" class="post-link">Factoring: A Visual Approach</a>
-            <br>
-            <p class="post-date">July 17, 2022</p>
-        </li>
 
+        {% for post in site.data.posts %}
         <li class="post">
-            <img src="{{ site.imgposturl }}/PalindromicMultiplication/thumb.png" class="post-thumb">
-            <a href="{{ site.posturl }}/PalindromicMultiplication/PalindromicMultiplication" class="post-link">1111x1111=1234321: Palindromic Multiplication</a>
+            <img src="{{ site.imgposturl }}/{{ post.path }}/{{ post.thumb }}" class="post-thumb">
+            <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}:{{ post.description }}</a>
             <br>
-            <p class="post-date">July 1, 2022</p>
+            <p class="post-date">{{ post.publish-date }}</p>
         </li>
-
-        <li class="post">
-            <img src="{{ site.imgposturl }}/StarTheorem/third-star-circle.gif" class="post-thumb">
-            <a href="{{ site.posturl }}/StarTheorem/StarTheorem" class="post-link">Star Theorem: Acute Triangles in the Sky</a>
-            <br>
-            <p class="post-date">June 21, 2022</p>
-        </li>
+        {% endfor %}
         
-        <li class="post">
-            <img src="{{ site.imgposturl }}/ComplexRotations/i-with-sqrt.png" class="post-thumb">
-            <a href="{{ site.posturl }}/ComplexRotations/ComplexRotations" class="post-link">Complex Rotations: Multiplying Complex Numbers Visually</a>
-            <br>
-            <p class="post-date">June 17, 2022</p>
-        </li>
     </ul>
 
 </div>
