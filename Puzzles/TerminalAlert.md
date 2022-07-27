@@ -1,12 +1,11 @@
 ---
 layout: puzzle
 puzzle-title: Terminal Alert
-flavortext:
 puzzle-folder: TerminalAlert
 img-path: TerminalAlert.png
 img-height: 385
 answer: STEGANOGRAPHY
-answer-type: [a single word]
+answer-type: a single word
 ---
 
 <p align="center">
