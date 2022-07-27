@@ -1,9 +1,9 @@
 ---
 layout: puzzle
 puzzle-title: [Title - Shows up in header on top, same as puzzle-folder unless there are spaces]
-flavortext: [Optional Description - leave blank if none]
+flavortext: [Optional Description - omit if none]
 puzzle-folder: [Name of folder image is in - must be same as md title]
-img-path: [Image name once in folder, can omit if it's just puzzle-folder.jpg]
+img-path: [Image name once in folder - omit if puzzle-folder.jpg]
 img-height: [Height in px, or change below]
 answer: [Puzzle answer]
 answer-type: [a single word]
