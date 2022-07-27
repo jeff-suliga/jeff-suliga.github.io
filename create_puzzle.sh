@@ -16,3 +16,13 @@ then
     echo 'Puzzle images folder not found. Creating folder now...'
     mkdir images/$PUZZLE_NAME
 fi
+
+echo '- name: [Stage name of puzzle]' >> _data/puzzles.yml
+echo "  ext: $PUZZLE_NAME" >> _data/puzzles.yml
+echo '  link: [Link to actual puzzle]' >> _data/puzzles.yml
+
+echo $'\nTODO:'
+echo $'\tEdit front matter of puzzle md'
+echo $'\tEdit front matter of puzzle solution md'
+echo $'\tEdit _data/puzzles.yml values so it shows up correctly in index'
+echo $'\tAdd puzzle solution explanation'

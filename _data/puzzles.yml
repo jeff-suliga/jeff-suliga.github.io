@@ -16,4 +16,4 @@
 - name: Terminal Alert
   ext: TerminalAlert
   link: /Puzzles/TerminalAlert
-  thumb-ext: png
+  thumb-ext: png                # If anything other than jpg
