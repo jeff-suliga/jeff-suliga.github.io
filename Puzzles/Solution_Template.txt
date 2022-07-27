@@ -1,6 +1,6 @@
 ---
 layout: puzzleSol
-puzzle-title: [Puzzle Title]
+title: [Puzzle Title] Solution
 flavortext: [Optional flavortext - omit if none]
 puzzle-folder: [Name of folder image is in - must be same as md title]
 img-path: [Image name once in folder - omit if puzzle-folder.jpg]

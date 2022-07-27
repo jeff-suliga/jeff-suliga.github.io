@@ -1,6 +1,6 @@
 ---
 layout: puzzle
-puzzle-title: [Title - Shows up in header on top, same as puzzle-folder unless there are spaces]
+title: [Title - Shows up in header on top, same as puzzle-folder unless there are spaces]
 flavortext: [Optional Description - omit if none]
 puzzle-folder: [Name of folder image is in - must be same as md title]
 img-path: [Image name once in folder - omit if puzzle-folder.jpg]
