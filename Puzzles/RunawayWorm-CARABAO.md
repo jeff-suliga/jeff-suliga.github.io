@@ -1,7 +1,6 @@
 ---
 layout: puzzleSol
 puzzle-title: Runaway Worm
-flavortext:
 puzzle-folder: RunawayWorm
 img-path: RunawayWorm.jpg
 img-height: 600

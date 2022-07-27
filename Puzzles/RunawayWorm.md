@@ -1,7 +1,6 @@
 ---
 layout: puzzle
 puzzle-title: Runaway Worm
-flavortext:
 puzzle-folder: RunawayWorm
 img-height: 600
 answer: CARABAO

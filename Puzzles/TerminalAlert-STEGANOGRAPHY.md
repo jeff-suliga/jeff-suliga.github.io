@@ -1,7 +1,6 @@
 ---
 layout: puzzleSol
 puzzle-title: Terminal Alert
-flavortext:
 puzzle-folder: TerminalAlert
 img-path: TerminalAlert.png
 img-height: 385

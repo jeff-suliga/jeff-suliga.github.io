@@ -1,7 +1,6 @@
 ---
 layout: puzzleSol
 puzzle-title: Spotlight
-flavortext:
 puzzle-folder: Spotlight
 img-path: Spotlight.jpg
 img-height: 500

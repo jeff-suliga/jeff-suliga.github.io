@@ -1,7 +1,6 @@
 ---
 layout: puzzle
 puzzle-title: Spotlight
-flavortext:
 puzzle-folder: Spotlight
 img-height: 500
 answer: SNOOP
