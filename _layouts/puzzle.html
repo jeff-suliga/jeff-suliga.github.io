@@ -6,12 +6,12 @@ layout: default
 
     <h1 align="center">{{page.title}}</h1>
 
-    <p align="center" style="font-size:20px;">{{page.flavortext | default: "Hello World"}}</p>
+    <p align="center" style="font-size:20px;">{{page.flavortext}}</p>
 
     {{ content }}
 
     <p>
-        The answer to this puzzle is {{ page.answer-type }}.
+        The answer to this puzzle is {{ page.answer-type | default: "a single word" }}.
 
         <br>
         <br>
