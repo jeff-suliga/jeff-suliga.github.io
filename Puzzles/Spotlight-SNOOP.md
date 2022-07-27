@@ -1,6 +1,6 @@
 ---
 layout: puzzleSol
-puzzle-title: Spotlight
+title: Spotlight Solution
 puzzle-folder: Spotlight
 img-path: Spotlight.jpg
 img-height: 500

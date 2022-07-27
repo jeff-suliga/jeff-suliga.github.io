@@ -1,6 +1,6 @@
 ---
 layout: puzzle
-puzzle-title: Pool Tables
+title: Pool Tables
 flavortext: At the most elite level, competitors rely more on feeling than on sight in this simple sport of shooting spheres.
 puzzle-folder: PoolTables
 img-height: 600
