@@ -19,7 +19,8 @@ fi
 
 echo '- name: [Stage name of puzzle]' >> _data/puzzles.yml
 echo "  ext: $PUZZLE_NAME" >> _data/puzzles.yml
-echo '  link: [Link to actual puzzle]' >> _data/puzzles.yml
+echo "  link: $PUZZLE_NAME" >> _data/puzzles.yml
+echo '  thumb-ext: [omit if jpg]' >> _data/puzzles.yml
 
 echo $'\nTODO:'
 echo $'\tEdit front matter of puzzle md'
