@@ -36,7 +36,11 @@ layout: default
             <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}">
                 <img src="{{ site.imgposturl }}/{{ post.path }}/{{ post.thumb }}" class="post-thumb">
             </a>
+            {% if post.description %}
             <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}: {{ post.description }}</a>
+            {% else %}
+            <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}</a>
+            {% endif %}
             <br>
             <p class="post-date">{{ post.publish-date }}</p>
         </li>
