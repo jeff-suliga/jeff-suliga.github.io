@@ -32,12 +32,11 @@ content
 
 -----
 
-[\[Top\]]($POST_NAME)" >> Posts/$POST_PATH/$POST_PATH.md
+[\[Top\]]($POST_PATH)" >> Posts/$POST_PATH/$POST_PATH.md
 
 # Add post data to data file. Remove this to prevent deploying to index
 echo "- title: $POST_NAME
   description: [Short Description]
   publish-date: In Progress
   path: $POST_PATH
-  thumb: [Thumbnail file name]
-" >> _data/posts.yml
+  thumb: [Thumbnail file name]" >> _data/posts.yml
