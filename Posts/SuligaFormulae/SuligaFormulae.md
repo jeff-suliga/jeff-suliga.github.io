@@ -14,7 +14,7 @@ This post will showcase two different formulas that I came up with in my latter 
 
 -----
 
-# Suliga Formula 1
+### Suliga Formula 1
 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
 
@@ -62,7 +62,7 @@ Here we just used the fact that \\(e^{c}\\) is simply a constant, independent of
 
 -----
 
-# Suliga Formula 2
+### Suliga Formula 2
 
 -----
 
