@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Must be run from project's root folder
+# BEFORE RUNNING: Make sure puzzles.yml has a blank line at the end
 
 read -p 'Puzzle Title (no spaces): ' PUZZLE_NAME
 read -p 'Puzzle Answer: ' PUZZLE_ANS
