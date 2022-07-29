@@ -61,10 +61,25 @@ This means that our first main step for evaluating this integral is to try to tu
 Well, the first conflict to this idea is that we have this "\\(+c\\)" in our exponent. However, with some tricky algebra we can quickly remove this from the integral:
 
 \\[\int\_{-\infty}^{\infty} e^{ax^{2}+bx+c} \space dx = \\]
-\\[\int\_{-\infty}^{\infty} e^{ax^{2}+bx} e^{c} \space dx = \\]
+\\[\int\_{-\infty}^{\infty} e^{ax^{2}+bx} \space e^{c} \space dx = \\]
 \\[e^{c} \int\_{-\infty}^{\infty} e^{ax^{2}+bx} \space dx\\]
 
 Here we just used the fact that \\(e^{c}\\) is simply a constant, independent of \\(x\\), and so we can pull it ouside of the main integral.
+
+At this point we can now use one of my favorite pieces of math to get this new integrand into the form that we want, [Completing the Square]("{{site.posturl}}/FactoringVisually/FactoringVisually").
+
+\\[e^{c} \int\_{-\infty}^{\infty} e^{ax^{2}+bx} \space dx =\\]
+\\[e^{c} \int\_{-\infty}^{\infty} e^{a(x^{2}+\frac{b}{a}x)} \space dx =\\]
+\\[e^{c} \int\_{-\infty}^{\infty} e^{a(x^{2}+\frac{b}{a}x+\frac{b^{2}}{4a^{2}}-\frac{b^{2}}{4a^{2}})} \space dx =\\]
+\\[e^{c} \int\_{-\infty}^{\infty} e^{a((x+\frac{b}{2a})^{2}-\frac{b^{2}}{4a^{2}})} \space dx =\\]
+\\[e^{c} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}-\frac{b^{2}}{4a}} \space dx =\\]
+\\[e^{c} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space e^{-\frac{b^{2}}{4a}} \space dx =\\]
+\\[e^{c} \space e^{-\frac{b^{2}}{4a}} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx =\\]
+\\[e^{c-\frac{b^{2}}{4a}} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx =\\]
+
+And look at that! We've reached a spot where we have the integral of \\(e\\) raised to something squared just like we wanted!
+
+Now that was a lot that just happened, so lets first break down the steps we just took before we move on.
 
 -----
 
