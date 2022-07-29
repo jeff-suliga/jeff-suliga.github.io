@@ -68,7 +68,7 @@ Well, the first conflict to this idea is that we have this "\\(+c\\)" in our exp
 
 Here we just used the fact that \\(e^{c}\\) is simply a constant, independent of \\(x\\), and so we can pull it ouside of the main integral.
 
-At this point we can now use one of my favorite pieces of math to get this new integrand into the form that we want, [Completing the Square]("{{site.posturl}}/FactoringVisually/FactoringVisually").
+At this point we can now use one of my favorite pieces of math to get this new integrand into the form that we want, [Completing the Square]({{site.posturl}}/FactoringVisually/FactoringVisually).
 
 \\[e^{c} \int\_{-\infty}^{\infty} e^{ax^{2}+bx} \space dx =\\]
 \\[e^{c} \int\_{-\infty}^{\infty} e^{a(x^{2}+\frac{b}{a}x)} \space dx =\\]
@@ -77,13 +77,13 @@ At this point we can now use one of my favorite pieces of math to get this new i
 \\[e^{c} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}-\frac{b^{2}}{4a}} \space dx =\\]
 \\[e^{c} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space e^{-\frac{b^{2}}{4a}} \space dx =\\]
 \\[e^{c} \space e^{-\frac{b^{2}}{4a}} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx =\\]
-\\[e^{c-\frac{b^{2}}{4a}} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx =\\]
+\\[e^{c-\frac{b^{2}}{4a}} \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx\\]
 
 And look at that! We've reached a spot where we have the integral of \\(e\\) raised to something squared just like we wanted!
 
 Now that was a lot that just happened, so lets first break down the steps we just took before we move on.
 
-First, we factored out the \\(a\\) from our polynomial in the exponent. This is required in order to use completing the square. Then, we took our linear term of this polynomial, divided it by 2, and squared it. This step is the essence of completing the square. At this point, we were able to see our perfect square arise, \\((x+\frac{b}{2a})^{2}\\). We then distributed the \\(a\\) back into the expression.
+First, we factored out the \\(a\\) from our polynomial in the exponent. This is required in order to use completing the square. Then, we took our linear term of this polynomial, divided it by 2, and squared it. This step is the essence of the completing the square technique. At this point, we were able to see our perfect square arise, \\(x^{2}+\frac{b}{a}x+\frac{b^{2}}{4a^{2}} = (x+\frac{b}{2a})^{2}\\). We then distributed the \\(a\\) back into the expression.
 
 Hopefully the last couple steps seem familiar to you, because it's the same exact thing we did originally with the \\(e^{c}\\) term! In the same way, \\(e^{-\frac{b^{2}}{4a}}\\) is a constant independent of x, so we can pull it out to the front of the integral. We can then combine the two terms into one exponent outside.
 
