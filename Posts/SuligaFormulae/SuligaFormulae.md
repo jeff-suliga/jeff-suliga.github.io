@@ -4,7 +4,7 @@ title: Suliga Formulae
 publish-date: In Progress
 ---
 
-**A Starting Note:** I tried to make this page accessible for most viewing platforms. This being said, there are a lot of math equations/expressions here that may be difficult to see properly on larger screens. If this is the case for you, right click (hold down if using a tablet) on \\(\textrm{this text}\\)any of the sections containing math-formatted text and a small MathJax menu will pop up. Click on "Math Settings" > "Scale All Math..." and input a number greater than 100 to increase the size of the math text. You can also set a zoom trigger to cause a bigger window containing the math section to pop up on a double click.
+**A Starting Note:** I tried to make this page accessible for most viewing platforms. This being said, there are a lot of math equations/expressions here that may be difficult to see properly on larger screens. If this is the case for you, right click (hold down if using a tablet) on \\(\textrm{this text}\\) or any of the sections containing math-formatted text and a small MathJax menu will pop up. Click on "Math Settings" > "Scale All Math..." and input a number greater than 100 to increase the size of the math text. You can also set a zoom trigger to cause a bigger window containing the math section to pop up on a double click.
 
 This post will showcase two different formulas that I came up with in my latter years of high school.
 
@@ -86,6 +86,20 @@ Now that was a lot that just happened, so lets first break down the steps we jus
 First, we factored out the \\(a\\) from our polynomial in the exponent. This is required in order to use completing the square. Then, we took our linear term of this polynomial, divided it by 2, and squared it. This step is the essence of the completing the square technique. At this point, we were able to see our perfect square arise, \\(x^{2}+\frac{b}{a}x+\frac{b^{2}}{4a^{2}} = (x+\frac{b}{2a})^{2}\\). We then distributed the \\(a\\) back into the expression.
 
 Hopefully the last couple steps seem familiar to you, because it's the same exact thing we did originally with the \\(e^{c}\\) term! In the same way, \\(e^{-\frac{b^{2}}{4a}}\\) is a constant independent of \\(x\\), so we can pull it out to the front of the integral. We can then combine the two terms into one exponent outside.
+
+Our next step is to move this integrand (which still has a nonelementary antiderivative) into its polar form in a tricky manner. For this step, we're going to isolate our integral from the rest of the expression and tackle it individually. Let's just call it \\(I\\) for integral (this is actually pretty standard when dealing with these kinds of problems funnily enough).
+
+\\[I \coloneqq  \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx\\]
+
+So in the context of our problem we can say
+
+\\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
+\\[Ie^{c-\frac{b^{2}}{4a}}\\]
+
+However, there's a small amount of housekeeping to be done before diving into the Gaussian Integration step that will make things a lot easier for us. The following can be shown by a simple u-substitution:
+
+\\[I = \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx\\]
+\\[= \int\_{-\infty}^{\infty} e^{au^{2}} \space du\\]
 
 -----
 
