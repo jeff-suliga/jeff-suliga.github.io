@@ -119,6 +119,45 @@ So at this point we have this \\(I\\) integral that we are trying to break down,
 \\[I = \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx\\]
 \\[= \int\_{-\infty}^{\infty} e^{ax^{2}} \space dx\\]
 
+And now comes the power of Gauss' Technique. Since \\(x\\) is an arbitrary variable, we can say both of these are equivalent:
+
+\\[I = \int\_{-\infty}^{\infty} e^{ax^{2}} \space dx\\]
+\\[I = \int\_{-\infty}^{\infty} e^{ay^{2}} \space dy\\]
+
+We can then multiply these two expressions to get the following:
+
+\\[I^{2} = \int\_{-\infty}^{\infty} e^{ax^{2}} \space dx \int\_{-\infty}^{\infty} e^{ay^{2}} \space dy\\]
+
+And since these two multiplied integrals don't have any dependency conflicts,
+
+\\[I^{2} = \int\_{-\infty}^{\infty}\int\_{-\infty}^{\infty} e^{ax^{2}} \space e^{ay^{2}} \space dxdy\\]
+\\[= \int\_{-\infty}^{\infty}\int\_{-\infty}^{\infty} e^{ax^{2} + ay^{2}} \space dxdy\\]
+\\[= \int\_{-\infty}^{\infty}\int\_{-\infty}^{\infty} e^{a(x^{2} + y^{2})} \space dxdy\\]
+
+And now comes the fun part - we see this \\(x^{2} + y^{2}\\) and think of polar coordinates. Using our definition of \\(x^{2} + y^{2} = r^{2}\\), we can change this integrand to \\(e^{ar^{2}}\\). But we also have to think about the rest of the integral, namely the bounds and the differentials.
+
+Let's start with the bounds. What we start with is \\(x \in (-\infty, \infty)\\), \\(y \in (-\infty, \infty)\\). When we think about these together, we can see that this range sweeps over all of \\(\mathbb{R}^{2}\\). This means that when we change to polar coordinates, we must find bounds for \\(r, \theta\\) that also sweep over all of \\(\mathbb{R}^{2}\\). There are actually infinite choices for this, but the easiest (and most standard) is \\(r \in [0, \infty)\\), \\(\theta \in [0, 2\pi]\\). Make sure you're convinced that these bounds for \\(r, \theta\\) do in fact cover all of the \\(\mathbb{R}^{2}\\) plane. Think of \\(\theta\\) rotating once all the way around the origin with \\(r\\) extending from the origin all the way out to infinity. These two actions combined with one another will indeed collect all of \\(\mathbb{R}^{2}\\).
+
+Now for the differentials. This portion will seem strange if you've never worked with change of variables in integration. Many of us may have been told to simply replace \\(dxdy\\) with \\(rdrd\theta\\) when changing to polar/spherical from cartesian like we're doing here. I won't explain here why we do this (Jacobians are wonderful and a great way to see this, but that's just a lot more than you need to know, and was way above my head when I first came up with this formula), but as I mentioned before, [This Video](TODO) has a great explanation.
+
+So what have we figured out when changing our integral to a polar form? We know the bounds, integrand in polar coordinate notation, and differentials, which is all we need to build \\(I\\) back up.
+
+\\[I^{2} = \int\_{0}^{2\pi}\int\_{0}^{\infty} e^{ar^{2}} \space rdrd\theta\\]
+
+And since these two multiplied integrals don't have any dependency conflicts,
+
+\\[I^{2} = \int\_{0}^{2\pi} d\theta \int\_{0}^{\infty} re^{ar^{2}} \space dr\\]
+
+And now, we can *finally* start actually integration as normal, since both of these integrands have elementary integrands.
+
+\\[I^{2} = \int\_{0}^{2\pi} d\theta \int\_{0}^{\infty} re^{ar^{2}} \space dr\\]
+\\[= \int\_{0}^{2\pi} d\theta \int\_{0}^{\infty} re^{ar^{2}} \space dr\\]
+\\[= \Big[ \theta \Big\|\_{\theta = 0}^{2\pi} \Big] \Big[ \frac{e^{ar^{2}}}{2a} \Big\|\_{r = 0}^{\infty} \Big]\\]
+\\[= [ 2\pi ] \times \frac{1}{2a} [ e^{a\infty} - e^{0} ]\\]
+\\[= \lim\_{n \to \infty} \frac{\pi}{a} [ e^{an} - 1 ]\\]
+
+Let's take a step back here. Here was that very hidden circle we were talking about - in order to find it we had to use 2 separate wacky integrals, multiply them, and then notice the polar form they took. This is such a cool way for pi to show up here. I like to think pi wakes up in the morning and then just goes around random unexpected places showing its face. And don't even get me started on \\(\pi^{2}...\\)
+
 -----
 
 ### Suliga Formula 2
