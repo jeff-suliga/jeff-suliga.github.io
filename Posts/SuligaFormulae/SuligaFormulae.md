@@ -100,18 +100,18 @@ However, there's a small amount of housekeeping to be done before diving into th
 \\[I = \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx\\]
 \\[= \int\_{-\infty}^{\infty} e^{au^{2}} \space du\\]
 
-There's a cool way of thinking about this though that might get lost when working through the substitution. If we look at our integrand, we can see that, while we may not know what the graph of \\(e^{ax^{2}}\\) looks like, it looks exactly the same as \\(e^{a(x+\frac{b}{2a})^{2}}\\), just shifted a bit left or right. In this expression, \\(\frac{b}{2a}\\) is what we call a *phase shift* as it is just shifting the original function somewhere else on the x-axis.
+There's a cool way of thinking about this though that might get lost when working through the substitution. If we look at our integrand, we can see that, while we may not know what the graph of \\(e^{ax^{2}}\\) looks like, we do know it looks exactly the same as \\(e^{a(x+\frac{b}{2a})^{2}}\\), just shifted a bit left or right. In this expression, \\(\frac{b}{2a}\\) is what we call a *phase shift* as it is just shifting the original function somewhere else on the x-axis.
 
 This is cool, but it doesn't fully explain why these two expressions are equivalent when evaluated in the integral. The real reason we can do this is because of the fact that our bounds for integration are \\(-\infty\\) to \\(\infty\\). Think of this integral as sweeping through *all* of the number line, collecting all of the area between the x-axis and \\(e^{a(x+\frac{b}{2a})^{2}}\\). Because of this, we don't have to care about any phase shift of the original plot, since either way this area will be collected and accounted for in the infinite bounds of the integral. This is why we can say these two integrals are equal, if we had a definite integral, we wouldn't be able to move any further.
 
 *Side Note:* Even given a definite integral, we could still get a *extremely* good approximation for our result, where the difference in estimated and actual values is negligible. For this to happen though, \\(a\\) must be less than \\(0\\) and the boundaries of integration must be far enough along the axes to collect the near total of area under the curve. As an example, look at \\(e^{-x^{2}}\\) below, and notice how the area under the curve barely changes as we spread out the bounds of integration once we get to the "flat part" of the graph. Also note what value it is approaching!
 
 <p align=center>
-    <img src="{{site.postimgurl}}/SuligaFormulae/GaussianAreaGraph.gif">
+    <img src="{{site.imgposturl}}/SuligaFormulae/GaussianAreaGraph.gif">
 </p>
 
 <p align=center>
-    <img src="{{site.postimgurl}}/SuligaFormulae/GaussianAreaInfo.gif">
+    <img src="{{site.imgposturl}}/SuligaFormulae/GaussianAreaInfo.gif">
 </p>
 
 So at this point we have this \\(I\\) integral that we are trying to break down, and here's where we're at:
