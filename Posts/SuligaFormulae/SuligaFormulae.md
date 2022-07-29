@@ -12,6 +12,12 @@ This post will showcase two different formulas that I came up with in my latter 
 
 [The first](#suliga-formula-1), coined by my friends as *The Suliga Theorem* (which doesn't even make sense), is a generalization of a discovery first popularized by and named after one of history's smartest minds, Carl Friedrich Gauss.
 
+\\[\int\_{a}^{b} f(x) \space dx = \\]
+
+\\[b \times f(b) - a \times f(a) + \int\_{f(b)}^{f(a)} f^{-1}(x) \space dx\\]
+
+[The second](#suliga-formula-2) came from an unawareness of previously-derived (and much simpler) ways to integrate inverse trig functions. I didn't know these existed so I came up with my own way to integrate a function in terms of its inverse.
+
 -----
 
 ### Suliga Formula 1
