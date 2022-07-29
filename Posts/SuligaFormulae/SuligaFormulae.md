@@ -25,11 +25,11 @@ This post will showcase two different formulas that I came up with in my latter 
 \\[\int\_{a}^{b} f(x) \space dx = \\]
 \\[b \times f(b) - a \times f(a) + \int\_{f(b)}^{f(a)} f^{-1}(x) \space dx\\]
 
-As I mentioned above, this formula originated from the question that I'm sure all high school juniors ask at some point in that important time of their lives - how can I integrate inverse trig functions? Formulas for such expressions do exist, but are super obscure, and I wasn't aware of their existence. One can be seen below:
+As I mentioned above, this formula originated from the question that I'm sure all students ask at some point - how can I integrate inverse trig functions? Formulas for such expressions do exist, but are super obscure, and I wasn't aware of their existence. One can be seen below:
 
 \\[\int sec ^{-1} (x) \space dx = x \space sec^{-1}(x) - \text{ln}(x + \sqrt{x^{2} - 1}) + c\\]
 
-So, March 1, 2019, I brought out my trusty math whiteboard and started drawing shapes and came up with a seemingly working method to do this. Here are the original pictures I took to show to some of my math teachers to check.
+So, March 1, 2019, I brought out my trusty math whiteboard and started drawing shapes and came up with a seemingly working method to do this. Here are the original pictures I took to show to some of my math teachers to check. It pains me to look back on all of the forgotten \\(dx\\)'s, so please excuse my junior-year math naivety.
 
 <p align=center>
     <img src="{{site.imgposturl}}/SuligaFormulae/Inverse1.jpg">
