@@ -4,7 +4,7 @@ title: Suliga Formulae
 publish-date: In Progress
 ---
 
-**A Starting Note:** I tried to make this page accessible for most viewing platforms. This being said, there are a lot of math equations/expressions here that may be difficult to see properly on larger screens. If this is the case for you, right click (hold down if using a tablet) on any of the sections containing math-formatted text and a small MathJax menu will pop up. Click on "Math Settings" > "Scale All Math..." and input a number greater than 100 to increase the size of the math text. You can also set a zoom trigger to cause a bigger window containing the math section to pop up on a double click.
+**A Starting Note:** I tried to make this page accessible for most viewing platforms. This being said, there are a lot of math equations/expressions here that may be difficult to see properly on larger screens. If this is the case for you, right click (hold down if using a tablet) on \\(\textrm{this text}\\)any of the sections containing math-formatted text and a small MathJax menu will pop up. Click on "Math Settings" > "Scale All Math..." and input a number greater than 100 to increase the size of the math text. You can also set a zoom trigger to cause a bigger window containing the math section to pop up on a double click.
 
 This post will showcase two different formulas that I came up with in my latter years of high school.
 
