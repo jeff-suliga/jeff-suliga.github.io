@@ -16,7 +16,7 @@ This post will showcase two different formulas that I came up with in my latter 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
 \\[\lim\_{n \to \infty} e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{a}(e^{an} - 1)}\\]
 
-[The second](#suliga-formula-2), coined by my friends as *The Suliga Theorem* (which I very much disagree with this name), is a generalization of a discovery first popularized by and named after one of history's smartest minds, Carl Friedrich Gauss.
+[The second](#suliga-formula-2), coined by my friends as *The Suliga Theorem* (which I very much disagree with this name, theorems are supposed to be useful), is a generalization of a discovery first popularized by and named after one of history's smartest minds, Carl Friedrich Gauss. I hope this example sparks a wonder in you that it did me when I was first discovering this for myself. This concept assumes the reader is comfortable with single-variable integral calculus.
 
 -----
 
@@ -35,19 +35,41 @@ So, March 1, 2019, I brought out my trusty math whiteboard and started drawing s
     <img src="{{site.imgposturl}}/SuligaFormulae/Inverse1.jpg">
 </p>
 
+Here I just started with an easy example. I had to create a function that was invertible and whose parts could be easily identified when looking at a diagram. I chose a simple linear function, \\(f(x) = \frac{1}{2}x + 3\\). In this instance this means \\(f^{-1}(x) = 2x - 6\\), check this for yourself.
+
+This is a quick markup of my example, but it shows the idea behind what I was trying to accomplish very well. The "sections" of this graph which I shaded in different colors, are maintained throughout inversion, but are just shifted around. In fact, everything is reflected about the line \\(y=x\\), but that's not too important here upfront.
+
+I was able to derive a formula for the area that I wanted, which is in the dashed section in this diagram, but you'll notice that this function still depends on integrating \\(f(x)\\), and the whole point of doing this was to bypass this and treat the integral of a function in terms of the integral of its inverse.
+
 <p align=center>
     <img src="{{site.imgposturl}}/SuligaFormulae/Inverse2.jpg">
 </p>
+
+With some tricky splitting apart of the original integral and applying what I had already found twice, such that the integral that still depended on \\(f\\) turned into an integral with bounds \\(0 \to 0\\), I was able to then reconstruct the integral parts again, I was able to get a final answer in terms of evaluating \\(f\\) at the original bounds and then integrating the inverse function.
+
+Yes, looking back I see now that I could've gone right to this step from the beginning, but I didn't realize this at the time.
 
 <p align=center>
     <img src="{{site.imgposturl}}/SuligaFormulae/Inverse3.jpg">
 </p>
 
-\-\- Explain stuff in each picture below it \-\-
+After putting what I'd found together into one formula I tested it out on the original inspiration for this endeavor. Using some clearly manufactured values, this seemed to work.
+
+Using WolframAlpha we see this is accurate:
+
+<p align=center>
+    <img src="{{site.imgposturl}}/SuligaFormulae/exampleWA.png">
+</p>
 
 In truth, I haven't really thought of this formula since this time, and it's always felt a little "shaky" to me. I'm not quite sure how to explain the way I feel about it, but because of the nature of how I came up with this (very sloppily, not rigorously) I wouldn't be surprised if someone is able to point out some flaw in my reasoning.
 
-This being said, the formula worked for the few carefully constructed examples I came up with at the time and no one has since shed light on any wrong thinking.
+This being said, the formula worked for the few carefully constructed examples I came up with at the time and no one has since shed light on any wrong thinking. One would definitely have to be careful to only use this on examples where both \\(f\\) and \\(f^{-1}\\) are defined throughout the entire range of the bounds from \\(a\\) to \\(b\\).
+
+I show this formula to highlight how powerful a little bit of boredom and uninterrupted, unguided thought can be! In today's culture and with today's technology, there is *always* something to be doing or thinking about. Taking a break from moving quickly and letting our minds wander is something that we as a species have fallen out of touch with, and I truly believe this is among the biggest hinderances to solving a lot of problems that we face in the world today - not to mention the individual benfits that come from this regular intentional distancing.
+
+For much of the recent years of my life, I've surrounded myself with lots of educational content (and trust me, there are tons of cool things to learn), but the true joy of this comes from taking these tools I've learned and discovering a new way to use them to solve a new problem. Many of the things you can find around this website came from many moments of raw pondering.
+
+So take breaks! You never know what kind of things will come out of that powerful subconscious of yours!
 
 -----
 
@@ -56,6 +78,8 @@ This being said, the formula worked for the few carefully constructed examples I
 <hr style='border-top: 1px dashed;'>
 
 ### Suliga Formula 2
+
+Let's kick it up a notch.
 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
 
