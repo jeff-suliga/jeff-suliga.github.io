@@ -9,16 +9,14 @@ publish-date: In Progress
 This post will showcase two different formulas that I came up with in my latter years of high school.
 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
-
 \\[\lim\_{n \to \infty} e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{a}(e^{an} - 1)}\\]
 
 [The first](#suliga-formula-1), coined by my friends as *The Suliga Theorem* (which doesn't even make sense), is a generalization of a discovery first popularized by and named after one of history's smartest minds, Carl Friedrich Gauss.
 
 \\[\int\_{a}^{b} f(x) \space dx = \\]
-
 \\[b \times f(b) - a \times f(a) + \int\_{f(b)}^{f(a)} f^{-1}(x) \space dx\\]
 
-[The second](#suliga-formula-2) came from an unawareness of previously-derived (and much simpler) ways to integrate inverse trig functions. I didn't know these existed so I came up with my own way to integrate a function in terms of its inverse.
+[The second](#suliga-formula-2) is a much more approachable idea, that can be understood without much knowledge of calculus. It stemmed from simply drawing shapes on a whiteboard in my bedroom, and came from an unawareness of previously-derived ways to integrate inverse trig functions. I didn't know these existed so I came up with my own way to integrate a function in terms of its inverse.
 
 -----
 
@@ -27,6 +25,12 @@ This post will showcase two different formulas that I came up with in my latter 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
 
 \\[\lim\_{n \to \infty} e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{a}(e^{an} - 1)}\\]
+
+I first came up with this formula partway through my Junior year of high school. When Senior year came around and I wanted to secure my own parking spot by giving it my own paint job, I decided to make it all math-related. I came up with a design that incorporated plenty of various mathematical formulas and figures, with the formula of my own to complete the design, which can be seen here lining the right side of the parking space.
+
+<p align=center>
+    <img src="{{site.imgposturl}}/SuligaFormulae/ParkingSpace.jpg">
+</p>
 
 Sometimes when people see this daunting mess of symbols, I get asked
 
@@ -154,13 +158,59 @@ And now, we can *finally* start actually integration as normal, since both of th
 \\[= \int\_{0}^{2\pi} d\theta \int\_{0}^{\infty} re^{ar^{2}} \space dr\\]
 \\[= \Big[ \theta \Big\|\_{\theta = 0}^{2\pi} \Big] \Big[ \frac{e^{ar^{2}}}{2a} \Big\|\_{r = 0}^{\infty} \Big]\\]
 \\[= [ 2\pi ] \times \frac{1}{2a} [ e^{a\infty} - e^{0} ]\\]
-\\[= \lim\_{n \to \infty} \frac{\pi}{a} [ e^{an} - 1 ]\\]
+\\[I^{2} = \lim\_{n \to \infty} \frac{\pi}{a} [ e^{an} - 1 ]\\]
 
 Let's take a step back here. Here was that very hidden circle we were talking about - in order to find it we had to use 2 separate wacky integrals, multiply them, and then notice the polar form they took. This is such a cool way for pi to show up here. I like to think pi wakes up in the morning and then just goes around random unexpected places showing its face. And don't even get me started on \\(\pi^{2}...\\)
 
+But we're not done just yet! We've just found
+
+\\[I^{2} = \lim\_{n \to \infty} \frac{\pi}{a} ( e^{an} - 1 )\\]
+
+So it follows that
+
+\\[I = \lim\_{n \to \infty} \sqrt{\frac{\pi}{a} ( e^{an} - 1 )}\\]
+
+And now, remembering how \\(I\\) was defined in the first place, we can put all of the pieces back together:
+
+\\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = Ie^{c-\frac{b^{2}}{4a}}\\]
+\\[= \lim\_{n \to \infty} e^{c-\frac{b^{2}}{4a}} \sqrt{\frac{\pi}{a} ( e^{an} - 1 )}\\]
+
+\\(\blacksquare\\)
+
 -----
 
+[\[Top\]](SuligaFormulae)
+
+<hr style='border-top: 1px dashed;'>
+
 ### Suliga Formula 2
+
+\\[\int\_{a}^{b} f(x) \space dx = \\]
+\\[b \times f(b) - a \times f(a) + \int\_{f(b)}^{f(a)} f^{-1}(x) \space dx\\]
+
+As I mentioned above, this formula originated from the question that I'm sure all high school juniors ask at some point in that important time of their lives - how can I integrate inverse trig functions? Formulas for such expressions do exist, but are super obscure, and I wasn't aware of their existence. One can be seen below:
+
+\\[\int sec ^{-1} (x) \space dx = x \space sec^{-1}(x) - \text{ln}(x + \sqrt{x^{2} - 1}) + c\\]
+
+So, March 1, 2019, I brought out my trusty math whiteboard and started drawing shapes and came up with a seemingly working method to do this. Here are the original pictures I took to show to some of my math teachers to check.
+
+<p align=center>
+    <img src="{{site.imgposturl}}/SuligaFormulae/Inverse1.jpg">
+</p>
+
+<p align=center>
+    <img src="{{site.imgposturl}}/SuligaFormulae/Inverse2.jpg">
+</p>
+
+<p align=center>
+    <img src="{{site.imgposturl}}/SuligaFormulae/Inverse3.jpg">
+</p>
+
+\-\- Explain stuff in each picture below it \-\-
+
+In truth, I haven't really thought of this formula since this time, and it's always felt a little "shaky" to me. I'm not quite sure how to explain the way I feel about it, but because of the nature of how I came up with this (very sloppily, not rigorously) I wouldn't be surprised if someone is able to point out some flaw in my reasoning.
+
+This being said, the formula worked for the few carefully constructed examples I came up with at the time and no one has since shed light on any wrong thinking.
 
 -----
 
