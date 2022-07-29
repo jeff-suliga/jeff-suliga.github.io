@@ -4,7 +4,7 @@ title: Suliga Formulae
 publish-date: In Progress
 ---
 
-**A Starting Note:** I tried to make this page accessible for most viewing platforms. This being said, there is a lot of math equations/expressions that may be difficult to see properly on larger screens. If this is the case for you, right click (hold down if using a tablet) on any of the sections containing math-formatted text and a small MathJax menu will pop up. Click on "Math Settings" > "Scale All Math..." and input a number greater than 100 to increase the size of the math text. You can also set a zoom trigger to cause a bigger window containing the math section to pop up on a double click.
+**A Starting Note:** I tried to make this page accessible for most viewing platforms. This being said, there are a lot of math equations/expressions here that may be difficult to see properly on larger screens. If this is the case for you, right click (hold down if using a tablet) on any of the sections containing math-formatted text and a small MathJax menu will pop up. Click on "Math Settings" > "Scale All Math..." and input a number greater than 100 to increase the size of the math text. You can also set a zoom trigger to cause a bigger window containing the math section to pop up on a double click.
 
 This post will showcase two different formulas that I came up with in my latter years of high school.
 
@@ -34,7 +34,7 @@ Sometimes when people see this daunting mess of symbols, I get asked
 
 These are valid questions given the very uninviting manner of the formula - there's literally not any numbers anywhere. This can be be hard for many people to wrap their minds around what this means, but it's actually very simple (given an exposure to integral calculus).
 
-All this shows is that, if you're going about your life and suddenly need to find \\(\int\_{-\infty}^{\infty}e^{-3x^{2}+7x-1} \space dx \\), you're in luck! By plugging \\(-3, 7,\\) and \\(-1\\) in for \\(a, b,\\) and \\(c\\) respectively, you'd know that the answer is exactly \\(e^{\frac{61}{12}}\sqrt{\frac{\pi}{3}}\\)! This is about \\(165.07\\).
+All this shows is that, if you're going about your life and suddenly need to find \\(\int\_{-\infty}^{\infty}e^{-3x^{2}+7x-1} \space dx \\), you're in luck! By plugging \\(-3, 7,\\) and \\(-1\\) in for \\(a, b,\\) and \\(c\\) respectively, you'd know that the answer is exactly \\(e^{\frac{37}{12}}\sqrt{\frac{\pi}{3}}\\)! This is about \\(22.34\\).
 
 This example paints a pretty accurate picture of how "useful" this formula is - basically zero. I've never had to use this for anything and I don't expect to, however building up from a pretty useful example of this expression might shed some light on how it's been used in the past heavily in forming modern statistics.
 
@@ -85,7 +85,7 @@ Now that was a lot that just happened, so lets first break down the steps we jus
 
 First, we factored out the \\(a\\) from our polynomial in the exponent. This is required in order to use completing the square. Then, we took our linear term of this polynomial, divided it by 2, and squared it. This step is the essence of the completing the square technique. At this point, we were able to see our perfect square arise, \\(x^{2}+\frac{b}{a}x+\frac{b^{2}}{4a^{2}} = (x+\frac{b}{2a})^{2}\\). We then distributed the \\(a\\) back into the expression.
 
-Hopefully the last couple steps seem familiar to you, because it's the same exact thing we did originally with the \\(e^{c}\\) term! In the same way, \\(e^{-\frac{b^{2}}{4a}}\\) is a constant independent of x, so we can pull it out to the front of the integral. We can then combine the two terms into one exponent outside.
+Hopefully the last couple steps seem familiar to you, because it's the same exact thing we did originally with the \\(e^{c}\\) term! In the same way, \\(e^{-\frac{b^{2}}{4a}}\\) is a constant independent of \\(x\\), so we can pull it out to the front of the integral. We can then combine the two terms into one exponent outside.
 
 -----
 
