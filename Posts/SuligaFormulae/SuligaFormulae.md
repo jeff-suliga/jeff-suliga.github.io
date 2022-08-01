@@ -53,18 +53,18 @@ Yes, looking back I see now that I could've gone right to this step from the beg
     <img src="{{site.imgposturl}}/SuligaFormulae/Inverse3.jpg">
 </p>
 
-This diagram might provide a better idea of what is actually going on here:
-
-<p align=center>
-    <img src="{{site.imgposturl}}/SuligaFormulae/diagramExample.png">
-</p>
-
 After putting what I'd found together into one formula I tested it out on the original inspiration for this endeavor. Using some clearly manufactured values, this seemed to work.
 
 Using WolframAlpha we see this is accurate:
 
 <p align=center>
     <img src="{{site.imgposturl}}/SuligaFormulae/exampleWA.png">
+</p>
+
+This diagram might provide a better idea of what is actually going on here. Note that this generic function is invertible on the interval from \\(a\\) to \\(b\\):
+
+<p align=center>
+    <img src="{{site.imgposturl}}/SuligaFormulae/diagramExample.png">
 </p>
 
 In truth, I haven't really thought of this formula since this time, and it's always felt a little "shaky" to me. I'm not quite sure how to explain the way I feel about it, but because of the nature of how I came up with this (very sloppily, not rigorously) I wouldn't be surprised if someone is able to point out some flaw in my reasoning.
