@@ -88,14 +88,22 @@ So take breaks! You never know what kind of things will come out of that powerfu
 Let's kick it up a notch.
 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
-
 \\[\lim\_{n \to \infty} e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{a}(e^{an} - 1)}\\]
 
-I first came up with this formula partway through my Junior year of high school. When Senior year came around and I wanted to secure my own parking spot by giving it my own paint job, I decided to make it all math-related. I came up with a design that incorporated plenty of various mathematical formulas and figures, with the formula of my own to complete the design, which can be seen here lining the right side of the parking space.
+I first came up with this formula partway through my Junior year of high school. When Senior year came around and I wanted to secure my own parking spot in the crowded lot by giving it my own paint job, I decided to make it all math-related. I came up with a design that incorporated plenty of various mathematical formulas and figures, with the formula of my own to complete the design, which can be seen here lining the right side of the parking space.
+
+Some other fun honorable mentions in this design include
+
+- Euler's formula and [The Most Beautiful Equation in Math]({{site.posturl}}/ComplexRotations/ComplexRotations#leaving-the-complex-unit-circle)
+- The gamma function and its connection to factorials
+- The infamous \\(-\frac{1}{12}\\)
 
 <p align=center>
     <img src="{{site.imgposturl}}/SuligaFormulae/ParkingSpace.jpg">
 </p>
+
+\\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
+\\[\lim\_{n \to \infty} e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{a}(e^{an} - 1)}\\]
 
 Sometimes when people see this daunting mess of symbols, I get asked
 
