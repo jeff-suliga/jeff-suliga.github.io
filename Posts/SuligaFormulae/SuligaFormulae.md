@@ -16,7 +16,7 @@ This post will showcase two different formulas that I came up with in my latter 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
 \\[\lim\_{n \to \infty} e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{a}(e^{an} - 1)}\\]
 
-[The second](#suliga-formula-2), coined by my friends as *The Suliga Theorem* (which I very much disagree with this name, theorems are supposed to be useful), is a generalization of a discovery first popularized by and named after one of history's smartest minds, Carl Friedrich Gauss. I hope this example sparks a wonder in you that it did me when I was first discovering this for myself. This concept assumes the reader is comfortable with single-variable integral calculus.
+[The second](#suliga-formula-2), coined by my friends as *The Suliga Theorem* (which I very much disagree with this name, theorems are supposed to be useful), is a generalization of a discovery first popularized by and named after one of history's smartest minds, Carl Friedrich Gauss. I hope this example sparks a wonder in you that it did me when I was first discovering this for myself. This concept assumes the reader is comfortable with single-variable integral calculus and using a polar representation of values.
 
 -----
 
@@ -127,9 +127,9 @@ In fact, this example is where this discovery all began with Gauss in 1809. Whil
 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx\\]
 
-Ok, so let's start from the top and break this nasty integral down one piece at a time. We first notice that this integrand has *no elementary antiderivative*. What this means is that, using our normal operations \\( + - \times \div \\), exponentiation, trigonometric/hyperbolic function expression, and their inverses, we **cannot** construct the antiderivative.
+Ok, so let's start from the top and break this nasty integral down one piece at a time. We first notice that this integrand has *no elementary antiderivative*. What this means is that, using our normal operations \\( + - \times \div \\), exponentiation, trigonometric/hyperbolic function expression, their inverses, etc., we **cannot** construct the antiderivative.
 
-For example, to evaluate \\(\int\_{a}^{b} 4x^{2} \space dx \\), our first step is to find an antiderivative of \\(4x^{2}\\) - a function whose derivative is \\(4x^{2}\\). Using what many learn as the *power rule*, we know that this function is \\(\frac{4}{3}x^{3}\\), which I encourage you to check. The key point here is that, since we were able to come up with an explicity-defined antiderivative of \\(4x^{2}\\) using our normal notations, we can see that this function has an *elementary derivative*.
+For example, to evaluate \\(\int\_{a}^{b} 4x^{2} \space dx \\), our first step is to find an antiderivative of \\(4x^{2}\\) - a function whose derivative is \\(4x^{2}\\). Using what many learn as the *power rule*, we know that this function takes the form of \\(\frac{4}{3}x^{3}\\), which I encourage you to check. The key point here is that, since we were able to come up with an explicity-defined antiderivative of \\(4x^{2}\\) using our normal notations, we can see that this function has an *elementary derivative*.
 
 So going back to our problem, we're stuck wondering where to go. We know that this integrand's antiderivative is nonelementary because of this "\\(x^{2}\\)" term in the nasty exponent without any \\(x\\) term in the integrand. However, we were able to pull a trick (explained in the video) to convert this into a polar form and evaluate from there, but that only worked because we were integrating \\(e\\) raised to something squared.
 
@@ -137,7 +137,7 @@ This means that our first main step for evaluating this integral is to try to tu
 
 \\[\int\_{-\infty}^{\infty} e^{f(x)^{2}} \space dx\\]
 
-Well, the first conflict to this idea is that we have this "\\(+c\\)" in our exponent. However, with some tricky algebra we can quickly remove this from the integral:
+Well, the first conflict to this idea is that we have this "\\(\space + \space c \space\\)" in our exponent. However, with some tricky algebra we can quickly remove this from the integral:
 
 \\[\int\_{-\infty}^{\infty} e^{ax^{2}+bx+c} \space dx = \\]
 \\[\int\_{-\infty}^{\infty} e^{ax^{2}+bx} \space e^{c} \space dx = \\]
@@ -191,7 +191,7 @@ This is cool, but it doesn't fully explain why these two expressions are equival
     <img src="{{site.imgposturl}}/SuligaFormulae/GaussianAreaInfo.gif">
 </p>
 
-So at this point we have this \\(I\\) integral that we are trying to break down, and here's where we're at:
+So at this point we have this \\(I\\) integral that we are trying to break down, and we just showed:
 
 \\[I = \int\_{-\infty}^{\infty} e^{a(x+\frac{b}{2a})^{2}} \space dx\\]
 \\[= \int\_{-\infty}^{\infty} e^{ax^{2}} \space dx\\]
@@ -205,7 +205,7 @@ We can then multiply these two expressions to get the following:
 
 \\[I^{2} = \int\_{-\infty}^{\infty} e^{ax^{2}} \space dx \int\_{-\infty}^{\infty} e^{ay^{2}} \space dy\\]
 
-And since these two multiplied integrals don't have any dependency conflicts,
+And since these two multiplied integrals don't have any dependency conflicts (i.e. each integrand depends only on the variable being integrated over),
 
 \\[I^{2} = \int\_{-\infty}^{\infty}\int\_{-\infty}^{\infty} e^{ax^{2}} \space e^{ay^{2}} \space dxdy\\]
 \\[= \int\_{-\infty}^{\infty}\int\_{-\infty}^{\infty} e^{ax^{2} + ay^{2}} \space dxdy\\]
@@ -221,14 +221,13 @@ So what have we figured out when changing our integral to a polar form? We know 
 
 \\[I^{2} = \int\_{0}^{2\pi}\int\_{0}^{\infty} e^{ar^{2}} \space rdrd\theta\\]
 
-And since these two multiplied integrals don't have any dependency conflicts,
+And we can split this double integral up into two independent multiplied integrals, similar to before:
 
 \\[I^{2} = \int\_{0}^{2\pi} d\theta \int\_{0}^{\infty} re^{ar^{2}} \space dr\\]
 
 And now, we can *finally* start actually integration as normal, since both of these integrands have elementary integrands.
 
 \\[I^{2} = \int\_{0}^{2\pi} d\theta \int\_{0}^{\infty} re^{ar^{2}} \space dr\\]
-\\[= \int\_{0}^{2\pi} d\theta \int\_{0}^{\infty} re^{ar^{2}} \space dr\\]
 \\[= \Big[ \theta \Big\|\_{\theta = 0}^{2\pi} \Big] \Big[ \frac{e^{ar^{2}}}{2a} \Big\|\_{r = 0}^{\infty} \Big]\\]
 \\[= [ 2\pi ] \times \frac{1}{2a} [ e^{a\infty} - e^{0} ]\\]
 \\[I^{2} = \lim\_{n \to \infty} \frac{\pi}{a} [ e^{an} - 1 ]\\]
