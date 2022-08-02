@@ -101,22 +101,20 @@ layout: default
     <p>Each of these are puzzles that I've created. Click on one below to try:</p>
 
     {% for puzzle in site.data.puzzles %}
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="{{ puzzle.link }}">
-                {% if puzzle.thumb-ext %}
-                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="card-img-top puzzle-thumb">
-                {% else %}
-                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="card-img-top puzzle-thumb">
-                {% endif %}
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <div class="card-body">
-            <p>
-                {{ puzzle.name }}
-            </p>
-        </div>
+    <div class="puzzle-thumb">
+        <a href="{{ puzzle.link }}">
+            {% if puzzle.thumb-ext %}
+            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="card-img-top puzzle-thumb">
+            {% else %}
+            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="card-img-top puzzle-thumb">
+            {% endif %}
+            <div class="card-body">
+                <p>
+                    {{ puzzle.name }}
+                </p>
+            </div>
+            <div class="puzzle-thumb-overlay"></div>
+        </a>
     </div>
     {% endfor %}
     
