@@ -128,44 +128,6 @@ layout: default
     <p>Each of these are puzzles that I've created. Click on one below to try:</p>
 
     {% for puzzle in site.data.puzzles %}
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="{{ puzzle.link }}">
-                {% if puzzle.thumb-ext %}
-                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="puzzle-thumb">
-                {% else %}
-                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="puzzle-thumb">
-                {% endif %}
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">{{ puzzle.name }}</h4>
-    </div>
-    {% endfor %}
-    
-</div>
-
-<p style="margin-bottom:0px;">
-    <span style="font-weight:bold;">Note:</span> All resources are fair game! Google away!
-</p>
-
-<br>
-<!-- HIDDEN SECRETS HERE
-<a href="/Puzzles/Archived/ArchivedPuzzles">
-    Archived Puzzles
-</a>
--->
-
-<hr class="new-section">
-
-<div class="row justify-content-md-center">
-    <h2 id="puzzles">Puzzles</h2>
-
-    <hr>
-
-    <p>Each of these are puzzles that I've created. Click on one below to try:</p>
-
-    {% for puzzle in site.data.puzzles %}
     <div class="puzzle-thumb">
         <a href="{{ puzzle.link }}">
             {% if puzzle.thumb-ext %}
