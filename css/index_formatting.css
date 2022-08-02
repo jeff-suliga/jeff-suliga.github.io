@@ -97,12 +97,13 @@ p.img-sidetext {
 
 div.puzzle-thumb {
     position: relative;
-    width: 162px;
-    height: 162px;
-    margin-right: 25px;
+    width: 150px;
+    height: 150px;
+    /* margin-right: 25px;
     margin-left: 25px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 15px; */
+    margin: 10px 25px 15px;
     background-color: thistle;
 }
 
@@ -119,8 +120,8 @@ img.puzzle-thumb {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 162px;
-    width: 162px;
+    height: 150px;
+    width: 150px;
     opacity: 0;
     background-color: #000000;
 }
