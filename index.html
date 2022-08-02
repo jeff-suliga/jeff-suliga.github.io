@@ -169,16 +169,15 @@ layout: default
     <div class="puzzle-thumb">
         <a href="{{ puzzle.link }}">
             {% if puzzle.thumb-ext %}
-            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="card-img-top puzzle-thumb">
+            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="puzzle-thumb">
             {% else %}
-            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="card-img-top puzzle-thumb">
+            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="puzzle-thumb">
             {% endif %}
-            <div class="card-body">
-                <p>
+            <div class="puzzle-thumb-overlay">
+                <h4 class="puzzle-title">
                     {{ puzzle.name }}
-                </p>
+                </h4>
             </div>
-            <div class="puzzle-thumb-overlay"></div>
         </a>
     </div>
     {% endfor %}
