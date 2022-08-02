@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
 
 title: Jeff Suliga
-description: In Production
-version: Version 10.9.14
+# description: Hello World
+version: Version 11.0.0
 
 # DO NOT change baseurl
 baseurl: ""
