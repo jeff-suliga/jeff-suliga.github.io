@@ -10,7 +10,9 @@ a:hover {
 }
 
 hr.new-section {
-    border-top: 1px dashed;
+    height: 10px;
+    color: #000;
+    background-color: #000;
 }
 
 /***** Bio *****/
