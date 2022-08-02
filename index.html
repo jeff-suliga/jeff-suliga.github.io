@@ -30,33 +30,22 @@ layout: default
     <hr>
 
     <ul>
-        <li class="post">
-            <img src="{{ site.imgposturl }}/FactoringVisually/thumb.png" class="post-thumb">
-            <a href="{{ site.posturl }}/FactoringVisually/FactoringVisually" class="post-link">Factoring: A Visual Approach</a>
-            <br>
-            <p class="post-date">July 17, 2022</p>
-        </li>
 
+        {% for post in site.data.posts reversed %}
         <li class="post">
-            <img src="{{ site.imgposturl }}/PalindromicMultiplication/thumb.png" class="post-thumb">
-            <a href="{{ site.posturl }}/PalindromicMultiplication/PalindromicMultiplication" class="post-link">1111x1111=1234321: Palindromic Multiplication</a>
+            <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}">
+                <img src="{{ site.imgposturl }}/{{ post.path }}/{{ post.thumb }}" class="post-thumb">
+            </a>
+            {% if post.description %}
+            <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}: {{ post.description }}</a>
+            {% else %}
+            <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}</a>
+            {% endif %}
             <br>
-            <p class="post-date">July 1, 2022</p>
+            <p class="post-date">{{ post.publish-date }}</p>
         </li>
+        {% endfor %}
 
-        <li class="post">
-            <img src="{{ site.imgposturl }}/StarTheorem/third-star-circle.gif" class="post-thumb">
-            <a href="{{ site.posturl }}/StarTheorem/StarTheorem" class="post-link">Star Theorem: Acute Triangles in the Sky</a>
-            <br>
-            <p class="post-date">June 21, 2022</p>
-        </li>
-        
-        <li class="post">
-            <img src="{{ site.imgposturl }}/ComplexRotations/i-with-sqrt.png" class="post-thumb">
-            <a href="{{ site.posturl }}/ComplexRotations/ComplexRotations" class="post-link">Complex Rotations: Multiplying Complex Numbers Visually</a>
-            <br>
-            <p class="post-date">June 17, 2022</p>
-        </li>
     </ul>
 
 </div>
@@ -70,65 +59,21 @@ layout: default
 
     <p>Each of these are puzzles that I've created. Click on one below to try:</p>
 
+    {% for puzzle in site.data.puzzles %}
     <div class="puzzle-img-with-text">
         <div class="puzzle-thumb">
-            <a href="/Puzzles/TreasureHunt">
-                <img src="{{ site.imgurl }}/TreasureHunt/TreasureHuntThumbnail.jpg" alt="Treasure Hunt" class="puzzle-thumb">
+            <a href="{{ puzzle.link }}">
+                {% if puzzle.thumb-ext %}
+                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="puzzle-thumb">
+                {% else %}
+                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="puzzle-thumb">
+                {% endif %}
                 <div class="puzzle-thumb-overlay"></div>
             </a>
         </div>
-        <h4 class="puzzle-thumb-text">Treasure Hunt</h4>
+        <h4 class="puzzle-thumb-text">{{ puzzle.name }}</h4>
     </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/PoolTables">
-                <img src="{{ site.imgurl }}/PoolTables/PoolTablesThumbnail.jpg" alt="Pool Tables" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Pool Tables</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/RunawayWorm">
-                <img src="{{ site.imgurl }}/RunawayWorm/RunawayWormThumbnail.jpg" alt="Runaway Worm" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Runaway Worm</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/Spotlight">
-                <img src="{{ site.imgurl }}/Spotlight/SpotlightThumbnail.jpg" alt="Spotlight" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Spotlight</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/Circumference/Diameter">
-                <img src="{{ site.imgurl }}/Hydrology/HydrologyThumbnail.jpg" alt="Hydrology" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Hydrology</h4>
-    </div>
-
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="/Puzzles/TerminalAlert">
-                <img src="{{ site.imgurl }}/TerminalAlert/TerminalAlertThumbnail.png" alt="Terminal Alert" class="puzzle-thumb">
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">Terminal Alert</h4>
-    </div>
+    {% endfor %}
     
 </div>
 <br>

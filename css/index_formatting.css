@@ -145,8 +145,9 @@ h4.puzzle-thumb-text {
 
 li.post {
     width: 100%;
+    height: 107px;
     list-style: none;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 li.post img.post-thumb {

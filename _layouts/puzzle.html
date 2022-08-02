@@ -4,14 +4,14 @@ layout: default
 
 <article>
 
-    <h1 align="center">{{page.puzzle-title}}</h1>
+    <h1 align="center">{{page.title}}</h1>
 
     <p align="center" style="font-size:20px;">{{page.flavortext}}</p>
 
     {{ content }}
 
     <p>
-        The answer to this puzzle is {{ page.answer-type }}.
+        The answer to this puzzle is {{ page.answer-type | default: "a single word" }}.
 
         <br>
         <br>
@@ -21,7 +21,11 @@ layout: default
         <br>
         <br>
         
+        {% if page.img-path %}
         The image is also available <a href="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}">here</a>.
+        {% else %}
+        The image is also available <a href="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.puzzle-folder }}.jpg">here</a>.
+        {% endif %}
     </p>
 
     <hr>

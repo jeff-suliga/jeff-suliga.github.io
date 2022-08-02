@@ -1,0 +1,24 @@
+- title: Complex Rotations                            # Post Stage Title
+  description: Multiplying complex numbers visually   # Post Stage Description
+  publish-date: June 17, 2022                         # Date Published
+  path: ComplexRotations                              # Folder name for post (should also be post md name)
+  thumb: i-with-sqrt.png                              # Post thumbnail image name
+- title: Star Theorem
+  description: Acute Triangles in the Sky
+  publish-date: June 21, 2022
+  path: StarTheorem
+  thumb: third-star-circle.gif
+- title: 1111x1111 = 1234321
+  description: Palindromic Multiplication
+  publish-date: July 1, 2022
+  path: PalindromicMultiplication
+  thumb: thumb.png
+- title: Factoring
+  description: A Visual Approach
+  publish-date: July 17, 2022
+  path: FactoringVisually
+  thumb: thumb.png
+- title: Suliga Formulae
+  publish-date: In Progress
+  path: SuligaFormulae
+  thumb: thumb.gif

@@ -1,14 +1,18 @@
 ---
 layout: puzzle
-puzzle-title: [Title - Shows up in header on top, same as puzzle-folder unless there are spaces]
-flavortext: [Optional Description - leave blank if none]
+title: [Title - Shows up in header on top, same as puzzle-folder unless there are spaces]
+flavortext: [Optional Description - omit if none]
 puzzle-folder: [Name of folder image is in - must be same as md title]
-img-path: [Image name once in folder]
+img-path: [Image name once in folder - omit if puzzle-folder.jpg]
 img-height: [Height in px, or change below]
 answer: [Puzzle answer]
 answer-type: [a single word]
 ---
 
 <p align="center">
+    {% if page.img-path %}
     <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+    {% else %}
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.puzzle-folder }}.jpg" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+    {% endif %}
 </p>

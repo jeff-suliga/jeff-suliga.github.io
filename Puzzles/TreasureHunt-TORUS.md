@@ -1,6 +1,6 @@
 ---
 layout: puzzleSol
-puzzle-title: Treasure Hunt
+title: Treasure Hunt Solution
 flavortext: This perplexing map seems to have been made such that no average treasure hunter would stumble upon its bounty.<br><br>Each of the cryptic phrases reference two different hidden keywords. Decode each of these pairs and <em>cross-reference</em> them to claim its hidden prize, X marks the spot!
 puzzle-folder: TreasureHunt
 img-path: TreasureHunt.jpg

@@ -1,14 +1,18 @@
 ---
 layout: puzzleSol
-puzzle-title: [Puzzle Title]
-flavortext: [Optional flavortext]
+title: [Puzzle Title] Solution
+flavortext: [Optional flavortext - omit if none]
 puzzle-folder: [Name of folder image is in - must be same as md title]
-img-path: [Image name once in folder]
+img-path: [Image name once in folder - omit if puzzle-folder.jpg]
 img-height: [Height in px, or change below]
 ---
 
 <p align="center">
+    {% if page.img-path %}
     <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.img-path }}" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+    {% else %}
+    <img src="{{ site.imgurl }}/{{ page.puzzle-folder }}/{{ page.puzzle-folder }}.jpg" alt="{{ page.puzzle-title }}" style="width:100%;height:{{page.img-height}}px;object-fit:contain;">
+    {% endif %}
 </p>
 
 -----
