@@ -82,7 +82,7 @@ So take breaks! You never know what kind of things will come out of that powerfu
 
 [\[Top\]](SuligaFormulae)
 
-<hr style='border-top: 1px dashed;'>
+<hr class="new-section">
 
 ### Suliga Formula 2
 

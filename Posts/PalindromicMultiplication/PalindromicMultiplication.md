@@ -163,7 +163,7 @@ I'm sure there's more to be explored with this, but this is all that my mind tak
 
 [\[Top\]](PalindromicMultiplication)
 
-<hr style='border-top: 1px dashed;'>
+<hr class="new-section">
 
 ### Addendum - July 5, 2022
 

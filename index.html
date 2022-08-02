@@ -2,21 +2,87 @@
 layout: default
 ---
 
-<div id="img-with-text-container">
-    <div class="bio-img-container">
-        <img src="{{ site.imgurl }}/Snow.jpg" class="bio-img">
-        <p class="img-subtext">
-            Unfortunately I've found some mathematical inaccuracies on this hoodie
-        </p>
-        
-    </div>
+<style>
+    /***** Slate Styling *****/
 
-    <br>
-    <p class="img-sidetext">My name is Jeff Suliga, and I am a Junior at Virginia Tech double majoring in Computer Science and Applied Discrete Mathematics.
-        My educational passions include solving everyday problems with coding solutions, and learning about pure maths and the
-        <a href="https://www.youtube.com/watch?v=s_L-fp8gDzY">story</a> told by them. Otherwise I enjoy rock climbing, listening to music,
-        and spending time with friends.
-    </p>
+    /* html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+        font: inherit;
+        vertical-align: baseline;
+    } */
+
+    body {
+        box-sizing: border-box;
+        color:#373737;
+        background: #212121;
+        font-size: 16px;
+        font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif !important;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        margin: 10px 0;
+        font-weight: 700;
+        color:#222222;
+        font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif !important;
+        letter-spacing: -1px;
+    }
+
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 21px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+</style>
+
+<div class="row">
+    <div class="col-3">
+        <img src="{{ site.imgurl }}/Snow.jpg" class="card-img-top">
+        <div class="card-body">
+            <p class="img-subtext">
+                Unfortunately I've found some mathematical inaccuracies on this hoodie
+            </p>
+        </div>
+    </div>
+    <div class="col-9 ml-2">
+        <p class="img-sidetext">My name is Jeff Suliga, and I am a Junior at Virginia Tech double majoring in Computer Science and Applied Discrete Mathematics.
+            My educational passions include solving everyday problems with coding solutions, and learning about pure maths and the
+            <a href="https://www.youtube.com/watch?v=s_L-fp8gDzY">story</a> told by them. Otherwise I enjoy rock climbing, listening to music,
+            and spending time with friends.
+        </p>
+    </div>
 </div>
 
 <br>
@@ -32,18 +98,20 @@ layout: default
     <ul>
 
         {% for post in site.data.posts reversed %}
-        <li class="post">
-            <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}">
-                <img src="{{ site.imgposturl }}/{{ post.path }}/{{ post.thumb }}" class="post-thumb">
-            </a>
-            {% if post.description %}
-            <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}: {{ post.description }}</a>
-            {% else %}
-            <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}</a>
-            {% endif %}
-            <br>
-            <p class="post-date">{{ post.publish-date }}</p>
-        </li>
+        <div class="row container-fluid mt-1">
+            <li class="post">
+                <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}">
+                    <img src="{{ site.imgposturl }}/{{ post.path }}/{{ post.thumb }}" class="post-thumb">
+                </a>
+                {% if post.description %}
+                <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}: {{ post.description }}</a>
+                {% else %}
+                <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}</a>
+                {% endif %}
+                <br>
+                <p class="post-date">{{ post.publish-date }}</p>
+            </li>
+        </div>
         {% endfor %}
 
     </ul>
@@ -52,7 +120,7 @@ layout: default
 
 <hr class="new-section">
 
-<div class="puzzle-wrap">
+<div class="row justify-content-md-center">
     <h2 id="puzzles">Puzzles</h2>
 
     <hr>
@@ -60,26 +128,29 @@ layout: default
     <p>Each of these are puzzles that I've created. Click on one below to try:</p>
 
     {% for puzzle in site.data.puzzles %}
-    <div class="puzzle-img-with-text">
-        <div class="puzzle-thumb">
-            <a href="{{ puzzle.link }}">
-                {% if puzzle.thumb-ext %}
-                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="puzzle-thumb">
-                {% else %}
-                <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="puzzle-thumb">
-                {% endif %}
-                <div class="puzzle-thumb-overlay"></div>
-            </a>
-        </div>
-        <h4 class="puzzle-thumb-text">{{ puzzle.name }}</h4>
+    <div class="puzzle-thumb">
+        <a href="{{ puzzle.link }}">
+            {% if puzzle.thumb-ext %}
+            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.{{ puzzle.thumb-ext }}" alt="{{ puzzle.name }}" class="puzzle-thumb">
+            {% else %}
+            <img src="{{ site.imgurl }}/{{ puzzle.ext }}/{{ puzzle.ext }}Thumbnail.jpg" alt="{{ puzzle.name }}" class="puzzle-thumb">
+            {% endif %}
+            <div class="puzzle-thumb-overlay">
+                <h3 class="puzzle-title">
+                    {{ puzzle.name }}
+                </h3>
+            </div>
+        </a>
     </div>
     {% endfor %}
     
 </div>
-<br>
-<p style="margin-bottom:0px;">
-    <span style="font-weight:bold;">Note:</span> All resources are fair game! Google away!
-</p>
+
+<div class="row">
+    <p style="margin-bottom:0px;">
+        <span style="font-weight:bold;">Note:</span> All resources are fair game! Google away!
+    </p>
+</div>
 
 <br>
 <!-- HIDDEN SECRETS HERE
