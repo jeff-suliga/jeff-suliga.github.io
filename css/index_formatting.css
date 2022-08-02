@@ -46,17 +46,6 @@ p.img-sidetext {
 }
 /***** Puzzles *****/
 
-.puzzle-wrap {
-    width: 100%;
-}
-
-.puzzle-wrap::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
 .puzzle-img-with-text {
     width:200px;
     height: 220px;
