@@ -66,6 +66,7 @@ div.puzzle-thumb {
     width: 150px;
     height: 150px;
     margin: 10px 25px 15px;
+    padding: 0px;
     background-color: thistle;
 }
 
