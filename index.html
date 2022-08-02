@@ -36,7 +36,7 @@ layout: default
     <ul>
 
         {% for post in site.data.posts reversed %}
-        <div class="row">
+        <div class="row container-fluid mt-5">
             <li class="post">
                 <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}">
                     <img src="{{ site.imgposturl }}/{{ post.path }}/{{ post.thumb }}" class="post-thumb">
