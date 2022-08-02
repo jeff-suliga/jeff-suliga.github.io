@@ -86,17 +86,17 @@ img.puzzle-thumb {
     height: 150px;
     width: 150px;
     opacity: 0;
-    background-color: #000;
+    background-color: rgb(110, 110, 110);
 }
 
 div.puzzle-thumb:hover .puzzle-thumb-overlay {
     transition: .5s ease;
-    opacity: 0.5;
+    opacity: 0.65;
 }
 
-h4.puzzle-title {
+h3.puzzle-title {
     text-align: center;
-    padding: 40px 0px 0px;
+    padding: 20px 0px 0px;
     color: white;
 }
 
