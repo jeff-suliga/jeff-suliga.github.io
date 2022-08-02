@@ -49,18 +49,6 @@ p.img-sidetext {
 }
 /***** Puzzles *****/
 
-.puzzle-img-with-text {
-    width:200px;
-    height: 220px;
-    text-align:center;
-    display:block;
-    background-color: transparent;
-    border: 1px solid transparent;
-    margin-right: 10px;
-    margin-bottom: 1px;
-    float:left;
-}
-
 div.puzzle-thumb {
     position: relative;
     width: 150px;
@@ -98,12 +86,6 @@ h3.puzzle-title {
     text-align: center;
     padding: 20px 20px 0px;
     color: white;
-}
-
-h4.puzzle-thumb-text {
-    width: 100%;
-    margin-top:-10px;
-    margin-bottom:10px;
 }
 
 /***** Posts *****/
