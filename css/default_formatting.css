@@ -9,8 +9,14 @@ a:hover {
     color: #7373ff;
 }
 
+hr {
+  height: 1px;
+  margin-bottom: 5px;
+  border: none;
+}
+
 hr.new-section {
-    height: 10px;
+    height: 2px;
     color: #000;
     background-color: #000;
 }
