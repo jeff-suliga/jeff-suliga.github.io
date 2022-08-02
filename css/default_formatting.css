@@ -9,11 +9,11 @@ a:hover {
     color: #7373ff;
 }
 
-hr {
+/* hr {
   height: 1px;
   margin-bottom: 5px;
   border: none;
-}
+} */
 
 hr.new-section {
     height: 2px;
