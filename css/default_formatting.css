@@ -1,12 +1,15 @@
 /***** Links *****/
 a:link {
     color: #0026ff;
+    text-decoration: none;
 }
 a:visited {
     color: #7373ff;
+    text-decoration: none;
 }
 a:hover {
     color: #7373ff;
+    text-decoration: underline;
 }
 
 hr.new-section {
