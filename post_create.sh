@@ -32,7 +32,7 @@ content
 
 -----
 
-[\[Top\]]($POST_PATH)" >> Posts/$POST_PATH/$POST_PATH.md
+[\[Top\]](#)" >> Posts/$POST_PATH/$POST_PATH.md
 
 # Add post data to data file. Remove this to prevent deploying to index
 echo "- title: $POST_NAME
