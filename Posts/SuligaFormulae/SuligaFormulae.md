@@ -256,7 +256,7 @@ This looks like a lot, but there's an important realization to be made here. Tak
 
 Next, let's consider what happens for other values of \\(a\\). I encourage you to think on this for a little - what do the graphs of \\(e^{ax^{2} + bx + c}\\) look like when \\(a\\) is positive? Negative?
 
-Take a look at the diagram below. This is showing just \\(e^{ax{2}}\\) for different values of \\(a\\), with \\(a\\) represented by the x-value of the point on the axis.
+Take a look at the diagram below. This is showing just \\(e^{ax^{2}}\\) for different values of \\(a\\), with \\(a\\) represented by the x-value of the point on the axis.
 
 <p align=center>
     <img src="{{site.imgposturl}}/SuligaFormulae/analyzing_a.gif">
@@ -275,16 +275,15 @@ For this section we will assume \\(a \lt 0\\), meaning the graph of \\(e^{ax^{2}
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
 \\[\lim\_{n \to \infty} e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{a}(e^{an} - 1)}\\]
 
-The first place that \\(a\\) shows up here is in this fraction in the exponent. There's actually nothing that can be simplified here, so let's move on to the next place \\(a\\) is found. This fraction in the square root also can't be simplified further, but something interesting can be seen in this next section: when we have \\(\lim\_{n \to \infty} \space e^{an}\\), we now know this is just \\(0\\) with our information about \\(a\\).
+The first place that \\(a\\) shows up here is in this fraction in the exponent. There's actually nothing that can be simplified here, so let's move on to the next place \\(a\\) is found. This fraction in the square root also can't be simplified further, but something interesting can be seen in this next section - when we have \\(\lim\_{n \to \infty} \space e^{an}\\), we now know this is just \\(0\\) with our information about \\(a\\).
 
 This is because \\(\lim\_{n \to \infty} \space e^{an}\\) is essentially \\(e^{-\infty}\\) which is the same as \\(\frac{1}{e^{\infty}}\\). \\(1\\) divided by a really big number yields a number very small in magnitude, and taking this to the infinite case will yield exactly \\(0\\).
 
-This means that \\(\lim\_{n \to \infty} \sqrt{\frac{\pi}{a}(e^{an} - 1)} \\) just becomes \\(\sqrt{-\frac{\pi}{a}}\\). Remember that \\(a\\) is negative here, so that minus sign will cancel with the negative value of \\(a\\), so don't worry about any complex business. To show this, we could even make this into \\(\sqrt{\frac{\pi}{\abs{a}}}\\).
+This means that \\(\lim\_{n \to \infty} \sqrt{\frac{\pi}{a}(e^{an} - 1)} \\) just becomes \\(\sqrt{-\frac{\pi}{a}}\\). Remember that \\(a\\) is negative here, so that minus sign will cancel with the negative value of \\(a\\), so don't worry about any complex business. To show this, we could even make this into \\(\sqrt{\frac{\pi}{\|a\|}}\\).
 
 So under the assumption \\(a \lt 0\\), we now have this expression:
 
-\\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
-\\[e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{\abs{a}}}\\]
+\\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{\|a\|}}\\]
 
 Isn't that much cleaner?
 
