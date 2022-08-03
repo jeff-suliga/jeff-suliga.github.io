@@ -161,7 +161,7 @@ I'm sure there's more to be explored with this, but this is all that my mind tak
 
 -----
 
-[\[Top\]](PalindromicMultiplication)
+[\[Top\]](#)
 
 <hr class="new-section">
 
@@ -287,4 +287,4 @@ Again, I'm sure there's more to be explored with this kind of idea. I've really 
 
 -----
 
-[\[Top\]](PalindromicMultiplication)
+[\[Top\]](#)

@@ -264,6 +264,10 @@ And that's the answer! Below is an image that shows the repeated multiplying by 
 
 I really hope you've learned something here and start to see how these amazing numbers are more than just a result of weird inputs to an equation. Complex numbers and their strange and fun properties have fascinated me for quite some time, and I really enjoyed putting this together. Thanks for reading, and I've left some extra challenges below for the mind that needs more stretching.
 
+-----
+
+[\[Top\]](#)
+
 <hr class="new-section">
 
 ### Extra Challenges
@@ -295,4 +299,4 @@ Click [here](Extra3) for the solution.
 
 -----
 
-[\[Top\]](ComplexRotations)
+[\[Top\]](#)

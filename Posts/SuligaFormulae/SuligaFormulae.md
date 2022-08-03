@@ -80,7 +80,7 @@ So take breaks! You never know what kind of things will come out of that powerfu
 
 -----
 
-[\[Top\]](SuligaFormulae)
+[\[Top\]](#)
 
 <hr class="new-section">
 
