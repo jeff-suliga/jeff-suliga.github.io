@@ -289,4 +289,4 @@ Isn't that much cleaner?
 
 -----
 
-[\[Top\]](SuligaFormulae)
+[\[Top\]](#)
