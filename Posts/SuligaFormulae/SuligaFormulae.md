@@ -252,4 +252,42 @@ And now, remembering how \\(I\\) was defined in the first place, we can put all 
 
 -----
 
+This looks like a lot, but there's an important realization to be made here. Take a look at \\(a\\) in the formula. Firstly we'll notice that this formula will not work altogether if \\(a = 0\\), and that's because we have \\(a\\) in the denominator of two different fractions. But have no fear, if you come across an integrand of this type where there is no quadratic term, that's incredibly simpler to solve that the one we just worked through.
+
+Next, let's consider what happens for other values of \\(a\\). I encourage you to think on this for a little - what do the graphs of \\(e^{ax^{2} + bx + c}\\) look like when \\(a\\) is positive? Negative?
+
+Take a look at the diagram below. This is showing just \\(e^{ax{2}}\\) for different values of \\(a\\), with \\(a\\) represented by the x-value of the point on the axis.
+
+<p align=center>
+    <img src="{{site.imgposturl}}/SuligaFormulae/analyzing_a.gif">
+</p>
+
+*A fun little note: this gif happens to be 314 frames long :)*
+
+Hopefully from this animation you're able to see where we're going with this - whenever \\(a\\) is negative, the graph of the function looks like it hugs the x-axis with a little bump in the middle. In fact, no matter how small the magnitude, if \\(a \lt 0\\) this will be the case, meaning the area underneath this function is finite. However we see that, when \\(a \gt 0\\) the graph looks kind of parabolic, as it climbs up to infinity when approaching both \\(\infty\\) and \\(-\infty\\). Similarly to above, no matter how small the magnitude, if \\(a\\) is positive then the area underneath the graph will be infinite. These claims can also be verified algebraically very simply.
+
+\\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx\\]
+
+What we can conclude from this when looking at our original problem above is that, this integral will be finite, or **convergent**, whenever \\(a \lt 0\\) and will have infinite value, called **divergent**, whenever \\(a \gt 0\\). This means that we can simplify our formula for the convergent case.
+
+For this section we will assume \\(a \lt 0\\), meaning the graph of \\(e^{ax^{2}+bx+c}\\) "hugs" the x-axis. Let's take a look at our conclusion and see what we can break down under this assumption:
+
+\\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
+\\[\lim\_{n \to \infty} e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{a}(e^{an} - 1)}\\]
+
+The first place that \\(a\\) shows up here is in this fraction in the exponent. There's actually nothing that can be simplified here, so let's move on to the next place \\(a\\) is found. This fraction in the square root also can't be simplified further, but something interesting can be seen in this next section: when we have \\(\lim\_{n \to \infty} \space e^{an}\\), we now know this is just \\(0\\) with our information about \\(a\\).
+
+This is because \\(\lim\_{n \to \infty} \space e^{an}\\) is essentially \\(e^{-\infty}\\) which is the same as \\(\frac{1}{e^{\infty}}\\). \\(1\\) divided by a really big number yields a number very small in magnitude, and taking this to the infinite case will yield exactly \\(0\\).
+
+This means that \\(\lim\_{n \to \infty} \sqrt{\frac{\pi}{a}(e^{an} - 1)} \\) just becomes \\(\sqrt{-\frac{\pi}{a}}\\). Remember that \\(a\\) is negative here, so that minus sign will cancel with the negative value of \\(a\\), so don't worry about any complex business. To show this, we could even make this into \\(\sqrt{\frac{\pi}{\abs{a}}}\\).
+
+So under the assumption \\(a \lt 0\\), we now have this expression:
+
+\\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx = \\]
+\\[e^{c - \frac{b^{2}}{4a}}\sqrt{\frac{\pi}{\abs{a}}}\\]
+
+Isn't that much cleaner?
+
+-----
+
 [\[Top\]](SuligaFormulae)
