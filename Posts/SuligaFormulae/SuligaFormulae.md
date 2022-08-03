@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Suliga Formulae
-publish-date: In Progress
+publish-date: August 3, 2022
 ---
 
 **A Starting Note:** I tried to make this page accessible for most viewing platforms. This being said, there are a lot of math equations/expressions here that may be difficult to see properly on larger screens. If this is the case for you, right click (hold down if using a tablet) on \\(\textrm{this text}\\) or any of the sections containing math-formatted text and a small MathJax menu will pop up. Click on "Math Settings" > "Scale All Math..." and input a number greater than 100 to increase the size of the math text. You can also set a zoom trigger to cause a bigger window containing the math section to pop up on a double click.
@@ -122,9 +122,9 @@ At this point, you probably think this is a meaningless idea to explore. However
 
 Whether you care at all about the initial formula or not, there's no denying that this is pretty dang cool. We're taking this weird infinite integral (whose integrand has no elementary antiderivative!) and getting \\(\sqrt{\pi}\\) out of it! We know that anywhere \\(\pi\\) shows it's face, there's a hidden circle to be found. In this instance, the circle is *very* hidden, but with a bit of thinking outside of the disc we can find it.
 
-In fact, this example is where this discovery all began with Gauss in 1809. While understanding of ideas from [This Video](TODO1) is not necessary just yet and will be explained in the extension below, it explains this particular example very well and will provide the best base for the information to come. This example has been titled as the *Gaussian Integral*.
+In fact, this example is where this discovery all began with Gauss in 1809. While understanding of ideas from [This Video](https://www.youtube.com/watch?v=mrcRODAx-Vk) is not necessary just yet and will be explained in the extension below, it explains this particular example very well and will provide the best base for the information to come. This example has been titled as the *Gaussian Integral*.
 
-*Side Note:* This video brushes over adding "\\(\space rdrd\theta \space \\)" when converting from a cartesian integral to an integral in polar form, which is the central step that makes this idea work at all. Even if you're familiar with the Gaussian integral or multivariable calculus, I *highly* recommend watching at least [This Short Video](TODO2). It builds a very strong visual intuition for doing this when dealing with change-of-variable integration.
+*Side Note:* This video brushes over adding "\\(\space rdrd\theta \space \\)" when converting from a cartesian integral to an integral in polar form, which is the central step that makes this idea work at all. Even if you're familiar with the Gaussian integral or multivariable calculus, I *highly* recommend watching at least [This Short Video](https://www.youtube.com/watch?v=luAx7dUVM5w). It builds a very strong visual intuition for doing this when dealing with change-of-variable integration.
 
 \\[\int\_{-\infty}^{\infty}e^{ax^{2}+bx+c} \space dx\\]
 
@@ -216,7 +216,7 @@ And now comes the fun part - we see this \\(x^{2} + y^{2}\\) and think of polar 
 
 Let's start with the bounds. What we start with is \\(x \in (-\infty, \infty)\\), \\(y \in (-\infty, \infty)\\). When we think about these together, we can see that this range sweeps over all of \\(\mathbb{R}^{2}\\). This means that when we change to polar coordinates, we must find bounds for \\(r, \theta\\) that also sweep over all of \\(\mathbb{R}^{2}\\). There are actually infinite choices for this, but the easiest (and most standard) is \\(r \in [0, \infty)\\), \\(\theta \in [0, 2\pi]\\). Make sure you're convinced that these bounds for \\(r, \theta\\) do in fact cover all of the \\(\mathbb{R}^{2}\\) plane. Think of \\(\theta\\) rotating once all the way around the origin with \\(r\\) extending from the origin all the way out to infinity. These two actions combined with one another will indeed collect all of \\(\mathbb{R}^{2}\\).
 
-Now for the differentials. This portion will seem strange if you've never worked with change of variables in integration. Many of us may have been told to simply replace \\(dxdy\\) with \\(rdrd\theta\\) when changing to polar/spherical from cartesian like we're doing here. I won't explain here why we do this (Jacobians are wonderful and a great way to see this, but that's just a lot more than you need to know, and was way above my head when I first came up with this formula), but as I mentioned before, [This Video](TODO2) has a sufficient explanation.
+Now for the differentials. This portion will seem strange if you've never worked with change of variables in integration. Many of us may have been told to simply replace \\(dxdy\\) with \\(rdrd\theta\\) when changing to polar/spherical from cartesian like we're doing here. I won't explain here why we do this (Jacobians are wonderful and a great way to see this, but that's just a lot more than you need to know, and was way above my head when I first came up with this formula), but as I mentioned before, [This Video](https://www.youtube.com/watch?v=luAx7dUVM5w) has a sufficient explanation.
 
 So what have we figured out when changing our integral to a polar form? We know the bounds, integrand in polar coordinate notation, and differentials, which is all we need to build \\(I\\) back up.
 
