@@ -3,24 +3,26 @@
 # Must be run from project's root folder
 # BEFORE RUNNING: Make sure puzzles.yml has a blank line at the end
 
-read -p 'Puzzle Title (no spaces): ' PUZZLE_NAME
+read -p 'Puzzle Title: ' PUZZLE_NAME
 read -p 'Puzzle Answer: ' PUZZLE_ANS
 
-touch Puzzles/$PUZZLE_NAME.md
-touch Puzzles/$PUZZLE_NAME-$PUZZLE_ANS.md
+PUZZLE_PATH=$(sed "s/ //g" <<< $PUZZLE_NAME)
 
-cat Puzzles/Puzzle_Template.txt >> Puzzles/$PUZZLE_NAME.md
-cat Puzzles/Solution_Template.txt >> Puzzles/$PUZZLE_NAME-$PUZZLE_ANS.md
+touch Puzzles/$PUZZLE_PATH.md
+touch Puzzles/$PUZZLE_PATH-$PUZZLE_ANS.md
 
-if [[ ! -e images/$PUZZLE_NAME ]]
+cat Puzzles/Puzzle_Template.txt >> Puzzles/$PUZZLE_PATH.md
+cat Puzzles/Solution_Template.txt >> Puzzles/$PUZZLE_PATH-$PUZZLE_ANS.md
+
+if [[ ! -e images/$PUZZLE_PATH ]]
 then
     echo 'Puzzle images folder not found. Creating folder now...'
-    mkdir images/$PUZZLE_NAME
+    mkdir images/$PUZZLE_PATH
 fi
 
-echo '- name: [Stage name of puzzle]' >> _data/puzzles.yml
-echo "  ext: $PUZZLE_NAME" >> _data/puzzles.yml
-echo "  link: $PUZZLE_NAME" >> _data/puzzles.yml
+echo "- name: $PUZZLE_NAME" >> _data/puzzles.yml
+echo "  ext: $PUZZLE_PATH" >> _data/puzzles.yml
+echo "  link: /Puzzles/$PUZZLE_PATH" >> _data/puzzles.yml
 echo '  thumb-ext: [omit if jpg]' >> _data/puzzles.yml
 
 echo $'\nTODO:'
