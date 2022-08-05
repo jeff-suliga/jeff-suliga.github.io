@@ -10,7 +10,7 @@ description: Is Math Discovered or Invented?
         "I feel like all the time, people want math to do more than it really can. Y'know like one of the biggest misconceptions is that math tells you, like, truths. But it doesn't - it tells you, given certain assumptions what are the necessary links to consequences ... you want math to be able to be this self-contained thing that can do everything, but it's no different from the other fields out there. As much as it wants to be on its own pedestal, it's got its own foibles that we all just have to deal with. Every other science certainly knows this well, why do the mathematicians think that they would get to play a different game entirely?"
     </p>
     <footer align="right">
-        Grant Sanderson, 3blue1brown on [Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
+        Grant Sanderson, 3blue1brown on <a href="https://www.youtube.com/watch?v=pJyKM-7IgAU">Bertrand's Paradox</a>
     </footer>
 </blockquote>
 
@@ -26,7 +26,7 @@ As I have advanced in my formal math education and self study I have grown to se
 
 In this post I will introduce this commonly-asked question and speak to why I now lean more towards saying that math is invented, rather than discovered.
 
-A basis for my response in grade school was due to the fact that I could look around and see math around me in the physical world. At the most fundamental level of counting how many watermelons Johnny bought from the store, math is present. In studying the algebraic relationship between instantaneous rates of change and continuous accumulation (differentiation vs integration), math's seeming completeness is found. All around us, math can be used to identify, describe, and predict attributes of the physical world. **Because that's what it's designed to do.**
+A basis for my response in grade school was due to the fact that I could look around and see math around me in the physical world. At the most fundamental level of counting how many watermelons Johnny bought from the store, math is present. In studying the algebraic relationship between instantaneous rates of change and continuous accumulation (differentiation vs. integration), math's seeming completeness is found. All around us, math can be used to identify, describe, and predict attributes of the physical world. **Because that's what it's designed to do.**
 
 Math is designed to describe the physical world, and when it doesn't, we make more rules for it to do so. When we find a problem that is unsolvable using the current state of mathematical thinking, we extend the base from which all math is contained. This would be an example of math-breaking discovery. Examples of this throughout history could be: negative numbers, non-integral exponents, infinity, complex numbers, analytic continuation, the gamma function and fractional calculus, quaternion math, the hyperreal system.
 
