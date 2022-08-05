@@ -5,8 +5,8 @@ publish-date: In Progress
 description: Is Math Discovered or Invented?
 ---
 
-<blockquote style="color: #9B008A;">
-    <p>
+<blockquote>
+    <p style="color: #9B008A; font-size: 1.2em;">
         "I feel like all the time, people want math to do more than it really can. Y'know like one of the biggest misconceptions is that math tells you, like, truths. But it doesn't - it tells you, given certain assumptions what are the necessary links to consequences ... you want math to be able to be this self-contained thing that can do everything, but it's no different from the other fields out there. As much as it wants to be on its own pedestal, it's got its own foibles that we all just have to deal with. Every other science certainly knows this well, why do the mathematicians think that they would get to play a different game entirely?"
     </p>
     <footer align="right">
@@ -29,6 +29,20 @@ In this post I will introduce this commonly-asked question and speak to why I no
 A basis for my response in grade school was due to the fact that I could look around and see math around me in the physical world. At the most fundamental level of counting how many watermelons Johnny bought from the store, math is present. In studying the algebraic relationship between instantaneous rates of change and continuous accumulation (differentiation vs. integration), math's seeming completeness is found. All around us, math can be used to identify, describe, and predict attributes of the physical world. **Because that's what it's designed to do.**
 
 Math is designed to describe the physical world, and when it doesn't, we make more rules for it to do so. When we find a problem that is unsolvable using the current state of mathematical thinking, we extend the base from which all math is contained. This would be an example of math-breaking discovery. Examples of this throughout history could be: negative numbers, non-integral exponents, infinity, complex numbers, analytic continuation, the gamma function and fractional calculus, quaternion math, the hyperreal system.
+
+To really see what I mean by "extending the base from which math is contained" we should talk about how modern mathematics is structured. We define a set of beliefs called **axioms** that we take to be fundamentally true. Something like, for any number \\(x\\), \\(x = x\\). This seems harmless but statements like these form the entire structure of mathematics, from simple equations to real analysis. We don't however want to just be working with axioms. This would mean trying to solve a simple quadratic expression would take on the order of days, if not longer. This is where **theorems** come into play. If we think of a new idea that could be used to solve a problem, we call this a **conjecture** and, once proven to be true, it becomes a **theorem**.
+
+A conjecture could be something along the lines of "multiplying two odd numbers yields an odd number," which we can easily prove using our agreed upon definition of an odd number. For the curious, we say an integer \\(x\\) is odd provided there exists an integer \\(k\\) such that \\(x=2k+1\\). Or:
+
+\\[(\forall x \in \mathbb{Z}) \big[ D(x) \iff ( \exists k \in \mathbb{Z} ) x = 2k + 1 \big]\\]
+
+Since we can prove this statement about multiplying odd numbers, we can call this a **theorem** and use it to prove other things instead of working through this argument again. This is how mathematics is built, from the ground of axioms upwards with a huge interconnected web of theorems. We start with axioms and if we think of a new problem, we use our already built up theorems to try to reach up and grab this conjecture, and if proven true, this becomes a theorem itself which can be used to tether in new conjectures, otherwise if it is shown to be false we know not to use it to try to confirm other conjectures. This the the essence of what Mr. Sanderson is saying with "\[Math\] tells you, given certain assumptions what are the necessary links to consequences..."
+
+but what happens when we can't show something is true or false
+
+Take your favorite math formula, equation, homework problem, and pick any particular step. Ask yourself why you're able to perform this step, and keep asking yourself this question until you reach something that you find fundamentally true.
+
+As an example, lets 
 
 Talk about axiomatic structure
 
