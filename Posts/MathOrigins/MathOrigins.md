@@ -5,7 +5,14 @@ publish-date: In Progress
 description: Is Math Discovered or Invented?
 ---
 
-Grant quote at the end of bertrand's paradox video -> "People expect math to do more than it does..."
+<blockquote>
+    <p>
+        "I feel like all the time, people want math to do more than it really can. Y'know like one of the biggest misconceptions is that math tells you, like, truths. But it doesn't - it tells you, given certain assumptions what are the necessary links to consequences ... you want math to be able to be this self-contained thing that can do everything, but it's no different from the other fields out there. As much as it wants to be on its own pedestal, it's got its own foibles that we all just have to deal with. Every other science certainly knows this well, why do the mathematicians think that they would get to play a different game entirely?"
+    </p>
+    <footer align="right">
+        Grant Sanderson, 3blue1brown on [Bertrand's Paradox](https://www.youtube.com/watch?v=pJyKM-7IgAU)
+    </footer>
+</blockquote>
 
 It was my junior year of high school when I was first faced with this question, and at this point my formal math education extended through integral calculus. I was hanging out with my math teacher in the time before first period started one day, when Mr. Martin asked me something along the lines of this question:
 
