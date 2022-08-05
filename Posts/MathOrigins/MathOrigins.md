@@ -2,7 +2,7 @@
 layout: post
 title: Math Origins
 publish-date: In Progress
-description: Is Math Discovered or Invented?
+description: Is Math Invented or Discovered?
 ---
 
 <blockquote>
@@ -36,7 +36,15 @@ A conjecture could be something along the lines of "multiplying two odd numbers 
 
 \\[(\forall x \in \mathbb{Z}) \big[ D(x) \iff ( \exists k \in \mathbb{Z} ) x = 2k + 1 \big]\\]
 
-Since we can prove this statement about multiplying odd numbers, we can call this a **theorem** and use it to prove other things instead of working through this argument again. This is how mathematics is built, from the ground of axioms upwards with a huge interconnected web of theorems. We start with axioms and if we think of a new problem, we use our already built up theorems to try to reach up and grab this conjecture, and if proven true, this becomes a theorem itself which can be used to tether in new conjectures, otherwise if it is shown to be false we know not to use it to try to confirm other conjectures. This the the essence of what Mr. Sanderson is saying with "\[Math\] tells you, given certain assumptions what are the necessary links to consequences..."
+Since we can prove this statement about multiplying odd numbers, we can call this a **theorem** and use it to prove other things instead of working through this argument again. This is how mathematics is built, from the ground of axioms upwards with a huge interconnected web of theorems. We start with axioms and if we think of a new problem, we use our already built up theorems to try to reach up and grab this conjecture, and if proven true, this conjecture becomes a theorem itself which can in turn be used to tether in new conjectures, otherwise if it is shown to be false we know not to use it to try to confirm other conjectures. This is the essence of what Mr. Sanderson is saying with "\[Math\] tells you, given certain assumptions what are the necessary links to consequences..."
+
+This structure is all well and good, but what happens when we come across an idea that just doesn't fit within the same bounds that are defined by the current axiomatic state of mathematics? This math-breaking idea can neither be proven true nor proven false, and possibly cannot even be properly expressed using the current state of mathematical representation. What then?
+
+Well, historically we've elected to ignore this idea. Probably the biggest examples of this are the concepts of infinity and imaginary numbers, both of which I've already mentioned. The idea of infinity was well established and pondered before this point, but when the idea of certain infinities being larger than others (countable vs. uncountable) was first brought to light, it was disregarded and the one who first thought about it was ridiculed and their ideas disregarded with them. Similarly with imaginary numbers, when we came across the possibility of \\(\sqrt{-1}\\) from a very meaningful source, we again disregarded it. It wasn't until later for each of these cases when we expanded our bounds to include these ideas, further expanding this large web of possibilities in mathematics.
+
+It's important to see just what we did here. These concepts fell outside the boundaries of the state of thought at the time, so we made a bigger system to contain them, and since then many very applicable discoveries have stemmed from the inclusion of this new extension. I believe this result is one of the big reasons why people might say math is discovered - they could point to complex roots of unity solving real world problems dealing with generalizing certain periodicities, but this wouldn't have been possible without the inclusion of complex numbers into our realm of thinking, and more importantly arise as a *direct consequence* of how we've decided to include this idea into our mathematical structure. Complex numbers would be just as useful but would act "backwards" if we had said \\(\sqrt{-1} = -i\\) instead of \\(\sqrt{-1} = i\\).
+
+so where does it end? will we ever get to a point where we know we won't have to extend our thinking any more?
 
 but what happens when we can't show something is true or false
 
