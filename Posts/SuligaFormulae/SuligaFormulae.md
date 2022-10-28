@@ -230,7 +230,7 @@ And we can split this double integral up into two independent multiplied integra
 And now, we can *finally* start actually integration as normal, since both of these integrands have elementary antiderivatives.
 
 \\[I^{2} = \int\_{0}^{2\pi} d\theta \int\_{0}^{\infty} re^{ar^{2}} \space dr\\]
-\\[= \Big[ \theta \Big\|\_{\theta = 0}^{2\pi} \Big] \Big[ \frac{e^{ar^{2}}}{2a} \Big\|\_{r = 0}^{\infty} \Big]\\]
+\\[= \Big[ \theta \Big] \Big\|\_{\theta = 0}^{2\pi} \Big[ \frac{e^{ar^{2}}}{2a} \Big] \Big\|\_{r = 0}^{\infty} \\]
 \\[= [ 2\pi ] \times \frac{1}{2a} [ e^{a\infty} - e^{0} ]\\]
 \\[= \lim\_{n \to \infty} \frac{\pi}{a} ( e^{an} - 1 )\\]
 
