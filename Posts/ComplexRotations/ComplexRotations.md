@@ -75,7 +75,7 @@ To represent real valued numbers we can plot them on a 1-dimensional line like t
 
 Be sure that this system of displaying complex numbers on the complex plane makes sense to you, because I will be using it extensively moving forward.
 
-**Note:** In this representation, you can think of a complex number \\(z=x+yi\\) as having "\\(x\\) and \\(y\\) coordinates" on a standard cartesian xy-plot. The point on the image above would be represented on an xy-plot as \\((3, 4)\\), so on the complex plane it is shown by \\(3 + 4i\\). Using this was actually the key way of thinking for solving a homework problem in one of my math classes this past year. For the more experienced, the problem was, with regards to Group Theory: 
+**Note:** In this representation, you can think of a complex number \\(z=x+yi\\) as having "\\(x\\) and \\(y\\) coordinates" on a standard cartesian xy-plot. The point on the image above would be represented on an xy-plot as \\((3, 4)\\), so on the complex plane it is shown by \\(3 + 4i\\). Using this was actually the key way of thinking for solving a homework problem in one of my math classes my sophomore year. For the more experienced, the problem was, with regards to Group Theory: 
 
 \\[Prove \quad \mathbb{C}\cong \mathbb{R}^{2}\\]
 
