@@ -35,4 +35,10 @@ The next step, as the flavortext alludes to, is to *cross-reference* these pairs
 
 Doing this for the remaining phrases will give the words *DONUT* and *SHAPE* spelled out in order.
 
+<p style="text-align:center;font-style:italic;">BOXE<strong>S</strong>        IN<strong>D</strong>EX    </p>
+<p style="text-align:center;font-style:italic;">SP<strong>H</strong>INX       TUXED<strong>O</strong>   </p>
+<p style="text-align:center;font-style:italic;">G<strong>A</strong>LAXY       EXPA<strong>N</strong>D   </p>
+<p style="text-align:center;font-style:italic;">HY<strong>P</strong>ERTEXT    DEXTERO<strong>U</strong>S</p>
+<p style="text-align:center;font-style:italic;">R<strong>E</strong>LAX        EXAC<strong>T</strong>    </p>
+
 The shape of a donut and the answer to this puzzle, is **TORUS**.
