@@ -16,7 +16,7 @@ description: Is Math Invented or Discovered?
 
 It was my junior year of high school when I was first faced with this question, and at this point my formal math education extended through integral calculus. I was hanging out with my math teacher in the time before first period started one day, when Mr. Martin asked me something along the lines of this question:
 
-<p style="text-align:center;"><em>"You ever feel like we might discover something that breaks math?"</em></p>
+<p style="text-align:center;font-size:150%;"><em>"You ever feel like we might discover something that breaks math?"</em></p>
 
 I remember at the time quickly responding, defending the concreteness of math's origins. I said "it works way too well" and we therefore could not make any discoveries that contradict what we've already found out about the world. 17 year old me would have said without hesitation that math is entirely discovered as opposed to invented - for how could a science that is so descriptive of our natural world, so useful and present in just about all areas of life, and "works so well" be one that is foundationally manufactured by human thought?
 
