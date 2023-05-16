@@ -1,6 +1,7 @@
 ---
 layout: post
 title: The Dark Side of Mathematics...
+publish-date: In Progress
 ---
 
 P=NP, twin prime conjecture, Collatz conjecture, how do we know if we're working towards a problem that's actually unsolvable
