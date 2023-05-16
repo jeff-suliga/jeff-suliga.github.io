@@ -66,7 +66,7 @@ You'll notice I snuck in the phrase *if solvable*. This is to account for the ca
 
 Ok now we can revisit that question above. Acclaimed as one of the most important intellectual discoveries in modern mathemematics and philosophy, there is a theorem called *Gödel's Incompleteness Theroem*, discovered by Kurt Gödel in 1931 (when he was 25!) that states, in accordance with the best of my understanding:
 
-<p style="text-align=center;font-size=150%">Any consistent formal system <em>F</em> within which a certain amount of elementary arithmetic can be carried out is incomplete.</p>
+<p style="text-align:center;font-size:150%;">Any consistent formal system <em>F</em> within which a certain amount of elementary arithmetic can be carried out is incomplete.</p>
 
 This is a massive claim - let's first break down some of the terminology. First, we see this *consistency* thing come back, and we already know what that means - no axiomatic contradictions exist in the system. Also, when it says "formal system," that means the same as saying "axiomatic system." So here we're working with a system based on a set of axioms from which theorems can be logically extended such that no condradictions exist in the axioms.
 
