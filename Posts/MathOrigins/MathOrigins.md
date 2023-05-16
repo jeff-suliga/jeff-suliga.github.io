@@ -22,13 +22,15 @@ I remember at the time quickly responding, defending the concreteness of math's 
 
 As I have advanced in my formal math education and self study I have grown to see the naivety in this stance. I look back on recent years in school as my math study has become more abstract and fundamental and notice just how many areas of even basic middle/high school mathematics have been shaped by a fabricated structure designed to fit our discoveries into a defined set of rules to play by. If Mr. Martin were to ask me this question again now, I would say absolutely! Without a doubt there will absolutely be some new discovery or way of thought that challenges the current state of mathematical thinking. In fact, it has happened many times!
 
------
-
 In this post I will introduce this commonly-asked question and speak to why I now lean more towards saying that math is invented, rather than discovered.
 
 A basis for my response in grade school was due to the fact that I could look around and see math around me in the physical world. At the most fundamental level of counting how many watermelons Johnny bought from the store, math is present. In studying the algebraic relationship between instantaneous rates of change and continuous accumulation (differentiation vs. integration), math's seeming completeness is found. All around us, math can be used to identify, describe, and predict attributes of the physical world. **Because that's what it's designed to do.**
 
 Math is designed to describe the physical world, and when it doesn't, we make more rules for it to do so. When we find a problem that is unsolvable using the current state of mathematical thinking, we extend the base from which all math is contained. This would be an example of math-breaking discovery. Examples of this throughout history could be: negative numbers, non-integral exponents, infinity, complex numbers, analytic continuation, the gamma function and fractional calculus, quaternion math, the hyperreal system.
+
+-----
+
+### Mathematical Structure
 
 To really see what I mean by "extending the base from which math is contained" we should talk about how modern mathematics is structured. We define a set of beliefs called **axioms** that we take to be fundamentally true. Something like, for any number \\(x\\), \\(x = x\\). This seems harmless but statements like these form the entire structure of mathematics, from simple equations to real analysis. We don't however want to just be working with axioms. This would mean trying to solve a simple quadratic expression would take on the order of days, if not longer. This is where **theorems** come into play. If we think of a new idea that could be used to solve a problem, we call this a **conjecture** and, once proven to be true, it becomes a **theorem**.
 
@@ -44,15 +46,21 @@ Well, historically we've elected to ignore this idea. Probably the biggest examp
 
 It's important to see just what we did here. These concepts fell outside the boundaries of the state of thought at the time, so we made a bigger system to contain them, and since then many very applicable discoveries have stemmed from the inclusion of this new extension. I believe this result is one of the big reasons why people might say math is discovered - they could point to complex roots of unity solving real world problems dealing with generalizing certain periodicities, but this wouldn't have been possible without the inclusion of complex numbers into our realm of thinking, and more importantly arise as a *direct consequence* of how we've decided to include this idea into our mathematical structure. Complex numbers would be just as useful but would act "backwards" if we had said \\(\sqrt{-1} = -i\\) instead of \\(\sqrt{-1} = i\\).
 
+-----
+
+### Mathematical Completeness
+
+Ok so here we stand. We know that, if we ever do reach a result that doesn't sit well with the current state of mathematics, we can add some axioms or add some rules so that it ends up sitting nicely into our calculations. But do we know this will ever happen? In other words, will we ever reach a point where math is *complete*? When we've found all of the outlier problems, like imaginary numbers, where no more extensions of our axioms is ever needed?
+
+This may seem like a question we have no answer to, where we can go back-and-forth in discussion about, but we do actually have an answer to this question:
+
+<p style="text-align:center;font-size:150%;"><strong>No.</strong></p>
+
 so where does it end? will we ever get to a point where we know we won't have to extend our thinking any more?
 
 but what happens when we can't show something is true or false
 
 Take your favorite math formula, equation, homework problem, and pick any particular step. Ask yourself why you're able to perform this step, and keep asking yourself this question until you reach something that you find fundamentally true.
-
-As an example, lets 
-
-Talk about axiomatic structure
 
 We're going to camp out on a couple of these examples for a little bit. First, lets talk about imaginary numbers.
 
