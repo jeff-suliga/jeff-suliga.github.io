@@ -56,9 +56,13 @@ This may seem like a question we have no answer to, where we can go back-and-for
 
 <p style="text-align:center;font-size:150%;"><strong>No.</strong></p>
 
-so where does it end? will we ever get to a point where we know we won't have to extend our thinking any more?
+Test unicode: ö
+
+-----
 
 but what happens when we can't show something is true or false
+
+P=NP, twin prime conjecture, Collatz conjecture, how do we know if we're working towards a problem that's actually unsolvable
 
 Take your favorite math formula, equation, homework problem, and pick any particular step. Ask yourself why you're able to perform this step, and keep asking yourself this question until you reach something that you find fundamentally true.
 
