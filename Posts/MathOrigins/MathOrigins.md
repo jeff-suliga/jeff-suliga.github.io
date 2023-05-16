@@ -72,21 +72,31 @@ This is a massive claim - let's first break down some of the terminology. First,
 
 Now for this **incomplete** term, this is the big one. A system *F* is defined as **incomplete** iff the system contains statements that can be written in the language of the *F* that are unsolvable.
 
-This theorem can be applied to our current state of mathematics to say that, no matter how many times we add axioms and change our formulas to account for problems such as complex numbers, there will **always** be problems we can come up with that can be expressed using our everyday math language, that quite literally *cannot* be solved using the math that we currently have.
+This theorem can be applied to our current state of mathematics to say that, no matter how many times we add axioms and change our formulas to account for problems such as complex numbers, there will **always** be problems that can be expressed using that new mathematical basis, that quite literally *cannot* be solved using that same math.
 
 -----
 
-P=NP, twin prime conjecture, Collatz conjecture, how do we know if we're working towards a problem that's actually unsolvable
+### Consequences of Incompleteness
 
-We're going to camp out on a couple of these examples for a little bit. First, lets talk about imaginary numbers.
+Ok so we just took a deep dive into a ton of really fundamental math ideas, which should bring up the question: what's the point, Jeff?
 
-Imaginary numbers
+Personally, when I look our key question of whether math was discovered or invented through the lens of our math being incomplete, it's enough for me to feel comfortable thinking we've invented math.
 
-Talk about extending exponents to include fractions/decimals
+Don't get me wrong, there's a ton of beauty in the way we've constructed mathematics (I mean, I do study the thing like towards a degree) and I do believe there's an element of discovery that is found after we define things the way that we have (for example, discovering the quadratic, cubic, and quartic equations, and discovering that no generic quintic equation exists). However, the fact that this discovery is entirely contained within our choices for axioms, and that it is guaranteed to always lead to more things that will demand more axioms in order to be solvable, leads me to comfortably say without hesitation that math was invented rather than discovered.
 
-Talk about "discovering backwards":
+Now, I also don't think this stance has to feel like I'm slandering math or anything like that, my high school self would probably feel deflated to hear me say that math is not discovered, but in reality I believe that this idea is an opening of my eyes of sorts - where I'm now free of misconceptions about math as this "self-contained, truth-bearing" entity as Grant describes against, and am now free to explore the realm of math from a more objective view. Things in my classes are the way they are because people much smarter than me have defined it to be that way, and these decisions now open doors for me to explore problems I otherwise wouldn't see, like [This One]({{site.posturl}}/PalindromicMultiplication/PalindromicMultiplication), and also give me freedom to come up with my own rules and find problems within those!
 
-Linear Algebra "dot product" thing being defined to align with pythagorean theorem
+Another unfortunate result that arises from Gödel's theorems is that, sometimes we don't quite know if we're working on one of those problems that just can't be solved. There are well-known, long-standing problems out there (P=NP, Collatz conjecture, Riemann hypothesis) that many great mathematicians have put great effort into and produced great results, but still haven't solved the problem at hand. My first time doing math research was with my first modern algebra professor working on a number theory/real analysis question related to Mahler measure. In truth I still can't fully explain my work with that project. But one of the first things he told me when I was in his office with him was that, he's been working on this project for the majority of his upper-maths career, and was showing me related results of other mathematicians working on the problem for hundreds of years, and that we just may never know that we're working towards an unsolvable problem.
+
+I guess that's also a subtle beauty. Even given an unsolvable problem, I've seen firsthand just how often wild and seemingly unrelated ideas and results can come from attempting to solve a different problem. You never truly know what you're going to stumble upon in math research.
+
+-----
+
+### Extra Content
+
+Maybe this wasn't the type of discussion you expected to have when approaching this question, and so I wanted to also provide some intereseting results I've noticed from the "dark side" of math - practical things, not fundamental math philosophy, that might also make people think math is invented.
+
+[The Dark Side of Mathematics...](TheDarkSideOfMath)
 
 -----
 
