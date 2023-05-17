@@ -16,6 +16,7 @@ Enjoy the mess!
 
 1. [Nonintegral Exponents](#nonintegral-exponents)
 2. [Fields!](#fields)
+3. [-1/12](#-1/12)
 
 -----
 
@@ -49,7 +50,23 @@ However! If you also feel this way, then let's take a look at fields!
 
 ### Fields!
 
-Why is division by zero undefined in a generic field
+If you know me, then you know pure math is my jam. My two semesters of abstract algebra may have been my favorite math classes I've taken, and, in thinking through the last part about the exponents, I remembered something that never quite sat well with me in these classes.
+
+Definitions and axioms for algebraic structures can sometimes seem like they're out of left field (hehe) sometimes - for example, why do we require groups to be associative and not commutative? But I've learned to see that these decisions are based on observation of the way existing systems work, and allow us to make the best generalizations about structures that we can see and use in the world and in the realm of existing mathematics.
+
+However, one of the requirements of a field is that every nonzero element has a multiplicative inverse - this is sometimes stated as "fields are closed under division." But why make the nonzero distinction?
+
+We proved early on in my class by using cancellation that the additive identity of a ring (denoted by \\(0\\) from here on) multiplied with any element of the ring is always \\(0\\), and so it makes sense that it would never have a multiplicative inverse in a ring.
+
+We know this makes sense in the field of real numbers under the usual operations (I'm going to call this the "natural field," I don't know if there's a standard term for this) as we tell our elementary schoolers "zero times anything is zero," and similarly "you can't divide by zero." But why is it that, when we're going more abstractly, that this is still always the case?
+
+One could say my reasoning from before shows exactly why this is always the case, but a part of me is still unsettled by the extension from the natural field into the abstract, generic field.
+
+-----
+
+### \\(-1/{12}\\)
+
+Test
 
 -----
 
