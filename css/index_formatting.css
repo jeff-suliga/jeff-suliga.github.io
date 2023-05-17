@@ -1,0 +1,107 @@
+/***** Bio *****/
+
+/*
+.bio-img-overlay {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #000000;
+}
+
+div.bio-img-container:hover .bio-img-overlay {
+    transition: .5s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.5;
+}
+*/
+
+p.img-subtext {
+    margin-top: 0;
+    text-align: center;
+}
+
+p.img-sidetext {
+    display: block;
+    height: 90%;
+    font-size:14pt;
+    margin-top:30px;
+}
+/***** Puzzles *****/
+
+div.puzzle-thumb {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px 10px 15px;
+    padding: 0px;
+    background-color: thistle;
+}
+
+img.puzzle-thumb {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-top: 0px;
+}
+
+.puzzle-thumb-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    opacity: 0;
+    background-color: rgb(110, 110, 110);
+}
+
+div.puzzle-thumb:hover .puzzle-thumb-overlay {
+    transition: .5s ease;
+    opacity: 0.65;
+}
+
+h3.puzzle-title {
+    text-align: center;
+    padding: 20px 20px 0px;
+    color: white;
+}
+
+/***** Posts *****/
+
+#post-wrapper {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+li.post {
+    width: 100%;
+    list-style: none;
+}
+
+li.post img.post-thumb {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0px;
+    background-color: cadetblue;
+    padding: 3px;
+    margin-left: 0px;
+    margin-right: 10px;
+    float: left;
+}
+
+li.post::after {
+    clear: both;
+}
+
+a.post-link {
+    font-size: 24px;
+}
+
+p.post-date {
+    text-indent: 10%;
+}

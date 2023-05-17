@@ -183,4 +183,4 @@ This idea is one that I rarely talk to anyone about without them having some con
 
 -----
 
-[\[Top\]](StarTheorem)
+[\[Top\]](#)

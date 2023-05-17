@@ -75,7 +75,7 @@ To represent real valued numbers we can plot them on a 1-dimensional line like t
 
 Be sure that this system of displaying complex numbers on the complex plane makes sense to you, because I will be using it extensively moving forward.
 
-**Note:** In this representation, you can think of a complex number \\(z=x+yi\\) as having "\\(x\\) and \\(y\\) coordinates" on a standard cartesian xy-plot. The point on the image above would be represented on an xy-plot as \\((3, 4)\\), so on the complex plane it is shown by \\(3 + 4i\\). Using this was actually the key way of thinking for solving a homework problem in one of my math classes this past year. For the more experienced, the problem was, with regards to Group Theory: 
+**Note:** In this representation, you can think of a complex number \\(z=x+yi\\) as having "\\(x\\) and \\(y\\) coordinates" on a standard cartesian xy-plot. The point on the image above would be represented on an xy-plot as \\((3, 4)\\), so on the complex plane it is shown by \\(3 + 4i\\). Using this was actually the key way of thinking for solving a homework problem in one of my math classes my sophomore year. For the more experienced, the problem was, with regards to Group Theory: 
 
 \\[Prove \quad \mathbb{C}\cong \mathbb{R}^{2}\\]
 
@@ -264,6 +264,10 @@ And that's the answer! Below is an image that shows the repeated multiplying by 
 
 I really hope you've learned something here and start to see how these amazing numbers are more than just a result of weird inputs to an equation. Complex numbers and their strange and fun properties have fascinated me for quite some time, and I really enjoyed putting this together. Thanks for reading, and I've left some extra challenges below for the mind that needs more stretching.
 
+-----
+
+[\[Top\]](#)
+
 <hr class="new-section">
 
 ### Extra Challenges
@@ -295,4 +299,4 @@ Click [here](Extra3) for the solution.
 
 -----
 
-[\[Top\]](ComplexRotations)
+[\[Top\]](#)

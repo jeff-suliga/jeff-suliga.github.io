@@ -19,6 +19,11 @@
   path: FactoringVisually
   thumb: thumb.png
 - title: Suliga Formulae
-  publish-date: In Progress
+  publish-date: August 3, 2022
   path: SuligaFormulae
   thumb: thumb.gif
+- title: Math
+  description: Invented or Discovered?
+  publish-date: May 17, 2023
+  path: MathOrigins
+  thumb: thumb.jpg
