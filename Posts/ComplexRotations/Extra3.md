@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Complex Rotations Extra Challenge 3
+extra:
 ---
 
 For how many \\(z \in \mathbb{C}\\) is \\(z^{2}=\bar{z}\\)?
