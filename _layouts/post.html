@@ -4,9 +4,32 @@ layout: default
 
 <article>
 
-    <h1>{{ page.title }}</h1>
-    <h3>{{ page.description }}</h3>
-    <p>{{ page.publish-date }}</p>
+    {% assign posted = false %}
+
+    {% for post in site.data.posts %}
+
+        {% if post.title == page.title}
+        {% posted = true %}
+        <h1>{{ post.title }}</h1>
+
+            {% if post.page-description %}
+            <h3>{{ page.page-description }}</h3>
+            {% else %}
+            <h3>{{ page.home-description }}</h3>
+            {% endif %}
+
+        <p>{{ page.publish-date }}</p>
+        {% endif %}
+
+    {% endfor %}
+
+    {% if posted != true %}
+
+        <h1>{{ page.title }}</h1>
+        <h3>{{ page.page-description }}</h3>
+        <p>{{ page.publish-date }}</p>
+
+    {% endif %}
 
     <hr>
 
