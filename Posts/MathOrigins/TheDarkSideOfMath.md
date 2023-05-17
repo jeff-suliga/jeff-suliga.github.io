@@ -1,7 +1,6 @@
 ---
 layout: post
 title: The Dark Side of Mathematics...
-publish-date: In Progress
 ---
 
 Welcome to the ***Dark Side of Math >:)***
