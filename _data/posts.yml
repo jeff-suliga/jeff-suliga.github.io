@@ -1,35 +1,32 @@
-- title: Complex Rotations                                 # Post Stage Title
+- home-title: Complex Rotations                                 # Post Stage Title
   home-description: Multiplying complex numbers visually   # Post Stage Description
-  page-description:                                        # Post Description (on post page)
   publish-date: June 17, 2022                              # Date Published
   path: ComplexRotations                                   # Folder name for post (should also be post md name)
   thumb: i-with-sqrt.png                                   # Post thumbnail image name
-- title: Star Theorem
+- home-title: Star Theorem
   home-description: Acute Triangles in the Sky
-  page-description:
   publish-date: June 21, 2022
   path: StarTheorem
   thumb: third-star-circle.gif
-- title: 1111x1111 = 1234321
+- home-title: 1111x1111 = 1234321
   home-description: Palindromic Multiplication
-  page-description:
+  page-description: Palindromic Multiplication and Number Systems # Post Description for post page (if different from home-desecription)
   publish-date: July 1, 2022
   path: PalindromicMultiplication
   thumb: thumb.png
-- title: Factoring
+- home-title: Factoring
   home-description: A Visual Approach
-  page-description:
   publish-date: July 17, 2022
   path: FactoringVisually
   thumb: thumb.png
-- title: Suliga Formulae
-  page-description:
+- home-home-title: Suliga Formulae
   publish-date: August 3, 2022
   path: SuligaFormulae
   thumb: thumb.gif
-- title: Math
+- home-title: Math
+  page-title: Math Origins                                 # Post Title for post page (if different from home-title)
   home-description: Invented or Discovered?
-  page-description:
+  page-description: Is Math Invented or Discovered?
   publish-date: May 17, 2023
   path: MathOrigins
   thumb: thumb.jpg
