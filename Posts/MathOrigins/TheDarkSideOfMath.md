@@ -37,9 +37,13 @@ This graph below shows the expression \\(y = x^r\\) for a varying \\(r \in \[0, 
 
 But woah woah, wait, what the heck is going on with the negative \\(x\\) values??
 
-There may be something worth saying about the fact that I'm arguing something against an abstract space by using a less abstract space as an example. Maybe the "unabstraction" of what I was mentioning before about the algebraic structure stuff into the real number field that we know and love means we can't just ignore the way we define the relationship between exponents and roots and expect it to work out regardless. Part of me feels like I'm doing a "proof by example" of some sorts with this one.
+It feels to me that this is evidence of our definition of exponents failing to work properly over all reasonable cases. In my mind, under a better exponential definition, the left half of this diagram (from a purely graphical view) should be able to flow freely up and down between the curves we know it should take for integral values such as \\(y = x^2\\) and \\(y = x^3\\). Say what you will about viewing this in the complex space (which is a very valid viewpoint for this question), but I still think that this viewpoint screams of math being manufactured.
 
-However! If this is true, then let's take a look at fields!
+A side question this brings up, could we have chosen a definition for exponents that works better for negative inputs than the definition we have, that still preesrves the consistency of using it on positive inputs? I understand this is a huge question with huge ramifications for doing this, but its fair food for thought nonetheless.
+
+There may be something worth saying about the fact that I'm arguing something against an abstract space by using a less abstract space as an example. Maybe the "unabstraction" of what I was mentioning before about the abstract algebra stuff into the real number field that we know and love means we can't just ignore the way we define the relationship between exponents and roots and expect it to work out regardless. Part of me feels like I'm doing a "proof by example" of some sorts with this one.
+
+However! If you also feel this way, then let's take a look at fields!
 
 -----
 
