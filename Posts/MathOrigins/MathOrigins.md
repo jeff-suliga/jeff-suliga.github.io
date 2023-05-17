@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Math Origins
-publish-date: May 17, 2023
-description: Is Math Invented or Discovered?
 ---
 
 <blockquote>

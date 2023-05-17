@@ -4,9 +4,38 @@ layout: default
 
 <article>
 
-    <h1>{{ page.title }}</h1>
-    <h3>{{ page.description }}</h3>
-    <p>{{ page.publish-date }}</p>
+    {% if page.extra %}
+
+        <h1>{{ page.title }}</h1>
+        <h3>{{ page.page-description }}</h3>
+        <p>{{ page.publish-date }}</p>
+
+    {% else %}
+    {% for post in site.data.posts %}
+
+        {% if post.page-title == page.title or post.home-title == page.title %}
+
+            {% if post.page-title %}
+            <h1>{{ post.page-title }}</h1>
+            {% else %}
+            <h1>{{ post.home-title }}</h1>
+            {% endif %}
+
+            {% if post.page-description %}
+            <h3>{{ post.page-description }}</h3>
+            {% else %}
+            <h3>{{ post.home-description }}</h3>
+            {% endif %}
+
+        <p>{{ post.publish-date }}</p>
+        {% endif %}
+
+    {% endfor %}
+
+    {% endif %}
+
+    <!-- I hate that so much ^ but unfortunately liquid deploys these all at the same time
+    so using variables to detect if the page was deployed from site.data.posts isn't gonna work -->
 
     <hr>
 

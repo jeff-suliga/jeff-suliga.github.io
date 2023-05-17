@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Star Theorem
-publish-date: June 21, 2022
-description: Acute Triangles in the Sky
 ---
 
 By the end of this post, I hope you'll agree with the following statement:

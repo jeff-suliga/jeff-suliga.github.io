@@ -24,8 +24,6 @@ fi
 echo "---
 layout: post
 title: $POST_NAME
-publish-date: In Progress
-description: [Short Description]
 ---
 
 content
@@ -35,8 +33,10 @@ content
 [\[Top\]](#)" >> Posts/$POST_PATH/$POST_PATH.md
 
 # Add post data to data file. Remove this to prevent deploying to index
-echo "- title: $POST_NAME
-  description: [Short Description]
+echo "- home-title: $POST_NAME
+  page-title: [Remove if same as home-title]
+  home-description: [Short Description]
+  page-description: [Remove if same as home-description]
   publish-date: In Progress
   path: $POST_PATH
   thumb: [Thumbnail file name]" >> _data/posts.yml
