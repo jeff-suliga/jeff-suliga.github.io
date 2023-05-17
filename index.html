@@ -105,8 +105,8 @@ layout: default
                 <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}">
                     <img src="{{ site.imgposturl }}/{{ post.path }}/{{ post.thumb }}" class="post-thumb">
                 </a>
-                {% if post.description %}
-                <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}: {{ post.description }}</a>
+                {% if post.home-description %}
+                <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}: {{ post.home-description }}</a>
                 {% else %}
                 <a href="{{ site.posturl }}/{{ post.path }}/{{ post.path }}" class="post-link">{{ post.title }}</a>
                 {% endif %}
@@ -155,6 +155,7 @@ layout: default
 </div>
 
 <br>
+
 <!-- HIDDEN SECRETS HERE
 <a href="/Puzzles/Archived/ArchivedPuzzles">
     Archived Puzzles
