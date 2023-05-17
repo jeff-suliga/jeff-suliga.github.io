@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Dark Side of Mathematics...
-extra:
+extra: true
 ---
 
 Welcome to the ***Dark Side of Math >:)***

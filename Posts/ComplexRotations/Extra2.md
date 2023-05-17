@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Complex Rotations Extra Challenge 2
-extra:
+extra: true
 ---
 
 \\[cos(\theta)=\frac{e^{i\theta}+e^{-i \theta}}{2}\\]
