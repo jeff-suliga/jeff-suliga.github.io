@@ -71,8 +71,10 @@ Alright here's where things are about to get *real* wonky.
 What would happen if we summed up all of the natural numbers? What would we get if we did \\(1+2+3+4+ \dots \\) to infinity?
 
 In other words, given
+
 \\[S = \sum_{i = 1}^\infty i\\]
-        ...what is \\(S\\)?
+
+<p align=right>...what is \\(S\\)?</p>
 
 Well, the easy answer is \\(\infty\\), or that it doesn't exist due to partial sum divergence, but there are a good number of ways that I've come across that can be used to show that this sum, \\(S\\) actually holds the value \\(-1/{12}\\).
 
