@@ -16,7 +16,7 @@ Enjoy the mess!
 
 1. [Nonintegral Exponents](#nonintegral-exponents)
 2. [Fields!](#fields)
-3. [-1/12](#-1/12)
+3. [-1/12](#-112)
 
 -----
 
@@ -66,7 +66,21 @@ One could say my reasoning from before shows exactly why this is always the case
 
 ### \\(-1/{12}\\)
 
-Test
+Alright here's where things are about to get *real* wonky.
+
+What would happen if we summed up all of the natural numbers? What would we get if we did \\(1+2+3+4+ \dots \\) to infinity?
+
+In other words, given
+\\[S = \sum_{i = 1}^\infty i\\]
+        ...what is \\(S\\)?
+
+Well, the easy answer is \\(\infty\\), or that it doesn't exist due to partial sum divergence, but there are a good number of ways that I've come across that can be used to show that this sum, \\(S\\) actually holds the value \\(-1/{12}\\).
+
+Soak this one in for a second - what I'm saying is that if we added up *infinitely many positive integers* it can be shown that we can get, not only a **negative** number, but a negative **fraction**! You cannot sit there and tell me this is a natural consequence of the universe.
+
+I first came across this my sophomore year of high school from a video on youtube (I think it was Numberphile but I don't remember), and I still don't really know what to do with it. Say what you will about series divergence but, firstly you have to admit this is weird - that you can arrive at this \\(-1/{12}\\) in multiple different ways. \\(-1/{12}\\) doesn't seem like a value that deserves to pop up in this context as other common values might, so what makes it so special here?
+
+I would encourage you to do a little digging on this one online, it was really fascinating to me when I was first exposed to it. My favorite ways to show this are by the analytic continuation of the Zeta function, and by Ramanujan summation. 
 
 -----
 
