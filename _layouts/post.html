@@ -10,6 +10,7 @@ layout: default
 
         {% if post.page-title == page.title or post.home-title == page.title}
             {% increment posted %}
+            <h1>POSTED after increment: {{ posted }}</h1>
 
             {% if post.page-title %}
             <h1>{{ post.page-title }}</h1>
@@ -28,9 +29,10 @@ layout: default
 
     {% endfor %}
 
+    <h1>POSTED before check: {{ posted }}</h1>
     {% if posted == 0 %}
 
-        <h1>POSTED OFF NOTPOSTED</h1>
+        <h1>POSTED OFF POSTED</h1>
 
         <h1>{{ page.title }}</h1>
         <h3>{{ page.page-description }}</h3>
