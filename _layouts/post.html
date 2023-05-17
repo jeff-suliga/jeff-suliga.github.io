@@ -4,10 +4,12 @@ layout: default
 
 <article>
 
+    {% assign posted = 0 %}
+
     {% for post in site.data.posts %}
 
         {% if post.page-title == page.title or post.home-title == page.title}
-        {% assign notposted = 1 %}
+            {% increment posted %}
 
             {% if post.page-title %}
             <h1>{{ post.page-title }}</h1>
@@ -26,7 +28,7 @@ layout: default
 
     {% endfor %}
 
-    {% if notposted %}
+    {% if posted == 0 %}
 
         <h1>POSTED OFF NOTPOSTED</h1>
 
