@@ -16,17 +16,19 @@ layout: default
             {% endif %}
 
             {% if post.page-description %}
-            <h3>{{ page.page-description }}</h3>
+            <h3>{{ post.page-description }}</h3>
             {% else %}
-            <h3>{{ page.home-description }}</h3>
+            <h3>{{ post.home-description }}</h3>
             {% endif %}
 
-        <p>{{ page.publish-date }}</p>
+        <p>{{ post.publish-date }}</p>
         {% endif %}
 
     {% endfor %}
 
     {% if notposted %}
+
+        <h1>POSTED OFF NOTPOSTED</h1>
 
         <h1>{{ page.title }}</h1>
         <h3>{{ page.page-description }}</h3>
