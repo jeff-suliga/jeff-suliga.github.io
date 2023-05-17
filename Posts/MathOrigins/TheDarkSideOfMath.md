@@ -15,7 +15,7 @@ Math started a long time ago as simply counting objects, and it wasn't for a lon
 Enjoy the mess!
 
 1. [Nonintegral Exponents](#nonintegral-exponents)
-2. [Fields!](#fields!)
+2. [Fields!](#fields)
 
 -----
 
@@ -25,11 +25,15 @@ When we first think of exponentiation, we most likely think of repeated multipli
 
 Or have we?
 
-When we look at our current rules for exponentation, it makes a lot of sense from an algebraic standpoint. Letting \\(a\\) be in your favorite algebraic structure, \\(a^b * a^c\\) will always be \\(a^{b+c}\\), which allows for intuition behind our rules for allowing decimal exponents. And similarly with a bit of algebraic finagling, this also would make sense for negative exponents as well (in abstract algebra, we allow for negative exponents to represent the multiplicative inverse of an element in any structure). In our field of real numbers under our standard operations, we take negative exponents to be divisions, and rational exponents to be roots (and define irrational exponents as the converging value of a converging sequence of rational numbers).
+When we look at our current rules for exponentation, it makes a lot of sense from an algebraic standpoint. Letting \\(a\\) be in your favorite algebraic structure, \\(a^b \times a^c\\) will always be \\(a^{b+c}\\), which allows for intuition behind our rules for allowing decimal exponents. And similarly with a bit of algebraic finagling, this also would make sense for negative exponents as well (in abstract algebra, we allow for negative exponents to represent the multiplicative inverse of an element in any structure). In our field of real numbers under our standard operations, we take negative exponents to be divisions, and rational exponents to be roots (and define irrational exponents as the converging value of a converging sequence of rational numbers).
 
 This might cause us to accept the rules that we have and keep moving, but before we do that, let's take a look at how this plays out from a graphical point of view.
 
-This graph below shows the expression \\(y = x^r\\) for a varying \\(r \in \[-10, 10\]\\). Look at how nicely the curve flows for positive \\(x\\). It seems that our extension of exponents works well, as there seems to be continuous motion at and in between each of the intergral values of \\(r\\), which we already felt comfortable with given our primitive definition of exponentiation.
+This graph below shows the expression \\(y = x^r\\) for a varying \\(r \in \[0, 4\]\\). Look at how nicely the curve flows for positive \\(x\\). It seems that our extension of exponents works well, as there seems to be continuous motion at and in between each of the intergral values of \\(r\\), which we already felt comfortable with given our primitive definition of exponentiation.
+
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/MathOrigins/NonintegralExponents.gif" alt="Nonintegral Exponents">
+</p>
 
 But woah woah, wait, what the heck is going on with the negative \\(x\\) values??
 
