@@ -30,7 +30,7 @@ When we look at our current rules for exponentation, it makes a lot of sense fro
 
 This might cause us to accept the rules that we have and keep moving, but before we do that, let's take a look at how this plays out from a graphical point of view.
 
-This graph below shows the expression \\(y = x^r\\) for a varying \\(r \in \[0, 4\]\\). Look at how nicely the curve flows for positive \\(x\\). It seems that our extension of exponents works well, as there seems to be continuous motion at and in between each of the intergral values of \\(r\\), which we already felt comfortable with given our primitive definition of exponentiation.
+This graph below shows the expression \\(y = x^r\\) for a varying \\(r \in \[0, 4\]\\). Look at how nicely the curve flows for positive \\(x\\). It seems that our extension of exponents works well, as there seems to be continuous motion at and in between each of the integral values of \\(r\\), which we already felt comfortable with given our primitive definition of exponentiation.
 
 <p style="text-align:center;">
     <img src="{{site.imgposturl}}/MathOrigins/NonintegralExponents.gif" alt="Nonintegral Exponents">
