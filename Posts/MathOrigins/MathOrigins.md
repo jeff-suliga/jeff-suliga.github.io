@@ -28,6 +28,8 @@ A basis for my response in grade school was due to the fact that I could look ar
 
 Math is designed to describe the physical world, and when it doesn't, we make more rules for it to do so. When we find a problem that is unsolvable using the current state of mathematical thinking, we extend the base from which all math is contained. This would be an example of math-breaking discovery. Examples of this throughout history could be: negative numbers, non-integral exponents, infinity, complex numbers, analytic continuation, the gamma function and fractional calculus, quaternion math, the hyperreal system.
 
+*Disclaimer*: This post will go into some really fundamental mathematical structure ideas, that I don't even fully understand. If you would rather see some more tangible results from math that also point me to my stance that math was invented, take a dive into [The Dark Side of Mathmatics...](TheDarkSideOfMath)
+
 -----
 
 ### Mathematical Structure
