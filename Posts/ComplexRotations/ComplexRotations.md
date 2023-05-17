@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Complex Rotations
-publish-date: June 17, 2022
-description: Multiplying complex numbers visually
 ---
 
 My goal for this post is to provide a more intuitive and satisfying way to understand and solve problems with complex numbers. If evaluating \\(z\\) in expressions such as

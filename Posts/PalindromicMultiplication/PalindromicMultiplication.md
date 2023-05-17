@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 1111x1111 = 1234321
-publish-date: July 1, 2022
-description: Palindromic Multiplication and Number Systems
 ---
 
 1. [Multiplying by 11](#multiplying-by-11)
