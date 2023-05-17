@@ -9,7 +9,7 @@ layout: default
     {% for post in site.data.posts %}
 
         {% if post.title == page.title}
-        {% posted = true %}
+        {% assign posted = true %}
         <h1>{{ post.title }}</h1>
 
             {% if post.page-description %}
