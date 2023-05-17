@@ -6,7 +6,7 @@ layout: default
 
     {% for post in site.data.posts %}
 
-        {% if post.title == page.title}
+        {% if post.page-title == page.title or post.home-title == page.title}
         {% assign notposted = 1 %}
 
             {% if post.page-title %}
