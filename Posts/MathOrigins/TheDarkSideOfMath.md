@@ -40,9 +40,9 @@ But woah woah, wait, what the heck is going on with the negative \\(x\\) values?
 
 It feels to me that this is evidence of our definition of exponents failing to work properly over all reasonable cases. In my mind, under a better exponential definition, the left half of this diagram (from a purely graphical view) should be able to flow freely up and down between the curves we know it should take for integral values such as \\(y = x^2\\) and \\(y = x^3\\). Say what you will about viewing this in the complex space (which is a very valid viewpoint for this question), but I still think that this viewpoint screams of math being manufactured.
 
-A side question this brings up, could we have chosen a definition for exponents that works better for negative inputs than the definition we have, that still preesrves the consistency of using it on positive inputs? I understand this is a huge question with huge ramifications for doing this, but its fair food for thought nonetheless.
+A side question this brings up, could we have chosen a definition for exponents that works better for negative inputs than the definition we have, that still preserves the consistency of using it on positive inputs? I understand this is a huge question with huge ramifications for doing this, but its fair food for thought nonetheless.
 
-There may be something worth saying about the fact that I'm arguing something against an abstract space by using a less abstract space as an example. Maybe the "unabstraction" of what I was mentioning before about the abstract algebra stuff into the real number field that we know and love means we can't just ignore the way we define the relationship between exponents and roots and expect it to work out regardless. Part of me feels like I'm doing a "proof by example" of some sorts with this one.
+There may be something worth saying about the fact that I'm arguing something against an abstract space by using a less abstract space as an example. Maybe the "unabstraction" of what I was mentioning before about the abstract algebra stuff into the real number field that we know and love means we can't just ignore the way we define the relationship between exponents and roots in this field and expect it to work out regardless. Part of me feels like I'm doing a "proof by example" of some sorts with this one.
 
 However! If you also feel this way, then let's take a look at fields!
 
@@ -60,7 +60,7 @@ We proved early on in my class by using cancellation that the additive identity 
 
 We know this makes sense in the field of real numbers under the usual operations (I'm going to call this the "natural field," I don't know if there's a standard term for this) as we tell our elementary schoolers "zero times anything is zero," and similarly "you can't divide by zero." But why is it that, when we're going more abstractly, that this is still always the case?
 
-One could say my reasoning from before shows exactly why this is always the case, but a part of me is still unsettled by the extension from the natural field into the abstract, generic field.
+One could say my reasoning from before shows exactly why this is always the case, but a part of me is still unsettled by this specific extension from the natural field into the abstract, generic field.
 
 -----
 
