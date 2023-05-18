@@ -20,7 +20,7 @@ Using the pythagorean theorem we can see that the radius of this value is 4. Som
 
 To find the angle that \\(p\\) lies at, we can use some trigonometry, although many of you might have known the value of this angle by memory.
 
-\\(\theta_{p} = tan^{-1}(\frac{\frac{\sqrt{3}}{2}}{\frac{1}{2}}) = tan^{-1}(\sqrt{3}) = \frac{\pi}{3}\\)
+\\(\theta_{p} = tan^{-1}(\frac{\sqrt{3}}{2}/{\frac{1}{2}}) = tan^{-1}(\sqrt{3}) = \frac{\pi}{3}\\)
 
 So now that we have the angle and radius of \\(p\\) we can find those values for \\(z\\):
 

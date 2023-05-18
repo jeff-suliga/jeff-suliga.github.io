@@ -34,7 +34,9 @@ I call these trivial solutions because they don't fully capture the way of think
 
 With this in mind, I encourage you to take another pause and convince yourself that there are more solutions. Start just by thinking of where they might be on the complex unit circle (we know they have radius 1 from our earlier calculation). Until you have a good idea of around where they could be on the circle, I would suggest avoiding calculating any actual values, just focus on visualizing around where they might exist.
 
-![Extra 3-1]({{site.imgposturl}}/ComplexRotations/Extra3-1.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/Extra3-1.png" alt="Complex Unit Circle">
+</p>
 
 There are multiple ways to approach this problem, and if my explanation doesn't seem natural to you, sit on this question for a bit and try some things out that do seem more natural to you. You definitely can come up with the correct solution with a different way of thinking than I did. That being said, from here on I'll be explaining my thought process from when I originally solved this puzzle.
 
@@ -46,13 +48,17 @@ My first thought was to try \\(e^{i \frac{3\pi}{4}}\\), which is \\(45^{\circ}\\
 
 So, because I knew \\(e^{i \frac{\pi}{2}}\\) would yield \\(2 \times \frac{\pi}{2} = \pi\\) (or just by thinking of \\(i^{2} = -1\\)), I got the following image in my head. Here, angles made with the positive real axis are labeled as t, and both of the lines connect between the complex values I tried and their squares (after doubling the angles):
 
-![Extra 3-2]({{site.imgposturl}}/ComplexRotations/Extra3-2.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/Extra3-2.png" alt="IVT">
+</p>
 
 The answer we're looking for will have a line that is purely vertical, mapping the complex value directly to its conjugate. Because of the fact that this process we are taking of doubling angles is continuous (shown by the following animation), we know by our friend the [IVT](https://www.khanacademy.org/math/ap-calculus-ab/ab-limits-new/ab-1-16/a/intermediate-value-theorem-review) that somewhere between these two lines shown above lies a vertical line.
 
 Here, t1 refers to \\(e^{i t_{1}}\\) which is connected to t2, which represents \\((e^{i t_{1}})^{2}\\):
 
-![Tracking Double Angle]({{site.imgposturl}}/ComplexRotations/tracking-double-angle.gif)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/ComplexRotations/tracking-double-angle.gif" alt="Tracking Double Angle">
+</p>
 
 There's a lot that can be unpacked from this animation. First, we confirm that whenever t1 is "past the imaginary axis", t2 is on the opposite side of the real axis. Also we see that this verifies \\(1\\) as a solution, since this is technically adhering to the vertical line passing through t1 and t2 (kinda).
 

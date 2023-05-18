@@ -39,9 +39,9 @@ This is the same definition as before.
 
 Here you might wonder what this \\(i\\) figure is, and why it's important enough to separate the \\(a\\) and \\(b\\) into separate values. As it happens, just about every number you could think of is a real number, until you realize that math has rules that you have to play around. One of these rules you may have been told is:
 
-<p style="text-align:center;font-style:italic;">"You cannot take the square root of a negative number!"</p>
+<p style="text-align:center;font-style:italic;font-size:150%;">"You cannot take the square root of a negative number!"</p>
 
-This is true, but *only when playing within the rules of the real numbers*. As it turns out, in the late 1500s a mathematician was trying to create a formula for finding roots of a cubic polynomial - they were trying to find a "[quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation)" but for polynomials of the form \\(ax^{3}+bx^{2}+cx+d=0\\). In their final formula, which was mathematically accurate for finding these roots, they noticed that it was possible for some input values to end up with a square root of a negative number in their solution.
+This is true, but *only when playing within the rules of the real numbers*. As it turns out, in the late 1500s a mathematician was trying to create a formula for finding roots of a cubic polynomial - they were trying to find a "[quadratic equation](https://en.wikipedia.org/wiki/Quadratic_equation)" but for polynomials of the form \\(ax^{3}+bx^{2}+cx+d=0\\). In their final formula, which was mathematically accurate for finding these roots, they noticed that it was possible for some input values to end up with a square root of a negative number partially through the process, and have it cancelled out in a later step.
 
 For a long while this discovery was ignored, because *surely* this cannot be meaningful, it's just a side effect of certain inputs to the formula, right? This value cannot be found anywhere on our real number line, so what would we even do with it? Where would we put it?
 

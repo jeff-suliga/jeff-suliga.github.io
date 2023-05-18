@@ -11,7 +11,7 @@ extra: true
 
 Before we break down these formulas we should make sure we understand complex conjugates well. As stated in the main post, we define the *conjugate* of a complex number \\(z=a+bi\\) as \\(\bar{z}=a-bi\\).
 
-So let \\(z=e^{it}\\) be a generic complex number with radius 1. Here I've labeled \\(\bar{z}\\) as \\(z\\_c\\):
+So let \\(z=e^{it}\\) be a generic complex number with radius 1 and angle \\(t\\). Here I've labeled \\(\bar{z}\\) as \\(z\\_c\\):
 
 ![Extra 2-1]({{site.imgposturl}}/ComplexRotations/Extra2-1.png)
 
