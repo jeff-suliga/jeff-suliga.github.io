@@ -103,9 +103,13 @@ If you're not familiar with how number systems work, check out this good article
 
 Take another look at the image above. If we instead counted the amount of ones in each column of our answer we would get something like this, where "\|" here is being used to denote the different place values of our answer:
 
-1111111111 x 1111111111 =
+<p style="text-align:center;">
+    1111111111 x 1111111111 =
+</p>
 
-\|1\|2\|3\|4\|5\|6\|7\|8\|9\|10\|9\|8\|7\|6\|5\|4\|3\|2\|1\|
+<p style="text-align:center;">
+    |1|2|3|4|5|6|7|8|9|10|9|8|7|6|5|4|3|2|1|
+</p>
 
 This follows our generalized formula as we expect, and here we start to see why this formula fails to work for this value when viewed in a base 10 number system, because when we sum up 10 ones as we did in that middle column, we are all taught to "carry the 1" to the next place value. If we do this with the boxes we've created above we'd see we get the same "...5679..." number that we arrived at before.
 
@@ -269,9 +273,13 @@ So now we have a list of factors of \\(m-1\\) excluding 1, lets call this \\(F\_
 
 I've quickly coded this algorithm up in python, located [here](Gamma_Finder.py). Notice how, when we input 585 and 820 like we had before, we get 8 and 9 like we expect.
 
-![585]({{site.imgposturl}}/PalindromicMultiplication/585.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/PalindromicMultiplication/585.png" alt="585">
+</p>
 
-![820]({{site.imgposturl}}/PalindromicMultiplication/820.png)
+<p style="text-align:center;">
+    <img src="{{site.imgposturl}}/PalindromicMultiplication/820.png" alt="820">
+</p>
 
 Additionally, I wrote some really sloppy code to see all of the cool numbers from 3 to 100001, (any number represented by 5 or more ones in some base) which is commented out in the script above. Here's what I got, where each set of numbers is value:base
 
