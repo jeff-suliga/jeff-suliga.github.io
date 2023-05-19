@@ -1,5 +1,5 @@
 # ALPHA = [*'abcdefghijklmnopqrstuvwxyz']
-ALPHA = [*'qwertyuiop']
+ALPHA = [*'answer']
 
 def compute(word: str):
     length = len(word)
