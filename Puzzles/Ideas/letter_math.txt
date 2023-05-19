@@ -1,0 +1,43 @@
+Do one of those "Letter Adding" puzzles where each letter will be a specific number.
+
+Then make the numbers be like 0-5 and, when put in order they spell a word.
+
+Make the numbers be 0-9, and the letters below those numbers on a keyboard form the answer.
+Where the sum in the puzzle has the letters 'ANSWER' that show the order of the letters in the word
+The answer has to be 6 letters long then
+
+Possible words:
+
+    equity
+    pequot
+    piquet
+    poetry
+    pouter
+    purity
+    qwerty
+    roquet
+     -> torque
+    towery
+    troupe
+     -> pyrite (fool's gold)
+
+If it has a 'Q' or *P* that's extra good
+
+I think 'PYRITE' is a good one
+
+ANSWER -> 064853 -> PYRITE
+
+ex. if the ending sum is 354068, then ANSWER will be spelled RESANW
+A = 0
+N = 6
+S = 4
+W = 8
+E = 5
+R = 3
+
+
+
+              BELOW
+            +NUMBER
+            -------
+             ANSWER
