@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
 
 title: Jeff Suliga
-description: In Development
-version: Version 13.5.4
+# description: In Development
+version: Version 13.5.5
 
 # DO NOT change baseurl
 baseurl: ""
