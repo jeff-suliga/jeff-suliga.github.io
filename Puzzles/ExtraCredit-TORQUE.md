@@ -1,7 +1,7 @@
 ---
 layout: puzzleSol
 title: Extra Credit Solution
-flavortext: Mr. Suliga is offering extra credit to those able to solve this last problem on our homework. He wants us to show our work since he says we won't need to guess, but also gave us the hint that <em>H is not 5.</em>
+flavortext: Mr. Suliga is offering extra credit to those able to solve this last problem on our homework.<br>He wants us to show our work since he says we won't need to guess, but also gave us the hint that <em>H is not 5.</em>
 puzzle-folder: ExtraCredit
 img-height: 700
 ---
@@ -14,8 +14,8 @@ img-height: 700
     {% endif %}
 </p>
 
+[//]: <> (Background image by brgfx on Freepik)
+
 -----
 
 [Puzzle explanation]
-
-[//]: <> (Test comment.)

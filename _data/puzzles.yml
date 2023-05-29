@@ -4,6 +4,9 @@
 - name: Runaway Worm
   ext: RunawayWorm
   link: /Puzzles/RunawayWorm
+- name: Extra Credit
+  ext: ExtraCredit
+  link: /Puzzles/ExtraCredit
 - name: Pool Tables
   ext: PoolTables
   link: /Puzzles/PoolTables
@@ -17,6 +20,3 @@
   ext: TerminalAlert
   link: /Puzzles/TerminalAlert
   thumb-ext: png                # If anything other than jpg
-- name: Extra Credit
-  ext: ExtraCredit
-  link: /Puzzles/ExtraCredit
