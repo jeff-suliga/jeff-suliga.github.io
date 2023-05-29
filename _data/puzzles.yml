@@ -17,3 +17,6 @@
   ext: TerminalAlert
   link: /Puzzles/TerminalAlert
   thumb-ext: png                # If anything other than jpg
+- name: Extra Credit
+  ext: ExtraCredit
+  link: /Puzzles/ExtraCredit

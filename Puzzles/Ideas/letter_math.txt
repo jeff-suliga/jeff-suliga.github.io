@@ -78,3 +78,13 @@ Text on page:
 Each letter in this expression corresponds to a single digit, unique from the rest such that,
 when the expression is translated into numbers, it creates a valid addition. There are no leading
 zeros in any number. Once you have the answer, look under it!
+
+Each letter in this expression
+corresponds to a single digit,
+unique from the rest such that,
+when the expression is
+translated into numbers, it
+creates a valid addition.
+There are no leading zeros
+in any number. Once you have
+the answer, look under it!
