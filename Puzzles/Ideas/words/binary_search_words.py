@@ -28,7 +28,7 @@ def binary(low: int, high: int, target: str):
 def find(word: str):
     pos = ALPHA.index(word[0])
     low = ALPHA_START[pos]
-    high = ALPHA_START[pos + 1] - 1 if pos < 25 else 456969
+    high = ALPHA_START[pos + 1] - 1 if pos < 25 else len(WORDS) - 1
     return binary(low, high, word)
 
 def wordInList(word: str):
