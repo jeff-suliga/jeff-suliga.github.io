@@ -1,3 +1,17 @@
+"""
+WARNING FOR THE USER:
+This program will take control of your mouse and click many times on your screen while it is running.
+Make sure you follow its instructions well.
+
+IF AT ANY POINT YOU NEED TO HALT THE PROGRAM you will need to slam your mouse quickly into the top left
+corner of your screen and hold it there. If you do this while your mouse is clicking around your
+screen, the program will be exited.
+
+INSTRUCTIONS:
+Open a window of MS Paint (or a potentially different software, you may have to increase the
+COLORINTERVAL value found below if using something else) and follow the directions in the popup prompts
+"""
+
 # pip install pyautogui
 import argparse
 import pyautogui as gui
@@ -30,20 +44,20 @@ PAINTWINDOW = [[0, 0], [0, 0]]
 GETWINDOW = True
 
 # Parse Args
-if args.points and args.points > 10 and args.points < 100000:
-    POINTS = args.points
+if args.points and int(args.points) > 10 and int(args.points) < 100000:
+    POINTS = int(args.points)
 else:
     print('Invalid amount of points supplied. Must be between 10 and 100000.')
     print('Defaulting to 1000 points.')
 
-if args.colored in ['True', 'true', 't', '1']:
+if args.colored in ['True', 'true', 'T', 't', '1']:
     COLORED = True
-if args.distance and args.distance > 0 and args.distance < 1:
-    DISTANCE = args.distance
+if args.distance and float(args.distance) > 0 and float(args.distance) < 1:
+    DISTANCE = float(args.distance)
 if args.window:
     GETWINDOW = False
     #                Top Left X       Top Left Y     Bottom Right X   Bottom Right Y
-    PAINTWINDOW = [[args.window[0], args.window[1]], [args.window[2], args.window[3]]]
+    PAINTWINDOW = [[int(args.window[0]), int(args.window[1])], [int(args.window[2]), int(args.window[3])]]
 
     # check if the inputted window is valid
     if PAINTWINDOW[0][0] >= PAINTWINDOW[1][0] or PAINTWINDOW[0][1] >= PAINTWINDOW[1][1]:
@@ -140,6 +154,18 @@ if not inGrid(startX, startY):
 
 gui.click(startX, startY) # Place first point
 
+lastPoint = -1
+def getRandPoint(): # function to get a random point, messing with this can give cool results
+    # must return a number [0, len(VERTICES) )
+    global lastPoint
+    newPoint = randint(0, len(VERTICES) - 1)
+
+    while newPoint == (lastPoint + len(VERTICES) / 2) % len(VERTICES):
+        newPoint = randint(0, len(VERTICES) - 1)
+
+    lastPoint = newPoint
+    return newPoint
+
 # draw points
 count = 0
 newX = 0
@@ -147,7 +173,8 @@ newY = 0
 prevX = startX
 prevY = startY
 while count < POINTS:
-    randVertex = randint(0, len(VERTICES) - 1)
+    # randVertex = randint(0, len(VERTICES) - 1)
+    randVertex = getRandPoint()
     newX = prevX + int((VERTICES[randVertex][0] - prevX) * DISTANCE)
     newY = prevY + int((VERTICES[randVertex][1] - prevY) * DISTANCE)
     clickColor(randVertex, newX, newY)
