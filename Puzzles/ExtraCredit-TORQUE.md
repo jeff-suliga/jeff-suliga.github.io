@@ -34,6 +34,8 @@ Upon solving the cryptarithm, the player should find the following relations:
 
 Here's a sample walkthrough of a way to solve the cryptarithm:
 
+*NOT AVAILABLE YET*
+
 <iframe width="100%" height="550px"
     src="https://www.youtube.com/embed/[TODO]">
 </iframe>

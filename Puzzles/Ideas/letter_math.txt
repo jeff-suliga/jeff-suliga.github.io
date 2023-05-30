@@ -88,3 +88,139 @@ creates a valid addition.
 There are no leading zeros
 in any number. Once you have
 the answer, look under it!
+
+-----
+
+Solving the cryptarithm:
+
+          EAfS
+        +NhRgE
+        ------
+        WfRgNW
+        
+        under h != 5
+
+Since every digit 0-9 can only be held by a single letter, it will be helpful later on if we
+maintain a list of values like the following, where we can mark off letters as we figure them out:
+0 1 2 3 4 5 6 7 8 9
+
+Another thing we notice about additions such as these is that, when we perform them by column, we may
+have to 'carry a 1' into the next position. This can happen at any point, so let's add a row here just
+to keep track of whether or not we are carrying a 1 from the previous column.
+
+The first thing to notice when looking at this is that the sum has 6 place values, where the two added
+terms only have 4 and 5. The only way for a 4-digit number and 5-digit number to add to a 6-digit number
+is if the added numbers were large enough to carry a 1 to the sixth position. So we know 'W' is 1 here.
+
+Further, since this 'N' here has nothing directly above it and we know we carry a 1 from this addition
+into the sixth position, we also know we carry a 1 from the fifth position, which means this 'N' must be
+a 9. This also tells us that 'F' must be 0 as 'N' must be turning from 9 to 10.
+
+From here we can look at the first column - we know W is 1 and so S+E=11. S+E cannot be 1 since that would
+require one of those numbers to be 1 and the other to be 0, and both of these values are already taken.
+So S+E=11 which means we carry a 1 into the next column - which leads us to conclude that 'G' is 8. This
+also tells us that there is no carry from this column into the next.
+
+So here's what we have up to this point:
+0 1 2 3 4 5 6 7 8 9
+F W             G N
+
+And so we know that the rest of the six letters all have to be between 2 and 7 inclusive.
+
+We already have S+E=11, and can construct a few more equations at this point. We know A+R=8 from this
+column. A+R can't be 18 as that would require both of these letters to be 9. This means there is no
+carry from this column.
+
+Because of this and this carry here [fourth to fifth], we also have that E+H=R+10.
+
+We are also told at the start that H != 5. These equations we have here are enough to finish the cryptarithm.
+
+The easiest way to finish this step is to list out all of the numbers that each letter can be, and
+begin to cross out which ones cannot happen, and look at what remains:
+
+S E A R H
+2 2 2 2 2
+3 3 3 3 3 
+4 4 4 4 4 
+5 5 5 5 5 
+6 6 6 6 6
+7 7 7 7 7
+
+Let's cross 5 out for H now
+
+S E A R H
+2 2 2 2 2
+3 3 3 3 3 
+4 4 4 4 4 
+5 5 5 5 X 
+6 6 6 6 6
+7 7 7 7 7
+
+Right away, we can cross out these, since they are the only digits 2-7 that can't make 11 with any other digit
+
+S E A R H
+X X 2 2 2
+X X 3 3 3 
+4 4 4 4 4 
+5 5 5 5 X 
+6 6 6 6 6
+7 7 7 7 7
+
+So we can see with S and E we either have a 4-7 pairing or a 5-6 pairing.
+
+Another thing to notice is that, under A+R=8, we can cross these out. 4 because it would require the other
+letter to also be 4, and 7 because it would require the other letter to be 1 which is already taken.
+
+S E A R H
+X X 2 2 2
+X X 3 3 3 
+4 4 X X 4 
+5 5 5 5 X 
+6 6 6 6 6
+7 7 X X 7
+
+So with A and R we either have 2-6 or 3-5
+
+The last equation we haven't used yet is E+H=R+10. With the numbers we have here, we can see that E+H
+can be at most 13, so R can't be more than 3. This also means A can't be less than 5
+
+S E A R H
+X X X 2 2
+X X X 3 3 
+4 4 X X 4 
+5 5 5 X X 
+6 6 6 X 6
+7 7 X X 7
+
+The next thing to notice is that, if we have a 5-6 pairing on S and E, this would remove all of the
+possibilities for A, so neither S nor E and be 5 or 6
+
+S E A R H
+X X X 2 2
+X X X 3 3 
+4 4 X X 4 
+X X 5 X X 
+X X 6 X 6
+7 7 X X 7
+
+At this point we know E can't be 4, as E+H would be at most 11, and R can't be less than 2. So we
+get that S and E are 4 and 7 respectively, and no other letters can be these
+
+S E A R H
+X X X 2 2
+X X X 3 3 
+4 X X X X 
+X X 5 X X 
+X X 6 X 6
+X 7 X X X
+
+0 1 2 3 4 5 6 7 8 9
+F W     S     E G N
+
+So now the equation E+H=10+R becomes H=3+R. Since H != 5, the only way this can occur is if H is 6
+and R is 3. This also tells us that A is 5. This completes our cryptarithm puzzle, and we can check
+that it is correct by plugging in our values back into our expression and verifying that the sum
+is mathematically valid.
+
+0 1 2 3 4 5 6 7 8 9
+F W   R S A H E G N
