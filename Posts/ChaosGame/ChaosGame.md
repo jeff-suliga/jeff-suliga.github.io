@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Chaos Game
+title: The Chaos Game
 ---
 
 content
