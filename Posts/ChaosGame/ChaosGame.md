@@ -48,8 +48,6 @@ Would the whole inside of the triangle be filled with scattered points? Would so
 
 Well, here's what actually happens:
 
-**TODO run this to 50000 or more**
-
 <p style="text-align:center;">
     <img src="{{site.imgposturl}}/ChaosGame/SierpinskiTriangle50000.png" alt="Chaos Game Example">
 </p>
@@ -78,6 +76,8 @@ When I talk about "playing with the rules" of the chaos game, the first things t
 
 I've put this section last on purpose - I want you to have the best understanding of the process as you can before using the script I wrote. Please read the comment at the beginning of the script before running it, and follow the directions that the popups prompt you to do. It also is worth running `$ python chaos_drawing.py --help` the first time to see all of the input arguments that are available.
 
+Keep in mind that this script was made to be ran with Microsoft Paint. Other image editors will likely work, but may take some tweaking to the global parameters or to `pyautogui`'s variables.
+
 If you haven't done this before, you'll need to
 
 `$ pip install pyautogui`
@@ -88,7 +88,9 @@ There is a `getRandVertex()` function in the script that is used at each step to
 
 One last thing to note for the script, is that `VERTICES`, the list of vertices, keeps track of all of the figure's vertices *in the order they were entered*. This is important if you're trying to implement a new rule such as the one above.
 
-[Download script here](chaos_drawing.py)
+<p style="text-align:center;text-decoration:underline;text-shadow: 2px 2px 5px red;">
+    <a href="chaos_drawing.py">Download script here</a>
+</p>
 
 -----
 
