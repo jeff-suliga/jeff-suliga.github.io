@@ -22,6 +22,8 @@ EXIT CODES:
     64  Starting point was outside of the Paint window
 
 Errors occurring during argument parsing may throw codes that do not follow the above structure.
+
+I recommend running with '$ python -u chaos_drawing.py [args]' for a smoother stdout
 """
 
 # pip install pyautogui
@@ -176,10 +178,6 @@ def getRandVertex():
     # return the selected vertex
     lastVertex = newVertex
     return newVertex
-
-if __name__ != "__main__":
-    VERTICES = [(0, 0)] * 4
-    print(f'VERTICES: \t{VERTICES}')
 
 if __name__ == "__main__":
     needWindow = True
