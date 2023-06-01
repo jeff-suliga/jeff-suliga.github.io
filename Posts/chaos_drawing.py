@@ -305,14 +305,14 @@ if __name__ == "__main__":
         
         # print a progress bar
         progress = round(count / POINTS * 100, 1)
-        print('\rImage Progress:\t[' + ('=' * (int(progress) // 2)) + ('.' * ((99 - int(progress)) // 2)) + f'] {progress}%', end='')
+        print('\rImage Progress:\t[' + ('=' * (int(progress) // 2)) + ('.' * ((99 - int(progress)) // 2)) + f'] {progress}%', end='', flush=True)
 
     end = datetime.now()
 
-    print('\nDone!')
+    print('\nDone!', flush=True)
 
     elapsed = end - start
     elapsed_us = str(elapsed / 1000000).split('.')[1]
-    print(f'Elapsed time: {elapsed.seconds}.{elapsed_us}s')
+    print(f'Elapsed time: {elapsed.seconds}.{elapsed_us}s', flush=True)
 
     gui.alert('Done!')
