@@ -137,6 +137,7 @@ def getRandVertex():
     # +++++++++++++++++++++++++++++++++
     # This is the most versatile rule out of them all. When changing values in the sets, remember
     # that 0 refers to the first vertex listed, 1 refers to the second, etc.
+    # 
     # RULE: Vertices in jump[0] can't jump to other vertices in jump[0], same with jump[1], jump[2], however many you want.
     #           jump_to_self = True means a vertex can still jump to itself despite this rule
     #
@@ -157,6 +158,12 @@ def getRandVertex():
     #         jsIdx += 1
 
     # +++++++++++++++++++++++++++++++++
+    # Make sure to populate the corners and edges lists with the correct vertices. This one is also
+    # very customizable, you can create different or more sets of vertices to change what vertices
+    # can interact with other ones. Just make sure that every list you create has an element that is
+    # in at least one other set, so that you don't end up jumping into a list that can't be jumped out of
+    # 
+    # RULE: Corners can only jump to corners, edges can only jump to edges
     # corners = [0, 2, 4, 6]
     # edges = [1, 3, 5, 7]
     # while lastVertex in corners and newVertex in edges:
@@ -165,7 +172,7 @@ def getRandVertex():
     #     newVertex = randint(0, NUMVERTICES - 1)
 
     # +++++++++++++++++++++++++++++++++
-    # RULE: Can't choose the next vertex
+    # RULE: Can't choose the next listed vertex
     #
     # assert NUMVERTICES > 2
     # while newVertex == (lastVertex + 1) % NUMVERTICES:
@@ -173,6 +180,7 @@ def getRandVertex():
 
     # +++++++++++++++++++++++++++++++++
     # For a star. When choosing vertices, must select them in cw/ccw order with outsides first
+    # 
     # RULE: Outer vertices can't chose adjacent outer vertex
     #
     # assert NUMVERTICES % 2 == 0 and NUMVERTICES > 4
@@ -201,24 +209,22 @@ def getRandVertex():
     #         if not (lastFour[i] + 1) % NUMVERTICES == lastFour[i+1]:
     #             repeat = False
     #             break
-    #         if i == NUMVERTICES - 2:
-    #             print(f'UP!   Last Four: \t{lastFour}')
     #     if not repeat:
     #         for i in range(0, NUMVERTICES - 1):
     #             if not (lastFour[i] - 1) % NUMVERTICES == lastFour[i+1]:
     #                 repeat = False
     #                 break
     #             if i == NUMVERTICES - 2:
-    #                 print(f'DOWN! Last Four: \t{lastFour}')
     #                 repeat = True
     #     if not repeat:
     #         break
-    #
+    
     #     lastFour.pop()
     #     lastFour.append(newVertex := randint(0, NUMVERTICES - 1))
 
     # +++++++++++++++++++++++++++++++++
     # Used only for the vertices in a rectangle with one in the middle 
+    # 
     # RULE: Only vertices in list jump can jump to the middle vertex (and the middle vertex itself)
     #
     # assert NUMVERTICES == 5
