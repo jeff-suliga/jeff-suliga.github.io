@@ -9,7 +9,8 @@ screen, the program will be exited.
 
 INSTRUCTIONS:
 Open a window of MS Paint (or a potentially different software, you may have to increase the
-COLORINTERVAL value found below if using something else) and follow the directions in the popup prompts
+COLORINTERVAL or gui.PAUSE values found below if using something else) and follow the directions
+in the popup prompts.
 
 EXIT CODES:
     0   Exited normally, no issues
@@ -43,8 +44,7 @@ COLORINTERVAL = 0.05
 # Assign Defaults
 COLORED = False
 POINTS = 1000
-DISTANCE = 0.5  # (vertices - 2) / (vertices - 1)
-                # vertices / (vertices + 3)
+DISTANCE = 0.5  # vertices / (vertices + 3)
 PAINTWINDOW = [[0, 0], [0, 0]]
 COLORS = []
 VERTICES = []
@@ -74,10 +74,10 @@ def getVertices(): # Populate the screen with the vertices of the drawing
     index = 0
     while gui.confirm("Click OK to add another vertex, Cancel to continue.") == "OK":
         
-        if gui.confirm("Hover over the position of this vertex.") == "Cancel":
+        if gui.confirm("After clicking OK, hover over over the position of this vertex.") == "Cancel":
             gui.alert('Vertex skipped.')
             continue
-        sleep(1)
+        sleep(2)
         pos = gui.position()
         x = pos[0]
         y = pos[1]
@@ -120,6 +120,28 @@ def getRandVertex():
 
     # Start by picking a random vertex. Leave this uncommented regardless of the selected rule
     newVertex = randint(0, NUMVERTICES - 1)
+
+    # +++++++++++++++++++++++++++++++++
+    # This is the most versatile rule out of them all. When changing values in the sets, remember
+    # that 0 refers to the first vertex listed, 1 refers to the second, etc.
+    # RULE: Vertices in jump[0] can't jump to other vertices in jump[0], same with jump[1], jump[2], however many you want.
+    #           jump_to_self = True means a vertex can still jump to itself despite this rule
+    #
+    # assert NUMVERTICES > 2
+    # jump_to_self = True
+    # jump = [[0, 2, 4, 6], [1, 3, 5, 7]]
+    # done = False
+    # jsIdx = 0
+    # if lastVertex != -1: # for the first point
+    #     while not done:
+    #         jumpSet = jump[jsIdx]
+    #         if lastVertex in jumpSet:
+    #             done = True
+    #             while newVertex in jumpSet:
+    #                 if jump_to_self and newVertex == lastVertex:
+    #                     break
+    #                 newVertex = randint(0, NUMVERTICES - 1) # leaving this unoptimized so more jumpSets can be introduced easily
+    #         jsIdx += 1
 
     # +++++++++++++++++++++++++++++++++
     # RULE: Can't choose the next vertex
@@ -173,6 +195,15 @@ def getRandVertex():
     #
     #     lastFour.pop()
     #     lastFour.append(newVertex := randint(0, NUMVERTICES - 1))
+
+    # +++++++++++++++++++++++++++++++++
+    # Used only for the vertices in a rectangle with one in the middle 
+    # RULE: Only vertices in list jump can jump to the middle vertex (and the middle vertex itself)
+    #
+    # assert NUMVERTICES == 5
+    # jump = [0, 2, 4]
+    # while lastVertex not in jump and newVertex == 4:
+    #     newVertex = randint(0, NUMVERTICES - 1)
 
     # +++++++++++++++++++++++++++++++++
     # return the selected vertex
