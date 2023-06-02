@@ -105,7 +105,7 @@ Another well-known fractal is the [Sierpinski Carpet](https://tasks.illustrative
     <img src="{{site.imgposturl}}/ChaosGame/Carpet.png" alt="Sierpinski Carpet">
 </p>
 
-Now lets say that any corner vertex can't jump towards the vertex 3 spots away clockwise (can't make a small CW diagonal jump), and the edge vertices can't jump to teh vertex immediately CCW to it. Weird rule, I know, but just check this one out:
+Now lets say that any corner vertex can't jump towards the vertex 3 spots away clockwise (can't make a small CW diagonal jump), and the edge vertices can't jump to the vertex immediately CCW to it. Weird rule, I know, but just check this one out:
 
 <p style="text-align:center;">
     <img src="{{site.imgposturl}}/ChaosGame/NoCWJumps.png" alt="No CW short diagonal jumps">

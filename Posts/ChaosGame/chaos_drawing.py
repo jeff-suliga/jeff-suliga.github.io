@@ -65,13 +65,26 @@ def clickColor(color: int, clickX, clickY):
 
 def getVertices(): # Populate the screen with the vertices of the drawing
     global NUMVERTICES
+    index = 0
 
     if NUMVERTICES > 0:
         gui.alert("Click on the MS Paint window to bring it to the foreground, then click OK")
         for vertex in VERTICES:
-            gui.click(vertex[0], vertex[1])
+            x = vertex[0]
+            y = vertex[1]
+            if COLORED:
+                gui.alert(f"Hover over the color of the vertex at ({x}, {y}).")
+                sleep(2)
+                pos = gui.position()
+                cx = pos[0]
+                cy = pos[1]
+                COLORS.append((cx, cy))
+                if index == 0:
+                    gui.click(cx, cy) # click on the paint window to bring it to the front
+                    sleep(0.03)
+            clickColor(index, x, y)
+            index += 1
 
-    index = 0
     while gui.confirm("Click OK to add another vertex, Cancel to continue.") == "OK":
         
         if gui.confirm("After clicking OK, hover over over the position of this vertex.") == "Cancel":
@@ -142,6 +155,14 @@ def getRandVertex():
     #                     break
     #                 newVertex = randint(0, NUMVERTICES - 1) # leaving this unoptimized so more jumpSets can be introduced easily
     #         jsIdx += 1
+
+    # +++++++++++++++++++++++++++++++++
+    # corners = [0, 2, 4, 6]
+    # edges = [1, 3, 5, 7]
+    # while lastVertex in corners and newVertex in edges:
+    #     newVertex = randint(0, NUMVERTICES - 1)
+    # while lastVertex in edges and newVertex in corners:
+    #     newVertex = randint(0, NUMVERTICES - 1)
 
     # +++++++++++++++++++++++++++++++++
     # RULE: Can't choose the next vertex
@@ -216,7 +237,8 @@ if __name__ == "__main__":
     # Parse args
     parser = argparse.ArgumentParser()
     parser.add_argument('--colored', type=str, required=False,
-                        help='True/False for if you want the picture colored based on vertices. This takes much longer than uncolored.\nDefault:\tFalse')
+                        help='True/False for if you want the picture colored based on vertices. ' +
+                        'This takes significantly longer (about 10x longer) than uncolored.\nDefault:\tFalse')
     parser.add_argument('-p', '--points', type=int, required=False,
                         help='Amount of points to be plotted. More takes longer but will be a clearer picture.\nDefault:\t1000')
     parser.add_argument('-d', '--distance', type=float, required=False,
@@ -227,7 +249,7 @@ if __name__ == "__main__":
     parser.add_argument('-v', '--vertices', type=int, required=False, nargs='+',
                         help='[x1 y1 x2 y2 x3 y3 ...] \nxy coordinates of any starting vertices. These must all be within the MS Paint drawing window. ' +
                         'You will be prompted interactively to add these if this is omitted. ' +
-                        'This flag must be accompanied by the --window flag, and will be disregarded if --colored is set to \'True\'')
+                        'This flag must be accompanied by the --window flag.')
     args = parser.parse_args()
 
     # Parse parsed args
@@ -254,13 +276,11 @@ if __name__ == "__main__":
         if needWindow:
             print('Window size must be manually entered via \'--window\' in order to use vertex coordinate input. Exiting...')
             exit(16)
-        elif COLORED:
-            needVertices = True
-            print('\'Colored\' is set to true. Your inputted coordinates are being overridden. Beginning interactive coordinate setting.')
         elif len(args.vertices) % 2 != 0:
             print('Odd number of coordinates supplied for vertices. Exiting...')
             exit(8)
-        else:
+        else:   # could move all of this into getVertices() so that you can skip over points in colored mode,
+                # but that's a handful of extra work for like no reason cuz no one cares about colored points
             for i in range(0, len(args.vertices), 2): # iterate over x coordinates
                 if not inGrid(x=float(args.vertices[i]), y=float(args.vertices[i+1])):
                     print(f'Inputted vertex ({args.vertices[i]}, {args.vertices[i+1]}) is not in the MS Paint window. Skipping vertex.')
@@ -334,7 +354,7 @@ if __name__ == "__main__":
         
         # print a progress bar
         progress = round(count / POINTS * 100, 1)
-        print('\rImage Progress:\t[' + ('=' * (int(progress) // 2)) + ('.' * ((99 - int(progress)) // 2)) + f'] {progress}%', end='', flush=True)
+        print('\rImage Progress:\t[' + ('=' * (int(progress) // 2)) + ('.' * ((101 - int(progress)) // 2)) + f'] {progress}%', end='', flush=True)
 
     end = datetime.now()
 
