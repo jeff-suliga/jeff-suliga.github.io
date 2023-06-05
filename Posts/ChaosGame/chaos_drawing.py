@@ -49,6 +49,10 @@ PAINTWINDOW = [[0, 0], [0, 0]]
 COLORS = []
 VERTICES = []
 NUMVERTICES = 0
+BUFFER = []
+FLUSHPOINT = 1
+
+pointsPlotted = 0
 
 def inGrid(x: float, y: float): # Check if a point lies within the paint window
     return (x >= PAINTWINDOW[0][0] and x <= PAINTWINDOW[1][0]) and (y >= PAINTWINDOW[0][1] and y <= PAINTWINDOW[1][1])
@@ -237,14 +241,23 @@ def getRandVertex():
     lastVertex = newVertex
     return newVertex
 
+def flushBuffer():
+    global pointsPlotted
+    for i in range(len(BUFFER)):
+        while BUFFER[i]:
+            plot = BUFFER[i].pop(0)
+            clickColor(i, plot[0], plot[1])
+            pointsPlotted += 1
+
+            # print a progress bar
+            progress = round(pointsPlotted / POINTS * 100, 1)
+            print('\rImage Progress:\t[' + ('=' * (int(progress) // 2)) + ('.' * ((101 - int(progress)) // 2)) + f'] {progress}%', end='', flush=True)
+
 if __name__ == "__main__":
     needWindow = True
 
     # Parse args
     parser = argparse.ArgumentParser()
-    parser.add_argument('--colored', type=str, required=False,
-                        help='True/False for if you want the picture colored based on vertices. ' +
-                        'This takes significantly longer (about 10x longer) than uncolored.\nDefault:\tFalse')
     parser.add_argument('-p', '--points', type=int, required=False,
                         help='Amount of points to be plotted. More takes longer but will be a clearer picture.\nDefault:\t1000')
     parser.add_argument('-d', '--distance', type=float, required=False,
@@ -256,6 +269,12 @@ if __name__ == "__main__":
                         help='[x1 y1 x2 y2 x3 y3 ...] \nxy coordinates of any starting vertices. These must all be within the MS Paint drawing window. ' +
                         'You will be prompted interactively to add these if this is omitted. ' +
                         'This flag must be accompanied by the --window flag.')
+    parser.add_argument('-c', '--colored', type=str, required=False,
+                        help='True/False for if you want the picture colored based on vertices. ' +
+                        'This takes significantly longer (about 10x longer) than uncolored if not buffered.\nDefault:\tFalse')
+    parser.add_argument('-b', '--bufsize', type=int, required=False,
+                        help='Amount of points that are plotted at a time, useful only in colored mode. A smaller number will show a clearer picture over time' +
+                        ' but will be slower overall. A number larger than the amount of points to be plotted will act the same as setting this to that value.\nDefault:\t1')
     args = parser.parse_args()
 
     # Parse parsed args
@@ -294,16 +313,18 @@ if __name__ == "__main__":
                     print(f'Adding vertex:\t({args.vertices[i]}, {args.vertices[i+1]})')
                     VERTICES.append((float(args.vertices[i]), float(args.vertices[i+1])))
                     NUMVERTICES += 1
-            
+    if args.bufsize and int(args.bufsize) > 0:
+        FLUSHPOINT = int(args.bufsize)
 
     # Print variables for this instance
     print('\n' + '=' * 80)
     print('INITIAL VALUES:')
-    print(f'\tColored:  {COLORED}')
-    print(f'\tPoints:   {POINTS}')
-    print(f'\tDistance: {DISTANCE}')
-    print(f'\tWindow:   {PAINTWINDOW}')
-    print(f'\tVertices: {VERTICES}')
+    print(f'\tColored:   {COLORED}')
+    print(f'\tPoints:    {POINTS}')
+    print(f'\tDistance:  {DISTANCE}')
+    print(f'\tWindow:    {PAINTWINDOW}')
+    print(f'\tVertices:  {VERTICES}')
+    print(f'\tFlush Point: {FLUSHPOINT}')
     print('=' * 80, end='\n\n')
 
     sleep(3) # Wait at the start of the program
@@ -326,6 +347,8 @@ if __name__ == "__main__":
         print(f'New Paint window settings: \t{PAINTWINDOW}')
 
     getVertices()
+    for i in range(NUMVERTICES):
+        BUFFER.append([])
 
     if gui.confirm('Vertices drawn. Continue?') != "OK":
         exit(32)
@@ -343,6 +366,7 @@ if __name__ == "__main__":
     start = datetime.now()
 
     gui.click(startX, startY) # Place first point
+
     # draw points
     count = 0
     newX = 0
@@ -353,21 +377,20 @@ if __name__ == "__main__":
         randVertex = getRandVertex()
         newX = prevX + int((VERTICES[randVertex][0] - prevX) * DISTANCE)
         newY = prevY + int((VERTICES[randVertex][1] - prevY) * DISTANCE)
-        clickColor(randVertex, newX, newY)
+        BUFFER[randVertex].append((newX, newY)) # Add point to buffer
+        if count % FLUSHPOINT == 0:
+            flushBuffer()
         count += 1
         prevX = newX
         prevY = newY
-        
-        # print a progress bar
-        progress = round(count / POINTS * 100, 1)
-        print('\rImage Progress:\t[' + ('=' * (int(progress) // 2)) + ('.' * ((101 - int(progress)) // 2)) + f'] {progress}%', end='', flush=True)
+    flushBuffer()
 
     end = datetime.now()
 
     print('\nDone!', flush=True)
 
     elapsed = end - start
-    elapsed_us = str(elapsed / 1000000).split('.')[1]
+    elapsed_us = str(elapsed / 1000000).split('.')[1] if elapsed.seconds else str(elapsed.microseconds)
     print(f'Elapsed time: {elapsed.seconds}.{elapsed_us}s', flush=True)
 
     gui.alert('Done!')
