@@ -139,6 +139,13 @@ def getRandVertex():
     newVertex = randint(0, NUMVERTICES - 1)
 
     # +++++++++++++++++++++++++++++++++
+    # RULE: Can't pick the same vertex as last time
+    # 
+    # assert NUMVERTICES > 1
+    # while (newVertex := randint(0, NUMVERTICES - 1)) == lastVertex:
+    #     pass
+
+    # +++++++++++++++++++++++++++++++++
     # This is the most versatile rule out of them all. When changing values in the sets, remember
     # that 0 refers to the first vertex listed, 1 refers to the second, etc.
     # 
@@ -319,11 +326,11 @@ if __name__ == "__main__":
     # Print variables for this instance
     print('\n' + '=' * 80)
     print('INITIAL VALUES:')
-    print(f'\tColored:   {COLORED}')
-    print(f'\tPoints:    {POINTS}')
-    print(f'\tDistance:  {DISTANCE}')
-    print(f'\tWindow:    {PAINTWINDOW}')
-    print(f'\tVertices:  {VERTICES}')
+    print(f'\tColored:     {COLORED}')
+    print(f'\tPoints:      {POINTS}')
+    print(f'\tDistance:    {DISTANCE}')
+    print(f'\tWindow:      {PAINTWINDOW}')
+    print(f'\tVertices:    {VERTICES}')
     print(f'\tFlush Point: {FLUSHPOINT}')
     print('=' * 80, end='\n\n')
 
