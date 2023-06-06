@@ -29,15 +29,11 @@ I code up a pretty basic version of this game to be played within my MS Paint wi
 
 The Chaos Game is very simple. The most well-known result uses the following rules:
 
-<p>
-<pre>
-        1. Place 3 nonlinear vertices somewhere in the open space
-        2. Place another point anywhere in the space
-        3. Pick one of the 3 vertices at random
-        4. Place another point that is halfway between the last point and the randomly chosen vertex
-        5. Repeat steps 3 and 4 many times
-</pre>
-</p>
+1. Place 3 nonlinear vertices somewhere in the open space
+2. Place another point anywhere in the space
+3. Pick one of the 3 vertices at random
+4. Place another point that is halfway between the last point and the randomly chosen vertex
+5. Repeat steps 3 and 4 many times
 
 That's it! Starting with 3 points on a triangle and randomly adding more points around the figure based on this "halfway" rule is the entirety of the game. Before I reveal what the resulting figure would look like under these rules, think on it for yourself - if we started with vertices like these below and a starting point anywhere in the plane, what would happen after doing this process, say, 50000 times?
 
@@ -71,7 +67,7 @@ This is the fun part where you get to look at weird pictures of a ton of dots. A
 
 When I talk about "playing with the rules" of the chaos game, the first things that I tried were adding more vertices and changing how far to travel to the selcted vertex. In all of the following images, \\(d = 0.40\\) means that, instead of traveling halfway to the selected vertex at each step, you travel \\(40\%\\) of the way. Also, from here on out I'll use the description of one vertex "jumping towards" another. What I mean by this is that, if we select vertex A and place our point wherever it should go, and then the next round we choose vertex B and place our point some distance towards vertex B, then vertex A jumped towards vertex B.
 
-Some of these images have colored, which are defined by the color of the vertex that the point is jumping towards. If a point is jumping towards a vertex labeled as red, then the point will be colored red.
+Some of these images have colored points, which are defined by the color of the vertex that the point is jumping towards. If a point is jumping towards a vertex labeled as red, then the point will be colored red.
 
 One important thing to notice, is that not all rules for the game will produce a visually meaningful pattern. For example, here's the same game as above just with an extra vertex:
 
