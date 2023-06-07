@@ -174,13 +174,13 @@ def getRandVertex():
     # can interact with other ones. Just make sure that every list you create has an element that is
     # in at least one other set, so that you don't end up jumping into a list that can't be jumped out of
     # 
-    # RULE: Corners can only jump to corners, edges can only jump to edges
-    # corners = [0, 2, 4, 6]
-    # edges = [1, 3, 5, 7]
-    # while lastVertex in corners and newVertex in edges:
-    #     newVertex = randint(0, NUMVERTICES - 1)
-    # while lastVertex in edges and newVertex in corners:
-    #     newVertex = randint(0, NUMVERTICES - 1)
+    # RULE: Corners can only jump to edges, edges can only jump to corners
+    corners = [0, 2, 4, 6]
+    edges = [1, 3, 5, 7]
+    while lastVertex in corners and newVertex not in edges:
+        newVertex = randint(0, NUMVERTICES - 1)
+    while lastVertex in edges and newVertex not in corners:
+        newVertex = randint(0, NUMVERTICES - 1)
 
     # +++++++++++++++++++++++++++++++++
     # RULE: Can't choose the next listed vertex
