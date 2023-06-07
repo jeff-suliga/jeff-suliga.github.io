@@ -175,12 +175,12 @@ def getRandVertex():
     # in at least one other set, so that you don't end up jumping into a list that can't be jumped out of
     # 
     # RULE: Corners can only jump to edges, edges can only jump to corners
-    corners = [0, 2, 4, 6]
-    edges = [1, 3, 5, 7]
-    while lastVertex in corners and newVertex not in edges:
-        newVertex = randint(0, NUMVERTICES - 1)
-    while lastVertex in edges and newVertex not in corners:
-        newVertex = randint(0, NUMVERTICES - 1)
+    # corners = [0, 2, 4, 6]
+    # edges = [1, 3, 5, 7]
+    # while lastVertex in corners and newVertex not in edges:
+    #     newVertex = randint(0, NUMVERTICES - 1)
+    # while lastVertex in edges and newVertex not in corners:
+    #     newVertex = randint(0, NUMVERTICES - 1)
 
     # +++++++++++++++++++++++++++++++++
     # RULE: Can't choose the next listed vertex

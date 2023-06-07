@@ -73,8 +73,6 @@ One important thing to notice, is that not all rules for the game will produce a
 
 **TODO**: Rerun like all of these with more dots and with color
 
-**TODO** href all of these
-
 <p style="text-align:center;">
     <a href="{{site.imgposturl}}/ChaosGame/4VerticesBad.png">
         <img src="{{site.imgposturl}}/ChaosGame/4VerticesBad.png" alt="4 vertices making no pattern">
@@ -84,20 +82,26 @@ One important thing to notice, is that not all rules for the game will produce a
 But notice what happens under a larger \\(d\\):
 
 <p style="text-align:center;">
-    <img src="{{site.imgposturl}}/ChaosGame/4VerticesGood.png" alt="4 vertices making a pattern">
+    <a href="{{site.imgposturl}}/ChaosGame/4VerticesGood.png">
+        <img src="{{site.imgposturl}}/ChaosGame/4VerticesGood.png" alt="4 vertices making a pattern">
+    </a>
 </p>
 
 And, for fun, let's add a vertex in the middle:
 
 <p style="text-align:center;">
-    <img src="{{site.imgposturl}}/ChaosGame/4VerticesWithMiddle.png" alt="4 vertices with a vertex challenge in the middle let's go">
-    <!-- Someone please let me know if you get that reference lol -->
+    <a href="{{site.imgposturl}}/ChaosGame/4VerticesWithMiddle.png">
+        <img src="{{site.imgposturl}}/ChaosGame/4VerticesWithMiddle.png" alt="4 vertices with a vertex challenge in the middle let's go">
+        <!-- Someone please let me know if you get that reference lol -->
+    </a>
 </p>
 
 What if we couldn't jump towards the middle one if we're coming from the top right or bottom left corners? One thing I like about this one is that changing this rule for these two corners affects the entire picture. It makes sense why that diagonal line from the top right to the bottom left would be gone, but also notice how its gone from the top left and bottom right mini-squares too!
 
 <p style="text-align:center;">
-    <img src="{{site.imgposturl}}/ChaosGame/4VerticesWithMiddleJump.png" alt="Square with one in the middle with jumping rule">
+    <a href="{{site.imgposturl}}/ChaosGame/4VerticesWithMiddleJump.png">
+        <img src="{{site.imgposturl}}/ChaosGame/4VerticesWithMiddleJump.png" alt="Square with one in the middle with jumping rule">
+    </a>
 </p>
 
 -----
@@ -105,31 +109,41 @@ What if we couldn't jump towards the middle one if we're coming from the top rig
 Another well-known fractal is the [Sierpinski Carpet](https://tasks.illustrativemathematics.org/content-standards/tasks/1523), and I wanted to see if I could find a rule configuration to generate this. It was a fun brain exercise to come up with what I have here:
 
 <p style="text-align:center;">
-    <img src="{{site.imgposturl}}/ChaosGame/Carpet.png" alt="Sierpinski Carpet">
+    <a href="{{site.imgposturl}}/ChaosGame/Carpet.png">
+        <img src="{{site.imgposturl}}/ChaosGame/Carpet.png" alt="Sierpinski Carpet">
+    </a>
 </p>
 
 Now lets say that any corner vertex can't jump towards the vertex 3 spots away clockwise (can't make a small CW diagonal jump), and the edge vertices can't jump to the vertex immediately CCW to it. Weird rule, I know, but just check this one out:
 
 <p style="text-align:center;">
-    <img src="{{site.imgposturl}}/ChaosGame/NoCWJumps.png" alt="No CW short diagonal jumps">
+    <a href="{{site.imgposturl}}/ChaosGame/NoCWJumps.png">
+        <img src="{{site.imgposturl}}/ChaosGame/NoCWJumps.png" alt="No CW short diagonal jumps">
+    </a>
 </p>
 
 What if corners could only jump to edges, and edges could only jump to corners? A vertex can still jump to itself here:
 
 <p style="text-align:center;">
-    <img src="{{site.imgposturl}}/ChaosGame/CornersToEdges.png" alt="Corners to edges">
+    <a href="{{site.imgposturl}}/ChaosGame/CornersToEdges.png">
+        <img src="{{site.imgposturl}}/ChaosGame/CornersToEdges.png" alt="Corners to edges">
+    </a>
 </p>
 
 And if corners and edges can't jump to themselves?
 
 <p style="text-align:center;">
-    <img src="{{site.imgposturl}}/ChaosGame/CornersToEdgesNoSelf.png" alt="Corners to edges no self jumps">
+    <a href="{{site.imgposturl}}/ChaosGame/CornersToEdgesNoSelf.png">
+        <img src="{{site.imgposturl}}/ChaosGame/CornersToEdgesNoSelf.png" alt="Corners to edges no self jumps">
+    </a>
 </p>
 
 Ok now check this out. This is the same rule as just above:
 
 <p style="text-align:center;">
-    <img src="{{site.imgposturl}}/ChaosGame/CornersToEdgesNoSelf50.png" alt="Corners to edges no self jumps at 50%">
+    <a href="{{site.imgposturl}}/ChaosGame/CornersToEdgesNoSelf50.png">
+        <img src="{{site.imgposturl}}/ChaosGame/CornersToEdgesNoSelf50.png" alt="Corners to edges no self jumps at 50%">
+    </a>
 </p>
 
 What I find cool about this is that, in the earlier one, my eyes gravitate to see the "pattern" as the stuff defined in black, by the points themselves. However, just by changing the distance value, I now see the pattern as the white space, defined by the absence of points there.
