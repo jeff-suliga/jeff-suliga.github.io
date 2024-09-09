@@ -44,7 +44,7 @@ COLORINTERVAL = 0.05
 # Assign Defaults
 COLORED = False
 POINTS = 1000
-DISTANCE = 0.5  # vertices / (vertices + 3)
+DISTANCE = 0.5  # vertices / (vertices + 3) TODO remove
 PAINTWINDOW = [[0, 0], [0, 0]]
 COLORS = []
 VERTICES = []

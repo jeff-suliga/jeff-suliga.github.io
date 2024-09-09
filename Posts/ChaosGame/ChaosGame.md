@@ -202,7 +202,7 @@ The random one is the first one. Yup! That pattern you see and those repeated nu
 
 That's the thing about randomness, is that *true* randomness will sometimes look deceptively orderly. This is because, even though our intuition might be quick to say that it should, one outcome of an event like this doesn't effect the outcome the next time the event occurs. Our minds tend towards the [Gambler's Fallacy](https://thedecisionlab.com/biases/gamblers-fallacy).
 
-Randomness will sometimes look deceptively orderly, *especially over longer periods of time*. Let's say we instead generated a list of 10000 numbers 1-4, it should be intuitive that there's a pretty reasonable chance that somewhere in that list is a sequence of 10 numbers that are all the same, despite that going against our natural idea of what "randomness" should look like.
+Randomness will sometimes look deceptively orderly, *especially over longer periods of time*. Let's say we instead generated a list of 100000 numbers 1-4, it should be intuitive that there's a pretty reasonable chance that somewhere in that list is a sequence of 10 numbers that are all the same, despite that going against our natural idea of what "randomness" should look like.
 
 Let's take another look at those pictures from before:
 
